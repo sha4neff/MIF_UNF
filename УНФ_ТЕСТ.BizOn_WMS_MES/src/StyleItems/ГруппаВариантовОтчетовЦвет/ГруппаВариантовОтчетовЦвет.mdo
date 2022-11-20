@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="730330dd-ad87-4300-956d-f9ea6b7ed56e">
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="730330dd-ad87-4300-956d-f9ea6b7ed56e" extendedConfigurationObject="950f8fd5-fefa-4bfb-97a0-38d77ae830dc">
   <name>ГруппаВариантовОтчетовЦвет</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <type>Checked</type>
   </extension>
 </mdclass:StyleItem>

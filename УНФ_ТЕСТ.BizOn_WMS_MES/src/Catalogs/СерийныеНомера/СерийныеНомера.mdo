@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1aa6df85-9db3-43f5-84a1-1f9b77c2dd4f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1aa6df85-9db3-43f5-84a1-1f9b77c2dd4f" extendedConfigurationObject="d1e46e3c-8210-4b5c-960b-0721efcdb4b1">
   <producedTypes>
     <objectType typeId="e5efd9d8-7471-4cd0-bf7b-95d270b9bcae" valueTypeId="0b9a85cc-89e7-45e1-a23c-3efa61feec5c"/>
     <refType typeId="80c9d0ef-ca51-4393-b386-954c7b1ca0a4" valueTypeId="d3581b73-76ab-4707-ab19-76a4e2e1b99f"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>СерийныеНомера</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

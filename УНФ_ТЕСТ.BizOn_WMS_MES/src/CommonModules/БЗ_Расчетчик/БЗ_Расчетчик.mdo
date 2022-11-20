@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1339086-d25f-4e42-8d96-e1f4aec9ed2f">
+  <name>БЗ_Расчетчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет заказов</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

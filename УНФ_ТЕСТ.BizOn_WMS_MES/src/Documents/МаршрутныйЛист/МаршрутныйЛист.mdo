@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4efe1850-4844-4b06-99a7-f3714bb463e7">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4efe1850-4844-4b06-99a7-f3714bb463e7" extendedConfigurationObject="ac2d17bd-db15-4fb9-b0cd-cfccb376494f">
   <producedTypes>
     <objectType typeId="ba0e2302-4424-43ca-8d02-a9c6e07a4f6b" valueTypeId="55b45076-7fef-48ec-85ef-479e7471ddb5"/>
     <refType typeId="b83307b6-6441-4542-bb6e-a4b77b051812" valueTypeId="baba90f2-a24c-46d7-8d42-4e68510ef0c3"/>
@@ -9,19 +9,24 @@
   </producedTypes>
   <name>МаршрутныйЛист</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <tabularSections uuid="49275beb-b9e3-412f-a48d-abae8f295e48">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="49275beb-b9e3-412f-a48d-abae8f295e48" extendedConfigurationObject="c76bcdda-fa7f-4ba4-bece-a38e4fe4dbdf">
     <producedTypes>
       <objectType typeId="97779ebb-3a64-4b4d-a0bf-92f38e35ed3a" valueTypeId="2ea71958-0683-4a8a-ab38-fd5ad71d8173"/>
       <rowType typeId="58ec301c-e58d-4bb9-8dae-9067839ffb3b" valueTypeId="27fe26b9-8646-424d-9060-9f46c129bdff"/>
     </producedTypes>
     <name>Заказы</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
-    <attributes uuid="804b83ed-da3a-489f-85a4-28e94d3ce669">
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="804b83ed-da3a-489f-85a4-28e94d3ce669" extendedConfigurationObject="0a2fa032-3930-4a50-ac60-11052d08bed4">
       <name>Заказ</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>

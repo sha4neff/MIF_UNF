@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="84ec7692-d343-4abd-aa28-daaea8b4bb90">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="84ec7692-d343-4abd-aa28-daaea8b4bb90" extendedConfigurationObject="57710b6f-10e2-4355-b356-c8df41e4af22">
   <producedTypes>
     <refType typeId="e809e40e-2bfc-487a-9921-7f2a01d9010c" valueTypeId="aa4d70ec-1a85-45a9-8084-8c93b682371c"/>
     <listType typeId="9fe8082c-71e9-4620-a6b7-77ff5a2f8741" valueTypeId="f57d5ca7-00a3-48c0-92bd-b064591545e3"/>
@@ -7,10 +7,14 @@
   </producedTypes>
   <name>СпособыПополненияЗапасов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="f7d12a71-10d4-40a3-bdc6-f10d8fff5dea">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="f7d12a71-10d4-40a3-bdc6-f10d8fff5dea" extendedConfigurationObject="1b665b6f-6b24-4d72-8bc9-e7779885477f">
     <name>Закупка</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>

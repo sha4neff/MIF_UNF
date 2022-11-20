@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="54393521-f50d-42c0-8cd8-01ef307e3cf4">
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="54393521-f50d-42c0-8cd8-01ef307e3cf4" extendedConfigurationObject="0c44fdea-7b81-45be-87f5-d64456a9d379">
   <name>ЗапрещенноеПравоДоступа</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <type>Checked</type>
   </extension>
 </mdclass:StyleItem>

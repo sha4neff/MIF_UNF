@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8601aefd-136c-4abd-b996-cc2afac86816">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8601aefd-136c-4abd-b996-cc2afac86816" extendedConfigurationObject="ed14c926-38a5-4a0b-b570-c106d8d9419d">
   <producedTypes>
     <objectType typeId="192d9687-c3bc-4aa8-8893-bb1e5a59ad7a" valueTypeId="984bc19a-9463-463c-900e-11ab3f8cea3f"/>
     <refType typeId="1c1f782f-7ce5-477b-9d54-22b83c9bed80" valueTypeId="e3e7352e-0c35-40b1-91f2-0c33d1ab4e72"/>
@@ -10,12 +10,14 @@
   <name>СтруктурныеЕдиницы</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <objectModule>Extended</objectModule>
   </extension>
-  <attributes uuid="8c18a5c0-5275-4f17-9bbc-e42985d9001c">
+  <attributes uuid="8c18a5c0-5275-4f17-9bbc-e42985d9001c" extendedConfigurationObject="b77a40db-fbeb-4e1a-ad6a-9bf23c457c17">
     <name>ПолучательПеремещения</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

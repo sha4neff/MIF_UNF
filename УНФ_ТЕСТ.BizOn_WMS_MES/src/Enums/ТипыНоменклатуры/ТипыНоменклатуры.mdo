@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31f9d8b9-3a49-4356-b3d6-702cbe98bc65">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31f9d8b9-3a49-4356-b3d6-702cbe98bc65" extendedConfigurationObject="26f5bd34-55fb-4583-a708-4a1aa18f4701">
   <producedTypes>
     <refType typeId="7e22a72e-0548-456a-a3a8-f7f9de10acc9" valueTypeId="3bf3c82c-64ea-41d0-bdee-fd31dbf98f32"/>
     <listType typeId="05fdedd3-bc02-4b6f-904c-90aa59224a1b" valueTypeId="0fe1686d-cdfd-44e1-876b-6045af159b43"/>
@@ -7,35 +7,49 @@
   </producedTypes>
   <name>ТипыНоменклатуры</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="6aa9bf59-6ebc-44b8-acdd-1aa12af87c1b">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6aa9bf59-6ebc-44b8-acdd-1aa12af87c1b" extendedConfigurationObject="55a3f7e4-3de3-47d1-ae22-29cc117b567d">
     <name>Запас</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="3cd20874-ee16-42f8-b463-2381e4676490">
+  <enumValues uuid="3cd20874-ee16-42f8-b463-2381e4676490" extendedConfigurationObject="bb571f86-1462-437b-9ebb-1df93b741d6b">
     <name>Услуга</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="55d56773-e6fa-4507-8bc4-27ad983b887e">
+  <enumValues uuid="55d56773-e6fa-4507-8bc4-27ad983b887e" extendedConfigurationObject="3bf04f5c-0e2b-4597-b5ce-59a845276b86">
     <name>Операция</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="aea9cc75-4a90-42c1-b636-dfae3afdc328">
+  <enumValues uuid="aea9cc75-4a90-42c1-b636-dfae3afdc328" extendedConfigurationObject="78c63ce8-4298-4ddf-bdaa-d93bd267293a">
     <name>ПодарочныйСертификат</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="06e96c5b-209b-45ac-b4cf-182e78c1bb0e">
+  <enumValues uuid="06e96c5b-209b-45ac-b4cf-182e78c1bb0e" extendedConfigurationObject="a65eacc7-20b4-4874-a8df-eeb4c78616c5">
     <name>Работа</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="bf2e1678-6a79-4f2c-aae0-ab6cff19beec">
+  <enumValues uuid="bf2e1678-6a79-4f2c-aae0-ab6cff19beec" extendedConfigurationObject="6c7cb4e5-139e-4bc4-a35f-e6efc2523fec">
     <name>ВидРабот</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>

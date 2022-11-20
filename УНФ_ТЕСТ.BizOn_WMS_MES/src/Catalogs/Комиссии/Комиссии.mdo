@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="754822f4-395e-46dc-b719-eadbe10352da">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="754822f4-395e-46dc-b719-eadbe10352da" extendedConfigurationObject="075c3448-0f34-4170-a6b3-0b70fce820ec">
   <producedTypes>
     <objectType typeId="ecc097fe-7576-4d2c-84d7-dbcd822166c5" valueTypeId="957c46ba-7cbc-46ee-943e-d18400cb530a"/>
     <refType typeId="e568bc08-d716-429d-b5bd-3df8564ecbeb" valueTypeId="42d73a95-7b6a-417e-8e60-2cdf47f0d63a"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>Комиссии</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

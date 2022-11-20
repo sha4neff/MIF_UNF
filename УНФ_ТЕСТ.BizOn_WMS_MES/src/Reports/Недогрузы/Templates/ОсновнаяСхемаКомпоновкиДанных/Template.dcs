@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пакет</dataPath>
+			<field>Пакет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХарактеристикаПакета</dataPath>
+			<field>ХарактеристикаПакета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаданиеНаПогрузку</dataPath>
+			<field>ЗаданиеНаПогрузку</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задание на погрузку</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыполнениеПогрузки</dataPath>
+			<field>ВыполнениеПогрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнение погрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Недогруз</dataPath>
+			<field>Недогруз</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Недогруз</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказПокупателя</dataPath>
+			<field>ЗаказПокупателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ покупателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	БЗ_ЗаданиеНаПогрузкуПакеты.Пакет КАК Пакет,
+	БЗ_ЗаданиеНаПогрузкуПакеты.Количество КАК Количество,
+	БЗ_ЗаданиеНаПогрузкуПакеты.Ссылка КАК Ссылка,
+	БЗ_ЗаданиеНаПогрузкуПакеты.ХарактеристикаПакета КАК ХарактеристикаПакета
+ПОМЕСТИТЬ ВтЗадания
+ИЗ
+	Документ.БЗ_ЗаданиеНаПогрузку.Пакеты КАК БЗ_ЗаданиеНаПогрузкуПакеты
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	БЗ_КорректировкаПогрузкиПакеты.Пакет,
+	БЗ_КорректировкаПогрузкиПакеты.Количество,
+	БЗ_КорректировкаПогрузкиПакеты.Ссылка.ДокументОснование,
+	БЗ_КорректировкаПогрузкиПакеты.ХарактеристикаПакета
+ИЗ
+	Документ.БЗ_КорректировкаПогрузки.Пакеты КАК БЗ_КорректировкаПогрузкиПакеты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВтЗадания.Пакет КАК Пакет,
+	СУММА(ВтЗадания.Количество) КАК Количество,
+	ВтЗадания.Ссылка КАК Ссылка,
+	ВтЗадания.ХарактеристикаПакета КАК ХарактеристикаПакета
+ПОМЕСТИТЬ ВТСИтогами
+ИЗ
+	ВтЗадания КАК ВтЗадания
+ГДЕ
+	ВтЗадания.Ссылка.ДокументОснование.ДатаОтгрузки МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+
+СГРУППИРОВАТЬ ПО
+	ВтЗадания.Пакет,
+	ВтЗадания.Ссылка,
+	ВтЗадания.ХарактеристикаПакета
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	БЗ_ВыполнениеПогрузки.Ссылка КАК ВыполнениеПогрузки,
+	ВТСИтогами.Пакет КАК Пакет,
+	ВТСИтогами.Количество КАК Количество,
+	ВТСИтогами.Ссылка КАК ЗаданиеНаПогрузку,
+	ВТСИтогами.ХарактеристикаПакета КАК ХарактеристикаПакета
+ПОМЕСТИТЬ ВтЗаданияСВыполнениемПогрузки
+ИЗ
+	ВТСИтогами КАК ВТСИтогами
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.БЗ_ВыполнениеПогрузки КАК БЗ_ВыполнениеПогрузки
+		ПО ВТСИтогами.Ссылка = БЗ_ВыполнениеПогрузки.ДокументОснование
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВтЗаданияСВыполнениемПогрузки.Пакет КАК Пакет,
+	ВтЗаданияСВыполнениемПогрузки.Количество - ЕСТЬNULL(БЗ_ВыполнениеПогрузкиТовары.Количество, 0) КАК Недогруз,
+	ВтЗаданияСВыполнениемПогрузки.ХарактеристикаПакета КАК ХарактеристикаПакета,
+	ВтЗаданияСВыполнениемПогрузки.ВыполнениеПогрузки КАК ВыполнениеПогрузки,
+	ВтЗаданияСВыполнениемПогрузки.ЗаданиеНаПогрузку КАК ЗаданиеНаПогрузку,
+	ВтЗаданияСВыполнениемПогрузки.ЗаданиеНаПогрузку.ДокументОснование КАК ЗаказПокупателя
+{ВЫБРАТЬ
+	Пакет.*,
+	Недогруз,
+	ХарактеристикаПакета.*,
+	ВыполнениеПогрузки.*,
+	ЗаданиеНаПогрузку.*,
+	ЗаказПокупателя.*}
+ИЗ
+	ВтЗаданияСВыполнениемПогрузки КАК ВтЗаданияСВыполнениемПогрузки
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.БЗ_ВыполнениеПогрузки.Товары КАК БЗ_ВыполнениеПогрузкиТовары
+		ПО ВтЗаданияСВыполнениемПогрузки.Пакет = БЗ_ВыполнениеПогрузкиТовары.Номенклатура
+			И ВтЗаданияСВыполнениемПогрузки.ХарактеристикаПакета = БЗ_ВыполнениеПогрузкиТовары.ХарактеристикаНоменклатуры
+			И ВтЗаданияСВыполнениемПогрузки.ВыполнениеПогрузки = БЗ_ВыполнениеПогрузкиТовары.Ссылка
+ГДЕ
+	ВтЗаданияСВыполнениемПогрузки.Количество - ЕСТЬNULL(БЗ_ВыполнениеПогрузкиТовары.Количество, 0) &gt; 0
+{ГДЕ
+	ВтЗаданияСВыполнениемПогрузки.Пакет.*,
+	(ВтЗаданияСВыполнениемПогрузки.Количество - ЕСТЬNULL(БЗ_ВыполнениеПогрузкиТовары.Количество, 0)) КАК Недогруз,
+	ВтЗаданияСВыполнениемПогрузки.ХарактеристикаПакета.*,
+	ВтЗаданияСВыполнениемПогрузки.ВыполнениеПогрузки.*,
+	ВтЗаданияСВыполнениемПогрузки.ЗаданиеНаПогрузку.*,
+	ВтЗаданияСВыполнениемПогрузки.ЗаданиеНаПогрузку.ДокументОснование.* КАК ЗаказПокупателя}</query>
+		<autoFillFields>false</autoFillFields>
+		<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
+	</dataSet>
+	<totalField>
+		<dataPath>Недогруз</dataPath>
+		<expression>Сумма(Недогруз)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">пп</dcsat:value>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>пп</dcsat:name>
+		</parameter>
+	</template>
+	<fieldTemplate>
+		<field>Ссылка.Дата.ДатыНачала.НачалоДня</field>
+		<template>Макет1</template>
+	</fieldTemplate>
+	<settingsVariant>
+		<dcsset:name>Недогрузы</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Недогрузы</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Недогруз</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Пакет.БЗ_WMS_Дата</dcsset:left>
+					<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ВыполнениеПогрузки.Статус</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.БЗ_СтатусыЗаданийНаПогрузку.Погружен</dcsset:right>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>2964d106-e7fa-4616-972e-3643ee6dd449</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ЗаказПокупателя.Контрагент.Ответственный</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ЗаказПокупателя.Контрагент</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ЗаказПокупателя</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Пакет</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>ХарактеристикаПакета</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

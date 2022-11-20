@@ -3514,6 +3514,12 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameterLinks>
+              <name>Отбор.Владелец</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>16:02023637-7868-4a5f-8576-835a76e0c9ba/0:c3711913-e7cf-4b88-9606-c4d0825c1fd2</segments>
+              </datapath>
+            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -8592,6 +8598,12 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.СпособДоставки</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>1</segments>
+                  </datapath>
+                </choiceParameterLinks>
                 <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
               </extInfo>
             </items>
@@ -16796,6 +16808,9 @@
           </extInfo>
         </extendedTooltip>
         <commandName>0</commandName>
+        <parameter xsi:type="core:ReferenceValue">
+          <value>2a07a9b0-3116-4524-93b2-9a1336ae3707</value>
+        </parameter>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>

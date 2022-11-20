@@ -1831,6 +1831,12 @@
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
             <choiceParameterLinks>
+              <name>Организация</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>1</segments>
+              </datapath>
+            </choiceParameterLinks>
+            <choiceParameterLinks>
               <name>Номенклатура</name>
               <datapath xsi:type="form:DataPath">
                 <segments>Items.Продукция.CurrentData.Номенклатура</segments>
@@ -5319,6 +5325,12 @@
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
             <choiceParameterLinks>
+              <name>Организация</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>1</segments>
+              </datapath>
+            </choiceParameterLinks>
+            <choiceParameterLinks>
               <name>Номенклатура</name>
               <datapath xsi:type="form:DataPath">
                 <segments>Items.Запасы.CurrentData.Номенклатура</segments>
@@ -6407,6 +6419,13 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Склад</name>
+                  <changeMode>DontChange</changeMode>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>1/0:b5726b0f-b26f-40ee-9f25-fed6c68340ab</segments>
+                  </datapath>
+                </choiceParameterLinks>
                 <choiceParameters>
                   <name>Дополнительно.ТипВладельца</name>
                   <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -6477,6 +6496,12 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Владелец</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>481:02023637-7868-4a5f-8576-835a76e0c9ba/1</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -6525,6 +6550,12 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Владелец</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>481:02023637-7868-4a5f-8576-835a76e0c9ba/1</segments>
+                  </datapath>
+                </choiceParameterLinks>
                 <choiceParameters>
                   <name>Отбор.Статус</name>
                   <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -6733,6 +6764,12 @@
                 <wrap>true</wrap>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Владелец</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>481:02023637-7868-4a5f-8576-835a76e0c9ba/1</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -6781,6 +6818,18 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Владелец</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>481:02023637-7868-4a5f-8576-835a76e0c9ba/1</segments>
+                  </datapath>
+                </choiceParameterLinks>
+                <choiceParameterLinks>
+                  <name>Отбор.ХарактеристикаПродукции</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>481:02023637-7868-4a5f-8576-835a76e0c9ba/2</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -6925,6 +6974,12 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Владелец</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>481:02023637-7868-4a5f-8576-835a76e0c9ba/18</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <autoCommandBar>

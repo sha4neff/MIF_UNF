@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86d8163a-e25a-4da4-8d80-dc67bb8d1e56">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86d8163a-e25a-4da4-8d80-dc67bb8d1e56" extendedConfigurationObject="e9531f51-e3cb-4ab8-a2d8-5da0e32a02ec">
   <producedTypes>
     <refType typeId="e4d1fa53-795d-404f-a0ec-0d52fc712905" valueTypeId="f9568702-eae8-4ca7-b421-f6e5c1a2c3e3"/>
     <listType typeId="c968c580-1602-41b6-ae33-8a95c2b24ad2" valueTypeId="ae003d17-cd74-4363-a55d-aed776ba9c84"/>
@@ -7,5 +7,7 @@
   </producedTypes>
   <name>ТипыСобытий</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Enum>

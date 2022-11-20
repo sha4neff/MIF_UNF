@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="318d94ed-e373-4a14-abf5-97b316087457">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="318d94ed-e373-4a14-abf5-97b316087457" extendedConfigurationObject="f2e463c6-135a-4e07-b528-641ed4539690">
   <producedTypes>
     <selectionType typeId="21c1a694-f4b1-4e8f-8484-c618e59d7bb2" valueTypeId="1788601c-059c-4e8f-9a29-7fca7e841a57"/>
     <listType typeId="ae7e56c6-6a62-4c3f-b011-e875a9b3364b" valueTypeId="9089887d-5147-40c8-bb0a-4f314a76ae08"/>
@@ -12,13 +12,15 @@
   <name>СпецификацииПоУмолчанию</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
   </extension>
-  <resources uuid="3375aeec-78b6-4cd7-b669-2dbbb36d63d5">
+  <resources uuid="3375aeec-78b6-4cd7-b669-2dbbb36d63d5" extendedConfigurationObject="e81624ad-00ee-401e-8a8c-fc017379faa8">
     <name>Спецификация</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -28,10 +30,11 @@
     </extension>
     <type/>
   </resources>
-  <dimensions uuid="7ec3d130-eff6-4a09-b34f-dd121a492dbf">
+  <dimensions uuid="7ec3d130-eff6-4a09-b34f-dd121a492dbf" extendedConfigurationObject="a322d180-6bb7-4c6b-b677-c5ba22decafd">
     <name>Номенклатура</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -41,10 +44,11 @@
     </extension>
     <type/>
   </dimensions>
-  <dimensions uuid="3dddd041-e8f1-489f-aa47-20c81efccded">
+  <dimensions uuid="3dddd041-e8f1-489f-aa47-20c81efccded" extendedConfigurationObject="b483548d-b4f5-4b07-8dc5-02d9b91bdaac">
     <name>Характеристика</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

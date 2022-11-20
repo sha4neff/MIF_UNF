@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="97ca67a6-c05f-45bf-b476-056bdf8b4f5d">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="97ca67a6-c05f-45bf-b476-056bdf8b4f5d" extendedConfigurationObject="682a4143-4e8f-44e4-8f3f-66044eea5a7f">
   <producedTypes>
     <objectType typeId="1096d284-3824-4cdd-9802-d371490f8bdd" valueTypeId="41049580-06e2-4edb-b324-af066374072b"/>
     <refType typeId="0c31ae9a-23d6-4b81-91d0-6d9476b8e516" valueTypeId="9d36dab4-d5ee-42ea-ba69-cec9676286c7"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ПартииНоменклатуры</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
-  <attributes uuid="ddfb7f32-15ba-4819-b377-73ea0c7cfa26">
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="ddfb7f32-15ba-4819-b377-73ea0c7cfa26" extendedConfigurationObject="83a9aa4a-0bcd-4acb-947c-660182bd948b">
     <name>ВладелецПартии</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

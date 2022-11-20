@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09d5cf17-aee4-4f9f-ad8c-3c34be2fa768">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09d5cf17-aee4-4f9f-ad8c-3c34be2fa768" extendedConfigurationObject="09ab10ac-bdfc-432e-9aa6-2c2acc445c6a">
   <producedTypes>
     <objectType typeId="a4f9f3a8-7d51-43d6-b1f6-e0e8879c970a" valueTypeId="b39ec1c5-9acc-4e11-bb3b-6bfd93316c16"/>
     <refType typeId="3a002ed8-14b4-45b6-af2f-d269df9dca87" valueTypeId="d4680937-c963-4405-aad3-d40aaf591d0c"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>ПлатежнаяВедомость</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Document>

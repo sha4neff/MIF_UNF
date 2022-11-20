@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a9000cbf-9fe0-4d1c-bdaa-52453873d76a">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a9000cbf-9fe0-4d1c-bdaa-52453873d76a" extendedConfigurationObject="b57d8ff4-fd9e-4f2f-b0cf-762d593b7c40">
   <producedTypes>
     <objectType typeId="9f9f0cca-4b41-4355-9f5c-8967e8c900d3" valueTypeId="b84c758b-29d1-4bb0-a506-6e9be4fd8e21"/>
     <refType typeId="2f8f5ddc-a0ac-4ddc-93bd-c25a88ffb5da" valueTypeId="7cdc06b6-7e03-45a4-9474-5d7604a5f43a"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ОперацияПоПлатежнымКартам</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="44ef4a2c-32b4-4766-9b55-09d68c1a65fa">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="44ef4a2c-32b4-4766-9b55-09d68c1a65fa" extendedConfigurationObject="278f0d2f-cca2-4342-9c85-861e4b2e6aac">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -23,10 +26,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="0b002c7a-07b7-4d96-9901-60aab2484fcd">
+  <attributes uuid="0b002c7a-07b7-4d96-9901-60aab2484fcd" extendedConfigurationObject="fd047215-a429-40c7-b95b-04c6d2d0198b">
     <name>ОперацияПоПлатежнымКартамШапка</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -36,10 +40,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="a2b4e26d-546c-4aa7-b472-c2c207ad734b">
+  <attributes uuid="a2b4e26d-546c-4aa7-b472-c2c207ad734b" extendedConfigurationObject="94550ac0-67e6-406b-b887-8337382f31e6">
     <name>Организация</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -49,10 +54,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="8e3e78de-4bda-4e74-bb18-89dabff5e881">
+  <attributes uuid="8e3e78de-4bda-4e74-bb18-89dabff5e881" extendedConfigurationObject="23cb77b1-b177-437f-97e5-d6e434dd5773">
     <name>Контрагент</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -62,10 +68,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="bf5f326e-5745-4ed0-9da8-ba6556581c7f">
+  <attributes uuid="bf5f326e-5745-4ed0-9da8-ba6556581c7f" extendedConfigurationObject="3a8dcb70-4df6-4c01-bb1b-08e852f4afe6">
     <name>СуммаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -80,18 +87,21 @@
     </extension>
     <type/>
   </attributes>
-  <tabularSections uuid="a4286e6a-7f84-4f5a-8acf-9d30d5354c5b">
+  <tabularSections uuid="a4286e6a-7f84-4f5a-8acf-9d30d5354c5b" extendedConfigurationObject="23e2a2b0-6992-47ce-bfe0-3fed3e461473">
     <producedTypes>
       <objectType typeId="ea2a2009-9d97-4037-88c9-c9615e9a9ca3" valueTypeId="b62617a2-af67-4cb7-9512-faef82f9387f"/>
       <rowType typeId="4091f9a4-ada5-4c98-b2ac-64e15e387f3f" valueTypeId="44718470-ae4e-4a07-976a-a7b8c5010355"/>
     </producedTypes>
     <name>РасшифровкаПлатежа</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
-    <attributes uuid="3216c34b-f35f-43d5-86cb-c16d9ac8444c">
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="3216c34b-f35f-43d5-86cb-c16d9ac8444c" extendedConfigurationObject="1942390b-45de-4797-864a-886fbdd45f24">
       <name>ДокументПланирования</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>
@@ -101,10 +111,11 @@
       </extension>
       <type/>
     </attributes>
-    <attributes uuid="cc87cd01-f359-48d1-998b-be61f384e739">
+    <attributes uuid="cc87cd01-f359-48d1-998b-be61f384e739" extendedConfigurationObject="015db737-0c0a-44a4-bdd4-63c96487877e">
       <name>Документ</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>
@@ -114,10 +125,11 @@
       </extension>
       <type/>
     </attributes>
-    <attributes uuid="11e7b445-86f7-40ef-990f-dd4ffffd913d">
+    <attributes uuid="11e7b445-86f7-40ef-990f-dd4ffffd913d" extendedConfigurationObject="aa0d2238-b923-479f-b334-2b3d97b5962f">
       <name>Заказ</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>
@@ -127,10 +139,11 @@
       </extension>
       <type/>
     </attributes>
-    <attributes uuid="418952dc-cd6c-4d25-8522-5023b027deac">
+    <attributes uuid="418952dc-cd6c-4d25-8522-5023b027deac" extendedConfigurationObject="5953b95d-2d38-4cff-aa28-c07d7c2ce7b9">
       <name>СчетНаОплату</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>

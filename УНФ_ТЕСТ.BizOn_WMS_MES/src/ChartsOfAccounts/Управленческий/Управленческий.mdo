@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d30017fa-d5f8-43f5-8fb3-72bb970e670d">
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d30017fa-d5f8-43f5-8fb3-72bb970e670d" extendedConfigurationObject="3b0c4744-6437-4ccc-bc96-9dd9bae7a7ae">
   <producedTypes>
     <objectType typeId="8d9cc222-c373-4507-91a5-43e4ac174a9f" valueTypeId="d9d4c720-909f-40a8-b893-e4597244068b"/>
     <refType typeId="b14bb958-bea8-4598-ab66-634054aceda9" valueTypeId="b4dc323a-0475-4c99-b1f8-81e8a1e46cdd"/>
@@ -11,5 +11,7 @@
   </producedTypes>
   <name>Управленческий</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:ChartOfAccountsExtension"/>
+  <extension xsi:type="mdclassExtension:ChartOfAccountsExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:ChartOfAccounts>

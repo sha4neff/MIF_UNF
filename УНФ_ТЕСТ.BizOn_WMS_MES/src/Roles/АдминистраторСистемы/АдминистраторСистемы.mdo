@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="383f2082-1e68-43cd-b075-badc8999c554">
+<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="383f2082-1e68-43cd-b075-badc8999c554" extendedConfigurationObject="76702e9e-fa7a-4b98-befa-f9b37db2dae0">
   <name>АдминистраторСистемы</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:RoleExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <rights>Extended</rights>
   </extension>
 </mdclass:Role>

@@ -11,7 +11,7 @@
         <id>1333</id>
         <title>
           <key>ru</key>
-          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>Должен нам &lt;/>&lt;/>&lt;/>&lt;link Взаиморасчеты>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>128 300&lt;/>&lt;/>&lt;/>&lt;/>&lt;link Взаиморасчеты>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle -3>,&lt;/>&lt;/>&lt;/>&lt;/>&lt;link Взаиморасчеты>&lt;fontstyle -31>&lt;fontsize 8>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>50&lt;/>&lt;/>&lt;/>&lt;/></value>
+          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>Должен нам &lt;/>&lt;/>&lt;/>&lt;link Взаиморасчеты>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>128 300&lt;/>&lt;/>&lt;/>&lt;/>&lt;link Взаиморасчеты>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle -3>,&lt;/>&lt;/>&lt;/>&lt;/>&lt;link Взаиморасчеты>&lt;fontstyle -31>&lt;fontsize 8>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>50&lt;/>&lt;/>&lt;/>&lt;/></value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -61,7 +61,7 @@
         <id>1336</id>
         <title>
           <key>ru</key>
-          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>Продажи на &lt;/>&lt;/>&lt;/>&lt;link Продажи>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>356 200,&lt;/>&lt;/>&lt;/>&lt;/>&lt;link Продажи>&lt;fontstyle -31>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>00&lt;/>&lt;/>&lt;/></value>
+          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>Продажи на &lt;/>&lt;/>&lt;/>&lt;link Продажи>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>356 200,&lt;/>&lt;/>&lt;/>&lt;/>&lt;link Продажи>&lt;fontstyle -31>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>00&lt;/>&lt;/>&lt;/></value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -145,7 +145,7 @@
         <id>1339</id>
         <title>
           <key>ru</key>
-          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>Последняя продажа 15.04.2015&lt;/>&lt;/>&lt;/></value>
+          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>Последняя продажа 15.04.2015&lt;/>&lt;/>&lt;/></value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -194,7 +194,7 @@
         <id>1342</id>
         <title>
           <key>ru</key>
-          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:2a29a148-1bea-4d41-bf3b-fcf976448851>Последнее событие 23.05.2015&lt;/>&lt;/>&lt;/></value>
+          <value>&lt;fontstyle -31>&lt;fontsize 11>&lt;colorstyle 0:3ad6fcd4-ca89-4f8b-ae32-83e375310754>Последнее событие 23.05.2015&lt;/>&lt;/>&lt;/></value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>

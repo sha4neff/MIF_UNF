@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="544d53d9-d362-4bb7-881e-cae9addef4ff">
+  <producedTypes>
+    <refType typeId="91929376-b4de-4753-9a04-3f0a4bcb263e" valueTypeId="317d4ff9-4f52-436c-8229-2b26c2879ed0"/>
+    <listType typeId="bd9fa36e-c865-4791-b174-635c8ebacc08" valueTypeId="3ef820f7-5447-4dc9-9d0c-97de4584942b"/>
+    <managerType typeId="30aa3c47-012b-4725-959d-bb6004f2195b" valueTypeId="e4bda3c5-9638-4012-8ae9-ec9acde90047"/>
+  </producedTypes>
+  <name>БЗ_СтатусыОбеспеченияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Статусы обеспечения заказов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aa9cb461-38b2-4f85-b160-1b02c2afd956">
+    <name>ОстатокНаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток на складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6da5436-cc1c-4348-b2bc-7cc847c40d4a">
+    <name>РезервНаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв на складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5129a4c-f4fa-41f7-9b7a-40bb148a1a6a">
+    <name>ЗаказНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8719a443-92d8-4be1-b4a5-0844d0153aa8">
+    <name>ПланПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>План производства</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

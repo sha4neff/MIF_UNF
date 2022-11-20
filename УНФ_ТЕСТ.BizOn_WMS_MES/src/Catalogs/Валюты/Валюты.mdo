@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b74a815-f8b5-406b-a43a-ba6c618399d6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b74a815-f8b5-406b-a43a-ba6c618399d6" extendedConfigurationObject="dd096f26-1cbd-44c2-a139-9c8c10b07fb9">
   <producedTypes>
     <objectType typeId="f2435064-ce0a-4cf8-b4e8-a978a9ca1b25" valueTypeId="8e26410d-1e71-4334-bec3-d2c4f55a321e"/>
     <refType typeId="9a82d0c7-67ec-4ca1-a2a4-b9445dc4e068" valueTypeId="505e446a-0791-4b93-bfb2-fd23896bfde5"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>Валюты</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

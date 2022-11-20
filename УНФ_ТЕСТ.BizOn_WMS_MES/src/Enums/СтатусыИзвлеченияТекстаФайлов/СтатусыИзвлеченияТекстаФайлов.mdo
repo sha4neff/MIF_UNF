@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5378250-5e80-4079-915e-181a79f01f80">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5378250-5e80-4079-915e-181a79f01f80" extendedConfigurationObject="ecd8772d-e33f-426f-a87a-e28bd94d5fdf">
   <producedTypes>
     <refType typeId="3643ea84-488f-40a9-8345-d806e6a14b30" valueTypeId="7fa213a7-6da2-4042-b030-6056ba0e030f"/>
     <listType typeId="97596687-4885-4078-8c1f-39bd0cdfc847" valueTypeId="4c0aaa6d-5f06-42a4-aea1-7e44dbb3d6b9"/>
@@ -7,5 +7,7 @@
   </producedTypes>
   <name>СтатусыИзвлеченияТекстаФайлов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Enum>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="527e12fb-9832-404e-8743-fb5241624ce6">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="527e12fb-9832-404e-8743-fb5241624ce6" extendedConfigurationObject="5a79b3f5-0b8b-4d6a-89d1-b868000ff481">
   <producedTypes>
     <refType typeId="4677a92f-c91a-4e0c-b281-46afe0fd1a3c" valueTypeId="920b381e-c748-4cdc-9a8f-d10a8cd7dea2"/>
     <listType typeId="c464c5e9-e707-40c1-986b-9d08ce568dee" valueTypeId="b3641b31-e125-4345-900b-deaf623ca67c"/>
@@ -7,20 +7,28 @@
   </producedTypes>
   <name>СрокДействияПодарочныхСертификатов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="b194a5a1-9b0f-423f-b5da-f0d5cc14b402">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="b194a5a1-9b0f-423f-b5da-f0d5cc14b402" extendedConfigurationObject="6b2b4cdc-8b3d-460f-bca2-0a0db6135a85">
     <name>БезОграниченияСрока</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="b4ace5c4-23ff-4245-822e-472d8cc80a9a">
+  <enumValues uuid="b4ace5c4-23ff-4245-822e-472d8cc80a9a" extendedConfigurationObject="2a968e86-a4e5-4708-9a3f-7f7ec274b8dc">
     <name>СОграничениемНаДату</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="56dfeb7f-e766-4f00-8b22-5546fcd8fc2b">
+  <enumValues uuid="56dfeb7f-e766-4f00-8b22-5546fcd8fc2b" extendedConfigurationObject="5cc08cb9-6cf5-43be-b01d-51e94a8c58b9">
     <name>ПериодПослеПродажи</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>

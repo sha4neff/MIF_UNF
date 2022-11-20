@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="87c880a1-780d-48d7-be74-7b788c5225ee">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="87c880a1-780d-48d7-be74-7b788c5225ee" extendedConfigurationObject="f3485b53-c447-4b51-8a87-ed842c7cd798">
   <producedTypes>
     <objectType typeId="2dfe467c-c4a0-4729-b5c5-34ba0b279280" valueTypeId="f08aebc9-8bbd-4b57-8300-a8f0b1fb81b9"/>
     <refType typeId="b0abbb06-d7c7-4cb7-82e0-5086ddc6e1af" valueTypeId="61dd34d0-b1f4-41b2-9365-0c5b7cc41f6d"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>ДоговорыКонтрагентов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

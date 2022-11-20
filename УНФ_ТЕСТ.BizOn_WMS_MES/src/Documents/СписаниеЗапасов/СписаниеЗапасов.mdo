@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="179b5ab8-4891-415c-bff3-474baa4425b9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="179b5ab8-4891-415c-bff3-474baa4425b9" extendedConfigurationObject="63fc9824-0dd1-4e3b-bce6-34e0806fc11f">
   <producedTypes>
     <objectType typeId="142bda27-6198-47f8-8acd-ccadcef90b79" valueTypeId="21b1b5f7-638f-46d1-baa7-ca2d2fb110b2"/>
     <refType typeId="9f5e15ce-098b-4c2e-881d-bcfa59b8f2ac" valueTypeId="370b855c-415c-4675-a672-86ecf7b17552"/>
@@ -9,7 +9,9 @@
   </producedTypes>
   <name>СписаниеЗапасов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
   <attributes uuid="777533bc-257f-4f39-a044-13c19474354a">
     <name>БЗ_WMS_GUID</name>
     <synonym>
@@ -32,10 +34,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5995372b-8d56-436f-8c2d-e5a84150c410">
+  <attributes uuid="5995372b-8d56-436f-8c2d-e5a84150c410" extendedConfigurationObject="e9d41dcf-85b5-450e-b0ac-556e91ac8fba">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3b34636c-dd1e-45a9-b627-b310040282c3">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3b34636c-dd1e-45a9-b627-b310040282c3" extendedConfigurationObject="475ff28a-ba7e-46dc-91a2-1de2cca4300c">
   <producedTypes>
     <objectType typeId="d7980880-35d7-4645-b52a-7542b1ce7992" valueTypeId="7aca1fc9-ba2e-4c65-836c-4b7b5477e365"/>
     <refType typeId="39834c22-7ee4-4b24-a80a-4b0128dbb09d" valueTypeId="439201e2-1722-429e-9952-238d59651d69"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>КатегорииНоменклатуры</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

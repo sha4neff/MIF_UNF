@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6a455b12-d489-4726-b525-0fd5a78b85c8">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6a455b12-d489-4726-b525-0fd5a78b85c8" extendedConfigurationObject="8d080f3c-06ed-48bf-9709-eea73d676741">
   <producedTypes>
     <refType typeId="8edeb329-9ae1-4234-b446-f3a9f98b84fb" valueTypeId="e981a7f6-52bd-4f80-a6d9-51d6f7670e4c"/>
     <listType typeId="4b97ce30-03c9-4445-8796-57e452a7fbb9" valueTypeId="e44a416e-8e8a-4327-b02b-b5755100d341"/>
@@ -7,5 +7,7 @@
   </producedTypes>
   <name>ТипыКонтактнойИнформации</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Enum>

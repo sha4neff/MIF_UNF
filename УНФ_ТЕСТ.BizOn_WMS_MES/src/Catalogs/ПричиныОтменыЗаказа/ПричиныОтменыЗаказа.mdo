@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40037cd9-d13f-4d24-ac46-0612ae6fa231">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40037cd9-d13f-4d24-ac46-0612ae6fa231" extendedConfigurationObject="55483b17-d542-4cbd-b3fb-8d976b5bd6ea">
   <producedTypes>
     <objectType typeId="83f7a6f7-4dac-49f3-843d-5c0c493467dc" valueTypeId="516fc7c5-e47a-4894-a4e3-155f5c3ebc30"/>
     <refType typeId="f105c23e-f652-469f-b511-b9c1bf8a4af0" valueTypeId="0db244e4-96b0-46c7-8790-6dbd1609d835"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>ПричиныОтменыЗаказа</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

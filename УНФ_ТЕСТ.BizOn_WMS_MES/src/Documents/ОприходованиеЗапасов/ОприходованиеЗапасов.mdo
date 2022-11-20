@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8322dd56-0497-424e-87f4-2b5cec85ee54">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8322dd56-0497-424e-87f4-2b5cec85ee54" extendedConfigurationObject="ddedc4ab-0149-4852-93a6-c895e2793772">
   <producedTypes>
     <objectType typeId="12b56cc7-9859-4a9c-863a-c739e4812b2e" valueTypeId="3e4c9493-29c4-4a7d-80b3-61c41829363a"/>
     <refType typeId="d8829c8d-5861-4728-a78f-79c524b20b30" valueTypeId="c75a8ecb-f39e-4dc9-b2b7-f6d24b68583a"/>
@@ -9,7 +9,9 @@
   </producedTypes>
   <name>ОприходованиеЗапасов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
   <attributes uuid="953e9e30-ad9f-48f1-9162-5609decc142a">
     <name>БЗ_WMS_GUID</name>
     <synonym>
@@ -32,10 +34,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="fcc6ea1a-2288-42d8-9d26-40e31f279474">
+  <attributes uuid="fcc6ea1a-2288-42d8-9d26-40e31f279474" extendedConfigurationObject="11ac2f58-fde3-4d95-95f2-7b1e9d1f36a5">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

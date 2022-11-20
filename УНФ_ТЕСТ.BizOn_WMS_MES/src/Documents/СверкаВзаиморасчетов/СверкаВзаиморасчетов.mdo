@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49183ff0-853a-41db-9a60-e1d9f08716ab">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49183ff0-853a-41db-9a60-e1d9f08716ab" extendedConfigurationObject="fb7d1608-7e75-438b-a03f-38e5029bdbd9">
   <producedTypes>
     <objectType typeId="e614d4d8-9d75-41e5-b9f4-9757409308b5" valueTypeId="3ae5a1f0-7c33-4ac7-b304-323b6b8680b7"/>
     <refType typeId="34bf269e-f7c8-4933-8c34-2231f69ebdd9" valueTypeId="23f6f2c9-3896-4561-97fa-6c6977774b7a"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>СверкаВзаиморасчетов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Document>

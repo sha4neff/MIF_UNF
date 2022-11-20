@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a3bed9a4-1b5f-4f7d-b57a-55897c5041c5">
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a3bed9a4-1b5f-4f7d-b57a-55897c5041c5" extendedConfigurationObject="ec408b61-03b4-4fa9-be7f-183aa5b1e72c">
   <producedTypes>
     <containerType typeId="836fc941-a8ab-497c-b02b-0ad15b00d9fd" valueTypeId="7fd667f6-4ceb-4d66-bad4-017fb6bc051d"/>
   </producedTypes>
   <name>Объем</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <typeExtension>
       <types>
         <state>Checked</state>

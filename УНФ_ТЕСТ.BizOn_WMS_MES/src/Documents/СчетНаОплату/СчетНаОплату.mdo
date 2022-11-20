@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a5beae1-75be-4c85-8fa6-52f74a480161">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a5beae1-75be-4c85-8fa6-52f74a480161" extendedConfigurationObject="2186b103-f68e-4fdc-80a1-6dacced11af6">
   <producedTypes>
     <objectType typeId="49f477e1-5ba4-4c7f-b7a7-f099959c2d86" valueTypeId="b235b328-1bf2-474f-aa5c-03e67d243451"/>
     <refType typeId="eed96669-9c65-4bb1-9e99-6e8b0fc7808d" valueTypeId="0049ac9b-b490-4dfc-bddd-1d6329050a7a"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>СчетНаОплату</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="4a21270e-0b75-4285-88cd-d4e71f0a4fbb">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="4a21270e-0b75-4285-88cd-d4e71f0a4fbb" extendedConfigurationObject="8f0d5ada-d9ad-4974-b53d-8afa553f80e9">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -23,10 +26,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="aeaa13a6-ed24-45ba-b9e6-866ce494bf47">
+  <attributes uuid="aeaa13a6-ed24-45ba-b9e6-866ce494bf47" extendedConfigurationObject="6eb5cb7f-5331-40fa-89dd-f0146327e87a">
     <name>Событие</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

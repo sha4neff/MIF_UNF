@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aff466ea-8f20-4524-b7b3-22a1da427d89">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aff466ea-8f20-4524-b7b3-22a1da427d89" extendedConfigurationObject="4f1aa61f-ae33-46b7-9821-b1327b4ef70d">
   <producedTypes>
     <objectType typeId="66fb83bb-fd55-4346-aa38-8ae1dd050977" valueTypeId="c81d8d77-7f12-4ee9-b393-15c9d13563bd"/>
     <refType typeId="0726d760-b726-4432-8162-b174eac1f2a1" valueTypeId="3f3cb86f-5e98-455a-bf63-b5bdd16510b6"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ВыемкаНаличных</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="f98bbc76-ab2f-4ec7-8b5d-401f009ddff2">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="f98bbc76-ab2f-4ec7-8b5d-401f009ddff2" extendedConfigurationObject="f7100830-6e0e-4693-91dd-720950f968d9">
     <name>ОтчетОРозничныхПродажах</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

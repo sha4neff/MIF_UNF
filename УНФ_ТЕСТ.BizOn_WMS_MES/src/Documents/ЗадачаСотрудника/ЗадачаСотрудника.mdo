@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="807f9c98-a031-4857-b6e0-c709d7671d21">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="807f9c98-a031-4857-b6e0-c709d7671d21" extendedConfigurationObject="bc8fefb4-6156-454d-b641-7c55d486201d">
   <producedTypes>
     <objectType typeId="05340cf0-64ca-4f52-a85c-cc1de6a023b3" valueTypeId="60d24f8e-ff8d-473c-83da-45664d2a018a"/>
     <refType typeId="621e1768-6af6-4630-825e-c58d4812d4ef" valueTypeId="0e485778-244b-4317-beef-07610e2db15e"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ЗадачаСотрудника</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="c10e7553-bad2-44a9-8134-df1fd25491b4">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c10e7553-bad2-44a9-8134-df1fd25491b4" extendedConfigurationObject="9df1cff6-e886-4181-a5c5-3bcb53cac881">
     <name>Основание</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

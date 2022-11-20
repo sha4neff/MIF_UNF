@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c47fa2c6-5200-4d3f-ba25-755e5a09fc28">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c47fa2c6-5200-4d3f-ba25-755e5a09fc28" extendedConfigurationObject="8e6d7abc-75c6-442a-9379-d58c95677dce">
   <producedTypes>
     <objectType typeId="d72fe34b-1b30-4342-af2f-63c05dbf90fa" valueTypeId="72e6bd81-1f16-4670-913e-a1a7569a96e2"/>
     <refType typeId="1ad76656-86dd-43bb-8a71-f6deca337705" valueTypeId="efb34d0a-c45c-45f0-aaa2-0068689ff868"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>РасходДСПлан</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="1c2dd346-364d-4fd2-a339-dea5e400484d">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="1c2dd346-364d-4fd2-a339-dea5e400484d" extendedConfigurationObject="c8884fb7-d36c-4cb2-a796-206100f7633c">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

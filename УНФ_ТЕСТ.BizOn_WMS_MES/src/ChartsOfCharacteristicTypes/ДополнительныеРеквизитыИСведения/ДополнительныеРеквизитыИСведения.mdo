@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3735e0b2-596a-4eb9-b170-0bbb9c8b0b9d">
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3735e0b2-596a-4eb9-b170-0bbb9c8b0b9d" extendedConfigurationObject="1055d15b-8cb5-4ff0-a526-7fd20a08a96c">
   <producedTypes>
     <objectType typeId="2b39dc07-a4dd-4629-87d5-f606a265d75b" valueTypeId="f6316620-07c8-4c2c-b29a-9efe1bfce848"/>
     <refType typeId="fc2204cf-f881-4774-aa97-a5c36d555adb" valueTypeId="e74dfab3-5654-4638-b351-a2180be050f3"/>
@@ -11,6 +11,7 @@
   <name>ДополнительныеРеквизитыИСведения</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <typeExtension/>
   </extension>
   <type/>

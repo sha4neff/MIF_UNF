@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e22843dd-1d1d-4ab0-9ffc-926966e30e05">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e22843dd-1d1d-4ab0-9ffc-926966e30e05" extendedConfigurationObject="20a8241a-22e4-4655-b578-002f9b1ecee1">
   <producedTypes>
     <refType typeId="748e8fcc-09c3-4f47-9040-9d2f59e0337e" valueTypeId="fe9ebb4e-941f-4e69-81a1-89e93f7f4c72"/>
     <listType typeId="bfa8ab79-0eaa-4b0f-bf19-f4e289c21f04" valueTypeId="a06ce4fa-82d7-4720-a648-ec89dd9dc6c4"/>
@@ -7,20 +7,28 @@
   </producedTypes>
   <name>ВидыМаркировки</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="efdd60ff-576f-400c-9745-53a2dc1dfce8">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="efdd60ff-576f-400c-9745-53a2dc1dfce8" extendedConfigurationObject="8f47d67f-7002-4de5-ae38-cbfb17fc705d">
     <name>КонтрольныйИдентификационныйЗнак</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="c50bf859-7039-4c06-a448-bdcca12289ce">
+  <enumValues uuid="c50bf859-7039-4c06-a448-bdcca12289ce" extendedConfigurationObject="31e21fd5-a5e2-44e3-abf8-a0f86d94fc0b">
     <name>НеМаркируется</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="ce8332dd-bd89-402c-a12c-584c6860465c">
+  <enumValues uuid="ce8332dd-bd89-402c-a12c-584c6860465c" extendedConfigurationObject="241ddb71-fbab-4fe0-aba8-7d933ec1bca7">
     <name>МаркируемаяПродукция</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>

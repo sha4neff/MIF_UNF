@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="32f67957-329f-4ba8-bb72-88c9663cfc02">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="32f67957-329f-4ba8-bb72-88c9663cfc02" extendedConfigurationObject="060b2bb4-ca03-4da9-930f-7f91f6299a35">
   <producedTypes>
     <selectionType typeId="1fe09798-61e4-482d-bdd0-cd6d4099d9fa" valueTypeId="3a7ed4fd-6cb4-4854-979d-2835c2bb59a6"/>
     <listType typeId="ba247fbd-8d49-4b2f-a9c5-b1da59ac6309" valueTypeId="61fb727d-10a0-4bef-aae3-b771fa194c21"/>
@@ -12,13 +12,15 @@
   <name>НаличиеФайлов</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
   </extension>
-  <resources uuid="c2430a6d-5c3b-4ac1-8932-5b1c4490f35b">
+  <resources uuid="c2430a6d-5c3b-4ac1-8932-5b1c4490f35b" extendedConfigurationObject="394b1a1c-a7ae-41b7-a346-4bac99fa567d">
     <name>ЕстьФайлы</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -28,10 +30,11 @@
     </extension>
     <type/>
   </resources>
-  <dimensions uuid="4acf2ae8-51e7-4d34-9733-96ae28b3baae">
+  <dimensions uuid="4acf2ae8-51e7-4d34-9733-96ae28b3baae" extendedConfigurationObject="ccfe4e36-80b6-419f-8bb3-c1046203d023">
     <name>ОбъектСФайлами</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

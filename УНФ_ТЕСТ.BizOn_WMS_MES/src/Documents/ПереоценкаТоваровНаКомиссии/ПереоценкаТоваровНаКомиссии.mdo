@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cfc4021c-7ab4-433c-a897-0aaf6c45bcc2">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cfc4021c-7ab4-433c-a897-0aaf6c45bcc2" extendedConfigurationObject="6cc7f760-b290-4a3a-9543-a04085022b3c">
   <producedTypes>
     <objectType typeId="49fe82d6-7b60-4b4f-a104-6859d1e5869b" valueTypeId="5e61abc8-9215-48a0-ba06-5f229314da70"/>
     <refType typeId="62b177b5-5f7a-4cec-a50b-0205d19db34e" valueTypeId="e243ff9e-e2b3-4056-a4fa-bbf47f26e433"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ПереоценкаТоваровНаКомиссии</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="2005dd4c-3b9c-4ea6-9ce1-dd16a904ff78">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="2005dd4c-3b9c-4ea6-9ce1-dd16a904ff78" extendedConfigurationObject="d0137872-fc7a-45bb-aef0-b6c16be3c738">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -23,10 +26,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="740ad0ad-6099-45e4-a005-65766839eafd">
+  <attributes uuid="740ad0ad-6099-45e4-a005-65766839eafd" extendedConfigurationObject="e8d86d82-e22d-4e23-8349-7c9a7728ae6a">
     <name>Заказ</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

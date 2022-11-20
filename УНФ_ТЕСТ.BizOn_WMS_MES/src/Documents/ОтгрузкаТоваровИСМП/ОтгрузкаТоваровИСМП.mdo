@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d64429f2-7120-419a-9c46-fcf328a4e7c8">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d64429f2-7120-419a-9c46-fcf328a4e7c8" extendedConfigurationObject="ff80fad0-2ab7-4a61-a8dd-399966d425a6">
   <producedTypes>
     <objectType typeId="c4b24075-302a-42a7-bf32-87b85f134fa9" valueTypeId="caa1af58-67bd-42d8-9a66-a12612c3151a"/>
     <refType typeId="1b5c355e-e552-4dd3-8d45-03f2185684e5" valueTypeId="a9c75ff1-1ae9-4a4b-83bc-41ee7c866335"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ОтгрузкаТоваровИСМП</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="e38a3853-8afc-4b20-bf72-397aed5d919d">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e38a3853-8afc-4b20-bf72-397aed5d919d" extendedConfigurationObject="48333840-b987-4704-a890-efe7611d3efb">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

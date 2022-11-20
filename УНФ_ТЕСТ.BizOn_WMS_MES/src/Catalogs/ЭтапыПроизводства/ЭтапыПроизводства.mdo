@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5e10e799-aa90-493e-8367-a0281634a19d">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5e10e799-aa90-493e-8367-a0281634a19d" extendedConfigurationObject="716795b4-62f7-4da1-8f95-f1c87771d64a">
   <producedTypes>
     <objectType typeId="48d9cbc3-0111-4f10-9872-40b72495ad2f" valueTypeId="a6a74156-65c4-4173-a84f-98fb8288d7fa"/>
     <refType typeId="860c74eb-1512-4889-89e9-fa8ec66f3819" valueTypeId="452fc6ad-2aae-48a5-a297-df5851a1adad"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>ЭтапыПроизводства</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

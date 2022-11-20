@@ -953,6 +953,9 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>10000000</segments>
+    </rowPictureDataPath>
     <searchStringLocation>CommandBar</searchStringLocation>
     <viewStatusLocation>Top</viewStatusLocation>
     <searchControlLocation>CommandBar</searchControlLocation>
@@ -977,6 +980,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>1:02023637-7868-4a5f-8576-835a76e0c9ba/276</segments>
+      </dataPath>
       <extendedTooltip>
         <name>ФормаОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка</name>
         <id>80</id>

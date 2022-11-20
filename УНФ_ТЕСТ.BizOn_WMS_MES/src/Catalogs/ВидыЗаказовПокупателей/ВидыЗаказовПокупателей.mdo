@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="41681f53-9623-4fb7-9bb3-5a44e86d8fab">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="41681f53-9623-4fb7-9bb3-5a44e86d8fab" extendedConfigurationObject="90c54cdb-3887-427a-bb26-a00e68a7f036">
   <producedTypes>
     <objectType typeId="2432ef9d-f696-4d8a-8d18-6d0ee948382c" valueTypeId="0b02c93c-e2d2-4867-bd5f-7bd8211f228d"/>
     <refType typeId="29050abc-c2cc-485f-a12c-5b82211de191" valueTypeId="e993f0ec-56df-478a-84b8-eea723ca7181"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>ВидыЗаказовПокупателей</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Catalog>

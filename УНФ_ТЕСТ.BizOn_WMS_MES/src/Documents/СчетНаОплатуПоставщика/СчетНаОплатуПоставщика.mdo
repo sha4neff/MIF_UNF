@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62a5d8da-45b4-4997-9560-b7a28344ecf3">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62a5d8da-45b4-4997-9560-b7a28344ecf3" extendedConfigurationObject="c5463756-11fa-43bd-9f03-cc67ad6147ae">
   <producedTypes>
     <objectType typeId="b22f679a-0561-436f-b28b-2b000fb43884" valueTypeId="0ef07592-c9dd-4882-a89e-38d267c74ed3"/>
     <refType typeId="bf3fefc3-5852-4bce-9bc6-6f77019bd05c" valueTypeId="5ac9c89f-aded-4569-992b-af1b9116a05f"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>СчетНаОплатуПоставщика</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="af0ee3e2-3431-42b6-a370-61b4c7066e15">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="af0ee3e2-3431-42b6-a370-61b4c7066e15" extendedConfigurationObject="97c723ff-afa0-4249-b8cf-9cfc563c906b">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -23,10 +26,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="81bcae3c-8bbc-4797-b44a-2cc10cbb1a67">
+  <attributes uuid="81bcae3c-8bbc-4797-b44a-2cc10cbb1a67" extendedConfigurationObject="a9099fee-0d3c-4a79-af19-9e9befb969bb">
     <name>Событие</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

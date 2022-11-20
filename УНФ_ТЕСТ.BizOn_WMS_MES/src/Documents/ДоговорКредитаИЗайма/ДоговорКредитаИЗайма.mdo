@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b6df644-e230-40f8-8604-7cf1168e23c2">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b6df644-e230-40f8-8604-7cf1168e23c2" extendedConfigurationObject="0d0c3656-ab0e-4ee5-bcee-40da8eb528ef">
   <producedTypes>
     <objectType typeId="6c8d0b05-da4b-406e-9bf3-c8903cfcf5b4" valueTypeId="0679e1be-c7d4-461b-a3b5-905bd51f5ff5"/>
     <refType typeId="90f583e2-aa60-439b-8074-85742bb6b858" valueTypeId="b7bc7205-54e3-407f-8715-4c9af08a8ce2"/>
@@ -9,5 +9,7 @@
   </producedTypes>
   <name>ДоговорКредитаИЗайма</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
 </mdclass:Document>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="737b156d-b121-4de5-9da8-4b0b0ccb4d3f">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="737b156d-b121-4de5-9da8-4b0b0ccb4d3f" extendedConfigurationObject="77a09c03-07f8-4276-8be2-b175d9291c14">
   <producedTypes>
     <objectType typeId="57dfe203-74ee-427f-a6f9-87f9a75153b8" valueTypeId="da8d124f-54b9-4188-afe9-f604cb900a5c"/>
     <refType typeId="8b13773e-62b9-4e78-bd4b-d1fa34fb02a7" valueTypeId="bc12034a-3bdc-418f-87d2-2296513dacfe"/>
@@ -9,19 +9,24 @@
   </producedTypes>
   <name>ПрочиеРасходы</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <tabularSections uuid="7f1867e1-cb18-46aa-a0ca-821b46a6ee36">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="7f1867e1-cb18-46aa-a0ca-821b46a6ee36" extendedConfigurationObject="0d6bd595-a1b0-4e5c-8c84-03b36ed20447">
     <producedTypes>
       <objectType typeId="fbca0cfc-8325-4bd1-9a1c-e3e58942daf8" valueTypeId="b813c72e-31fa-48a5-ade7-aa8775dbdd4e"/>
       <rowType typeId="4dcb44b7-1068-4d71-9203-d1af68ad9382" valueTypeId="185f2045-3d3f-4a95-b89a-fca5d3ab1e80"/>
     </producedTypes>
     <name>Расходы</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
-    <attributes uuid="68dd8aaf-3016-4614-9cff-afcce636ed7f">
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="68dd8aaf-3016-4614-9cff-afcce636ed7f" extendedConfigurationObject="981ae90c-7d5f-4641-80a2-ee65c539e4ef">
       <name>ЗаказПокупателя</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>

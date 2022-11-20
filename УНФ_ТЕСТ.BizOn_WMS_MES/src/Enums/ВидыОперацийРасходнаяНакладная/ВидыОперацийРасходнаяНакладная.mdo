@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ccc645f2-6c59-4f5b-bc51-c5ed1b658b47">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ccc645f2-6c59-4f5b-bc51-c5ed1b658b47" extendedConfigurationObject="db8e9be9-8f2e-4aab-94cd-9323d4b836cf">
   <producedTypes>
     <refType typeId="34d20d0b-cb5f-4b89-938a-aabbb25da14d" valueTypeId="4205131c-efd0-4a69-9e2b-7d6ff4fd459d"/>
     <listType typeId="7a9caa48-7ff1-4c60-868c-32184845b276" valueTypeId="b6f6c4b6-02ce-407c-af04-1fc2be84e6b1"/>
@@ -7,25 +7,35 @@
   </producedTypes>
   <name>ВидыОперацийРасходнаяНакладная</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="36abbe69-38ec-49a4-91d9-4b6f3f4ab6a9">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="36abbe69-38ec-49a4-91d9-4b6f3f4ab6a9" extendedConfigurationObject="7be9f8ab-ebe4-428c-9194-31c633b2fc88">
     <name>ВозвратСОтветХранения</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="0f14aad1-0e05-49fd-ab1f-ed8b075c0b4e">
+  <enumValues uuid="0f14aad1-0e05-49fd-ab1f-ed8b075c0b4e" extendedConfigurationObject="f1170685-9b87-4a2d-8b21-f0f706e843d1">
     <name>ВозвратКомитенту</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="782626e9-e3ba-40bc-9b03-660c51be943c">
+  <enumValues uuid="782626e9-e3ba-40bc-9b03-660c51be943c" extendedConfigurationObject="d5e38718-f168-4d8b-a222-72d9b64529f4">
     <name>ВозвратПоставщику</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="8c94f671-29dc-4b67-a2a2-5f8c210d1a66">
+  <enumValues uuid="8c94f671-29dc-4b67-a2a2-5f8c210d1a66" extendedConfigurationObject="8d1c2144-f3fa-413c-820d-b1ac4a037749">
     <name>ВозвратИзПереработки</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>

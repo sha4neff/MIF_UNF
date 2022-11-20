@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="46e07790-0237-4b0c-82df-732687b30ab4">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="46e07790-0237-4b0c-82df-732687b30ab4" extendedConfigurationObject="91112615-1767-47d9-8493-56f4f6155586">
   <producedTypes>
     <selectionType typeId="19a602a1-08e5-447f-8563-959ac77acf5e" valueTypeId="5d96c6d7-86a5-4e5b-873b-a802bc1dcd07"/>
     <listType typeId="3eaf02af-417b-40de-a84b-8a2086449de2" valueTypeId="c4dd7c6d-ba8e-46d4-9b56-7da1c8f738a2"/>
@@ -11,16 +11,78 @@
   <name>Запасы</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <registerType>Checked</registerType>
   </extension>
-  <dimensions uuid="76585c75-0ce6-4ef7-986d-ccde5e151fdf">
+  <resources uuid="c784316c-fa0d-4419-a57a-77a80724ab8c" extendedConfigurationObject="f72e33d3-324f-4f94-a330-a919e0f98615">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="76585c75-0ce6-4ef7-986d-ccde5e151fdf" extendedConfigurationObject="7f9237f1-027e-4670-9ba7-4167ac725dfb">
     <name>Номенклатура</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
           <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="ab3c9342-3b12-43d1-9c6f-add1f93f4eec" extendedConfigurationObject="2c140d47-2059-4f8f-a235-e3e91129b658">
+    <name>ЗаказПокупателя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="58c4a640-793e-434d-8702-b51fb78c4cc3" extendedConfigurationObject="935b3699-2154-4396-beb4-9d3089189c2c">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="f5b8f3a9-0c66-4679-8f1e-06bee73d1eb3" extendedConfigurationObject="2bfaf648-0583-4065-a8f1-ce8144253bd1">
+    <name>ЗаказНаПроизводство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказНаПроизводство</type>
         </types>
       </typeExtension>
     </extension>

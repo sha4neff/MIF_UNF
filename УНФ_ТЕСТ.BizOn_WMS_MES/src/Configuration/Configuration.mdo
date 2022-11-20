@@ -31,15 +31,17 @@
   <defaultRoles>Role.БЗ_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <languages uuid="2a103bcd-84c1-4ef2-aa9b-c0a4c9e1d5c4">
+  <languages uuid="2a103bcd-84c1-4ef2-aa9b-c0a4c9e1d5c4" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <languageCode>Checked</languageCode>
     </extension>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.КомплектацияИПроизводство</subsystems>
+  <subsystems>Subsystem.БЗ_ДетальноеПроизводство</subsystems>
   <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.БудущиеПодпискиЦвет</styleItems>
@@ -83,6 +85,7 @@
   <sessionParameters>SessionParameter.БЗ_WMS_Обмен_Сессия</sessionParameters>
   <sessionParameters>SessionParameter.БЗ_ПроводитьБезКонтроляОстатков</sessionParameters>
   <sessionParameters>SessionParameter.БЗ_TSDAPI_ДанныеСеанса</sessionParameters>
+  <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <roles>Role.БЗ_ОсновнаяРоль</roles>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.ДобавлениеИзменениеПодсистемыПроизводство</roles>
@@ -97,6 +100,9 @@
   <commonModules>CommonModule.БЗ_TSDRU</commonModules>
   <commonModules>CommonModule.БЗ_TSDAPI_Клиент</commonModules>
   <commonModules>CommonModule.БЗ_TSDAPIСлужебный</commonModules>
+  <commonModules>CommonModule.БЗ_Расчетчик</commonModules>
+  <commonModules>CommonModule.БЗ_Блокировки</commonModules>
+  <commonModules>CommonModule.БЗ_Логирование</commonModules>
   <exchangePlans>ExchangePlan.БЗ_WMS</exchangePlans>
   <exchangePlans>ExchangePlan.БЗ_MES</exchangePlans>
   <httpServices>HTTPService.БЗ_TSDAPI</httpServices>
@@ -119,6 +125,7 @@
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.КатегорииНоменклатуры</catalogs>
@@ -170,12 +177,14 @@
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.ВидыАлкогольнойПродукции</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
   <catalogs>Catalog.ЦеновыеГруппы</catalogs>
   <catalogs>Catalog.Подписи</catalogs>
   <catalogs>Catalog.СерийныеНомера</catalogs>
   <catalogs>Catalog.Комиссии</catalogs>
+  <catalogs>Catalog.БЗ_ВидыПартииПроизводства</catalogs>
+  <catalogs>Catalog.БЗ_MES_СпособыГруппировкиПартийПроизводства</catalogs>
+  <catalogs>Catalog.ВидыПроизводства</catalogs>
   <documents>Document.БЗ_ЗаданиеНаПогрузку</documents>
   <documents>Document.БЗ_КорректировкаПогрузки</documents>
   <documents>Document.БЗ_ВыполнениеПогрузки</documents>
@@ -257,6 +266,12 @@
   <documents>Document.ЧекЕГАИСВозврат</documents>
   <documents>Document.БЗ_ПриемкаВЯчейки</documents>
   <documents>Document.ПриемИПередачаВРемонт</documents>
+  <documents>Document.БЗ_МаршрутныйЛистПроизводства</documents>
+  <documents>Document.БЗ_Резка</documents>
+  <documents>Document.БЗ_МаршрутнаяКарта</documents>
+  <documents>Document.БЗ_ШаблонТехнологическогоПроцесса</documents>
+  <documents>Document.БЗ_ТехнологическаяОперация</documents>
+  <documents>Document.БЗ_РасчетРезки</documents>
   <enums>Enum.БЗ_СтатусыЗаданийНаПогрузку</enums>
   <enums>Enum.БЗ_ВидыДвиженияТоваров</enums>
   <enums>Enum.БЗ_ВидТехнологическойОперации</enums>
@@ -300,10 +315,12 @@
   <enums>Enum.ДаНет</enums>
   <enums>Enum.ВидыОперацийРасходнаяНакладная</enums>
   <enums>Enum.ВидыОперацийПеремещениеПоЯчейкам</enums>
+  <enums>Enum.БЗ_ТипБлокировки</enums>
+  <enums>Enum.БЗ_СтатусыОбеспеченияЗаказов</enums>
   <reports>Report.СверкаОстатков_WMS_УНФ</reports>
   <reports>Report.РезультатыПогрузки</reports>
   <reports>Report.РезультатыПриемкиПроизводство</reports>
-  <reports>Report.Недогорузы</reports>
+  <reports>Report.Недогрузы</reports>
   <reports>Report.Зака_ОПС</reports>
   <dataProcessors>DataProcessor.БЗ_РегистрацияИзмененийДляОбменаДаннымиWMS</dataProcessors>
   <dataProcessors>DataProcessor.БЗ_РегистрацияИзмененийДляОбменаДаннымиMES</dataProcessors>
@@ -314,6 +331,7 @@
   <dataProcessors>DataProcessor.БЗ_TSDAPI_ДокументПеремещение</dataProcessors>
   <dataProcessors>DataProcessor.БЗ_TSDAPI_Инвентаризация</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПрограммы</dataProcessors>
+  <dataProcessors>DataProcessor.АРМ_Конструктора</dataProcessors>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.БЗ_WMS_Параметры</informationRegisters>
   <informationRegisters>InformationRegister.БЗ_MES_Параметры</informationRegisters>
@@ -322,10 +340,18 @@
   <informationRegisters>InformationRegister.БЗ_TSDAPI_Сессии</informationRegisters>
   <informationRegisters>InformationRegister.ТСД_Документы</informationRegisters>
   <informationRegisters>InformationRegister.НаличиеФайлов</informationRegisters>
+  <informationRegisters>InformationRegister.БЗ_НастройкиПодразделений</informationRegisters>
+  <informationRegisters>InformationRegister.БЗ_Блокировки</informationRegisters>
+  <informationRegisters>InformationRegister.БЗ_ОбеспечениеЗаказовПокупателей_Сводно</informationRegisters>
+  <informationRegisters>InformationRegister.БЗ_ОбеспечениеЗаказовПокупателей_Комплектующие</informationRegisters>
+  <informationRegisters>InformationRegister.БЗ_ПланыЗНП_Продукция</informationRegisters>
+  <informationRegisters>InformationRegister.БЗ_ПланыЗНП_Запасы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.БЗ_ОстаткиНазначений</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ЗаказыНаПроизводство</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗаказыПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Запасы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗаказыНаПроизводство</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервыТоваровОрганизаций</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
 </mdclass:Configuration>

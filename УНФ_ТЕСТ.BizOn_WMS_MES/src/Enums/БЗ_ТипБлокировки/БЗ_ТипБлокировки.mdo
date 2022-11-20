@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c6bea6-0168-4845-a907-a898914f391a">
+  <producedTypes>
+    <refType typeId="cff22bdb-aa19-45bb-ba61-57e71f301f06" valueTypeId="53a2d047-ff80-4938-9175-2e0d726f8a75"/>
+    <listType typeId="759c569b-a65e-4c7a-9401-b27f267083df" valueTypeId="4b3a3de0-b9a1-470b-ae07-0cfed8a5a81e"/>
+    <managerType typeId="d211dab3-2c1e-406d-b53f-b6b126528270" valueTypeId="024071d4-b37c-42c4-8e0e-78bd69fa01f9"/>
+  </producedTypes>
+  <name>БЗ_ТипБлокировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Тип блокировки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b90130d-94f4-4169-97c6-c379b611acfc">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ddefebf-09fa-4a29-8222-2acd589f7cb9">
+    <name>ВыдачаЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача заданий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="319f4f3d-98dd-4229-b9bd-a54fbc2bf857">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0eabec00-904d-4dc9-b619-e6edc07a6a5f">
+    <name>Подпитка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпитка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="270202fa-bcbd-46d4-ae33-2977d3f21dfd">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02efe7ef-b07b-485f-bf01-c5b901f22524">
+    <name>РасчетЗНП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет ЗНП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

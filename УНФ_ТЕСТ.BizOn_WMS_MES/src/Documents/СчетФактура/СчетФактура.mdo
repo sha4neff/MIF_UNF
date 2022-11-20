@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7ac6e230-09af-45d9-8178-67eafe3c8c26">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7ac6e230-09af-45d9-8178-67eafe3c8c26" extendedConfigurationObject="bc0f80db-2084-4ebc-8fab-df30c343112b">
   <producedTypes>
     <objectType typeId="e1044083-8e1e-4c89-bf1e-196cb61c1142" valueTypeId="8eae2286-ddc3-46bc-a107-16edaa14cd95"/>
     <refType typeId="1d056c0d-6169-447d-a5d0-95c9ed348248" valueTypeId="a4fa7fd1-d8d1-4bfa-abdb-f84082f57f88"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>СчетФактура</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="678e0d88-6bd6-470a-b46f-0485abcce0bc">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="678e0d88-6bd6-470a-b46f-0485abcce0bc" extendedConfigurationObject="9ca93a73-5ef5-4ac1-8f41-38d40f3b215c">
     <name>УдалитьДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -23,32 +26,37 @@
     </extension>
     <type/>
   </attributes>
-  <forms uuid="52c0dcb7-8daa-4159-bee6-a272532e5d28">
+  <forms uuid="52c0dcb7-8daa-4159-bee6-a272532e5d28" extendedConfigurationObject="32f1b6a3-970c-4ae1-8351-348b6518f089">
     <name>ФормаДокументыОснования</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <form>Extended</form>
     </extension>
   </forms>
-  <forms uuid="a69d4a61-ec35-47a0-a929-727d8b54454c">
+  <forms uuid="a69d4a61-ec35-47a0-a929-727d8b54454c" extendedConfigurationObject="88e970eb-7b48-4063-9dc7-cb646a261fa8">
     <name>ФормаПодбораДокументовОснований</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <form>Extended</form>
     </extension>
   </forms>
-  <tabularSections uuid="1bc0c01c-82d7-4ec2-8ce7-f97d14f7d6ec">
+  <tabularSections uuid="1bc0c01c-82d7-4ec2-8ce7-f97d14f7d6ec" extendedConfigurationObject="8e6536ca-9e87-4b11-9bfe-68a98ba07d88">
     <producedTypes>
       <objectType typeId="b44f9cf5-ba11-4506-a573-0621bf0c0938" valueTypeId="348adf97-dd38-4466-830c-a7c8610d16c1"/>
       <rowType typeId="02793981-7170-470c-9084-1a2bc4fcbfd6" valueTypeId="d3238e3d-2c30-4a63-b03c-5db6fd7ba679"/>
     </producedTypes>
     <name>ДокументыОснования</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
-    <attributes uuid="a6777e45-11c1-458f-b859-505c26609dec">
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="a6777e45-11c1-458f-b859-505c26609dec" extendedConfigurationObject="27c8cdad-a38b-43e0-9acf-5a6278f16c98">
       <name>ДокументОснование</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>

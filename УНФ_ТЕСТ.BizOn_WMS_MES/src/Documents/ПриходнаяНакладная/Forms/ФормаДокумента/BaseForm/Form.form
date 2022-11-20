@@ -12352,6 +12352,9 @@
         </extInfo>
       </extendedTooltip>
       <commandName>0</commandName>
+      <parameter xsi:type="core:ReferenceValue">
+        <value>2a07a9b0-3116-4524-93b2-9a1336ae3707</value>
+      </parameter>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

@@ -702,6 +702,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Items.Список.CurrentData.Ссылка</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ФормаОбщаяКомандаНапомнитьРасширеннаяПодсказка</name>
             <id>48</id>
@@ -732,6 +735,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Items.Список.CurrentData.Ссылка</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ФормаОбщаяКомандаСоздатьЗадачуСотрудникаРасширеннаяПодсказка</name>
             <id>67</id>
@@ -794,6 +800,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData.Ссылка</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ФормаОбщаяКомандаОтправитьПоЭлектроннойПочтеРасширеннаяПодсказка</name>
           <id>56</id>
@@ -890,6 +899,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData.Ссылка</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка</name>
           <id>46</id>

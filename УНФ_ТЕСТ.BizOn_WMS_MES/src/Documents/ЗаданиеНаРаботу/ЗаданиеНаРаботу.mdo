@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="611cb4cc-92f4-4946-8ad1-0b20a48f9fd4">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="611cb4cc-92f4-4946-8ad1-0b20a48f9fd4" extendedConfigurationObject="eae1be44-3cb9-4a33-bc8d-9e48abdd4599">
   <producedTypes>
     <objectType typeId="8d96a7ce-d6ed-44bb-99df-971da6306864" valueTypeId="88d65620-66ca-4fd7-9ed9-c49947f6c7ba"/>
     <refType typeId="6b5218f0-5f82-4a03-87d9-19c2694aeb8e" valueTypeId="fb3836b9-4798-40c2-aad6-741dff3dd1ca"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ЗаданиеНаРаботу</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="028c071a-992d-4996-b605-1ba49b3d96c4">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="028c071a-992d-4996-b605-1ba49b3d96c4" extendedConfigurationObject="2971dcfd-7603-44a0-9cab-c3d418b23cda">
     <name>Событие</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -23,18 +26,21 @@
     </extension>
     <type/>
   </attributes>
-  <tabularSections uuid="a230d744-9134-426c-ab32-b94da125af59">
+  <tabularSections uuid="a230d744-9134-426c-ab32-b94da125af59" extendedConfigurationObject="ba2cb4c3-f1e8-4d6c-9ebf-df8eb244a690">
     <producedTypes>
       <objectType typeId="7ad4a271-33eb-4f89-9022-7af597ab15fd" valueTypeId="8e5d543e-0963-4f5c-9651-221932d21bf4"/>
       <rowType typeId="8fadc4d2-2600-4f08-9ab7-444c9ac129e2" valueTypeId="56122066-1922-421e-bd6d-0b921425d3cb"/>
     </producedTypes>
     <name>Работы</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
-    <attributes uuid="85c098ef-5d98-4d0e-b1a7-0e048b84f9f6">
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="85c098ef-5d98-4d0e-b1a7-0e048b84f9f6" extendedConfigurationObject="6f2e1936-6327-4ce6-ad09-feb6d3087984">
       <name>Заказчик</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>

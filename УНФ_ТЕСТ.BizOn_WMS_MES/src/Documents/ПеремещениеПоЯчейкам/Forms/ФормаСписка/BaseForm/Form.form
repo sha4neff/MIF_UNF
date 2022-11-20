@@ -1401,6 +1401,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData.Ref</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ФормаОбщаяКомандаОтправитьПоЭлектроннойПочтеРасширеннаяПодсказка</name>
           <id>107</id>
@@ -1497,6 +1500,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData.Ref</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка</name>
           <id>55</id>
@@ -1527,6 +1533,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData.Ref</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ОбщаяКомандаОтчетПоДвижениямРасширеннаяПодсказка</name>
           <id>51</id>

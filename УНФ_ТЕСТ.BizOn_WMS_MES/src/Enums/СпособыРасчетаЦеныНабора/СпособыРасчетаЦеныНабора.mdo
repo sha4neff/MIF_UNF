@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7fb6b998-9c35-4173-a3f5-b451a898576d">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7fb6b998-9c35-4173-a3f5-b451a898576d" extendedConfigurationObject="a83afe3e-32c3-45e7-9285-bb1d8b2aeb37">
   <producedTypes>
     <refType typeId="d811fbac-c369-4446-9201-a6585dabb1c1" valueTypeId="03ce2bfc-2c3c-488f-92a9-6887daee92ca"/>
     <listType typeId="f4fc5b43-3555-4174-8dac-72b1b1378e42" valueTypeId="7c045e8a-7d06-42e5-8b7d-1b4eef7fa752"/>
@@ -7,20 +7,28 @@
   </producedTypes>
   <name>СпособыРасчетаЦеныНабора</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="3f2c828e-acb2-47e2-ab76-8a191944198b">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="3f2c828e-acb2-47e2-ab76-8a191944198b" extendedConfigurationObject="3763c591-5857-4a3b-b086-e24fd2336c3b">
     <name>СкладыватьИзЦенКомплектующих</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="9f722ee0-0fc7-42ca-a8de-703b3fbf50ad">
+  <enumValues uuid="9f722ee0-0fc7-42ca-a8de-703b3fbf50ad" extendedConfigurationObject="35c4c2ff-c69a-47f2-9fb7-849f079b286d">
     <name>НазначаетсяИРаспределяетсяПоЦене</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="366de9f0-1664-4e39-a744-1259dbce6214">
+  <enumValues uuid="366de9f0-1664-4e39-a744-1259dbce6214" extendedConfigurationObject="93927b18-15de-4d9c-93b9-0821968d6e3e">
     <name>НазначаетсяИРаспределяетсяПоДолеСтоимости</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>

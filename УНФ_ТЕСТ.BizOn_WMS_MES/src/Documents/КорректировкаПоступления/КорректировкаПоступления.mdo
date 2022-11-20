@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="12cecc40-a8c6-4473-9229-eeea733647af">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="12cecc40-a8c6-4473-9229-eeea733647af" extendedConfigurationObject="92c1ae96-0804-43ad-a9e1-e785fc6811bb">
   <producedTypes>
     <objectType typeId="44e9e285-53de-498c-8639-ee0ac0a6f56c" valueTypeId="117943d1-564b-48fe-b658-6edbc50af745"/>
     <refType typeId="1003001e-b702-481d-94c0-94802229825b" valueTypeId="0aeecb52-dba6-419b-b0fe-098a18b8d183"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>КорректировкаПоступления</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="9c6b5a83-b7df-4507-8a19-f726a390cd47">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="9c6b5a83-b7df-4507-8a19-f726a390cd47" extendedConfigurationObject="71a2c42e-f7a3-44e8-9677-12422bd09d6e">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

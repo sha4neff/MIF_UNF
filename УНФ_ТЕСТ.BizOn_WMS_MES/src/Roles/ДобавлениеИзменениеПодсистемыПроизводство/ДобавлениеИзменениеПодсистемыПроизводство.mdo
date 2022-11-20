@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d9698a61-7ae0-4e9f-89aa-80594c3ee548">
+<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d9698a61-7ae0-4e9f-89aa-80594c3ee548" extendedConfigurationObject="ec1b7f83-3ecf-46b9-a3e3-ba3eaf0802fb">
   <name>ДобавлениеИзменениеПодсистемыПроизводство</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:RoleExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <rights>Extended</rights>
   </extension>
 </mdclass:Role>

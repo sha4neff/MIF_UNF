@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dcaa4406-e813-418a-8d07-4017375107f0">
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dcaa4406-e813-418a-8d07-4017375107f0" extendedConfigurationObject="0dab9bf0-4f59-423f-8f47-c5893393a3b4">
   <producedTypes>
     <containerType typeId="3fc54041-f39e-4029-a71b-097900c0501d" valueTypeId="bab4c16d-e07e-4196-9cd6-e42aa10b2c89"/>
   </producedTypes>
   <name>ОснованиеЗапросаАкцизныхМарокЕГАИС</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <typeExtension/>
   </extension>
   <type/>

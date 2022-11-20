@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0318f62f-555f-4adf-8979-939b0153dbab">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0318f62f-555f-4adf-8979-939b0153dbab" extendedConfigurationObject="6c2f2736-d7d9-487f-95ad-3786948ad771">
   <producedTypes>
     <refType typeId="507dd8e9-2078-480b-a77b-a21d63b14351" valueTypeId="10650d2b-9bc5-42db-a54e-dab3361add52"/>
     <listType typeId="f942ccb0-f4c0-4e05-9832-e27e0d3b5d15" valueTypeId="bdcd05e7-ddd5-407d-88a5-399bee4b35ee"/>
@@ -7,20 +7,28 @@
   </producedTypes>
   <name>ВариантыПечатиНаборов</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="345786d6-8450-4821-a1af-9ba0b3300115">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="345786d6-8450-4821-a1af-9ba0b3300115" extendedConfigurationObject="e66fb606-7ce6-4ace-be2c-405dfc2144ea">
     <name>ТолькоКомплектующие</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="59bd9499-deee-4df1-9c0b-f76b708bb820">
+  <enumValues uuid="59bd9499-deee-4df1-9c0b-f76b708bb820" extendedConfigurationObject="c1d20af9-7dd8-4bfd-aa67-aeb8221b31c8">
     <name>ТолькоНабор</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="01b2af81-234a-4cc1-89ae-f6b64af4d3f1">
+  <enumValues uuid="01b2af81-234a-4cc1-89ae-f6b64af4d3f1" extendedConfigurationObject="0faad377-48f1-459c-be63-ae02c12d5d71">
     <name>НаборИКомплектующие</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>

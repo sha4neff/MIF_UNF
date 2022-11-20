@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9cd3ac2-782e-4a0b-a713-dd42cc3cf481">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9cd3ac2-782e-4a0b-a713-dd42cc3cf481" extendedConfigurationObject="5d4f7ea1-49e9-4b84-918f-5539279d0152">
   <producedTypes>
     <objectType typeId="6edc8654-3edd-4cea-8940-9d1d0366f7be" valueTypeId="0e47ce7b-5177-4d2c-83f1-1cbc7378aab7"/>
     <refType typeId="cd3624af-410b-4aad-94c1-6f3bbc0af21c" valueTypeId="156d290f-71c8-45eb-b449-9951546afd1c"/>
@@ -9,19 +9,24 @@
   </producedTypes>
   <name>НачисленияПоКредитамИЗаймам</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <tabularSections uuid="48618807-b642-40db-b6c9-5624a2a2d5b5">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="48618807-b642-40db-b6c9-5624a2a2d5b5" extendedConfigurationObject="0147cc05-2760-49de-a82f-cf263dd6818a">
     <producedTypes>
       <objectType typeId="f0ab5dd4-bcd7-4258-bfc6-bbece3fcec9f" valueTypeId="5dcc6f09-2d59-4364-874a-236fd02becd2"/>
       <rowType typeId="9ec5ad10-d3d1-4240-805d-7a36e83caec7" valueTypeId="f7d8c99b-4a4d-488f-b8c9-048eadc5a9e3"/>
     </producedTypes>
     <name>Начисления</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
-    <attributes uuid="f71ab801-70c0-4b60-a1e9-0a094f3dc7b3">
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="f71ab801-70c0-4b60-a1e9-0a094f3dc7b3" extendedConfigurationObject="8843bb9c-3f20-4eee-89ee-0b807217bc67">
       <name>ДоговорКредитаЗайма</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>

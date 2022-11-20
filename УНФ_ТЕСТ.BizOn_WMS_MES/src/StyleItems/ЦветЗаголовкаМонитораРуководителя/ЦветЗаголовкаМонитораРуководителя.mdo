@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9207a17b-3879-42bf-a655-f11274a538e5">
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9207a17b-3879-42bf-a655-f11274a538e5" extendedConfigurationObject="b17bb01c-4ef1-4adf-a300-2b5029aa05d9">
   <name>ЦветЗаголовкаМонитораРуководителя</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <type>Checked</type>
   </extension>
 </mdclass:StyleItem>

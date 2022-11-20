@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9590d6a1-95ff-4385-b8d9-d53c409ce27d">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9590d6a1-95ff-4385-b8d9-d53c409ce27d" extendedConfigurationObject="939af764-f036-4b83-9720-781b39f5df43">
   <producedTypes>
     <objectType typeId="f172033d-b093-4bb6-a2d3-89a463044b4e" valueTypeId="9b765923-005e-4107-ab32-019bd9b4d07f"/>
     <refType typeId="edba5689-dbd1-4d67-a285-9fbb104e1b6e" valueTypeId="1926ac6c-25fd-413f-b31c-ed7880dd991e"/>
@@ -10,7 +10,7 @@
   <name>Ячейки</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
-    <objectModule>Extended</objectModule>
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <attributes uuid="439e0e2a-873b-4449-8341-47ce4be5b3ef">
     <name>БЗ_ШК</name>

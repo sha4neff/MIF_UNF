@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c14dbd63-a1ea-427b-8402-9893aab8c7f9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c14dbd63-a1ea-427b-8402-9893aab8c7f9" extendedConfigurationObject="a33fc5e5-ebf9-45ef-b794-af18b3daa928">
   <producedTypes>
     <objectType typeId="2154f26a-e8e1-45fb-8fd2-d7e9f53f8aa0" valueTypeId="3ae8e318-d123-4288-982f-2dee74a9c398"/>
     <refType typeId="9d8830e4-4627-468a-9c5e-bd15a24b0c4d" valueTypeId="3ad628a7-54cf-4f9a-9ca6-383e6d82757c"/>
@@ -9,11 +9,14 @@
   </producedTypes>
   <name>ОтчетОРозничныхПродажах</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="ae7d25ab-1a33-420d-bc4d-69aff4d69062">
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="ae7d25ab-1a33-420d-bc4d-69aff4d69062" extendedConfigurationObject="e7413ef9-8229-4c05-a56f-e1bba9cbea76">
     <name>ИнвентаризацияЗапасов</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <typeExtension>
         <types>
           <state>Checked</state>

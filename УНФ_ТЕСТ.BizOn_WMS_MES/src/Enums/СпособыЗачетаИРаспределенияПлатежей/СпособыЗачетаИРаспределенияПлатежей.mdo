@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c42acebb-0ce9-42df-961b-8b27e34f8778">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c42acebb-0ce9-42df-961b-8b27e34f8778" extendedConfigurationObject="ec7f89e5-9da1-40f9-97f2-338018f8f4a1">
   <producedTypes>
     <refType typeId="2a6f9fde-40a7-47d3-9fa9-ea689e2304c3" valueTypeId="92d92d0b-4f69-4e99-a61f-1ec79349193b"/>
     <listType typeId="fb66a016-324b-49be-b8d0-c088194a83be" valueTypeId="15c2d988-42d2-4190-b175-995c9061f908"/>
@@ -7,15 +7,21 @@
   </producedTypes>
   <name>СпособыЗачетаИРаспределенияПлатежей</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="f8464881-6ed5-4938-94bc-46ef79256d77">
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="f8464881-6ed5-4938-94bc-46ef79256d77" extendedConfigurationObject="48e6d05e-8b3d-422a-9cd2-44f911caf9c9">
     <name>Авто</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
-  <enumValues uuid="e52f430b-f06f-49e3-99f7-80d4c823243b">
+  <enumValues uuid="e52f430b-f06f-49e3-99f7-80d4c823243b" extendedConfigurationObject="5fe38c36-f719-4f3a-9952-dc955b1590f6">
     <name>Вручную</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </enumValues>
 </mdclass:Enum>
