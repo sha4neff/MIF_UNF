@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a60e413f-d1f1-4b50-ae0d-9849779840f6">
+  <name>БезОплатыНеПросрочено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Без оплаты не просрочено</value>
+  </synonym>
+</mdclass:CommonPicture>

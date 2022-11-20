@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6d09a29-2b56-435a-905e-65981de8b4f2">
+  <producedTypes>
+    <refType typeId="47fc71b1-4fa2-4670-816b-d0b0859746fb" valueTypeId="e3ea1928-bcf9-4913-b31d-98b97320edc0"/>
+    <listType typeId="daec0621-0ec5-4ee3-9bc9-aeb509f65075" valueTypeId="88f23931-75ad-4695-825e-c81d12c32425"/>
+    <managerType typeId="9950fed0-3d09-45ac-961c-01b9a1a2710a" valueTypeId="5dc2fd0d-334e-431c-9907-fbeb2791e3f9"/>
+  </producedTypes>
+  <name>ПечатьПользовательскихЕдиницИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать пользовательских единиц измерения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b3f843aa-ec0a-4d5f-92d6-2c768e7f677a">
+    <name>ПересчитыватьВБазовуюЕдиницуИзмеренияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчитывать в базовую единицу измерения номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f50f677a-3def-4a49-bc26-fe3170705a6c">
+    <name>ФормироватьПечатныйДокументВПользовательскойЕдинице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать печатный документ в пользовательской единице</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

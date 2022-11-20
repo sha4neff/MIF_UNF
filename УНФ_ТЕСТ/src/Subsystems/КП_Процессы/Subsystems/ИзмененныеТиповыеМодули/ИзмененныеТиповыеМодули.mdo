@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6a27686-0631-4797-b690-d084de60199c">
+  <name>ИзмененныеТиповыеМодули</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измененные типовые модули</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+  <content>Catalog.ДействияРабочегоПроцесса</content>
+  <content>Catalog.ПравилаРабочегоПроцесса</content>
+  <content>CommonModule.РабочиеПроцессы</content>
+  <content>CommonModule.ПодсистемыКонфигурацииПереопределяемый</content>
+  <content>DataProcessor.НастройкаПрограммы</content>
+  <content>DataProcessor.ТекущиеДела</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника</content>
+  <content>CommonModule.УправлениеДоступомПереопределяемый</content>
+  <content>Enum.СобытияРабочегоПроцесса</content>
+  <parentSubsystem>Subsystem.КП_Процессы</parentSubsystem>
+</mdclass:Subsystem>

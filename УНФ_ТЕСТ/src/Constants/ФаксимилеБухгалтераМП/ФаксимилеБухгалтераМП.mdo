@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38e0dc09-10a1-4f2f-9f91-b9b2130df66d">
+  <producedTypes>
+    <managerType typeId="acb1a690-2b2c-4d1c-ab73-85e220b9e8c3" valueTypeId="3af76fd8-f814-4173-b034-1e4493e6ad66"/>
+    <valueManagerType typeId="54324ccd-04d9-4053-82b5-2b233c514b2f" valueTypeId="24b602eb-58da-476a-b2b2-a78de5b4de45"/>
+    <valueKeyType typeId="72eb5d6b-be6a-47e2-af62-4842c5db1fae" valueTypeId="01536750-e127-4bf1-ac2a-f8bf342a14f4"/>
+  </producedTypes>
+  <name>ФаксимилеБухгалтераМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факсимиле бухгалтера МП</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37275545-988b-43c2-a20b-b67126f2961f">
+  <name>ОплаченПолностью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплачен полностью</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38259fad-b8f3-4472-9593-45ecdacb52f3">
+  <producedTypes>
+    <managerType typeId="68ff7380-df92-40b1-9a97-e2d865c149ab" valueTypeId="2fd160b9-5866-4760-bed2-12fc29227373"/>
+    <valueManagerType typeId="51b7df43-7a19-4fef-b26c-93a878509247" valueTypeId="fc1ab8f2-94c2-42e7-98eb-bb259a32bf98"/>
+    <valueKeyType typeId="b32f504e-3eef-4951-8355-e65f848963e9" valueTypeId="376c412f-be75-4e78-9cd5-d96f02f3ba23"/>
+  </producedTypes>
+  <name>АвтоПодборНомеровГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически подбирать номера ГТД</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ДаНет</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

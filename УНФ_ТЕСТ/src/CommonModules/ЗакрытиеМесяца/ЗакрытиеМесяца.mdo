@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4431b5f-0ab4-4131-982a-13f1f768582b">
+  <name>ЗакрытиеМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие месяца</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5e92874-580b-43cb-aa91-5b6e0fcd7936">
+  <name>ГруппаОплаченЧастично</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа оплачен частично</value>
+  </synonym>
+</mdclass:CommonPicture>

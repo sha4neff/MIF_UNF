@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaff04cd-ead1-49a2-a371-920887595fc3">
+  <producedTypes>
+    <refType typeId="453427f0-d2b0-4699-b7b8-bfac2bd330a6" valueTypeId="851ff832-09b1-448d-82ab-7bad84f91bcf"/>
+    <listType typeId="5185e7ad-bf6a-4e2b-9210-0b32d28691b7" valueTypeId="6e3ea0f4-3809-4c1a-aef0-e5a19fd09fdb"/>
+    <managerType typeId="1db7a2cd-258a-45d0-bb96-73f326682f8d" valueTypeId="617c0112-5bf3-485d-9c88-9e421a6fc187"/>
+  </producedTypes>
+  <name>ТипыПоказателейБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы показателей бизнеса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="93c21bc5-a347-4325-a97a-65c45994c9e5">
+    <name>Доход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32c9a411-326f-48cc-8d97-8e38f1cc3156">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c63b3ef7-2a4b-462a-833f-6f71c8779c3d">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="255e6381-1c75-4886-9cf0-2bd5d039c21e">
+    <name>Формула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

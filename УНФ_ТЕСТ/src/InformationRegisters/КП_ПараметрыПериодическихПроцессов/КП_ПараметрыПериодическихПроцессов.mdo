@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0d327af-5686-417e-ab72-e5a91ef501dd">
+  <producedTypes>
+    <selectionType typeId="e28e41b6-bf97-4897-8991-ffda2ac5478c" valueTypeId="6ec8e795-3715-4533-809a-67e88bd01eef"/>
+    <listType typeId="4f4c863e-ccf7-4696-b6d1-8f3639550076" valueTypeId="4af4829c-c86c-4bd1-a6fb-de522b9b1ff4"/>
+    <managerType typeId="da3b01a9-52a0-494a-94b1-f922bc295fdd" valueTypeId="c0f862fb-e10d-4ea2-84bd-2597b6ce68a0"/>
+    <recordSetType typeId="e2e33b11-7d46-4ff0-b8ce-a4c77af4d765" valueTypeId="2b68721b-d257-4e9a-b47e-f3fcdcc57a73"/>
+    <recordKeyType typeId="ef245e9a-9864-4b44-8e65-ba897b6833ac" valueTypeId="9b3584f0-83cf-45d0-bfe8-0fb92dfe3a41"/>
+    <recordType typeId="1715f6d4-9444-4eae-b78f-56d3620843e2" valueTypeId="0c6cdc75-c93e-4989-9d78-18c719d53907"/>
+    <recordManagerType typeId="8041b6df-3530-4fbb-a256-ecc95729df2e" valueTypeId="eae6d867-4061-4f71-b452-382274d350b5"/>
+  </producedTypes>
+  <name>КП_ПараметрыПериодическихПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры периодических процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Subject to periodic tasks</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f9a657ec-a30f-41d4-b784-abfd61e0b4bd">
+    <name>ВидПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид процесса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ВидыПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="a0791f35-68e2-458d-8e7c-84adf4319820">
+    <name>РабочаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_РабочиеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ffe51461-b0a3-49c4-b9c1-39f2ed4ecf56">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f5c7b057-e58b-41c6-9608-3edac76476c3">
+    <name>ТекстПроцессаХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст процесса хранилище</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="03e9ea4f-eba0-48b0-95c5-8bba94e1fa5a">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Identifier</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Identifier</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

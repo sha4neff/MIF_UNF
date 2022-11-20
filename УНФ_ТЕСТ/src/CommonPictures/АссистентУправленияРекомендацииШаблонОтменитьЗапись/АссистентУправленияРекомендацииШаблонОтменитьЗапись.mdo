@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87b4c4d7-0e76-4c02-9bac-1c920d82e493">
+  <name>АссистентУправленияРекомендацииШаблонОтменитьЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассистент управления рекомендации шаблон отменить запись</value>
+  </synonym>
+</mdclass:CommonPicture>

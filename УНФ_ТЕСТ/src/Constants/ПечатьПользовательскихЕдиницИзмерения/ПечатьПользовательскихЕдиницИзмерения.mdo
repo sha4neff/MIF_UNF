@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef013f9a-f504-4a1c-838c-e497886c97de">
+  <producedTypes>
+    <managerType typeId="c252202c-d157-4ed6-b4c0-8f05914b1001" valueTypeId="4e2b9342-d6ee-48d8-b12e-6bd46e5a48c9"/>
+    <valueManagerType typeId="fc5e951e-867e-4a06-a59a-1c535f3d3468" valueTypeId="dbf627fe-3f7f-4ba8-903f-136b84d9c8f0"/>
+    <valueKeyType typeId="515ae5bf-35c2-4e4f-a858-e1eb5ddf40d5" valueTypeId="54ca7768-5008-4d70-bb7e-83415afc6c57"/>
+  </producedTypes>
+  <name>ПечатьПользовательскихЕдиницИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать пользовательских единиц измерения</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ПечатьПользовательскихЕдиницИзмерения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

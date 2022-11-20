@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="951a6e59-a7d1-457e-818f-9843ac2c1b8e">
+  <name>КП_ВидыНаправлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды направлений</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды направлений</value>
+  </synonym>
+</mdclass:CommonPicture>

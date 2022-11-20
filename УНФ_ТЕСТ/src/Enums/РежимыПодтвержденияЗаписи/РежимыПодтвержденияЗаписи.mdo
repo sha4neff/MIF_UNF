@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="359fbb71-f2be-4079-88d8-ebe7c5edfa56">
+  <producedTypes>
+    <refType typeId="8e0099ba-6877-4c53-b599-965735584aea" valueTypeId="ea226eb8-4ff7-4047-a1f5-44e5f60a8ac7"/>
+    <listType typeId="ec06befa-2734-4a69-bbfc-4b1fdd4cfaa7" valueTypeId="f75a7bf5-36c0-4921-a554-e220ceec80f7"/>
+    <managerType typeId="6022c07a-db22-42c8-a828-d9c7f503e783" valueTypeId="c278b7a9-03be-46c3-9aa4-221ad923d7c5"/>
+  </producedTypes>
+  <name>РежимыПодтвержденияЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы подтверждения записи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5af0e3b8-2cea-4cea-a88d-d6e0359795fe">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a24990fb-70a2-43a4-8255-25dad6197e97">
+    <name>ПоSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMS подтверждение номера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e370fc4-b739-46b7-b3b0-ee9026c84203">
+    <name>ЗвонокКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звонок клиенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="618a8b1b-9ed6-4dd6-9b27-675d1eb3fe77">
+    <name>Гибридный</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMS и звонок</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

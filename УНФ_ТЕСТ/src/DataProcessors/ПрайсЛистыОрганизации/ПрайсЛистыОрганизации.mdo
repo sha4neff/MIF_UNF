@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f167e486-0e27-48c5-871e-118af4382fe9">
+  <producedTypes>
+    <objectType typeId="47b9c4aa-4b22-4ee3-91a2-1ecd8c1fbf6f" valueTypeId="43fb1946-4ba1-4c93-93e1-cd168f1d22b2"/>
+    <managerType typeId="aa9e3c70-2e2d-4520-af8b-9096de2b04a5" valueTypeId="ac7202fd-a8c7-44d3-afc1-03a228f79aaf"/>
+  </producedTypes>
+  <name>ПрайсЛистыОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс-листы организации</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПрайсЛистыОрганизации.Form.ФормаПрайсЛистОрганизации</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Печать прайс-листов</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка предназначена для печати прайс-листов
+</value>
+  </explanation>
+  <forms uuid="9d574331-3573-45d5-93fe-be04bc09e38d">
+    <name>ФормаНеИспользуемаяНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура, которая не используется в прайс-листах</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b4af242-49a3-4384-a7ed-ff77fad8870a">
+    <name>ФормаПодбораВидовЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор видов цен</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b1cd2d11-6749-4c0f-8014-1c3b7e2c857e">
+    <name>ФормаПодбораНоменклатурыКомпоновщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f9dc502-5360-4aaa-9a0e-3b0f569d737e">
+    <name>ФормаПрайсЛистОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="216f3d5a-c951-4d1e-97a5-d3e5f8ea3067">
+    <name>ФормаПредупреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма предупреждения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d6a32a6-aae6-4944-b8ef-c3863e106d3d">
+    <name>ФормаСообщения</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="363747de-c658-4c3f-869a-23a1981bd6b0">
+    <name>СКД_НоменклатураИХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура и характеристики (по установленным отборам)</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4832f4d6-dd60-40ed-a98f-9c4a297a7854">
+    <name>СКД_Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иерархия номенклатуры (номенклатура)</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="505f2470-bafe-4359-9c58-e429b23a91a1">
+    <name>СКД_НеИспользуемаяНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура, которая не используется в прайс-листах</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3b0983b8-7d6e-421c-a09b-4179fb0bb761">
+    <name>ПФ_MXL_ДвеКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист, вариант &quot;Две колонки&quot;</value>
+    </synonym>
+  </templates>
+  <templates uuid="85214919-7e8d-4729-baf5-9e6e373ae416">
+    <name>ПФ_MXL_Диафильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист, вариант &quot;Диафильм (слайды)&quot;</value>
+    </synonym>
+  </templates>
+  <templates uuid="7ba19c61-a91b-4c35-9d6e-1de0a88053c6">
+    <name>ПФ_MXL_Полотно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист, вариант &quot;Полотно&quot;</value>
+    </synonym>
+  </templates>
+  <commands uuid="0a41cefa-a255-4b1f-a25e-a6cf88970e0d">
+    <name>ПрайсЛистОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-листы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7b512cb-5483-4357-a9ed-accd29b59033">
+  <producedTypes>
+    <objectType typeId="79f22d79-ceab-47d8-810a-c5fdfced6e7c" valueTypeId="911d8de3-8b92-446d-a061-2510a49f49a2"/>
+    <refType typeId="8fd32f04-b462-44aa-a872-ecbba12b39b1" valueTypeId="349c67e5-6956-4b41-9fce-effa1332cfd0"/>
+    <selectionType typeId="5f496d6f-1f99-4804-8752-00acc56a6a70" valueTypeId="dd74326d-e1ae-491c-8721-a96199296f32"/>
+    <listType typeId="915fa879-1500-4cad-b56f-7dddfdf41a59" valueTypeId="b50a2222-7c68-4eb6-8fc0-f8f007c517a4"/>
+    <managerType typeId="7c357c6d-fca7-489d-92e8-cb234560c971" valueTypeId="7c6f7290-bf23-43be-944f-8d0c535bfaac"/>
+    <containerType typeId="a1fb7327-b921-49bd-9975-672014bf9143" valueTypeId="c5134a9b-413c-4e58-b40a-5eb5dd54f02e"/>
+  </producedTypes>
+  <name>КП_ПараметрыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры задач бизнес-процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Task options business processes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.КП_ПараметрыЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.КП_ПараметрыЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>EnumRef.КП_ВариантыОбработкиЗаданий</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.КП_ТребуемыеРезультатыИсполнителей</types>
+    <types>String</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="63a4640a-db75-46f8-9a6c-9a5b5a12b185">
+      <name>ВыполнениеПроцент</name>
+      <description>Выполнение, %</description>
+      <code>ВыполнениеПроцент</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="262d55ab-8288-4674-9742-cc7c17afc58f">
+      <name>ДатаВыполненияПлан_Удалить</name>
+      <description>Дата выполнения план</description>
+      <code>ДатаВыполненияПлан_Удалить</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="a08e56dd-05cd-4e97-9b76-7f7fb003c4cb">
+      <name>ДатаНачалаВыполнения</name>
+      <description>Дата начала выполнения</description>
+      <code>ДатаНачалаВыполнения</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="7bc055f7-051c-41c4-a36a-4d2af816f272">
+      <name>ОтчетИсполнителя</name>
+      <description>Отчет исполнителя</description>
+      <code>ОтчетИсполнителя</code>
+      <type>
+        <types>CatalogRef.КП_ТребуемыеРезультатыИсполнителей</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ChartOfCharacteristicTypes.КП_ПараметрыЗадач.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.КП_ПараметрыЗадач.Form.ФормаСписка</defaultChoiceForm>
+  <forms uuid="d97a2246-baf9-49ed-a52e-418d642b1e59">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

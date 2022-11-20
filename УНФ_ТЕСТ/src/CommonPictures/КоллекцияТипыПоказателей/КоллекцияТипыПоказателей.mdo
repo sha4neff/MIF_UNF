@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd22eec7-9b27-452e-906b-ba1b62aa522f">
+  <name>КоллекцияТипыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция типы показателей</value>
+  </synonym>
+</mdclass:CommonPicture>

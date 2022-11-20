@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="164ebd55-240f-40b7-8faf-c73d708b39a7">
+  <producedTypes>
+    <objectType typeId="09617493-1e83-496a-9c03-8d3166160f03" valueTypeId="dc8e495a-d4c7-46ea-a2bd-f9b09f57b38d"/>
+    <managerType typeId="a73d5dd2-eae4-4dd5-9039-5c105451802c" valueTypeId="d9b27d09-665f-4f4a-8911-66699a30f37a"/>
+  </producedTypes>
+  <name>ОбщиеНастройкиЧатботов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие настройки чатботов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбщиеНастройкиЧатботов.Form.Форма</defaultForm>
+  <forms uuid="8c6cddb1-ae37-4eed-831c-de231b604d78">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

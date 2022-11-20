@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="548ac626-c687-4126-ad60-a3e0f5fcc486">
+  <name>ЗапасыИЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделЗакупки</picture>
+  </picture>
+  <content>DataProcessor.ПанельАдминистрированияГИСМ</content>
+  <content>Document.Событие</content>
+  <content>DataProcessor.ВыгрузкаБазыТоваровВТСД</content>
+  <content>DataProcessor.ПанельОбменВЕТИС</content>
+  <content>CommonCommand.БольшеВозможностейЗакупки</content>
+  <content>CommonCommand.ДополнительныеОбработкиЗапасыИЗакупки</content>
+  <content>DataProcessor.ПанельОбменГИСМ</content>
+  <content>DataProcessor.ПанельОбменЕГАИС</content>
+  <content>CommonPicture.ЕстьРасхождения</content>
+  <content>CommonPicture.КоллекцияРасхождения</content>
+  <content>CommonPicture.Аналоги</content>
+  <content>CommonPicture.СвернутьРазвернутьГруппу</content>
+  <content>DataProcessor.ПанельОбменИСМП</content>
+  <subsystems>Закупки</subsystems>
+  <subsystems>Переработка</subsystems>
+  <subsystems>РасчетыСПоставщиками</subsystems>
+  <subsystems>ЗапасыИСклад</subsystems>
+  <subsystems>ТорговыеПредложения</subsystems>
+  <subsystems>ТоварыИУслуги</subsystems>
+  <subsystems>Цены</subsystems>
+  <subsystems>Планирование</subsystems>
+  <subsystems>Аналитика</subsystems>
+  <subsystems>Взаиморасчеты</subsystems>
+  <subsystems>НСИ</subsystems>
+  <subsystems>ГИСМ</subsystems>
+  <subsystems>ЕГАИС</subsystems>
+  <subsystems>ПередачаТоваровМеждуОрганизациями</subsystems>
+</mdclass:Subsystem>

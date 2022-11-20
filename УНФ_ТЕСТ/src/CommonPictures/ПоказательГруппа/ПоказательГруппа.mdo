@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac1f49d6-c3e9-45bd-966f-ecdb1ebeb03c">
+  <name>ПоказательГруппа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатель группа</value>
+  </synonym>
+</mdclass:CommonPicture>

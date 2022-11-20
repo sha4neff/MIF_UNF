@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a474fdab-6c82-44f9-adc6-225ebf0c626d">
+  <name>КомиссионнаяТорговля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссионная торговля</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ПереоценкаТоваровНаКомиссии</content>
+  <content>Document.ОтчетКомиссионераОСписании</content>
+  <content>DocumentJournal.КомиссионнаяТорговля</content>
+  <parentSubsystem>Subsystem.МаркетингИПродажи</parentSubsystem>
+</mdclass:Subsystem>

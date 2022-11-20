@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aa98f4c-9253-46bb-af32-6ab0b0329dad">
+  <producedTypes>
+    <objectType typeId="5f33acb4-c777-41b2-89c6-10dd0ef11388" valueTypeId="87a84e25-7228-42b1-b110-9c3dca1669f4"/>
+    <managerType typeId="d68fb3ca-75be-4f0d-b867-a50def0fb624" valueTypeId="0dac8006-2664-4b06-bd98-acf68dfe0ad9"/>
+  </producedTypes>
+  <name>ПомощникПередачиТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление передачи товаров между организациями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникПередачиТоваровМеждуОрганизациями.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="4c0b350a-0868-4607-ad20-12abc63070ac">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="510ebe01-4c1d-4424-86ba-614dd471467c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

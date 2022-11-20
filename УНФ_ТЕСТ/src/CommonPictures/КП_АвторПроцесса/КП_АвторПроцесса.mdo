@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54167db7-a3d5-45a3-85e1-1d1512572dc1">
+  <name>КП_АвторПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автор бизнес-процесса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Автор бизнес-процесса</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aa6a065-8f9a-4374-873a-25b622043cbe">
+  <producedTypes>
+    <objectType typeId="419187fc-c776-4157-9be0-ba8ba235b797" valueTypeId="a4ef66f8-3366-4659-a254-7722b26dee72"/>
+    <refType typeId="fc2baf14-9763-4b9b-8540-019e57570c8f" valueTypeId="33341d0a-8df9-41e1-b1f6-b6ecd05e0af3"/>
+    <selectionType typeId="8aee429f-6dbe-4111-b5db-61eb019e92dc" valueTypeId="aa23b1f3-b060-4c61-b033-e4c6364b7b89"/>
+    <listType typeId="9cca6e8e-f9d5-4567-8d74-1e840d47f148" valueTypeId="1d8ab709-66e7-48b0-9ea7-8063194159fe"/>
+    <managerType typeId="1c24e9d3-be11-4e74-92f2-b91f5aa823f4" valueTypeId="22091037-f660-4813-993c-ad56259e1fc0"/>
+  </producedTypes>
+  <name>УдалитьБЗ_СтандартныеРаскладки</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ стандартные раскладки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УдалитьБЗ_СтандартныеРаскладки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УдалитьБЗ_СтандартныеРаскладки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5079d545-86a9-48da-913e-54113984971f">
+    <name>Активность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81377368-478f-4dd3-9539-971a667f5f92">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7355c64e-844d-4977-9016-03edb8c1cdec">
+    <producedTypes>
+      <objectType typeId="2ce5e607-0bdc-4723-b64f-a4c942ae8ef7" valueTypeId="50be9296-4b8c-404f-9013-2fdbb8a57f93"/>
+      <rowType typeId="e56731c4-5267-4cd8-b964-ee6019679e8b" valueTypeId="355c3ab8-4f61-42e7-9b9a-b574d1d2a794"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="dd5bd90f-5baa-4512-b7b2-acae849b6f27">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="55d60004-0ca9-4747-b45a-30bd1627127e">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <field>Catalog.УдалитьБЗ_СтандартныеРаскладки.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="48f19186-a6a5-4595-b486-7410f5470295">
+      <name>Приоритет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приоритет</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

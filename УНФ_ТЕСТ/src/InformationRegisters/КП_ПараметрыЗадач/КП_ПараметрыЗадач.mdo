@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6525493e-fa6a-4105-81ec-4c13669dd393">
+  <producedTypes>
+    <selectionType typeId="cd916654-4662-4b18-9744-ec01a4ef87ff" valueTypeId="29eca46f-acab-4220-8147-2e3722c9751d"/>
+    <listType typeId="9b52b16d-6ffd-4c0a-92af-e4c2cd23e7a9" valueTypeId="ac51ab05-6dd5-4e4e-be2c-27afde48810a"/>
+    <managerType typeId="112d537f-0285-4bd6-9c5c-208fe4a4d654" valueTypeId="6375cd7b-f6ee-48ee-9529-87aee88fa1b6"/>
+    <recordSetType typeId="cf34268c-0c26-4e63-942c-9b3469d79b25" valueTypeId="bd4b39f6-3e4a-4fd1-846e-530c3fef8b74"/>
+    <recordKeyType typeId="ee9c89ca-204d-4a9b-a51d-bd1fc27d574d" valueTypeId="2cc0391c-2982-4d73-9df9-5bd066f35029"/>
+    <recordType typeId="ae12c51b-ceb2-472d-9506-b2480cb0bde3" valueTypeId="db5b69db-aef4-4960-aca4-d01ecdc50ae7"/>
+    <recordManagerType typeId="7df2f4f0-4378-4a80-b6e6-fce8c23d8c9b" valueTypeId="c30d1c33-3a2b-4fa5-ac24-3d5bcb7722c6"/>
+  </producedTypes>
+  <name>КП_ПараметрыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры задач бизнес-процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Task options business processes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Valid from</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9855d149-495c-454e-a044-97903345b28f">
+    <name>ЗначениеПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение параметра</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parameter value</value>
+    </synonym>
+    <type>
+      <types>Characteristic.КП_ПараметрыЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение параметра задачи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The value of the task</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="29afcad2-0d2d-4a0a-9b29-5bac2b8a5ebb">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача корпоративного процесса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The task of the corporate process</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задача корпоративного процесса</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The task of the corporate process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="152e7271-c413-45ed-9aec-5aff870b4b7e">
+    <name>ПараметрЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр задачи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parameter of the task</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.КП_ПараметрыЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметр задачи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Parameter of the task</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

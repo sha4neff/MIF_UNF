@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27e0a102-a96f-42f2-a3e1-a3a248b4a2f9">
+  <producedTypes>
+    <refType typeId="5d10f032-74bd-4566-b349-daca1cc34fa2" valueTypeId="ca425a4a-346c-4ed6-8a85-bb049dd5aae4"/>
+    <listType typeId="47401e07-4f52-4fcd-a3c5-5c66f3c37ee6" valueTypeId="2574d919-46d5-4145-bf09-099d4522fcab"/>
+    <managerType typeId="98263229-14d0-4ca2-9dca-67404a7b7f2b" valueTypeId="f4cb5814-fe61-4a94-a2b1-39a2cef83928"/>
+  </producedTypes>
+  <name>ВариантыРазделителейCSVМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты разделителей CSVМП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="897636c1-3d16-42f3-944d-d08d5bd245ea">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Auto</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4ffdc51-fa45-4142-bd26-c429168f882f">
+    <name>Запятая</name>
+    <synonym>
+      <key>ru</key>
+      <value>,</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>,</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0176efe2-b06f-412b-9b10-d0d6d429a378">
+    <name>ТочкаСЗапятой</name>
+    <synonym>
+      <key>ru</key>
+      <value>;</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>;</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

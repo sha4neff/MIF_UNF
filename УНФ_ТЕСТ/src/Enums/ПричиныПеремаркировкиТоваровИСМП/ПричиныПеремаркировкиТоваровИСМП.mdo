@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="456d2210-afaf-41e0-b77f-cec228d062cf">
+  <producedTypes>
+    <refType typeId="1b87bb6c-9256-4129-ac3e-91232a7b434b" valueTypeId="d35ee8b0-444b-4336-9657-f760a6d052c3"/>
+    <listType typeId="e2a14c8e-2d29-431b-b0ca-e9d3cfe43673" valueTypeId="2f14c29c-3562-4def-bfa3-c1623cfe273a"/>
+    <managerType typeId="05ef0721-c3c2-4f35-875e-2adb0619b562" valueTypeId="7ad4b3cb-c074-46a6-af2d-0f84a489e2b7"/>
+  </producedTypes>
+  <name>ПричиныПеремаркировкиТоваровИСМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины перемаркировки ИС МП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7743058d-d8c7-4915-9285-ee7a672d5cd4">
+    <name>ИспорченоУтраченоСИКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испорчено или утрачено СИ с КМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dc0897b-eda6-4b32-aad2-d620571081eb">
+    <name>ОшибкиОписанияТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выявлены ошибки описания товара</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

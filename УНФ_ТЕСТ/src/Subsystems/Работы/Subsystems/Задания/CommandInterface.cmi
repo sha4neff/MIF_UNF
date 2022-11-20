@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DocumentJournal.ДокументыПоУчетуВремени.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ОткрытьРабочееМестоКалендаря</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DocumentJournal.ДокументыПоУчетуВремени.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.ОткрытьРабочееМестоКалендаря</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DocumentJournal.ДокументыПоУчетуВремени.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ЗаданиеНаРаботу.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.ОткрытьРабочееМестоКалендаря</commands>
+      <commands>Document.УчетВремени.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

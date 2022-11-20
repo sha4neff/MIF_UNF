@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="603449ec-a543-442a-89b1-2b28de0aeb7d">
+  <name>ОплаченЧастичноПросрочено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплачен частично просрочено</value>
+  </synonym>
+</mdclass:CommonPicture>

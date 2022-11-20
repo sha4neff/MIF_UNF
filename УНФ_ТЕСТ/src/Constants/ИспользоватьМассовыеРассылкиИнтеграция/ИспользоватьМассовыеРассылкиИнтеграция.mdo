@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0620994c-585d-4f88-80d1-2021b3425efa">
+  <producedTypes>
+    <managerType typeId="ac948976-05c6-4850-b9ec-1aae673c3ef7" valueTypeId="e4c075b0-f1c7-43ac-94a0-a02d106bc9ba"/>
+    <valueManagerType typeId="a4ace6cb-e5c3-46c5-b61a-54fa469eca23" valueTypeId="e3357e1e-ec83-48ae-afb1-64cd8321facf"/>
+    <valueKeyType typeId="2067eecf-ac21-4a96-beb9-d5ccf9a4c07e" valueTypeId="6f3a1a02-8365-43ec-a978-fcbbf10b53c8"/>
+  </producedTypes>
+  <name>ИспользоватьМассовыеРассылкиИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать массовые рассылки интеграция</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

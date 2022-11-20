@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb9315e4-077a-47ed-8b08-dacf9434441c">
+  <name>ПереопределитьПолучаемуюФормуПрисоединенногоФайлаГосИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переопределить получаемую форму присоединенного файла ГосИС</value>
+  </synonym>
+  <comment>АПК:256 - обработчик в серверном модуле</comment>
+  <source>
+    <types>CatalogManager.ГИСМПрисоединенныеФайлы</types>
+    <types>CatalogManager.ЕГАИСПрисоединенныеФайлы</types>
+    <types>CatalogManager.ИСМППрисоединенныеФайлы</types>
+    <types>CatalogManager.ВЕТИСПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

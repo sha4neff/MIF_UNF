@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db383fb3-a57b-47aa-a51e-267c4b0f8444">
+  <name>РазвитиеБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Развитие бизнеса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Бюджет</content>
+  <content>Catalog.ПоказателиБизнеса</content>
+  <content>CommonModule.ПоказателиБизнеса</content>
+  <content>CommonModule.ПоказателиБизнесаФормулы</content>
+  <content>CommonModule.ПоказателиБизнесаФормы</content>
+  <content>CommonPicture.КоллекцияТипыПоказателей</content>
+  <content>CommonPicture.ОткрытьДетальныеЗаписи</content>
+  <content>CommonPicture.ПереключениеМеждуРежимами</content>
+  <content>CommonPicture.ПоказательГруппа</content>
+  <content>CommonPicture.ПоказательДоход</content>
+  <content>CommonPicture.ПоказательРасход</content>
+  <content>CommonPicture.ПоказательФормула</content>
+  <content>CommonPicture.Распределить</content>
+  <content>Enum.ВидыФинансовыхОтчетов</content>
+  <content>Enum.ПланФакт</content>
+  <content>Enum.СпособыПолученияДанныхИсточника</content>
+  <content>Enum.ТипыПоказателейБизнеса</content>
+  <content>Report.АнализБизнеса</content>
+  <content>Enum.ИзменениеЗначенияПоказателя</content>
+  <content>CommonModule.АнализБизнесаПовтИсп</content>
+  <content>Enum.ВидыКарточекАнализаБизнеса</content>
+  <content>Enum.ВариантыПроверокАнализаБизнеса</content>
+  <content>Catalog.КарточкиАнализаБизнеса</content>
+  <content>CommonPicture.АнализБизнесаОценкаХорошо</content>
+  <content>CommonPicture.АнализБизнесаОценкаПлохо</content>
+  <content>Enum.ГруппировкаАнализаБизнеса</content>
+  <parentSubsystem>Subsystem.Компания</parentSubsystem>
+</mdclass:Subsystem>

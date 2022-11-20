@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb8a35f5-dc04-4df3-9271-e3c851998252">
+  <name>УдалитьПунктМеню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить пункт меню</value>
+  </synonym>
+</mdclass:CommonPicture>

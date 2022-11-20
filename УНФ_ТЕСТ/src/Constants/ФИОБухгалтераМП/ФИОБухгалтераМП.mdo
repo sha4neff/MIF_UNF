@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4525e570-3c97-4548-9bbc-b473490a796c">
+  <producedTypes>
+    <managerType typeId="0bb080c7-33dc-4118-84d0-7be3f25a3b39" valueTypeId="767fb78b-0148-477d-9b82-588dfb39e00b"/>
+    <valueManagerType typeId="d9e52f93-3579-4cbe-bbce-70d6c7d28495" valueTypeId="4cdd9b7f-dee5-42fd-909c-232ac132343c"/>
+    <valueKeyType typeId="85936548-8dd6-4637-a0eb-b1dfc47a5d96" valueTypeId="df5e339e-2a81-4b4e-85a0-3e10133737ef"/>
+  </producedTypes>
+  <name>ФИОБухгалтераМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ф.И.О. бухгалтера</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Full name of Accountant</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>512</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

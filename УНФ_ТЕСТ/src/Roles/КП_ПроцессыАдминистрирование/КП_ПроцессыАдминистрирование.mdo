@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97d964f3-7e08-45fd-bbae-204e14dfb689">
+  <name>КП_ПроцессыАдминистрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы: Администрирование</value>
+  </synonym>
+</mdclass:Role>

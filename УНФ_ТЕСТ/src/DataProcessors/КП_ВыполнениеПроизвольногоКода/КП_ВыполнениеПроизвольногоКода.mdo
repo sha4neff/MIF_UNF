@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e8f9ee-c41e-4428-966c-aca97d910e80">
+  <producedTypes>
+    <objectType typeId="a53ac558-32a0-4af1-a060-0e46f54ca65b" valueTypeId="f1b8bc32-2f1b-4641-8a54-3248db6b93f6"/>
+    <managerType typeId="cd1fb176-6950-45e6-8d2a-a28e8a705028" valueTypeId="ce89939b-c22d-4bfb-ac50-36a46a92bcf8"/>
+  </producedTypes>
+  <name>КП_ВыполнениеПроизвольногоКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение произвольного кода</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Виконання довільного коду</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ВыполнениеПроизвольногоКода.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d43f5e95-1ecd-4aa4-9b2f-5fbc2f370ac0">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reference to the object</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>К данному реквизиту можно обращаться из кода по имени СсылкаНаОбъект</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>To this prop can be accessed from code named СсылкаНаОбъект</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9eda555a-6e38-43b2-ba82-72f83aa94c8a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f34075d5-d285-4ca8-a243-3b30bc0b11d1">
+    <name>ВыполнениеПроизвольногоКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение произвольного кода</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

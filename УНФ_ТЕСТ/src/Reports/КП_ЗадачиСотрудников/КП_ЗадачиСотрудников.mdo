@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63b1d315-98b2-4d8e-93c2-1991e143a411">
+  <producedTypes>
+    <objectType typeId="efa0d771-b83f-4ec2-8fb7-c5fbdf248464" valueTypeId="55c90819-2de1-4dbc-b0bc-9225681e4469"/>
+    <managerType typeId="4c305ed9-c073-4550-a702-d7a5705deda9" valueTypeId="19b1d45a-016c-4247-9aff-23c29c32a8f7"/>
+  </producedTypes>
+  <name>КП_ЗадачиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи сотрудников</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Корпоративні завдання</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КП_ЗадачиСотрудников.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КП_ЗадачиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="916713f4-a6fa-419a-a5cb-422172d1ae15">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of an account</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2a4cb586-72e9-4577-8470-4893ab6f775d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The basic Flowchart of the data composition</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="de602a39-7e5c-424e-ac18-4f1468814b35">
+    <name>ЗадачиСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи сотрудников</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Corporate tasks</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

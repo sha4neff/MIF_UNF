@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ab2eb74-9b98-4b8a-a7a6-e737e02628df">
+  <name>КП_Процессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Corporate processes</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

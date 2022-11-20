@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c58fd6f6-8466-4f57-b241-48298d271c7e">
+  <producedTypes>
+    <selectionType typeId="237b7cfe-8a60-4560-9b9a-e13bc08c1062" valueTypeId="e93dbdd1-e8e6-4444-a988-ecd0f6306350"/>
+    <listType typeId="80ba1701-152f-4fdd-b8a4-d06c711c23c5" valueTypeId="a291acef-7dff-458e-bf1c-1d6eeedf6735"/>
+    <managerType typeId="129b8de8-42d8-4b91-9164-e77ccc7a7b4c" valueTypeId="e929789b-f9e9-4eef-ac81-34ddf499bbbd"/>
+    <recordSetType typeId="5a5e8125-76ae-43d6-ba66-c99ecd593214" valueTypeId="ff69b0b5-b0e4-4da3-9d81-601297e5c7e2"/>
+    <recordKeyType typeId="1c145a52-a2b1-44f2-82af-1b4db0c2db23" valueTypeId="132b0245-7f1e-413f-9bdd-3a323e05b439"/>
+    <recordType typeId="7e6d176b-7bd9-425a-8d10-2d50d287804a" valueTypeId="4713f951-d4a2-4db2-b35e-42dd28682515"/>
+  </producedTypes>
+  <name>СерийныеНомераКРасходу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серийные номера к расходу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ae71ad77-e67c-463d-9217-cf2e02bd9309">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="02629e01-35f2-4dd1-9c38-609162f2703e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="568d5d78-c965-4868-a987-2b99a7682c9c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="88ec47fc-1d52-4393-ba36-2511d84b67c5">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>AccumulationRegister.СерийныеНомераКРасходу.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2f285210-b19c-4b40-a277-77a216517751">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПартииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7d438d13-8e18-4ce8-ad43-e67ce669fa9d">
+    <name>СерийныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерийныеНомера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>AccumulationRegister.СерийныеНомераКРасходу.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4927fb5c-23ce-4a78-9f4c-2e34f7c0d672">
+    <name>СтруктурнаяЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структурная единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

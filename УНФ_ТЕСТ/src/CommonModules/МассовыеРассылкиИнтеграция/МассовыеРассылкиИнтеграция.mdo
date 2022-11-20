@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0997774-c959-4854-94ea-e0acc2d89e5d">
+  <name>МассовыеРассылкиИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовые рассылки интеграция</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

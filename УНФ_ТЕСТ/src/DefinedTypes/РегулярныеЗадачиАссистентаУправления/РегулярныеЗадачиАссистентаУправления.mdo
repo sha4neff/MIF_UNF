@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27a28442-99e6-4cd6-8d12-14ad65484b06">
+  <producedTypes>
+    <containerType typeId="18709ecb-44e9-4451-88af-22145214c763" valueTypeId="d2508820-b632-49c7-b475-43acab6f740b"/>
+  </producedTypes>
+  <name>РегулярныеЗадачиАссистентаУправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регулярные задачи ассистента управления</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЗадачиАссистентаПоРасчетуНалогов</types>
+    <types>CatalogRef.ЗадачиАссистентаПоНапоминаниямОЗаписи</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e15842cf-c1a4-48f6-91ff-eaf48f12e219">
+  <producedTypes>
+    <objectType typeId="40114072-d7a5-48ea-8da9-c7521213baeb" valueTypeId="dc313c09-bdb3-4f8c-b3ba-b32845fe2359"/>
+    <managerType typeId="bada887e-e952-48e9-8e2b-a5e7765d57f3" valueTypeId="bbc6d60a-786e-426a-843a-cc983ecac46a"/>
+  </producedTypes>
+  <name>КП_ПанельЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ПанельЗадач.Form.Форма</defaultForm>
+  <forms uuid="5a2d0485-394b-4e8e-8d44-1ad34a6e5a09">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4108621d-f9e7-4457-888f-242009a7f6fe">
+    <name>ОткрытьПанельЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель задач</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

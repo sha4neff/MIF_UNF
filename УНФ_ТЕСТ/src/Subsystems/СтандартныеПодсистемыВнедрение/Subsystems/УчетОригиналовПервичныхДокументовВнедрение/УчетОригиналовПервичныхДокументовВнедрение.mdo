@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f7b418c-d160-45f6-b28c-43e3e64cd4de">
+  <name>УчетОригиналовПервичныхДокументовВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет оригиналов первичных документов внедрение</value>
+  </synonym>
+  <content>CommonModule.УчетОригиналовПервичныхДокументовУНФ</content>
+  <content>CommonModule.УчетОригиналовПервичныхДокументовУНФКлиент</content>
+  <content>CommonModule.УчетОригиналовПервичныхДокументовУНФКлиентСервер</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ba828d1-5b37-4f44-b1b5-68117689ae79">
+  <name>ДобавитьФайлИзДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить файл из документа</value>
+  </synonym>
+</mdclass:CommonPicture>

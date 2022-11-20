@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="720c5d3d-2fcc-4aa8-8411-a9bb5563e9dd">
+  <name>ВестиУчетШинИПокрышек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет шин и покрышек</value>
+  </synonym>
+  <location>Constant.ВестиУчетШинИПокрышек</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.ШиныИПокрышки</content>
+</mdclass:FunctionalOption>

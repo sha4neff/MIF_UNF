@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c07757f-460d-4c43-8f30-8d24c6283a6f">
+  <producedTypes>
+    <managerType typeId="3c4d724e-fa90-48a3-859c-bb24a797290a" valueTypeId="ed7ecabe-ea06-4e7d-b675-fcb51b5e9f8f"/>
+    <valueManagerType typeId="d5654ce0-393f-47e0-a191-cff2e8ce49cf" valueTypeId="8c763ad0-980f-447a-af66-fe485425a55f"/>
+    <valueKeyType typeId="da81bdf6-03de-469c-b38c-71b06789d7fd" valueTypeId="196fcf48-5621-4971-8a1b-b5280e005d7c"/>
+  </producedTypes>
+  <name>ИдентификацияПриложенияGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификация клиента Google</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <multiLine>true</multiLine>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

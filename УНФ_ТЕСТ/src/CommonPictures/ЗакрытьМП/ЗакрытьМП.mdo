@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d31190e-a671-47c8-a796-2bb249028468">
+  <name>ЗакрытьМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрыть МП</value>
+  </synonym>
+</mdclass:CommonPicture>

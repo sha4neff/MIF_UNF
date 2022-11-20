@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f457495b-7d4d-4901-8000-fa57d1119870">
+  <name>СПереплатой</name>
+  <synonym>
+    <key>ru</key>
+    <value>С переплатой</value>
+  </synonym>
+</mdclass:CommonPicture>

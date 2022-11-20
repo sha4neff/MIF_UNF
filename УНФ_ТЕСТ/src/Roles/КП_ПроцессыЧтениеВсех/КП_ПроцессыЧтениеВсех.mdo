@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec2ab769-5d6c-4b06-a02c-ec14fb0fa458">
+  <name>КП_ПроцессыЧтениеВсех</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы: Чтение всех</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9ac7b18-cf30-412d-a90f-dd36ef023236">
+  <name>РозничнаяПродажа_ДобавитьПоШтрихкодуМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розничная продажа добавить по штрихкоду МП</value>
+  </synonym>
+</mdclass:CommonPicture>

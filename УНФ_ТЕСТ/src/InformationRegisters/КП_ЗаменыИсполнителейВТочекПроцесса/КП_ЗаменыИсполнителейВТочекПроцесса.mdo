@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5978de4-02cd-4b7f-adad-193827e39f5f">
+  <producedTypes>
+    <selectionType typeId="85b136c8-a4c6-47f9-aa05-b10eaf7b87b7" valueTypeId="34fcf9c6-37ac-43ff-a8dc-3a63af7e4dbf"/>
+    <listType typeId="10052078-5178-4709-83c6-9271c8b63422" valueTypeId="8f941533-de77-427a-a2cc-b7611f97f59e"/>
+    <managerType typeId="f1539603-fd85-4e13-8e27-37f4c9956267" valueTypeId="7d6e7adb-69bc-40f8-8933-1513275210b8"/>
+    <recordSetType typeId="ceada8ca-c1c7-4076-bc72-92abf9367cde" valueTypeId="d5117b83-4e87-496b-a786-f65130dba07c"/>
+    <recordKeyType typeId="32e89fa2-b49d-40a4-a9c9-9f0b38b2f091" valueTypeId="9b1d7872-924d-4ed6-aab0-02a1904e2099"/>
+    <recordType typeId="30724802-debd-425b-beb7-7521a199e6eb" valueTypeId="9a3b5207-bad5-49bc-bd8a-1bd68c2a18d3"/>
+    <recordManagerType typeId="784a87e3-a0a8-49de-936a-68a9e8e76764" valueTypeId="7307c116-10b4-47ab-9809-1553eca11e91"/>
+  </producedTypes>
+  <name>КП_ЗаменыИсполнителейВТочекПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замены исполнителей в точке процесса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Process task deputies</value>
+  </synonym>
+  <comment>Используется для фиксации замены исполнителей в точках процесса (при повторных проходах точки)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КП_ЗаменыИсполнителейВТочекПроцесса.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="07a30bbd-6a5b-4499-9741-38ec22f64175">
+    <name>ДействующийИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующий исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Current user</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b969456d-7fe8-44c3-a13d-97ece7425687">
+    <name>ТочкаКБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка КБП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Point of business process</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ТочкиПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ef3860a9-ed06-41e3-abc5-1c2c732eeef3">
+    <name>ИсходныйИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Initial user</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ce91a5f9-21cf-4584-b0aa-c9a41ffdcc40">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="836c2fb8-ef8b-4eb1-9adf-194ef167c343">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

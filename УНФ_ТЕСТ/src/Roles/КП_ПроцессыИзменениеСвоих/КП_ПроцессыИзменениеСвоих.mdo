@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6d00ecb-7a47-47d3-8641-a7f13886b37f">
+  <name>КП_ПроцессыИзменениеСвоих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы: Изменение своих (автор, контролер)</value>
+  </synonym>
+</mdclass:Role>

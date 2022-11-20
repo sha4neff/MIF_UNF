@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08557134-ce9c-4bd8-98e2-6d09ba2d8b8d">
+  <producedTypes>
+    <refType typeId="07c850b8-9eaa-44d7-bda2-b2791e8a4c96" valueTypeId="2baedc8d-b0a0-424b-85e5-99885dab972f"/>
+    <listType typeId="06f413ba-99db-4746-88a2-d5a1dcd13af2" valueTypeId="0edf0ca3-348f-475c-b3be-397b21d9779c"/>
+    <managerType typeId="14429f5c-ff48-4d42-a674-cf7f1d389e26" valueTypeId="893f7543-3c55-48d8-bd06-8deb9550f372"/>
+  </producedTypes>
+  <name>КП_ВариантыОбработкиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты обработки заданий документооборота</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>data processor options workflow tasks</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08c34330-6ce6-4191-b761-29176bc455d6">
+    <name>НеОбработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not processed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bea78a47-4bc6-4f16-9b28-877b0e2e0048">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7b6a989-0d47-465f-830f-e20254d3d53e">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Canceled</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c076418-ad4a-4fe5-a00b-b7137f41c87b">
+    <name>ОтказОтВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ от выполнения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Refusal to perform</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="944a40b8-3653-4768-adbc-5405233c5b83">
+    <name>Переадресовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переадресовано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Forwarded</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8a48a9b-ad21-4769-9d4d-75d19a998631">
+    <name>ПерепорученоСКонтролем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перепоручено с контролем</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delegate to the control</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0a4f5b3-99f2-4d1b-acd1-a545e7a9e678">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Achieved</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

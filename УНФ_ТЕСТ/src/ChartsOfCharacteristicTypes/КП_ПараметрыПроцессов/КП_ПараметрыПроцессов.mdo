@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93673cda-dac7-4ed4-b78d-313472aac779">
+  <producedTypes>
+    <objectType typeId="64061eeb-2a12-42f0-a261-ebe9ba603f46" valueTypeId="9cc7b0c2-a503-4076-bb35-88fb54b53562"/>
+    <refType typeId="3ead5998-412f-4f46-a208-67b9af025dda" valueTypeId="82e61fda-31f7-4a40-aa88-822605d618d0"/>
+    <selectionType typeId="ab683291-de3d-4177-bdc5-59cfcd7ea211" valueTypeId="ada4d29b-709c-41e3-aa21-1e72af728dc8"/>
+    <listType typeId="0c425baf-ec9b-440e-a137-f29681759b81" valueTypeId="4d3860ac-2cc1-4996-8438-1382aa684a3f"/>
+    <managerType typeId="a8a586d6-d03b-4c4a-af2c-2a2162a39b3c" valueTypeId="28e2f116-00eb-41fa-9a70-9d8ba3998273"/>
+    <containerType typeId="b2e534d2-2af6-4217-9c63-8c5afc8e05f7" valueTypeId="eb2426fb-f402-4513-a87c-f8a267d708e3"/>
+  </producedTypes>
+  <name>КП_ПараметрыПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры бизнес-процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Parameters of enterprise business processes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.КП_ПараметрыПроцессов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.КП_ПараметрыПроцессов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>CatalogRef.Файлы</types>
+    <types>String</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8bbf915f-5adb-4ab1-a5ea-b5b0042cb610">
+      <name>ДатаЗавершения</name>
+      <description>Дата завершения</description>
+      <code>ДатаЗавершения</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="b429e3ae-0d66-4280-8e2d-5111459c2899">
+      <name>ДатаСтарта</name>
+      <description>Дата старта</description>
+      <code>ДатаСтарта</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

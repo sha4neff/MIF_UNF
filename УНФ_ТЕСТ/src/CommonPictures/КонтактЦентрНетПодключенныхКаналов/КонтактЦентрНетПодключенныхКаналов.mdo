@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9ba6157-1617-45cc-bb55-c674676fe0b9">
+  <name>КонтактЦентрНетПодключенныхКаналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакт центр нет подключенных каналов</value>
+  </synonym>
+</mdclass:CommonPicture>

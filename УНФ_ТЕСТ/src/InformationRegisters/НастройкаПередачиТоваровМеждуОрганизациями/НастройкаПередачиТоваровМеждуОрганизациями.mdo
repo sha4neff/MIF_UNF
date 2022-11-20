@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba1a63cd-93f3-442e-9ff6-5ebbf3131f3a">
+  <producedTypes>
+    <selectionType typeId="10a14631-cf82-40e3-9caa-a0ede45cdf63" valueTypeId="4d25fdd7-b190-47c7-b149-06959f41a670"/>
+    <listType typeId="7b61376f-2d59-4338-8870-a602dcc57f31" valueTypeId="4a104a7f-aecd-4778-8675-ad0a7e38cc5a"/>
+    <managerType typeId="0cfdd779-7dd6-44c7-8262-f84ef64068d4" valueTypeId="78e01c19-80a8-4309-ae20-4e764725c05e"/>
+    <recordSetType typeId="edb5aa5f-e638-440c-bbac-795ea3b829e5" valueTypeId="a60fbebf-bae8-46a0-afda-de7a05aa44c9"/>
+    <recordKeyType typeId="4681f056-5b88-483f-9bc8-1540eee3229d" valueTypeId="bb0554da-741d-40da-8a81-70bbaa45c058"/>
+    <recordType typeId="76f0021a-285c-48e6-bd05-b22ebe5188ae" valueTypeId="8431e587-2a86-4134-bb41-554c899588ae"/>
+    <recordManagerType typeId="7956882d-ebf7-4f59-b0fb-a27f7109d4f6" valueTypeId="5100852a-7533-467c-a86f-e5b2f1aec801"/>
+  </producedTypes>
+  <name>НастройкаПередачиТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка передачи товаров между организациями</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкаПередачиТоваровМеждуОрганизациями.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкаПередачиТоваровМеждуОрганизациями.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9f363c46-d768-471c-ae51-9397eef37c1c">
+    <name>КонтрагентВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент владельца</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="91562cf0-c651-491f-ad76-ebd80868c4ee">
+    <name>КонтрагентПродавец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент продавец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="22a21ff5-0f5e-4c13-bd8b-bafffe90304b">
+    <name>СпособПередачиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ передачи товаров</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыПередачиТоваров</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ передачи товаров от владельца к продавцу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d4f7598-4c2c-499b-8af7-0b7582451645">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта расчетов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Валюта расчетов при передаче товаров на комиссию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f4cf2af4-1c1c-4afc-9302-7a867321c229">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>InformationRegister.НастройкаПередачиТоваровМеждуОрганизациями.Dimension.ОрганизацияВладелец</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.НастройкаПередачиТоваровМеждуОрганизациями.Dimension.ОрганизацияПродавец</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1b7b77c5-71fc-46ec-a9d7-b9d9527cd9ce">
+    <name>ВидЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ИспользоватьПриПередачеМеждуОрганизациями</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="74b2707d-2ede-4929-9f6d-fcfd1a4b07d7">
+    <name>ОрганизацияВладелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация - владелец товаров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="73130277-a2c0-4d63-ad97-6ff394d1d60a">
+    <name>ОрганизацияПродавец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация - продавец  товаров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0d413cf4-d591-43d8-9387-0b91e19f599f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5a4b043-492d-4176-bb65-373826aa53dd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="bfdda92a-736a-42a3-944c-fb1080dfe1fe">
+    <name>ОткрытьФормуСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки передачи товаров между организациями</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

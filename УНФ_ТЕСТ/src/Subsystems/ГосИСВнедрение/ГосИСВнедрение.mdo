@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f49366c-f8d0-44c5-add6-467130961dfe">
+  <name>ГосИСВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Государственные ИС (внедрение)</value>
+  </synonym>
+  <content>CommonModule.ПечатьЭтикетокИСМПУНФ</content>
+  <content>Constant.ЗаполнениеРеквизитаВидПродукцииИСВыполнено</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайлаГосИС</content>
+</mdclass:Subsystem>

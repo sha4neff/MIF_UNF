@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85b0460f-b39c-461e-9033-d53cbbebf848">
+  <name>КП_ИспользоватьРолевуюАдресацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать корпоративные процессы</value>
+  </synonym>
+  <location>Constant.КП_ФункциональнаяОпцияИспользоватьРолевуюАдресацию</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.КП_НавигаторЗадач.Command.НавигаторЗадач</content>
+  <content>Task.КП_Задача.Command.ВсеЗадачи</content>
+  <content>Catalog.КП_РолиИсполнителей</content>
+  <content>Catalog.КП_РолеваяАдресация</content>
+  <content>ChartOfCharacteristicTypes.КП_ОбъектыАдресацииЗадач</content>
+  <content>InformationRegister.КП_ИсполнителиРолей</content>
+</mdclass:FunctionalOption>

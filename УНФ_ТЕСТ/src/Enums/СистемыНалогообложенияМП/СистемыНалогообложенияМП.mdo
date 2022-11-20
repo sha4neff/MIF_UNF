@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17fa25f2-822d-451e-8cc7-bf12ebc8f423">
+  <producedTypes>
+    <refType typeId="c65d07d9-4b83-4476-8a2c-c98e6eb33a1f" valueTypeId="cc021d42-6d72-4e26-9bbb-213c3eadba4a"/>
+    <listType typeId="33f493ae-599a-4582-8ec9-86e122e0d5ed" valueTypeId="f35b71f0-b88e-48ac-bcb9-bc7e8f99e124"/>
+    <managerType typeId="6cc6816f-991f-486d-880b-0d71c29d04e7" valueTypeId="d7a55e85-8298-4886-87d9-474a2edf476c"/>
+  </producedTypes>
+  <name>СистемыНалогообложенияМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Системы налогообложения МП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0f3d0fe1-5ab3-47f9-84d0-88739ac89da2">
+    <name>Общая</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОСН - Общая </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="353975b8-f4db-4156-8c8f-3420c4533616">
+    <name>УпрощеннаяДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>УСН - Упрощенная (Доход)</value>
+    </synonym>
+    <comment>УСН</comment>
+  </enumValues>
+  <enumValues uuid="2a9f6f44-ce72-4e8f-bcf7-d88a78b97139">
+    <name>УпрощеннаяДоходМинусРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>УСН - Упрощенная (Доход - Расход)</value>
+    </synonym>
+    <comment>УСН</comment>
+  </enumValues>
+  <enumValues uuid="aa6171d1-a104-4f5f-9e64-f5656f0cd3fb">
+    <name>ЕдиныйНалогНаВмененныйДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕНВД - Единый налог на вмененный доход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a23f0453-fd9b-4ace-b598-dec304ec70aa">
+    <name>ЕдиныйСельскохозяйственныйНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕСХН - Единый сельскохозяйственный налог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19844390-fd7e-45b3-b346-0c46d6f457a0">
+    <name>Патентная</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПСН - Патентная</value>
+    </synonym>
+    <comment>Патентная система налогообложения</comment>
+  </enumValues>
+</mdclass:Enum>

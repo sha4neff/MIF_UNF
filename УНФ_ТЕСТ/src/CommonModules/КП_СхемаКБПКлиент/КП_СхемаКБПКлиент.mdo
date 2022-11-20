@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0869b3a-5e47-4a37-ac00-b3d673fa4fc0">
+  <name>КП_СхемаКБПКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема корпоративных бизнес-процессов (клиент)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The Flowchart of corporate business processes (customer)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

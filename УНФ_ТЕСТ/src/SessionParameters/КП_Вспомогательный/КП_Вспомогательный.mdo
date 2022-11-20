@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4163d0c-e11a-4513-a392-0a10ebe07899">
+  <name>КП_Вспомогательный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вспомогательный</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Вспомогательный</value>
+  </synonym>
+  <comment>Используется для передачи параметров</comment>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>ValueStorage</types>
+    <types>AnyRef</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10b07185-7750-4b0c-acba-a557232e022a">
+  <name>ПредметДокументЗадачиАссистентаОбработкаУдаленияПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет документ задачи ассистента обработка удаления проведения</value>
+  </synonym>
+  <source>
+    <types>DefinedType.АссистентУправленияДокументОбъектПредметЗадачи</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.АссистентУправления.ПредметДокументЗадачиАссистентаОбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

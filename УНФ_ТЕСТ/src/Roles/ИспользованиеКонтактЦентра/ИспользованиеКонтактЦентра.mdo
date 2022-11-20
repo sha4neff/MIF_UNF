@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a5de47-b745-4bae-94ce-bb7fcce45b4e">
+  <name>ИспользованиеКонтактЦентра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование контакт центра</value>
+  </synonym>
+</mdclass:Role>

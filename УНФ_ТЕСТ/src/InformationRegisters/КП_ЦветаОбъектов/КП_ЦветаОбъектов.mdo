@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f00a2ba7-2dbe-4331-8cb0-0a663a64d5bc">
+  <producedTypes>
+    <selectionType typeId="6a2ed897-b7a1-43bc-84ed-7d2e441053b5" valueTypeId="7b53d5bf-3361-4de2-ab0f-35fb3f4eda03"/>
+    <listType typeId="1c9adfe1-b849-4535-8d36-0329a18863b9" valueTypeId="1eca5080-736f-4c7e-a3a4-4cc6e0365c4d"/>
+    <managerType typeId="fa5038ad-25e3-48b1-bcbc-3778311f1e73" valueTypeId="93f71da4-20e5-456a-8b26-d48605019021"/>
+    <recordSetType typeId="502405c6-d8d8-4d23-ae0f-c643435a3aa5" valueTypeId="7555f12b-2875-41c2-b87b-c2c301c3ca9e"/>
+    <recordKeyType typeId="d75118ba-181c-4315-9882-28054fc5eb6d" valueTypeId="ca2670e2-bbcf-4229-adc1-1cf7ca3b5170"/>
+    <recordType typeId="50336722-2f9b-4716-aa11-5c588121ff4d" valueTypeId="b8a91542-1d84-416a-acaa-29196af13857"/>
+    <recordManagerType typeId="ff07f8b2-6d36-4a5e-ba9d-618b73e5136a" valueTypeId="5c355ea6-5fff-416d-b9a9-7edcafae1105"/>
+  </producedTypes>
+  <name>КП_ЦветаОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="08d2113d-528e-47f4-a1a4-ee7b0e3bfaf2">
+    <name>ЦветТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ЦветаЭлементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="e5d91855-c590-4707-b7d8-db8d81c0883e">
+    <name>ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет фона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ЦветаЭлементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="c2848f69-c38f-466f-9287-d6f84ecfb871">
+    <name>ШрифтНаклонный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифт наклонный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="0d5191c1-de5d-440b-83cb-5ddeabd59857">
+    <name>ШрифтЖирный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифт жирный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="ed08a7a1-1146-4f10-86b7-d0af74dc3089">
+    <name>ОбъектНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект настройки</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="11f6900b-ce9d-44e9-86f2-08ef5edd266c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

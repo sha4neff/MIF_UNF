@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e4e9b13-6bd6-43d1-bb07-e083ddb12a0e">
+  <producedTypes>
+    <selectionType typeId="ece87612-0fc3-4acc-badd-c72ef807522b" valueTypeId="713c0872-7934-4675-98b9-fd0c1e788be3"/>
+    <listType typeId="fa0e4c95-d662-4495-9576-f27a34ed6884" valueTypeId="7375e906-ec3f-4420-aead-5556d8a98d2d"/>
+    <managerType typeId="6ca2a042-7403-4a3b-90e5-4d7d14474405" valueTypeId="0191bedc-6698-4d99-a66f-5f4bbff5a564"/>
+    <recordSetType typeId="a31306ba-bd77-47cd-9e0e-11efd4b8d31c" valueTypeId="4c9da804-52d7-4c68-8c44-e5a876c09f60"/>
+    <recordKeyType typeId="1df58b58-0072-4605-b483-4e08858fe197" valueTypeId="b56347aa-9836-4615-a920-3f23d3532a30"/>
+    <recordType typeId="555c7e31-0433-438b-87a0-c3741c4ef5fe" valueTypeId="64f04dff-f156-494a-b1d3-985a0193c288"/>
+    <recordManagerType typeId="bdc7240e-57b1-4d28-a487-e3e626c9d8d3" valueTypeId="e8b35e25-61be-4b10-9c11-e15dc66ff9ce"/>
+  </producedTypes>
+  <name>КП_РеквизитыЭкземпляраПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реквизиты экземпляра процесса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Process variables instance</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_РеквизитыЭкземпляраПроцесса.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_РеквизитыЭкземпляраПроцесса.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2857e7de-f249-42aa-9a2f-c4b8d7af4606">
+    <name>ЗначениеРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение реквизита</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Variable value</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение реквизита</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Variable value</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="ddb8cfcb-0b55-4cab-9410-223a70adc596">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Note</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Примечание</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Note</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="fecbe45c-cfa6-410c-af4e-638dcbcd4bcd">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <comment>Порядок следования реквизита в форме</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядок</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Order</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4170046e-5887-4d80-84ba-b5e7efd01946">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5d738476-cc11-4e09-be35-e6eaf7e0e48d">
+    <name>РеквизитПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит процесса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Props process</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ДополнительныеРеквизиты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Реквизит процесса</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Props process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="11e6f6b3-3874-4884-be27-821342c489dd">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="500e14df-b78f-4b8d-b899-0fd6a3430adb">
+    <name>ФормаИсторииРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма истории реквизита</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form stories props</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5de14195-e1e8-46e1-aff3-733dd8cd7848">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

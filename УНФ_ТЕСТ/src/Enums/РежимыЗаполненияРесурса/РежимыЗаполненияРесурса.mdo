@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d647ee0a-db7b-4108-844e-3147e224a473">
+  <producedTypes>
+    <refType typeId="18b8eda1-4164-40e9-bcd7-e9e9f0328a5f" valueTypeId="949e7110-1a73-4796-8b66-fc9dd48047a8"/>
+    <listType typeId="6ee4694b-feab-4031-a908-006bdd810d57" valueTypeId="d7f85218-53c6-4915-bf4e-40b66b677f5a"/>
+    <managerType typeId="f3b420fb-8642-4f3b-843f-c6af7c86e02f" valueTypeId="b6d39eed-e851-48f9-b007-c355132bd3bc"/>
+  </producedTypes>
+  <name>РежимыЗаполненияРесурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы заполнения ресурса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="735994e0-61cd-4c4c-8ddc-f4271a26dd79">
+    <name>ПоМенееЗагруженному</name>
+    <synonym>
+      <key>ru</key>
+      <value>По менее загруженному</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fb98b71-44be-4ba4-9369-a0db3e68932e">
+    <name>Ручной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

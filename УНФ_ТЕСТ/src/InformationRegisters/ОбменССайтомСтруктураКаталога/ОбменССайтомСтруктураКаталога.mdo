@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96fe2579-3ef0-490b-b4c1-0b87bb9a509e">
+  <producedTypes>
+    <selectionType typeId="b2933c97-73a4-4360-8d1f-1541e2c05fd4" valueTypeId="01d947f7-c05c-4cea-b455-6b119c223e48"/>
+    <listType typeId="48ce5b85-80fb-497b-b48e-740843802842" valueTypeId="6055d86b-351e-4769-9788-eadce778605f"/>
+    <managerType typeId="22beed48-2818-4e55-8e2e-cb353f3faec2" valueTypeId="674a2ae3-d386-4197-9b85-032e02f7dcb4"/>
+    <recordSetType typeId="8fce1f82-9446-4b3a-8216-48d1b955bc88" valueTypeId="2cd74c9d-5c62-4cfe-8d1c-cdb3a9513d08"/>
+    <recordKeyType typeId="36e0599c-3ed5-496a-b448-cc1080a3fd6d" valueTypeId="13bdced3-7745-4d2e-8036-0993ceaeae58"/>
+    <recordType typeId="ef617b55-3c6e-4904-98c9-0378c0f6df38" valueTypeId="9a2681a6-f643-492f-aa6f-f3b0baced939"/>
+    <recordManagerType typeId="8f77347c-1bcd-49bb-9fbc-7fb64e729dd3" valueTypeId="9f4549df-d86f-427d-98dd-82602ca46e5f"/>
+  </producedTypes>
+  <name>ОбменССайтомСтруктураКаталога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сайтом структура каталога</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7bf9b880-51d1-464f-9fb3-9bf2a472776a">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="61059176-457f-4a2a-b0f5-ba60a5e594bf">
+    <name>РодительГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="420934bd-be6a-4126-b3b3-3a6be19b9a3a">
+    <name>РодительКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7052697b-acff-4d9f-8c0e-c44e5bc61015">
+    <name>ЭтоГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это группа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="93565cd9-85c6-419a-9f25-1509d380715d">
+    <name>УзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел обмена</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменУправлениеНебольшойФирмойСайт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c48bd270-6bb7-46f2-b7da-91fb7c329a4b">
+    <name>ИдентификаторКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор каталога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8aaeffb5-d53c-4efa-accf-d676492aef1b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b31bc901-1a97-4a78-8882-8e7594b5d4b2">
+    <name>ГруппаКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа каталога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa0ae75e-ce1b-4d80-86ef-a08cead28982">
+    <name>РодительИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

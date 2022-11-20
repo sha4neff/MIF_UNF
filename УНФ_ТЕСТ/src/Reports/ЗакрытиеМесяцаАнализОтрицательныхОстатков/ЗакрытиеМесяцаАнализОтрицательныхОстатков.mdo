@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b399d5f-6cef-49d8-a366-179f22f2e233">
+  <producedTypes>
+    <objectType typeId="a838d7a2-6b10-40e8-a3df-5d99a00dd930" valueTypeId="17a1ceee-539d-4817-880d-b52ed1d35f98"/>
+    <managerType typeId="c64a90f2-12a5-4854-a15e-f5882a7667ff" valueTypeId="e323a884-6987-46f0-ad74-ba37c7db67c9"/>
+  </producedTypes>
+  <name>ЗакрытиеМесяцаАнализОтрицательныхОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ отрицательных остатков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.ЗакрытиеМесяцаАнализОтрицательныхОстатков.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="139ae961-551a-4abe-8517-bba26c696f30">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="fdf4a314-7651-4772-b96d-2b5bc3c31810">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4b1d5302-d168-43de-9005-1b5e35b40440">
+    <name>ОбразецОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец основной</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

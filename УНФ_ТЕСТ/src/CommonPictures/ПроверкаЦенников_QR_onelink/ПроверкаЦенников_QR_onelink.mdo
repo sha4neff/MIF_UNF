@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42278011-be87-4a98-9108-a769f31cef0a">
+  <name>ПроверкаЦенников_QR_onelink</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка ценников q r onelink</value>
+  </synonym>
+</mdclass:CommonPicture>

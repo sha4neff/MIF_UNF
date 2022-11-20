@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="110c5639-e6c6-4407-9908-24aec5ae6aa9">
+  <name>КП_ОбщееСерверПСВызов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие процедуры и функции (сервер) с повторным использованием на время одного вызова сервера</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>General procedures and functions (server) with repeated use on one call server</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringRequest</returnValuesReuse>
+</mdclass:CommonModule>

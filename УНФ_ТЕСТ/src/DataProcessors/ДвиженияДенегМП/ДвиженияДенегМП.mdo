@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e7cb090-241a-4b50-91dc-afd294f70e4d">
+  <producedTypes>
+    <objectType typeId="c25b1bba-397b-4382-8ceb-26a17a178914" valueTypeId="52525880-379b-4105-912b-3aed4e097976"/>
+    <managerType typeId="a7497d56-4093-4c58-810b-2ab202009f5a" valueTypeId="5ab574ac-e0cc-4a45-92db-dbf040d2153a"/>
+  </producedTypes>
+  <name>ДвиженияДенегМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение денег</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Movement of Money</value>
+  </synonym>
+  <defaultForm>DataProcessor.ДвиженияДенегМП.Form.Форма</defaultForm>
+  <forms uuid="e497fe70-babf-4ef8-9233-27de5913a177">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="89ed7a62-8a6d-4344-9498-34818be03fce">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Layout</value>
+    </synonym>
+  </templates>
+  <templates uuid="09f61145-3862-41a9-b642-bbb3414ad110">
+    <name>МакетСмартфон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет смартфон</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Layout of the Smartphone</value>
+    </synonym>
+  </templates>
+  <templates uuid="c9800c2b-0001-475f-8b34-4b9c2fa0f96c">
+    <name>МакетДляОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет для отправки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Layout</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

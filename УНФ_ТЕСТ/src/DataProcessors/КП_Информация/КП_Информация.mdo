@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d8b0eb-6e25-4526-b21c-05cc6e929957">
+  <producedTypes>
+    <objectType typeId="ff591293-4f95-405e-9c17-d5a9d2b00d27" valueTypeId="02a7cd59-3eff-4dc8-a9dc-0594e3b235cf"/>
+    <managerType typeId="de7c6792-aeda-487a-aad6-5e1947ad8a7d" valueTypeId="99dbc3fd-b1d6-4862-8d15-a89620c252dd"/>
+  </producedTypes>
+  <name>КП_Информация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Дополнительная информация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_Информация.Form.ФормаБраузера</defaultForm>
+  <forms uuid="b7d0a423-5d90-4932-ab3b-6dff63f8c03e">
+    <name>ФормаДемо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приветствие демо-версии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Приветствие демо-версии</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="231df539-9dbf-4745-a9de-e287eee296e1">
+    <name>ФормаРедактированиеПроцессаВебКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование процесса в веб-клиенте</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Редактирование процесса в веб-клиенте</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="185bbabe-d3ad-470a-ac07-89d72cc77e31">
+    <name>ФормаБраузера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма браузера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма браузера</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d92faf9e-3e4b-4ddd-a110-5c8985191e6d">
+    <name>ОткрытьВидеоролик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видеоролик по программе</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть видеоролик в интернете по программе</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

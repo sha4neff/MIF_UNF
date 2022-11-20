@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="decf9865-baf3-4a71-be80-d6a7c3302b03">
+  <producedTypes>
+    <containerType typeId="e1398ea5-fc57-4ab9-99b6-a482bef0b527" valueTypeId="4cf4991d-5dc3-466c-b79a-fe06afbc64a5"/>
+  </producedTypes>
+  <name>ОснованиеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание задачи</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Лиды</types>
+    <types>DocumentRef.КорректировкаРеализации</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.ОтчетКомиссионера</types>
+    <types>DocumentRef.СверкаВзаиморасчетов</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>DocumentRef.ПланПродаж</types>
+    <types>DocumentRef.ЗаданиеНаРаботу</types>
+    <types>DocumentRef.АктВыполненныхРабот</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <types>DocumentRef.РасходСоСчета</types>
+    <types>DocumentRef.ОтчетОПереработке</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>DocumentRef.ПеремещениеДСПлан</types>
+    <types>DocumentRef.ПоступлениеВКассу</types>
+    <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.КорректировкаПоступления</types>
+    <types>DocumentRef.ЗаказНаПроизводство</types>
+    <types>DocumentRef.НачисленияПоКредитамИЗаймам</types>
+    <types>DocumentRef.СчетНаОплату</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>DocumentRef.НачислениеЗарплаты</types>
+    <types>DocumentRef.ПриемНаРаботу</types>
+    <types>DocumentRef.ПриемИПередачаВРемонт</types>
+    <types>DocumentRef.Событие</types>
+    <types>DocumentRef.ОтчетПереработчика</types>
+    <types>DocumentRef.РасходДСПлан</types>
+    <types>DocumentRef.ПлатежноеПоручение</types>
+    <types>DocumentRef.ПеремещениеДС</types>
+    <types>DocumentRef.ОтчетКомитенту</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ОтчетКомиссионераОСписании</types>
+    <types>DocumentRef.РасходИзКассы</types>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.ИнвентаризацияЗапасов</types>
+    <types>DocumentRef.МассоваяРассылка</types>
+    <types>DocumentRef.ПоступлениеНаСчет</types>
+    <types>DocumentRef.СчетНаОплатуПоставщика</types>
+    <types>DocumentRef.ПереоценкаТоваровНаКомиссии</types>
+    <types>DocumentRef.ДоговорКредитаИЗайма</types>
+    <types>DocumentRef.ОперацияПоПлатежнымКартам</types>
+    <types>DocumentRef.ПлатежнаяВедомость</types>
+  </type>
+</mdclass:DefinedType>

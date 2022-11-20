@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd570264-6238-45bd-b99e-ed3dc527c362">
+  <producedTypes>
+    <objectType typeId="229bb6e0-3cba-4e98-a6f0-7cd8bd89aaa6" valueTypeId="16ace272-6b20-4b3d-aab1-e181b14f26a7"/>
+    <managerType typeId="dc74d3d0-970b-4482-a9f4-90ecd6a7da9c" valueTypeId="bf39ba6d-e0a9-4369-b21a-5af689ed45c5"/>
+  </producedTypes>
+  <name>КП_СписокИстекающихЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список задач, истекающих на дату</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Список завдань, стікали на дату</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КП_СписокИстекающихЗадач.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КП_СписокИстекающихЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="22a2d76c-8a14-4656-85dd-9e368fabea3e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of an account</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a753b6ab-c50e-49af-bed4-bf46c46682de">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The basic Flowchart of the data composition</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="2e3859b0-0a58-42e2-aeaa-691c5f2f5a3b">
+    <name>СписокИстекающихЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Истекающие задачи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Expiring tasks list</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

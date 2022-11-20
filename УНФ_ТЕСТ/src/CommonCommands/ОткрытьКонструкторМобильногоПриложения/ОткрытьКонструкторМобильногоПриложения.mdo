@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b69f178a-3c45-4afb-b9d7-4ba73ac76050">
+  <name>ОткрытьКонструкторМобильногоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кабинет клиента</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

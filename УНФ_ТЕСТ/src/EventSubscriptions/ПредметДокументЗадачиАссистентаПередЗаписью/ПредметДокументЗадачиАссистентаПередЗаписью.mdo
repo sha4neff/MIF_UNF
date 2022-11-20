@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2841ca3b-81fe-4a2b-8ceb-c6609d1965d7">
+  <name>ПредметДокументЗадачиАссистентаПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет документ задачи ассистента перед записью</value>
+  </synonym>
+  <source>
+    <types>DefinedType.АссистентУправленияДокументОбъектПредметЗадачи</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.АссистентУправления.ПредметДокументЗадачиАссистентаПередЗаписью</handler>
+</mdclass:EventSubscription>

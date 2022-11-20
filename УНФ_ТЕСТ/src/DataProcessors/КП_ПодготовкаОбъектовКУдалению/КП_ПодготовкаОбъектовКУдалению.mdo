@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="659e25ae-d440-4e2d-b81d-b10668a0d064">
+  <producedTypes>
+    <objectType typeId="18f57841-a9ec-4a4d-b534-c83acea8cd32" valueTypeId="db6ec54b-d282-494f-981c-d2d9d56ff244"/>
+    <managerType typeId="6cb5d8f9-2f82-4f15-a389-669c6a8cafd6" valueTypeId="611d1fe2-1d03-4731-8447-3ed0071f8415"/>
+  </producedTypes>
+  <name>КП_ПодготовкаОбъектовКУдалению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовка объектов к удалению</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Підготовка об'єктів до видалення</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ПодготовкаОбъектовКУдалению.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9a6cb3c1-bf9b-4bb2-8a94-1da45c5bf29a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f17bb2b7-3f35-46ef-a011-fe0b973f7b3c">
+    <name>ОчисткаВнутреннихОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка объектов к удалению</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Prepare objects to removal</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut>Ctrl+Alt+Shift+D</shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75a6573d-948c-43de-9d4b-924ee288d8cc">
+  <producedTypes>
+    <objectType typeId="868670b7-2722-4c12-b961-2a1b3254f490" valueTypeId="388185f8-00e0-4a5a-8488-3fdea4117cc0"/>
+    <managerType typeId="263990d7-ab88-474a-9562-9e910f3a5656" valueTypeId="cec47d46-2f52-46a4-9dc4-96f1d1eb2228"/>
+  </producedTypes>
+  <name>РасшифровкаАнализаЗакрытияМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расшифровка анализа закрытия месяца</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.РасшифровкаАнализаЗакрытияМесяца.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="67d30ae2-c065-4f1d-908a-364916e0d5dd">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="189d423b-60ac-4554-8e2a-5366f659e0f3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46a58a97-2a90-401a-afba-421c6833be53">
+  <name>КП_ОбработкаТаймеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы: Обработка таймеров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Системное: Обработка таймеров процессов</value>
+  </synonym>
+  <methodName>CommonModule.КП_Процессы.ОбработатьТаймеры</methodName>
+  <description>Процессы: Обработка таймеров</description>
+  <key>КП_ОбработкаТаймеров</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="634bf612-bedd-4633-ba5c-bcf8df85cac8">
+  <name>ГруппаБезОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа без оплаты</value>
+  </synonym>
+</mdclass:CommonPicture>

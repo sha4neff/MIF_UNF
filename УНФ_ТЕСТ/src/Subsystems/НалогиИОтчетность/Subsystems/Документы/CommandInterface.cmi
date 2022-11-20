@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>CommonCommand.Налоги_ОтчетностьВПФР</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.НачислениеНалогов.StandardCommand.OpenList</commands>
+      <commands>Document.СправкаНДФЛ.Command.ОткрытьФормуСписка</commands>
+      <commands>Document.СведенияОСтраховомСтажеЗастрахованныхЛицСЗВ_СТАЖ.StandardCommand.OpenList</commands>
+      <commands>Document.ОписьОДВ_1.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.Налоги_ОтчетностьВПФР</commands>
+      <commands>Document.ПачкаРазделовДекларацииПоНДСС8По12Разделы.StandardCommand.OpenList</commands>
+      <commands>Document.ДанныеОКорректировкеСведенийЗастрахованныхЛицСЗВ_КОРР.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

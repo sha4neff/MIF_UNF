@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9aab3dc-59e8-4812-a3ef-06bde5d3e218">
+  <producedTypes>
+    <managerType typeId="76422023-5764-497a-b69d-2d89a067b1b2" valueTypeId="8b0745fa-890d-49d0-a860-e2898c2dd728"/>
+    <valueManagerType typeId="38e52743-3514-4006-8a91-0ecaa70a2653" valueTypeId="b896fb3c-fbb4-4263-aab1-7a2450dea422"/>
+    <valueKeyType typeId="f7d6dbf0-c219-40e5-bd1c-a7185fe51fd5" valueTypeId="f3db2328-fec9-4384-8e8c-adbe9ac1c1e2"/>
+  </producedTypes>
+  <name>ЛоготипМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип МП</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="994eeb91-d59b-4ff6-8fe3-df6bc41675dc">
+  <name>Аналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ДополнительныеОбработкиКомплектацияИПроизводство</content>
+  <content>CommonCommand.ПанельОтчетов_КомплектацияИПроизводство</content>
+  <parentSubsystem>Subsystem.КомплектацияИПроизводство</parentSubsystem>
+</mdclass:Subsystem>

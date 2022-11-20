@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b729e54-a553-410a-87bb-7ef1dcc2dba5">
+  <name>ПроверкаИПодборПродукцииИСМПУНФКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка и подбор продукции ИСМП УНФ Клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

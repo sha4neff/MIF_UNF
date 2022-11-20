@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85b8c820-f712-446e-8407-ced81d797941">
+  <name>ИзмененныеТиповыеСтруктура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измененные типовые структура</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.ПолныеПрава</content>
+  <content>DefinedType.ВладелецФайлов</content>
+  <content>DefinedType.ВладелецФайловОбъект</content>
+  <content>DefinedType.ПредметНапоминания</content>
+  <content>DefinedType.ПредметНапоминанияОбъект</content>
+  <content>DefinedType.ПредметШаблонаСообщения</content>
+  <content>EventSubscription.ВыполнитьРабочийПроцессПриЗаписиИсточника</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.СтруктурныеЕдиницы</content>
+  <content>Enum.СобытияРабочегоПроцесса</content>
+  <parentSubsystem>Subsystem.КП_Процессы</parentSubsystem>
+</mdclass:Subsystem>

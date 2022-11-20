@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="023fae15-d1b2-4285-8982-6dc5b4349826">
+  <producedTypes>
+    <managerType typeId="42c81278-2e6e-4f1d-b8a8-8847ae9361a4" valueTypeId="6a75ac69-bf53-42bc-9444-85739444d763"/>
+    <valueManagerType typeId="91867465-b69f-4c83-9cf4-dc2f8e0d138e" valueTypeId="a55d51aa-e453-4f7b-8426-b922b0733c66"/>
+    <valueKeyType typeId="1e30703a-350f-4f93-94d6-d53746fa2904" valueTypeId="af81f42f-9a5e-4887-a717-b5622a6e41c3"/>
+  </producedTypes>
+  <name>КП_ПоказыватьЗадачиВКалендаре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать задачи в календаре</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

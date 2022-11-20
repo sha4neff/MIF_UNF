@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ee4b4a3-bf51-4916-92e4-55966cc6909e">
+  <name>ИнтеграцияТабак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция табак</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ИнтеграцияМОТПУНФ</content>
+  <content>CommonModule.ИнтеграцияМОТПУНФВызовСервера</content>
+  <content>CommonModule.ИнтеграцияМОТПУНФКлиент</content>
+  <content>CommonModule.ИнтеграцияМОТПУНФКлиентСервер</content>
+  <parentSubsystem>Subsystem.ИнтеграцияГОСИСУНФ.Subsystem.ИнтеграцияИСМПУНФ</parentSubsystem>
+</mdclass:Subsystem>

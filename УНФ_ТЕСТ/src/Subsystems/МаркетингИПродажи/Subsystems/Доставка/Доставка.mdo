@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfa0e790-1022-4b58-8008-ee7b3467e3c7">
+  <name>Доставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доставка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СлужбыДоставки</content>
+  <content>Catalog.ПараметрыРасчетовДоставки</content>
+  <content>Document.МаршрутныйЛист</content>
+  <content>Catalog.ЗоныТарифыДоставки</content>
+  <content>Catalog.НастройкиЯндексДоставки</content>
+  <content>Catalog.ПунктыВыдачиЗаказа</content>
+  <content>InformationRegister.ЯндексДоставка</content>
+  <content>CommonModule.ЯндексДоставка</content>
+  <content>Constant.ВариантПечатиДоставки</content>
+  <content>Enum.ВариантыПечатиДоставки</content>
+  <parentSubsystem>Subsystem.МаркетингИПродажи</parentSubsystem>
+</mdclass:Subsystem>

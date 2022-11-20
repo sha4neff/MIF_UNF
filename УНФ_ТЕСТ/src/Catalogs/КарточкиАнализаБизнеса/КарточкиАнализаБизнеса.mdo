@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="953e7170-b49f-4019-b8d9-40d1b9cb79d5">
+  <producedTypes>
+    <objectType typeId="5d605905-fdf5-4274-b5c5-7d0df989974b" valueTypeId="72d75a3f-0546-4ee1-8973-d0e640706246"/>
+    <refType typeId="b2321a36-d15a-4ee1-b2c6-160f9e17dd1e" valueTypeId="8996748c-56e8-4713-b4be-2c337641acec"/>
+    <selectionType typeId="10503b52-7e74-4031-910a-5f1b4afc6982" valueTypeId="96340286-61ac-49ca-a09b-b6a66370eecd"/>
+    <listType typeId="b3ba764b-ece6-40be-aed6-37b27397dc99" valueTypeId="2c030058-1ca1-4ae0-89d6-9a28b38b2872"/>
+    <managerType typeId="2016dcc4-3c18-4f2d-b8de-235356f79051" valueTypeId="24e21ac9-c1fd-49d4-9e4d-dcc5e10cc462"/>
+  </producedTypes>
+  <name>КарточкиАнализаБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточки анализа бизнеса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КарточкиАнализаБизнеса.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КарточкиАнализаБизнеса.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КарточкиАнализаБизнеса.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КарточкиАнализаБизнеса.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="634d781c-2ae8-4266-ba0a-8eff6bc39fad">
+    <name>ВидКарточки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид карточки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыКарточекАнализаБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b18d5bd-85aa-4670-a57b-60baf734c6a3">
+    <name>ПоказательБизнеса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель бизнеса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a5baee9-0ee6-47b7-9f84-5c63eab050ce">
+    <name>ВариантПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант проверки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыПроверокАнализаБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0c2510ee-b7eb-4e5a-b854-4293f3392633">
+    <name>ВидСравненияЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сравнения значений</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидСравненияЗначений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78e18410-47df-4537-8497-305a2296d4c4">
+    <name>ЗначениеДляСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение для сравнения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиБизнеса</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ff2ee9d-e2f3-49bf-b571-9e603cd47dbc">
+    <name>ВидИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид изменения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИзменениеЗначенияПоказателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="345e54b8-27df-4d20-8100-2945b8f231c6">
+    <name>ТекстПоложительныйРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст положительный результат</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba7dc2f1-0979-4b9b-887f-a732ce9ddc24">
+    <name>ТекстОтрицательныйРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст отрицательный результат</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5c25892-c0d1-4a6c-8534-1274e2cc1065">
+    <name>ТекстОписаниеПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст описание проверки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73857b33-4d58-45ad-b495-05416f9c569b">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДоступныеПериодыОтчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99639d82-1a28-43dc-861a-5e2b43a3751b">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="232d1fd6-203c-4cee-8d1a-93877828b275">
+    <name>СценарийПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий планирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СценарииПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be35d03a-eefa-48d8-9b03-cb21d06d7e1b">
+    <name>ПерваяСтрокаЗаголовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая строка заголовка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16a35184-f564-4a8f-a000-73d39d9d3468">
+    <name>ВтораяСтрокаЗаголовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторая строка заголовка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e6a94d0-b019-4bdb-abb0-5a74a718a523">
+    <name>ОтображатьПредыдущийПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать предыдущий период</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e216b950-1a86-453b-9add-6d5a8952b932">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b40a509b-9836-4139-8149-d58c61758aec">
+    <name>ФормаРедактированияЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb08e129-397f-475b-a39b-01e2076185a9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="850a0deb-2e3c-4e3b-adcf-136215464296">
+    <name>ФормаРедактированияФорматированногоТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования форматированного текста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ceb76a29-accb-4ca9-bb36-ec1f42a8c36e">
+    <name>ШаблонДобавитьЦель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон добавить цель</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0251cea1-c03a-4d37-b1be-57edfe52c50a">
+    <name>ШаблонДобавитьПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон добавить проверку</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f68035a7-fcc0-4c3c-9dee-343673da9005">
+    <name>ШаблонЦели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон цели</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="66531240-e300-4f41-8efc-e2c00fde0755">
+    <name>ШаблонАнализДинамика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон анализ динамика</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a75e28c7-bba4-4f6f-8991-334090b54a1b">
+    <name>ШаблонАнализСравниеСоЗначением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон анализ сравние со значением</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0d2a1bd9-e248-431e-9cf7-19507c9a8282">
+    <name>ШаблонАнализСравнениеСПоказателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон анализ сравнение с показателем</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="124dbadd-f69e-42e6-acee-ec90155a1a91">
+    <name>КарточкаЧистаяПрибыльОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка чистая прибыль описание</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f57e14c7-33fb-4a12-9fc0-21393a80d7f9">
+    <name>КарточкаЧистаяПрибыльОценкаПлохо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка чистая прибыль оценка плохо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f5c99395-3361-4400-981a-f078ecf1b265">
+    <name>КарточкаЧистаяПрибыльОценкаХорошо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка чистая прибыль оценка хорошо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="54444c70-575a-4ff8-bc2e-018d41f3a101">
+    <name>КарточкаПродажиОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка продажи описание</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4e3e6596-44ab-4b6c-acab-9eab8c509faf">
+    <name>КарточкаПродажиОценкаПлохо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка продажи оценка плохо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3f248d75-5c8c-496b-830b-8aba39680366">
+    <name>КарточкаПродажиОценкаХорошо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка продажи оценка хорошо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="cbfc73c1-e47b-4aae-9573-81f74d59b603">
+    <name>КарточкаМаржинальностьОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка маржинальность описание</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="55764ddb-f5c5-4d23-ae7b-b39eefa560a3">
+    <name>КарточкаМаржинальностьОценкаПлохо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка маржинальность оценка плохо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="456a2cf7-52b1-441d-bd39-d971e6061262">
+    <name>КарточкаМаржинальностьОценкаХорошо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка маржинальность оценка хорошо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="368d8e16-775a-4b32-93b5-b9dad7641c71">
+    <name>КарточкаДебеторкаКредиторкаОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка дебеторка кредиторка описание</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="27c9ee5f-0044-4170-958e-290939c24c29">
+    <name>КарточкаДебеторкаКредиторкаОценкаПлохо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка дебеторка кредиторка оценка плохо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="65aa3ecd-b77b-42f5-ac0e-32b2b47a0a06">
+    <name>КарточкаДебеторкаКредиторкаОценкаХорошо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка дебеторка кредиторка оценка хорошо</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

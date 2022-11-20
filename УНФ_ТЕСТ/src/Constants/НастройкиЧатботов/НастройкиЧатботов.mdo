@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14ef49dc-89e7-4471-9433-a005a10e9b77">
+  <producedTypes>
+    <managerType typeId="6d701439-ae0d-422b-bd88-3bff8d4b88f4" valueTypeId="1fc62fea-7a58-41e5-8b93-c0781b95d972"/>
+    <valueManagerType typeId="04bd993e-67bb-4d07-add4-03c98eb1ea8d" valueTypeId="68288f6d-e1ae-4908-9161-a7b034f09b1c"/>
+    <valueKeyType typeId="144f3d53-8419-4ca7-b772-395678c8f969" valueTypeId="b7bdff95-e315-445f-883f-f3cf99827154"/>
+  </producedTypes>
+  <name>НастройкиЧатботов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки чатботов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

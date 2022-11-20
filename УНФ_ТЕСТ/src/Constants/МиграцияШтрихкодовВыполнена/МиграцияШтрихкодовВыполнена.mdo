@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b312a892-5a91-423b-a009-09677e80c1e3">
+  <producedTypes>
+    <managerType typeId="9551fd53-473d-4ce6-9ce4-9b41f3fc8b74" valueTypeId="8a8e293b-9611-4073-b6e7-c76c1ef2915b"/>
+    <valueManagerType typeId="c744734e-675c-4996-b7e1-0e4261a12960" valueTypeId="67088a0f-1723-489a-8f22-08430e19c068"/>
+    <valueKeyType typeId="76c64849-7102-4b72-9cc6-a97b9582ec8b" valueTypeId="0cb1ed0e-0e1f-4df6-b425-0c341c6a5543"/>
+  </producedTypes>
+  <name>МиграцияШтрихкодовВыполнена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция штрихкодов выполнена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

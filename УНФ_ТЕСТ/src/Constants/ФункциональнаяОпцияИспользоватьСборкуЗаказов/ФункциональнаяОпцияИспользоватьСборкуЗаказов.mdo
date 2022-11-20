@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc2da1f4-fc0b-4440-8612-af6c5de50e71">
+  <producedTypes>
+    <managerType typeId="cf1d2336-1f40-4173-bd29-1278b0700f24" valueTypeId="4207b9b1-ffe1-49e3-9200-730c66c0e38b"/>
+    <valueManagerType typeId="c7b2dc8d-3c6d-4da7-bce6-dd9df40f3eb6" valueTypeId="a7c5eb80-aa6f-40dd-8bf7-97137e147f15"/>
+    <valueKeyType typeId="4d02291b-cd79-4f88-ad2f-e23a44c332d2" valueTypeId="3c828355-7d5e-41d5-9780-c18b78a59f99"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьСборкуЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция использовать сборку заказов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

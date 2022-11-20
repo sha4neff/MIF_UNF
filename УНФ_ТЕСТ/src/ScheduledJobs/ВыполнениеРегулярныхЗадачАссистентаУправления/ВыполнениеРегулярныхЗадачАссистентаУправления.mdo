@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7cd49ed-9183-4adb-ae64-6505164f5f35">
+  <name>ВыполнениеРегулярныхЗадачАссистентаУправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение регулярных задач ассистента управления</value>
+  </synonym>
+  <methodName>CommonModule.АссистентУправления.ВыполнениеРегулярныхЗадачАссистентаУправления</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

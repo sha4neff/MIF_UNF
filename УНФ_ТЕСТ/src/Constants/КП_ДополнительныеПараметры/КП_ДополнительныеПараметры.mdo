@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c356a8c-9fdf-4e98-81ad-245ceb05c623">
+  <producedTypes>
+    <managerType typeId="75d54210-c4e0-4df9-a022-8e7cb97d3cd4" valueTypeId="dd725a00-1ac3-47bf-89dc-a7bc0f981fb8"/>
+    <valueManagerType typeId="41e88a1c-92ec-4d61-880d-75683d793d67" valueTypeId="bec85a3f-6caa-4bf8-88e0-63f1115b6287"/>
+    <valueKeyType typeId="001510a1-8096-5655-bdeb-0a277b37dbae" valueTypeId="b9ccb9db-30d5-5fcc-88e6-de1d9977684d"/>
+  </producedTypes>
+  <name>КП_ДополнительныеПараметры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные параметры</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Додаткові параметри</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

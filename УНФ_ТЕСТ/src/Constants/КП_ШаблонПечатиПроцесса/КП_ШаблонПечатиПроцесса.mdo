@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae472094-abd1-42f7-a7d3-11523f4b1190">
+  <producedTypes>
+    <managerType typeId="65575b12-2dfd-4a4c-8204-8cfd4880e73d" valueTypeId="5bc04756-2eff-40ca-8385-36e3faf052e7"/>
+    <valueManagerType typeId="8145e377-5707-47dd-b665-bf5baae66a31" valueTypeId="cca5fcfb-89eb-4afc-926f-ec755f809ef4"/>
+    <valueKeyType typeId="e194e8d2-5127-50ca-85c6-5040341f78da" valueTypeId="0652bebd-97cf-5265-bd15-176ce74d0f94"/>
+  </producedTypes>
+  <name>КП_ШаблонПечатиПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон печати бизнес-процесса</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Шаблон друку бізнес-процесу</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Файлы</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Шаблон для печати корпоративного документа</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Template for printing corporate document</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

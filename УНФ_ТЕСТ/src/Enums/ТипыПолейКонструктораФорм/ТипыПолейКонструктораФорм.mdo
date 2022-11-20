@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="949d9a2f-45bf-4247-8f1a-fb992483c82e">
+  <producedTypes>
+    <refType typeId="26f43f7c-ffc3-4036-a4a3-24506e862159" valueTypeId="f9b5003c-5b0a-48e7-8061-cf2ca6a2f921"/>
+    <listType typeId="684fae77-e0d6-46ff-82ec-7b3d298dcb0d" valueTypeId="a809640f-eb15-497b-830a-b4724861b4c7"/>
+    <managerType typeId="bcb4c354-f722-4324-a425-32d2966de53f" valueTypeId="825656e3-e386-4d90-8b52-206c6eda4012"/>
+  </producedTypes>
+  <name>ТипыПолейКонструктораФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы полей конструктора форм</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa7d8336-aeda-407f-8d05-7c5cc0190ad9">
+    <name>ТекстСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст (строка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0256e62a-c030-4b1e-a45d-42cae4c4780c">
+    <name>ТекстАбзац</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст (абзац)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da13972d-4391-4bcd-af3d-7db3f5628e06">
+    <name>ОдинИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Один из списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7b951f6-35ec-48a8-983f-e7f1af2e0987">
+    <name>НесколькоИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несколько из списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4973e0c7-0c44-4f0a-a85b-16630e8fad09">
+    <name>РаскрывающийсяСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскрывающийся список</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56d85c27-634a-470d-85f1-da7cb8c6e1fe">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4dda388d-e6f2-41a2-af08-db1f94d35fb0">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="630b7a64-58fe-46f9-adb6-5300758e8c88">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

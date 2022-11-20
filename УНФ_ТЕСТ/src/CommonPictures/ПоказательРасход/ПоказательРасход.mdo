@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="239aa2d7-e88c-4349-bfbf-bf11136b7f81">
+  <name>ПоказательРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатель расход</value>
+  </synonym>
+</mdclass:CommonPicture>

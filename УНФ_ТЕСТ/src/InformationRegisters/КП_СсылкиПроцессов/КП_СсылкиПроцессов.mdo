@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88763de7-09c7-4c7d-8374-fa74c8bb49f5">
+  <producedTypes>
+    <selectionType typeId="51991e61-190b-43f5-837c-ec528ecb90b8" valueTypeId="5954d91f-a725-4e79-859a-7a15a231c94a"/>
+    <listType typeId="b147346f-9a6e-4c0f-9779-ddc86dd0dba6" valueTypeId="b54674d6-b798-4815-bc83-8968372c24fc"/>
+    <managerType typeId="c03653c3-94df-48b5-8b7e-34088dbcd027" valueTypeId="13611081-04f8-48f6-9cc5-9964cf611c2a"/>
+    <recordSetType typeId="1616d3cd-bcb9-42e3-806f-c2dfd29506a7" valueTypeId="3faff6b8-a730-4dff-a0d4-222d890e03bc"/>
+    <recordKeyType typeId="8e5fb879-f43c-4263-a56e-3e7b3b00b61e" valueTypeId="2a6dd1ec-cbe5-488d-8aaf-21ce45f9196f"/>
+    <recordType typeId="ba1d3e3a-9300-4de4-80fa-7bd7f873b2d7" valueTypeId="a916dfaf-6aa1-4669-98e5-a6ca6c681c52"/>
+    <recordManagerType typeId="c790023e-51d0-4c5c-aecf-b140fa58b695" valueTypeId="2b85e357-b0f5-48fb-8300-36ab8ece2e6e"/>
+  </producedTypes>
+  <name>КП_СсылкиПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылки корпоративных процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Links corporate processes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_СсылкиПроцессов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a6f44ae7-d81e-4256-a34a-f66a138422f1">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Note</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Примечание</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Note</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="370169c0-e650-41bd-984b-8c67f4b73825">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпоративный бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Corporate business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e3ae0792-abe5-47cd-8629-11d8c01950fe">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект-владелец</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Owning object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="737524a0-bca1-4b53-84bb-d145e8076dc9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8c9bccf-940c-4ee6-8241-20fc4ac1dd59">
+  <name>ЧатботВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чатбот вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e16e9f70-8867-45ba-adf8-e0275f0c3874">
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОтчетыУНФ</content>
+  <content>CommonModule.ОтчетыУНФВызовСервера</content>
+  <content>CommonModule.ОтчетыУНФКлиентСервер</content>
+  <content>CommonModule.ОтчетыУНФПовтИсп</content>
+  <content>CommonModule.УправлениеНебольшойФирмойОтчеты</content>
+  <content>CommonModule.УправлениеНебольшойФирмойОтчетыВызовСервера</content>
+  <content>CommonModule.УправлениеНебольшойФирмойОтчетыКлиент</content>
+  <content>CommonForm.ФормаОтчетаУНФ</content>
+  <content>CommonForm.ФормаВариантаОтчетаУНФ</content>
+  <content>CommonForm.ФормаСпискаОтчетов</content>
+  <content>CommonModule.ВариантыОтчетов</content>
+  <content>CommonForm.СохранениеВариантаОтчетаУНФ</content>
+  <content>CommonModule.ВариантыОтчетовВызовСервера</content>
+  <content>CommonModule.ВариантыОтчетовКлиент</content>
+  <content>CommonModule.ВариантыОтчетовКлиентСервер</content>
+  <content>CommonModule.ВариантыОтчетовПереопределяемый</content>
+  <content>CommonModule.ВариантыОтчетовПовтИсп</content>
+  <content>CommonModule.ОтчетыСервер</content>
+  <content>CommonModule.ОтчетыКлиент</content>
+  <content>CommonModule.ОтчетыКлиентПереопределяемый</content>
+  <content>CommonModule.ОтчетыКлиентСервер</content>
+  <content>CommonModule.ОтчетыПереопределяемый</content>
+  <content>InformationRegister.НастройкиВариантовОтчетов</content>
+  <content>InformationRegister.НастройкиВариантовОтчетовУНФ</content>
+  <content>Catalog.ВариантыДополнительныхОтчетов</content>
+  <content>Catalog.ВариантыОтчетов</content>
+  <content>CommonCommand.ОтчетПоДвижениям</content>
+  <content>DefinedType.ДокументОтчетаПоДвижениям</content>
+  <content>Report.ДвиженияДокумента</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

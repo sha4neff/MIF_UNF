@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43b8b8ca-9c59-4a39-8876-4fa3f1ca1394">
+  <producedTypes>
+    <managerType typeId="3b95105b-3f43-45d0-9768-f003827e17e8" valueTypeId="ada6c990-3a5c-40db-8ec6-bf2335751138"/>
+    <valueManagerType typeId="6dc4b76f-a5c3-4fbf-8708-d040d5c10ca1" valueTypeId="194c69f5-7dee-4f5c-b890-6e2d66cd36dd"/>
+    <valueKeyType typeId="eda0be9c-6ab7-4bee-b227-1ed1c5befa1e" valueTypeId="5ea5e1c3-2beb-4084-8128-532630610f94"/>
+  </producedTypes>
+  <name>НастройкиКонтроляДублейНоменклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки контроля дублей номенклатура</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

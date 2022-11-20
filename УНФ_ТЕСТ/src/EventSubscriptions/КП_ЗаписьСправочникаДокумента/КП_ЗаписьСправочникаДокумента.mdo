@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b222ee3-7aa4-45ce-bbb6-45fa9d37e5d4">
+  <name>КП_ЗаписьСправочникаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись справочника или документа</value>
+  </synonym>
+  <comment>Используется для автостарта</comment>
+  <source>
+    <types>CatalogObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КП_ОбщееСервер.ПриЗаписиСправочникаДокумента</handler>
+</mdclass:EventSubscription>

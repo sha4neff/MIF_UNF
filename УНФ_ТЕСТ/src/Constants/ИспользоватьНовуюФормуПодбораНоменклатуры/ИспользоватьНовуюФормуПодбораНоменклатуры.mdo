@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7ec0175-e66e-4ef9-a54d-093783aefce9">
+  <producedTypes>
+    <managerType typeId="2f070c27-929b-42f7-be75-cbe74def4e15" valueTypeId="0247a7e2-15d5-47a2-9400-1a5a488b00b7"/>
+    <valueManagerType typeId="8b93d289-ced6-45c3-9a73-0d11c402bbbe" valueTypeId="17e634d6-40e6-4a36-be7b-88c3f2830799"/>
+    <valueKeyType typeId="2dfe53ef-7835-4554-b910-5e347fb25641" valueTypeId="27e9e304-c4f1-4169-9171-c435a341da02"/>
+  </producedTypes>
+  <name>ИспользоватьНовуюФормуПодбораНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать новую форму подбора номенклатуры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

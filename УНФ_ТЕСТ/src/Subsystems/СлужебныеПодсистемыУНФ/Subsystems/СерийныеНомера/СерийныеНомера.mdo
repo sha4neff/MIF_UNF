@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1bb07ed-ef21-423b-bb73-01eea07f6d58">
+  <name>СерийныеНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серийные номера</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаботаССерийнымиНомерами</content>
+  <content>CommonModule.РаботаССерийнымиНомерамиКлиентСервер</content>
+  <content>FunctionalOption.ИспользоватьСерийныеНомера</content>
+  <content>FunctionalOption.КонтрольОстатковСерийныхНомеров</content>
+  <content>Constant.ИспользоватьСерийныеНомера</content>
+  <content>Constant.КонтрольОстатковСерийныхНомеров</content>
+  <content>Catalog.СерийныеНомера</content>
+  <content>Catalog.ШаблоныСерийныхНомеров</content>
+  <content>Enum.ОперацииСерийныхНомеров</content>
+  <content>Report.ДвиженияСерийныхНомеров</content>
+  <content>Report.СкладПоСерийнымНомерам</content>
+  <content>DataProcessor.ПодборСерийныхНомеров</content>
+  <content>InformationRegister.СерийныеНомераГарантии</content>
+  <content>AccumulationRegister.ЗапасыВРемонте</content>
+  <content>AccumulationRegister.ЗапасыПереданныеВРемонте</content>
+  <content>AccumulationRegister.СерийныеНомера</content>
+  <content>AccumulationRegister.СерийныеНомераКПоступлению</content>
+  <content>AccumulationRegister.СерийныеНомераКРасходу</content>
+  <content>CommonModule.РаботаССерийнымиНомерамиВызовСервера</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

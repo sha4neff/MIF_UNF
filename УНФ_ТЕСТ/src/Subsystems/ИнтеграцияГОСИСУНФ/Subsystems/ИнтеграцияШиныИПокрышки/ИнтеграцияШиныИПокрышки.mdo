@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09268ad2-6335-405d-81cb-fdb0006900d1">
+  <name>ИнтеграцияШиныИПокрышки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция шины и покрышки</value>
+  </synonym>
+  <content>FunctionalOption.ВестиУчетШинИПокрышек</content>
+  <content>Constant.ВестиУчетШинИПокрышек</content>
+  <content>CommonForm.ФормаВводаАкцизнойМаркиШиныИПокрышки</content>
+  <parentSubsystem>Subsystem.ИнтеграцияГОСИСУНФ</parentSubsystem>
+</mdclass:Subsystem>

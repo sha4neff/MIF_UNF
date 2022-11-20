@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61d3db94-a5aa-41a2-af05-70ca5de25945">
+  <name>ПодборНоменклатурыВДокументахВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор номенклатуры в документах вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

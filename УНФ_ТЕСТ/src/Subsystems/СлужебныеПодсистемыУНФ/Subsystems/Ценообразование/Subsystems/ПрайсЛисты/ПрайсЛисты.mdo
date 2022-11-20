@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5768485e-4ae4-4296-bd5a-d049375217ac">
+  <name>ПрайсЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс-листы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ПрайсЛистыСлужебный</content>
+  <content>Catalog.ПрайсЛисты</content>
+  <content>Catalog.ПрайсЛистыПрисоединенныеФайлы</content>
+  <content>Catalog.ПрайсЛистыКонтрагентов</content>
+  <content>DataProcessor.ПрайсЛистыОрганизации</content>
+  <content>DataProcessor.ПрайсЛистыКонтрагентов</content>
+  <content>Enum.ВариантыПечатиПрайсЛиста</content>
+  <content>CommonPicture.ПустаяКартинкаПрайсЛиста</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ.Subsystem.Ценообразование</parentSubsystem>
+</mdclass:Subsystem>

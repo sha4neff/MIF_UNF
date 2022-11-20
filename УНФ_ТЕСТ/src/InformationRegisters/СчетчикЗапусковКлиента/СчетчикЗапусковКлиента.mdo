@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87d26c6d-4d74-4fd5-a5a2-cbfabc7c51e9">
+  <producedTypes>
+    <selectionType typeId="2f109965-8c62-4d27-b76a-56314144983f" valueTypeId="e7eeb5cd-8f95-4ebb-ab68-542cb62d02bf"/>
+    <listType typeId="07a498cc-82bc-4385-ab33-de665e01f3e3" valueTypeId="ee7598ef-89e0-4758-a213-0c723ba07059"/>
+    <managerType typeId="b661313f-ee53-4074-972f-6c41a524f89a" valueTypeId="ecbefa37-11d3-4f01-8cc6-895c2232f6c2"/>
+    <recordSetType typeId="94839f65-8049-43c3-85c7-eb2e390f04d9" valueTypeId="a79aa7f1-b0e5-4792-ad5f-1be7ada9e800"/>
+    <recordKeyType typeId="4b39a6e2-f06f-4718-aa43-2ee87fa906df" valueTypeId="ff4e1776-7270-4363-a630-699cf876893d"/>
+    <recordType typeId="ef934525-34e1-47a5-aae8-851abca81409" valueTypeId="18e8e0c1-4060-4392-bc41-a173b37a9d85"/>
+    <recordManagerType typeId="f26834fa-cae9-404d-a3d2-1d07bf5673ff" valueTypeId="d2708b59-5384-48cc-a37f-f1f185fcd5c2"/>
+  </producedTypes>
+  <name>СчетчикЗапусковКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчик запусков клиента</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1eec74d5-f861-4dce-899b-7698a57c6c4a">
+    <name>ДатаПоследнегоЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего запуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="14c40563-ebe9-4d71-8bab-dcd7d1f8c5f2">
+    <name>КоличествоЗапусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество запусков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="6d4323e4-53f0-4ac8-ab7f-3514e2d632e0">
+    <name>ЭтоАктивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это активный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9de4a890-b69f-4444-adf7-e75b5306697a">
+    <name>ЭтоМобильныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это мобильный клиент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="667eb1f4-12c7-41ed-9093-9f30d075b03e">
+    <name>ЗапретОткрытияОпроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет открытия опроса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f1b20205-67f8-4048-a5f0-f0790ee189b1">
+    <name>ДатаПервогоЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата первого запуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5fd69b86-43bd-4a5e-93b8-0f6f4a54b31f">
+    <name>ЗапретОткрытияФормыПереходаВМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет открытия формы перехода в мобильный клиент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="303d6147-3c43-4bb3-aa46-b03df8cc355d">
+    <name>ИдентификаторКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор клиента</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

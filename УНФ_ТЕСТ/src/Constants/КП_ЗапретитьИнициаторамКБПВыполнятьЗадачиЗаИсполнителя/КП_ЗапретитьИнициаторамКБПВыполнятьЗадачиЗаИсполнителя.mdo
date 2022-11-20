@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd5fc753-10b6-4086-9053-827f70333408">
+  <producedTypes>
+    <managerType typeId="4024caf2-d0ae-4a50-b9a0-0da2d66ad826" valueTypeId="30c8e3b9-7dd5-4a1d-8af6-b6096ce1a7ff"/>
+    <valueManagerType typeId="dca84bf8-a153-40e3-b5f2-9919dc58e4d6" valueTypeId="a1128064-6829-4445-9a43-7ffdc1bc1750"/>
+    <valueKeyType typeId="a228249d-bd7c-5397-a0f8-8c90017e7a93" valueTypeId="652a90d8-1625-5865-bfcf-e08639a95ff7"/>
+  </producedTypes>
+  <name>КП_ЗапретитьИнициаторамКБПВыполнятьЗадачиЗаИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запретить инициаторам бизнес-процессов выполнять задачи за исполнителя (кроме полных прав)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Заборонити ініціаторам бізнес-процесів виконувати завдання за виконавця (крім повних прав)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Запретит инициаторам бизнес-процессов выполнять задачи за исполнителей</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Ban proponents of business processes to perform tasks for users</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

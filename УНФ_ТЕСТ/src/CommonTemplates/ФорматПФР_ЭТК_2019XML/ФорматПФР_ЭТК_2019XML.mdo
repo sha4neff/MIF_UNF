@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c73c9924-3313-443a-8ad9-ab9b335d30c6">
+  <name>ФорматПФР_ЭТК_2019XML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат ПФР ЭТК 2019 XML</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

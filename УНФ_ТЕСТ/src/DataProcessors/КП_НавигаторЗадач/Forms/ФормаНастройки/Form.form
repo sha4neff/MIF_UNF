@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Параметры</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Parameters</value>
+  </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОграничениеПоСрокамВыполненныхЗадач</name>
+    <id>9</id>
+    <items xsi:type="form:FormField">
+      <name>ДатаПоказаВыполненных</name>
+      <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Свои выполненные задачи</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Own completed tasks</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ДатаПоказаВыполненных</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаПоказаВыполненныхExtendedTooltip</name>
+        <id>34</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаПоказаВыполненныхКонтекстноеМеню</name>
+        <id>2</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <spinButton>true</spinButton>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДатаПоказаВыполненныхИсполнителями</name>
+      <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Выданные исполнителям задачи</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Issued tasks</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ДатаПоказаВыполненныхИсполнителями</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаПоказаВыполненныхИсполнителямиExtendedTooltip</name>
+        <id>35</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаПоказаВыполненныхИсполнителямиКонтекстноеМеню</name>
+        <id>8</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>1</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <spinButton>true</spinButton>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияОрганичениеПримечание</name>
+      <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Ограничение применяется только к выполненным задачам, не выполненные задачи (в том числе переадресованые) отображаются в списке всегда.</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Restriction applies to comleted tasks only.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияОрганичениеПримечаниеExtendedTooltip</name>
+        <id>36</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияОрганичениеПримечаниеКонтекстноеМеню</name>
+        <id>30</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЗапрещенноеПравоДоступа</color>
+      </textColor>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Ограничение просмотра выполненных задач</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Completed tasks desktop restrictions</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа ограничение по срокам выполненных задач</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Group defined time limits for tasks</value>
+    </toolTip>
+    <width>36</width>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаОграничениеПоСрокамВыполненныхЗадачExtendedTooltip</name>
+      <id>33</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>StrongSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаИнтервалПросрочки</name>
+    <id>10</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаСвоиЗадачи</name>
+      <id>15</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияСвоиЗадачи</name>
+        <id>16</id>
+        <title>
+          <key>ru</key>
+          <value>Свои задачи, минут:</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Own tasks, minutes:</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияСвоиЗадачиExtendedTooltip</name>
+          <id>39</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияСвоиЗадачиКонтекстноеМеню</name>
+          <id>17</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <width>21</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИнтервалПросрочкиМинут</name>
+        <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Свои задачи, минут</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Their tasks, minutes</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИнтервалПросрочкиМинут</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <toolTip>
+          <key>ru</key>
+          <value>Определят через сколько ()или за сколько в случае отрицательного значения) минут до срока выполнения считать свою задачу просроченной. </value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Определят через сколько ()или за сколько в случае отрицательного значения) минут до срока выполнения считать свою задачу просроченной. </value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ИнтервалПросрочкиМинутExtendedTooltip</name>
+          <id>40</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИнтервалПросрочкиМинутКонтекстноеМеню</name>
+          <id>12</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <width>11</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <spinButton>true</spinButton>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа свои задачи</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group your tasks</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа свои задачи</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group your tasks</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаСвоиЗадачиExtendedTooltip</name>
+        <id>38</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаВыданныеЗадачи</name>
+      <id>18</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияВыданныеЗадачи</name>
+        <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Выданные задачи, минут</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Issued tasks, minutes</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияВыданныеЗадачиExtendedTooltip</name>
+          <id>42</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияВыданныеЗадачиКонтекстноеМеню</name>
+          <id>24</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <width>21</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИнтервалПросрочкиИсполнителейМинут</name>
+        <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>Выданные задачи, минут</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Issued tasks minutes</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИнтервалПросрочкиИсполнителейМинут</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <toolTip>
+          <key>ru</key>
+          <value>Определят через сколько ()или за сколько в случае отрицательного значения) минут до срока выполнения считать выданную исполнителям задачу просроченной. </value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Определят через сколько ()или за сколько в случае отрицательного значения) минут до срока выполнения считать выданную исполнителям задачу просроченной. </value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ИнтервалПросрочкиИсполнителейМинутExtendedTooltip</name>
+          <id>43</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИнтервалПросрочкиИсполнителейМинутКонтекстноеМеню</name>
+          <id>14</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <width>11</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <spinButton>true</spinButton>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа выданные задачи</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>The group issued the task</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа свои задачи</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group your tasks</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаВыданныеЗадачиExtendedTooltip</name>
+        <id>41</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияИнтервалПримечание</name>
+      <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Примечание: Используйте отрицательное значение для признания задачи просрочненной после планируемого срока, положительное значение - до планируемого срока.</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Note: Use a positive value to set time before the due date.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияИнтервалПримечаниеExtendedTooltip</name>
+        <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияИнтервалПримечаниеКонтекстноеМеню</name>
+        <id>28</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.FieldSelectionBackColor</color>
+      </textColor>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Критерий признания задачи просроченной</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Overdue tasks criterion</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа интервал просрочки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Group delay interval</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаИнтервалПросрочкиExtendedTooltip</name>
+      <id>37</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>StrongSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПоказыватьПредпросмотр</name>
+    <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать предпросмотр своих задач</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Show preview of own tasks</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ПоказыватьПредпросмотр</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ПоказыватьПредпросмотрExtendedTooltip</name>
+      <id>45</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПоказыватьПредпросмотрКонтекстноеМеню</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПоказыватьСтрокуПоиска</name>
+    <id>47</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ПоказыватьСтрокуПоиска</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ПоказыватьСтрокуПоискаРасширеннаяПодсказка</name>
+      <id>49</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПоказыватьСтрокуПоискаКонтекстноеМеню</name>
+      <id>48</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПоказыватьПростыеЗадачиНаРабочемСтоле</name>
+    <id>5</id>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПоказыватьПростыеЗадачиНаРабочемСтоле</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ПоказыватьПростыеЗадачиНаРабочемСтолеExtendedTooltip</name>
+      <id>46</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПоказыватьПростыеЗадачиНаРабочемСтолеКонтекстноеМеню</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаЗаписатьИЗакрыть</name>
+      <id>26</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+        <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ЗаписатьИЗакрыть</commandName>
+      <representation>Auto</representation>
+      <defaultButton>true</defaultButton>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>Закрыть</name>
+      <id>25</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ЗакрытьExtendedTooltip</name>
+        <id>32</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.StandardCommand.Close</commandName>
+      <representation>PictureAndText</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <width>37</width>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.КП_НавигаторЗадач</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ПоказыватьПростыеЗадачиНаРабочемСтоле</name>
+    <title>
+      <key>ru</key>
+      <value>Показывать простые задачи</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Show simple tasks</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ЗаписатьИЗакрыть</name>
+    <title>
+      <key>ru</key>
+      <value>Записать и закрыть</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Save &amp;&amp; close</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Записать и закрыть</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Save &amp;&amp; close</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.WriteAndClose</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаписатьИЗакрыть</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
+</form:Form>

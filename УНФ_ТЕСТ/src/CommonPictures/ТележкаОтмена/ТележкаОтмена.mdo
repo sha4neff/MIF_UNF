@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3662e1da-79f0-44f0-8983-c5ed3dfb5331">
+  <name>ТележкаОтмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тележка отмена</value>
+  </synonym>
+</mdclass:CommonPicture>

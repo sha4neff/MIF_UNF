@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b06e2fdb-fa71-4f09-a003-c5a6fe32f057">
+  <name>ОбменСGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Google</value>
+  </synonym>
+  <content>CommonModule.ОбменСGoogle</content>
+  <content>CommonModule.ОбменСGoogleКлиентСервер</content>
+  <content>DataProcessor.ОбменСGoogle</content>
+  <content>InformationRegister.СеансовыеДанныеGoogle</content>
+  <content>CommonModule.ОбменСGoogleВызовСервера</content>
+  <content>InformationRegister.ИнкрементнаяСинхронизация</content>
+  <content>CommonModule.ОбменСGoogleКлиент</content>
+  <content>Enum.ОбластиДоступаGoogle</content>
+  <content>Catalog.КлассификаторКонтактов</content>
+  <content>ScheduledJob.СинхронизацияGoogleCalendar</content>
+  <content>CommonPicture.GoogleДобавить</content>
+  <content>CommonPicture.АвторизацияGoogle</content>
+  <content>Constant.УдалитьИдентификацияПриложенияGoogle</content>
+  <content>HTTPService.ОбработкаОбратногоВызоваOAuth2</content>
+  <content>InformationRegister.ДанныеАвторизацииGoogle</content>
+  <content>Role.ОбработкаОбратныхВызововOAuth2</content>
+  <content>InformationRegister.ЗаданияОбменаСGoogle</content>
+  <content>InformationRegister.ИнкрементнаяСинхронизацияПочты</content>
+  <content>Constant.ИдентификацияПриложенияGoogle</content>
+  <content>InformationRegister.ДанныеЗаписейКалендаряGoogle</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

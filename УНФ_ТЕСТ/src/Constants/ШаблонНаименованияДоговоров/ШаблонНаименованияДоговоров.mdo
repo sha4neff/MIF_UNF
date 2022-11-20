@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28a05bd9-d8cb-4b3c-a3e1-16144ec2ee14">
+  <producedTypes>
+    <managerType typeId="913bf030-4466-4b24-8e21-60a1da3b188f" valueTypeId="c10e3fa4-47ed-4760-b9f6-4d78b1f6e378"/>
+    <valueManagerType typeId="f60e47b2-8509-4f66-9f20-125c783de364" valueTypeId="902fceb3-2194-47a0-9702-88511e006578"/>
+    <valueKeyType typeId="042cd70d-da3d-4aa0-8ad2-f168867ea1c5" valueTypeId="c2827a75-7db9-4ef2-bc88-76517856ecf8"/>
+  </producedTypes>
+  <name>ШаблонНаименованияДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон наименования договоров</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШаблоныНаименований</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

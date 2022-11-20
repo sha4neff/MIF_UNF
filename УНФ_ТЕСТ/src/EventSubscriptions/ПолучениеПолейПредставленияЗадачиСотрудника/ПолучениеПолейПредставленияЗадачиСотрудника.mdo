@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="189e8be1-705a-4473-af28-1a3080909ed5">
+  <name>ПолучениеПолейПредставленияЗадачиСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение полей представления задачи сотрудника</value>
+  </synonym>
+  <source>
+    <types>DocumentManager.ЗадачаСотрудника</types>
+  </source>
+  <event>PresentationFieldsGetProcessing</event>
+  <handler>CommonModule.ЗадачиСотрудникаКлиентСервер.ОбработкаПолученияПолейПредставления</handler>
+</mdclass:EventSubscription>

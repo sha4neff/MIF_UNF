@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f3e0d57-b34c-477c-8c28-610178aac64f">
+  <name>КП_ФормированиеПоШаблонам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование по шаблонам</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Formation on templates</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

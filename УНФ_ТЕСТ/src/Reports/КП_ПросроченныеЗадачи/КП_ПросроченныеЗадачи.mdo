@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d9b7079-0938-4cde-88b0-96ef1dab7d82">
+  <producedTypes>
+    <objectType typeId="6cab9268-48b2-4ffb-82e8-1cc48a882db0" valueTypeId="60412673-4c0e-4d09-a16f-205db3c7ea79"/>
+    <managerType typeId="dcec62bc-7aa8-4dc6-8060-be65cba3acfc" valueTypeId="6212754c-406a-45a8-ba38-e9c8bfece2a6"/>
+  </producedTypes>
+  <name>КП_ПросроченныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список просроченных задач</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Список прострочених завдань</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КП_ПросроченныеЗадачи.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КП_ПросроченныеЗадачи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="300487b0-1f6f-4686-9397-605d1a3d07de">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of an account</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="41ea7ea2-5fef-484e-afa7-85746b9cad60">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The basic Flowchart of the data composition</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="f890d228-5c5b-416d-b892-a78b105d2e1f">
+    <name>СписокПросроченныхЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просроченные задачи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List of overdue tasks</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

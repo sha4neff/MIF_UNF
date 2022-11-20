@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d176109-bc86-4637-9baf-ee29471541ff">
+  <producedTypes>
+    <managerType typeId="9df68dce-7585-4b50-9436-58f6a04c58ed" valueTypeId="021720b7-ca22-41a5-9ada-cf7f3f7881ba"/>
+    <valueManagerType typeId="237e4fb1-d5ca-4fcd-9c14-fb12c4853066" valueTypeId="cd3a33f4-7de3-4fc7-9399-04e34f55c560"/>
+    <valueKeyType typeId="905a95db-72f4-413c-8a40-6fc25f0aea0b" valueTypeId="70be47bf-ced2-4451-917f-0a1e9812f9cc"/>
+  </producedTypes>
+  <name>ФИОРуководителяМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ф.И.О. руководителя</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Full name of CEO</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>512</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

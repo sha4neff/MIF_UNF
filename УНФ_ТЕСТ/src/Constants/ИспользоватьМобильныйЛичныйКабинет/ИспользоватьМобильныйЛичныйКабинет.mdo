@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b85d59bf-9414-4a1e-8a24-669a968f7f4f">
+  <producedTypes>
+    <managerType typeId="4c3b69e3-ef40-432a-b982-51397cec09c5" valueTypeId="19162edd-c5fd-4559-bfcc-fe416b3dae5a"/>
+    <valueManagerType typeId="128ead68-62ea-43ef-af70-ee6c42f1d2a2" valueTypeId="0b475cb8-45f1-4945-987a-7ded94239ef8"/>
+    <valueKeyType typeId="2b3e7c05-5d2a-4c12-9d60-3b43daeb5f16" valueTypeId="75f103cd-b835-4e22-b98b-c8ce27fcb770"/>
+  </producedTypes>
+  <name>ИспользоватьМобильныйЛичныйКабинет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать мобильный личный кабинет</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

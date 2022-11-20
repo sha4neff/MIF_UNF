@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07ceee5d-97b7-4f97-9e86-fbf5e4598179">
+  <name>ГруппаПраво</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа право</value>
+  </synonym>
+</mdclass:CommonPicture>

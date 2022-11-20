@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="326d31eb-a364-4dbb-b990-904ee61b1346">
+  <producedTypes>
+    <selectionType typeId="1da6dac3-02c7-4bdf-9e08-9bdf14e9af23" valueTypeId="dc3081b8-3f5d-4641-8f54-0968998608df"/>
+    <listType typeId="9a70c73f-785e-4592-a1b9-c25ab7196888" valueTypeId="fc71bff5-6ddc-42cf-88e6-8ff1fe3a44aa"/>
+    <managerType typeId="c2ca9d79-7591-416e-9933-0821d9f24908" valueTypeId="0d1d84e2-5fff-4e60-9f36-01e22d20a4fb"/>
+    <recordSetType typeId="bdeb626e-a0a0-4303-a597-e6b0065fe1b1" valueTypeId="0339058d-dfea-4a93-b04e-c76d1a3b8b8b"/>
+    <recordKeyType typeId="19d94e4c-3d64-4f46-a760-5773d722322e" valueTypeId="48004ab3-08ba-4a64-9b55-3f364bd44d60"/>
+    <recordType typeId="5d56880f-5080-42ef-a91d-812f69c6e634" valueTypeId="a61b23ee-29f7-4b1d-a4e2-445f9d582376"/>
+    <recordManagerType typeId="fd36c3ff-c4c4-404d-a265-5ec5896e2298" valueTypeId="aa66e2c7-cebe-4f97-958e-b475f350a029"/>
+  </producedTypes>
+  <name>КП_СвязьПользователейПроцессовИДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь процессов и документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_СвязьПользователейПроцессовИДокументов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_СвязьПользователейПроцессовИДокументов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="084d8acf-5774-40b2-ad8a-8cab1bc26fec">
+    <name>КопироватьВСписокПолучатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копировать в список документа &quot;Получатели&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="464574e4-214c-4d71-9b69-38b6d4deb29d">
+    <name>КопироватьВСписокСотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копировать в список документа &quot;Сотрудники&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c7b701be-f748-4e89-beb7-52ba34344ae8">
+    <name>ВидПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ВидыПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b0d05ee5-f2d8-48ef-be1c-339f70efba51">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b6ef4eba-c0f4-4b98-8544-4752ffde8f5f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39401b65-911a-410d-b847-2bef627d668b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

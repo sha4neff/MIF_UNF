@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e98a9dc-1c02-4226-aa3a-e6c749c433f5">
+  <producedTypes>
+    <objectType typeId="478b5c16-1ad2-4b50-bc17-2e02da328c12" valueTypeId="d33792a3-9484-4ff4-a03e-433c9f970398"/>
+    <managerType typeId="b1535daf-5da9-4519-a9a4-819676db18ef" valueTypeId="a65e534d-c059-4704-8f28-9344cd033976"/>
+  </producedTypes>
+  <name>КП_ПереадресацияЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переадресация задачи</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Переадресація завдання</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ПереадресацияЗадачи.Form.ФормаПереадресации</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c79bf3a9-b693-4d6e-81b2-d605f0ccba46">
+    <name>ИсходнаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходная задача</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The original task</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исходная задача</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The original task</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="62fc6cae-4672-44c0-858a-955289b8877e">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1e791728-2b6e-43e9-a016-740216d1d069">
+    <name>ОтметитьЗадачуКакВыполненную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметить задачу как выполненную</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mark a task as completed</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отметить задачу как выполненную</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Mark a task as completed</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d790c5fd-33f4-4f4e-b410-c2123afde543">
+    <name>НаименованиеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c4300ca-af36-4ed9-9a4a-df3155f97baa">
+    <name>ДатаВыполненияПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения (план)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Due date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8b549236-815a-4093-be73-a020dbf57958">
+    <name>ФормаПереадресации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма переадресации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

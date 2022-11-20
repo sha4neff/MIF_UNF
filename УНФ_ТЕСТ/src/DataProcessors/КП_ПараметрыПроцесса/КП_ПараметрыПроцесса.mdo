@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e275ace4-fcec-4ac7-b83a-c96dbb3688e2">
+  <producedTypes>
+    <objectType typeId="7adb8bb8-d2dc-4f7b-aa40-a77f100d41a1" valueTypeId="a5171b77-89bf-490e-9b4e-7be286d730b0"/>
+    <managerType typeId="9cb8841c-5b96-482e-906e-bd4bc81a9cac" valueTypeId="776552aa-72f3-4875-a2e8-77b6295bb189"/>
+  </producedTypes>
+  <name>КП_ПараметрыПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие параметры процесса</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Поточні параметри процесу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ПараметрыПроцесса.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="fea3bfb6-8ae7-4834-b62e-d6fb412ec13e">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e0bcbfb6-7462-423a-82c7-71bfbd55b1fb">
+    <name>ДатаПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата параметров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date settings</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата параметров</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date settings</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9bb423e0-2b1a-4a0c-bb98-e2493111c365">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3ecdd871-8b4e-46c9-8f91-850721bce123">
+    <name>ТекущиеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущие параметры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Current options</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb4952ca-8126-428e-96b0-aef3ba2d2115">
+  <name>ФормированиеПакетовДляМЛКПриЗаписиНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование пакетов для МЛКПри записи набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ЦеныНоменклатуры</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КонструкторМобильногоПриложения.ФормированиеПакетовДляМЛКПриЗаписиНабораЗаписейПриЗаписи</handler>
+</mdclass:EventSubscription>

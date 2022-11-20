@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42c6dc64-d3d9-4828-a23e-635ffec16497">
+  <producedTypes>
+    <selectionType typeId="8aa3c7aa-1909-432f-aed3-d9dcf0b918e3" valueTypeId="d0511b66-35fa-4557-ae50-7adfda3c6a69"/>
+    <listType typeId="7cdda9ac-2806-497b-82ff-c58a5fb225c5" valueTypeId="2e24f9cc-6148-4dbe-83e1-a3ea64288cc9"/>
+    <managerType typeId="17e235d2-aa03-4cbf-98c0-0b741cc83bac" valueTypeId="b530ff47-8681-40a3-b3d7-4a38a9b713d0"/>
+    <recordSetType typeId="37cdbbd6-4870-4ad2-ae8f-2831cd971626" valueTypeId="67d00c45-8ce1-4ddf-a336-ba93a1946282"/>
+    <recordKeyType typeId="5e228a78-4b0c-4b26-8836-cf4fc8cbbc88" valueTypeId="b14fc2c4-26c9-4db8-abcf-58897840049b"/>
+    <recordType typeId="5b0c83d5-9da4-4c66-86a7-9fe0b02e47bc" valueTypeId="dc1e4051-ac16-4bcf-ab1b-4370c6f3ce16"/>
+    <recordManagerType typeId="52478a09-62b7-4e35-aebc-dec60bce18d4" valueTypeId="fff1792a-706a-4472-bf1b-dd211a27e886"/>
+  </producedTypes>
+  <name>КП_ПросмотрОбъектовПользователями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр объектов пользователями</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>View user object</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.КП_ПросмотрОбъектовПользователями.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_ПросмотрОбъектовПользователями.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="55c02d6a-df82-4379-bd0f-cd0f7601ab6d">
+    <name>ПоследнийПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний просмотр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Last accessed</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата и время последнего просмотра</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date and time of the last display</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b72758c5-9640-4b74-9cda-49c50cc32798">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект-владелец</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Owning object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="64a2d9db-1ed9-4acb-a6fc-1b76f6ddc6ed">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a068dfc0-4997-4fca-ac30-d11d6d435a99">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca4fa937-447a-4a57-bd32-b4f10699c770">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

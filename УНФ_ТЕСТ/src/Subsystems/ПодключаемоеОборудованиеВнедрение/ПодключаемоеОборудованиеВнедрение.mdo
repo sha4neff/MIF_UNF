@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8be6429-5a58-4f9a-8b5d-7811b7682603">
+  <name>ПодключаемоеОборудованиеВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование (внедрение)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МенеджерОборудованияУНФГлобальный</content>
+  <content>CommonModule.МенеджерОборудованияУНФКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеАтолСчитывателиМагнитныхКартКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеУНФ</content>
+  <content>CommonModule.ПодключаемоеОборудованиеШтрихМВесыСПечатьюЭтикетокКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеШтрихМТерминалыСбораДанныхКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеШтрихМЭлектронныеВесыКлиент</content>
+  <content>CommonForm.ФормаНастройкиАтолСчитывателиМагнитныхКарт</content>
+</mdclass:Subsystem>

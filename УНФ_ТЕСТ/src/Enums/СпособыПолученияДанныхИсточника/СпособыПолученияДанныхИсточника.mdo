@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d7e5631-ff6c-4b97-acf9-9e0c6de0545c">
+  <producedTypes>
+    <refType typeId="db383856-635d-4a26-b275-8531ec1fee1a" valueTypeId="ba51bc83-efc8-408a-96fa-ad521d338b70"/>
+    <listType typeId="78fb54de-a6e9-41bf-8861-78c8dd62d7d8" valueTypeId="3435dec2-be96-46e1-9283-80e94bd9559f"/>
+    <managerType typeId="a3e8f4eb-d970-4858-9930-6980341ba593" valueTypeId="7c1d5481-907d-43f5-af32-f50b0eaabe5a"/>
+  </producedTypes>
+  <name>СпособыПолученияДанныхИсточника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы получения данных источника</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="94bce3a8-142a-4a9a-9d72-de91dd428ca5">
+    <name>ДтОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дт (оборот)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="126f670c-4c33-4298-8a9f-1946a211cd14">
+    <name>КтОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кт (оборот)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71f47fbd-38bb-4657-ac33-c43d16201033">
+    <name>ДтМинусКтОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дт (оборот) - Кт (оборот)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a0f13de-23a9-4be1-b7fa-c1af7bf9dfde">
+    <name>ДтСальдо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дт (сальдо)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb766ef9-5654-4d20-a738-c078cea6fa79">
+    <name>КтСальдо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кт (сальдо)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

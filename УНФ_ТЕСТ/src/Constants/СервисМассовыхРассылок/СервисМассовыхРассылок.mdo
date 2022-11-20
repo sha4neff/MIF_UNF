@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bd30ca1-4ebd-48e8-a543-0e826c741fcd">
+  <producedTypes>
+    <managerType typeId="d2253f17-6c09-4be4-8adf-8d84ab28a6a5" valueTypeId="831cac16-b3da-4b61-9e1a-c8f92f6d0988"/>
+    <valueManagerType typeId="56f972e7-e69b-453f-a57a-f03ec833c7a7" valueTypeId="5d837251-fc61-4cdc-9f23-802db58efe3b"/>
+    <valueKeyType typeId="0a465558-1ccb-51b7-82d9-d50d5cbf77c0" valueTypeId="d58fcd55-60d0-5bc0-b18d-889085575dcb"/>
+  </producedTypes>
+  <name>СервисМассовыхРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис массовых рассылок</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СервисыМассовыхРассылок</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

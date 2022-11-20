@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalAppearance xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+	<item>
+		<selection>
+			<item>
+				<field>ВРаботеСодержание</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ВРаботе.Содержание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВРаботеДатаОбъединенная</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>AndGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ВРаботе.Начало</left>
+					<comparisonType>NotFilled</comparisonType>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ВРаботе.Окончание</left>
+					<comparisonType>NotFilled</comparisonType>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВРаботеДатаОбъединенная</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ВРаботе.ЗадачаПросрочена</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#AE3226</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="style:ШрифтПравойПанелиОтборов" kind="StyleItem"/>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВРаботеПолеОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ВРаботе.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаСегодняСодержание</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаСегодня.Содержание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаСегодняДатаОбъединенная</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаСегодня.ЗадачаПросрочена</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#AE3226</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="style:ШрифтПравойПанелиОтборов" kind="StyleItem"/>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаСегодняОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаСегодня.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаЗавтраСодержание</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаЗавтра.Содержание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаЗавтраОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаЗавтра.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаНеделеСодержание</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаНеделе.Содержание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаНеделеОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаНеделе.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиПозжеСодержание</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиПозже.Содержание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиПозжеОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиПозже.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиБезСрокаОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиБезСрока.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВРаботеСостояние</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ЗадачиНаСегодняСостояние</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ЗадачиНаЗавтраСостояние</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ЗадачиНаНеделеСостояние</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ЗадачиПозжеСостояние</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ЗадачиБезСрокаСостояние</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ЗадачиБезСрокаОтступСостояние</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ОтборЗавершенные</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">false</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<use>false</use>
+					<left xsi:type="dcscor:Field">ВидыКонтактЦентра</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:decimal">1</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВходящееТретьяСтрока</field>
+			</item>
+			<item>
+				<field>ВходящееЧетвертаяСтрока</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Входящее.ТипПоля</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">3</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВходящееЧетвертаяСтрока</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Входящее.ТипПоля</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">4</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВходящееТретьяСтрока</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>AndGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Входящее.ТипПоля</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:decimal">4</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Входящее.Комментарий</left>
+					<comparisonType>NotFilled</comparisonType>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВходящееВтораяСтрока</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Входящее.ТипПоля</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:decimal">0</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Входящее.ТипПоля</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:decimal">1</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ВРаботеНаименование</field>
+			</item>
+			<item>
+				<field>ВРаботеСостояние</field>
+			</item>
+			<item>
+				<field>ВРаботеПолеОснование</field>
+			</item>
+			<item>
+				<field>ВРаботеСодержание</field>
+			</item>
+			<item>
+				<field>ВРаботеДатаОбъединенная</field>
+			</item>
+			<item>
+				<field>ВРаботеОтветственный</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ВРаботе.Состояние</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">true</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ВРаботе.Состояние</left>
+					<comparisonType>Contains</comparisonType>
+					<right xsi:type="xs:string">Выполнена</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:НедоступныеДанныеЦвет</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиПросроченыСодержание</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиПросрочены.Содержание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиПросроченыОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиПросрочены.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаВесьДеньКалендарьДатаСтрокой</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаВесьДеньКалендарь.ДатаСтрокой</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиНаВесьДеньКалендарьДатаСтрокой</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиНаВесьДеньКалендарь.Просрочено</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">1</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#AE3226</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="style:ШрифтПравойПанелиОтборов" kind="StyleItem"/>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиЗавершеныСодержание</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиЗавершены.Содержание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗадачиЗавершеныОснование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗадачиЗавершены.Основание</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+</ConditionalAppearance>

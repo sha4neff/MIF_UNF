@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18c00802-837c-4804-a724-56b8d054172c">
+  <name>НетСоединенияМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нет соединения МП</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ccad146-6379-45f8-8926-69e32cc63041">
+  <producedTypes>
+    <selectionType typeId="5d26e085-2652-40b9-8e33-822ba3ad4014" valueTypeId="8741013e-c36b-47ac-8d4d-e9aa59c5cb70"/>
+    <listType typeId="51356841-569e-40d9-baed-ca733a507a91" valueTypeId="4c513dac-ae75-4048-af0c-34238410d193"/>
+    <managerType typeId="2016b4da-2251-40a6-8295-84ffd2baec0e" valueTypeId="8312aba3-5b02-4eeb-8e82-5a0c7087ca99"/>
+    <recordSetType typeId="89977956-d6c9-4903-b51c-fb7efe24f3c9" valueTypeId="c993fb88-ca89-4ba3-b978-77d592524a75"/>
+    <recordKeyType typeId="953dd2e3-c311-4379-a2c2-00b6c6b3c7b3" valueTypeId="e942275e-9eca-4b63-8953-a52457dd91a9"/>
+    <recordType typeId="a228e739-e1ee-4a7f-81f0-7090531c800e" valueTypeId="bd86fcbc-6d82-4f0d-8c77-97d03cb09563"/>
+    <recordManagerType typeId="e15fddc2-d997-4d05-982d-e73fcc834840" valueTypeId="bf39ecf4-6d85-4f02-b932-60ad18d1d05f"/>
+  </producedTypes>
+  <name>КП_ПараметрыПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры бизнес-процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Parameters of enterprise business processes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_ПараметрыПроцессов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_ПараметрыПроцессов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Valid from</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Параметры процессов</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Process parameters</value>
+  </listPresentation>
+  <resources uuid="53ebbf00-4d90-4c0b-a13d-80d618908b12">
+    <name>ЗначениеПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение параметра</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parameter value</value>
+    </synonym>
+    <type>
+      <types>Characteristic.КП_ПараметрыПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение параметра процесса</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The value of the process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8375827e-bd87-4a7e-a536-7e9f2aeed7e6">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпоративный бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Corporate business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c21c44b1-498b-4726-a09d-7d91d3f4d781">
+    <name>ПараметрПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр процесса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Process variable</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.КП_ПараметрыПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметр бизнес-процесса</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Parameter of the business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7dc05045-b9b9-4bf5-b33f-4792cc47eae7">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9c80857-73fa-4b6e-af8a-432d9a98cdb6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

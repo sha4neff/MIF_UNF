@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b07f0eda-c1d5-4390-b679-e5d2e7e90f2b">
+  <producedTypes>
+    <objectType typeId="2fa8befd-cb96-415c-87a9-89008dab3107" valueTypeId="d0b696b6-aa5f-43d0-ae6b-24bea9d6641d"/>
+    <refType typeId="6eb8e7c4-1edc-4379-9bed-63119ae982db" valueTypeId="ed8cf386-d2dc-41e1-a9fd-41836543c2b3"/>
+    <selectionType typeId="99870933-eece-4eaa-98ae-6f1b1d54d84c" valueTypeId="ff253583-fdad-49c0-af42-3b675a57ded3"/>
+    <listType typeId="6f2e8a30-3873-416f-9747-9645d9a1f6e2" valueTypeId="59cc8216-25e6-45a8-94c9-9fd03fda9c75"/>
+    <managerType typeId="fc48eea1-cd19-4c6a-b6db-82326be3c638" valueTypeId="2340f6ad-9508-418b-a834-0091f295a31d"/>
+  </producedTypes>
+  <name>НастройкиВыгрузкиОстатковПоставщиковНаСайт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки выгрузки остатков поставщиков на сайт</value>
+  </synonym>
+  <inputByString>Catalog.НастройкиВыгрузкиОстатковПоставщиковНаСайт.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиВыгрузкиОстатковПоставщиковНаСайт.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиВыгрузкиОстатковПоставщиковНаСайт.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="c9676ed4-3d22-455d-9cff-cc2724fff653">
+    <producedTypes>
+      <objectType typeId="4f95c91c-756d-4ae1-af68-9cbb54f72f0f" valueTypeId="cfbdb30f-b24b-41b1-94a2-ab3e14dfabf0"/>
+      <rowType typeId="0cf8c0bc-d995-42d9-9fe0-87380f7266d9" valueTypeId="c2052f88-dc66-49ad-9eac-d3b186c82a7f"/>
+    </producedTypes>
+    <name>Сопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставления</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f31d4ff7-52b2-4f68-9bac-759f32f5e113">
+      <name>Поставщик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поставщик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5ac57bee-d254-4a11-a48e-6dc6138496fb">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктурныеЕдиницы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипСтруктурнойЕдиницы</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Склад</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Розница</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.РозницаСуммовойУчет</value>
+          </values>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="92d3c912-023b-46c4-a810-e9c9a2a1ffcf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

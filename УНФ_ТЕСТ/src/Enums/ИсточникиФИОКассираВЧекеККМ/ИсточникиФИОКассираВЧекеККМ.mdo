@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3408c33b-fd52-408d-8ce9-b2671beea48b">
+  <producedTypes>
+    <refType typeId="bc2cb804-d7a3-4e95-98fb-0afdcba1a1bd" valueTypeId="0ef1f984-ba13-4ade-aab9-3e413967a539"/>
+    <listType typeId="1d9cf8e0-0265-46e2-88c1-9b0ee345b1a3" valueTypeId="3bb45a87-cb54-451e-b919-b1c9df6571ca"/>
+    <managerType typeId="55dcc7f2-96d4-47ad-886c-e30735b7bb01" valueTypeId="14ceb762-b5a7-41cd-88a0-4f9cbe849fd6"/>
+  </producedTypes>
+  <name>ИсточникиФИОКассираВЧекеККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники для ФИО кассира в чеке ККМ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cf7078c4-854e-416c-bd07-c1938bc6fb18">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be7c918f-c474-465c-aa43-250e4cf69483">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

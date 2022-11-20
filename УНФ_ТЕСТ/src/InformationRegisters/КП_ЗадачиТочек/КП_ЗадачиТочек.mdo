@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39281038-1c07-4ebb-a00d-999c6a829cd0">
+  <producedTypes>
+    <selectionType typeId="0e57ed9e-9cf0-4156-bac0-634cd543a288" valueTypeId="bc3d0f31-ea4e-4c59-bd43-751373f47fdb"/>
+    <listType typeId="f1e813d5-01d1-4bf8-80ab-d7a169df37ea" valueTypeId="78cd310a-238f-472d-b2db-beb9907afa9b"/>
+    <managerType typeId="f0ebb664-c74a-4c12-afa7-e3ad35503b0d" valueTypeId="7573fd27-6dd7-42bc-9ff7-a3e1cf8d2ef5"/>
+    <recordSetType typeId="4bcec54d-4525-48ed-9f02-1c180556ed71" valueTypeId="7f2a1078-3b7b-48c8-b0cd-cc96eeb9fd99"/>
+    <recordKeyType typeId="a88f2c64-b0ca-4336-b77b-6270f257939f" valueTypeId="072cde70-aa6c-4024-a4f7-dc2b16a73295"/>
+    <recordType typeId="fbe4d3b5-8ff9-4176-87e3-6971492acfee" valueTypeId="f1f30195-a82d-4e2c-8dd0-e6dcf38952bb"/>
+    <recordManagerType typeId="be36a819-8050-4566-8242-e5587157834f" valueTypeId="8b202c79-38c2-4d75-9cb1-936ca2c2c03d"/>
+  </producedTypes>
+  <name>КП_ЗадачиТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи точек действий схемы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tasks action points Flowchart</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КП_ЗадачиТочек.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="adb0b104-b429-4625-9271-aca8defd77fc">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Failure</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отказ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Failure</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="73de7d95-a535-4501-be65-d037fd563ad7">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Note</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Примечание</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Note</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="da059dde-7a5a-4392-b564-72487a961553">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Task</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задача</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Task</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b85360f2-8569-4d1c-8a4e-c73098a71f02">
+    <name>ТочкаКБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Route point</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ТочкиПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Route point</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="723c6957-ae59-4fdb-b60e-d798be366732">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7762ea5d-f945-4c2e-8eac-349cf7ad586f">
+    <name>НомерПрохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер прохода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pass number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер прохода</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pass number</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="276120af-ecd4-402e-a8de-d6c3f6704d53">
+    <name>ИднИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор исполнителя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Identifier User</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор исполнителя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Identifier User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                                  </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e808e4fe-e1a9-48b6-ba3c-a5b171883583">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

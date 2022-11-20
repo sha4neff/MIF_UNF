@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c90fe64f-23ab-4614-91fc-51e0d91dc883">
+  <name>ГлобальныйПоиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глобальный поиск</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonPicture.ЛупаГлобальногоПоиска</content>
+  <content>CommonModule.ГлобальныйПоискВызовСервера</content>
+  <content>CommonModule.ГлобальныйПоискКлиент</content>
+  <content>CommonModule.ГлобальныйПоискКлиентСервер</content>
+  <content>CommonModule.ГлобальныйПоискСервер</content>
+  <content>InformationRegister.ИсторияГлобальногоПоиска</content>
+  <content>StyleItem.ЦветВторостепеннаяСтрокаГлобальногоПоиска</content>
+  <content>StyleItem.ЦветСовпавшейПодстрокиГлобальногоПоиска</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

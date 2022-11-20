@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="918b9cde-acb7-4e44-83d9-ad212fa18d8b">
+  <producedTypes>
+    <objectType typeId="25bb5548-2288-4b6b-8e04-a6e55514841e" valueTypeId="cb982c67-4a35-4dae-af92-45e51620e0c0"/>
+    <managerType typeId="11e59cd8-0473-4167-98b7-01d2e7fdbbc7" valueTypeId="e0a32828-c7d7-4d92-92ea-dfbe4d5966fd"/>
+  </producedTypes>
+  <name>ПрайсЛистыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс-листы поставщиков</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПрайсЛистыКонтрагентов.Form.ФормаПрайсЛистыКонтрагентов</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Прайс-листы поставщиков</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка предназначена для просмотра и редактирования цен поставщиков.</value>
+  </explanation>
+  <forms uuid="28765690-a002-4489-8e9d-f252596231f3">
+    <name>ФормаПодбораВидовЦенКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор видов цен контрагентов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4d0e1d6-c6b5-4652-aa73-4b5a7afd1c37">
+    <name>ФормаПодбораНоменклатурыКомпоновщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора номенклатуры компоновщик</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e9a8eb2e-e505-477d-9518-4ade11120010">
+    <name>ФормаПрайсЛистыКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-листы контрагентов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ded9cf48-ee9b-4c87-a4d5-520a1daf8f42">
+    <name>ФормаСообщения</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6a04ad0b-a847-49bc-a022-bea0bfdeff92">
+    <name>СКД_НоменклатураИХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура и характеристики (по установленным отборам)</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="71c846b5-f37e-4522-8280-fe0bd7d11065">
+    <name>ПФ_MXL_ПрайсЛистыКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-листы контрагентов</value>
+    </synonym>
+  </templates>
+  <commands uuid="93a37f41-4787-42de-bbc8-0a51b50a5cd5">
+    <name>ПрайсЛистыКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-листы поставщиков</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

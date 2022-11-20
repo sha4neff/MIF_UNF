@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6340648-cbcb-4559-9467-c8ff42817317">
+  <name>УдалитьИспользоватьМобильныйЛичныйКабинет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить использовать мобильный личный кабинет</value>
+  </synonym>
+  <location>Constant.ИспользоватьМобильныйЛичныйКабинет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

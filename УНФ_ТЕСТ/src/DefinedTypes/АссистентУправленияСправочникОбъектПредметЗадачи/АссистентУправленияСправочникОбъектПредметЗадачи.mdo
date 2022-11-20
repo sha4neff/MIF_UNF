@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01c35801-538d-4d7c-955a-969a5aed5d01">
+  <producedTypes>
+    <containerType typeId="70e00f46-eaae-4270-a4b7-8ee022d9458d" valueTypeId="8634bb2c-a96d-4d40-a0a6-57e73a0109c2"/>
+  </producedTypes>
+  <name>АссистентУправленияСправочникОбъектПредметЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассистент управления справочник объект предмет задачи</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.ЗаписиКалендаряПодготовкиОтчетности</types>
+  </type>
+</mdclass:DefinedType>

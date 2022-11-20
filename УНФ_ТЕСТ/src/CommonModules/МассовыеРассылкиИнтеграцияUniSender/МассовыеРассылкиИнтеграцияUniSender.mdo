@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0cc79b3-b9a5-4fe1-9e59-e25c67b9ba7f">
+  <name>МассовыеРассылкиИнтеграцияUniSender</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовые рассылки интеграция UniSender</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

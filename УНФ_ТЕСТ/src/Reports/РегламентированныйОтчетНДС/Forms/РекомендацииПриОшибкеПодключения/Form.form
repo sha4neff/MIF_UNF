@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаДекораций</name>
+    <id>3</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияКартинкаПредупреждение</name>
+      <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация картинка предупреждение</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияКартинкаПредупреждениеРасширеннаяПодсказка</name>
+        <id>7</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияКартинкаПредупреждениеКонтекстноеМеню</name>
+        <id>6</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <width>6</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <skipOnInput>false</skipOnInput>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Предупреждение32</picture>
+        </picture>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаРекомендации</name>
+      <id>8</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияРекомендацииПриОшибке</name>
+        <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>Проверка контрагентов сервисом ФНС в отчете не выполнена из-за ошибки подключения к сервису.
+Возможные причины:
+• сервис ФНС недоступен
+• нет подключения к интернету
+• на веб-узле возникли неполадки
+• брандмауэр или другое промежуточное ПО (антивирусы и т.п.) блокируют попытки программы подключиться к интернету
+• подключение к интернету выполняется через прокси-сервер, но &lt;link open:ProxySettings>параметры прокси-сервера&lt;/> не заданы в программе</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияРекомендацииПриОшибкеРасширеннаяПодсказка</name>
+          <id>15</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияРекомендацииПриОшибкеКонтекстноеМеню</name>
+          <id>14</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <formatted>true</formatted>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>false</verticalStretch>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <handlers>
+            <event>URLProcessing</event>
+            <name>ДекорацияРекомендацииПриОшибкеОбработкаНавигационнойСсылки</name>
+          </handlers>
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияНаписатьВТехПоддержку</name>
+        <id>16</id>
+        <title>
+          <key>ru</key>
+          <value>При возникновении проблем напишите в &lt;link mailto:webits-info@1c.ru>техподдержку&lt;/>.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияНаписатьВТехПоддержкуРасширеннаяПодсказка</name>
+          <id>18</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияНаписатьВТехПоддержкуКонтекстноеМеню</name>
+          <id>17</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <formatted>true</formatted>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <handlers>
+            <event>URLProcessing</event>
+            <name>ДекорацияНаписатьВТехПоддержкуОбработкаНавигационнойСсылки</name>
+          </handlers>
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияОткрытьЖурналРегистрации</name>
+        <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Технические подробности см. в &lt;link open:log>журнале регистрации&lt;/>.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияОткрытьЖурналРегистрацииРасширеннаяПодсказка</name>
+          <id>21</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияОткрытьЖурналРегистрацииКонтекстноеМеню</name>
+          <id>20</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <formatted>true</formatted>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <handlers>
+            <event>URLProcessing</event>
+            <name>ДекорацияОткрытьЖурналРегистрацииОбработкаНавигационнойСсылки</name>
+          </handlers>
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа рекомендации</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаРекомендацииРасширеннаяПодсказка</name>
+        <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Не удалось подключиться к серверу обновлений</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>14.0</height>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа декораций</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ГруппаДекорацийРасширеннаяПодсказка</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

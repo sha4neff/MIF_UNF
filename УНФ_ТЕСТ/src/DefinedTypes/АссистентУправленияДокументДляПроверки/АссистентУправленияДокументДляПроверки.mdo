@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe31e6f5-7fca-45f2-84ea-40707dbefeef">
+  <producedTypes>
+    <containerType typeId="6de36dc3-880f-48eb-a907-68eeeb4477b1" valueTypeId="4c060446-0848-4aa5-aab4-e08fc8105779"/>
+  </producedTypes>
+  <name>АссистентУправленияДокументДляПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассистент управления документ для проверки</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ЗаказПокупателя</types>
+  </type>
+</mdclass:DefinedType>

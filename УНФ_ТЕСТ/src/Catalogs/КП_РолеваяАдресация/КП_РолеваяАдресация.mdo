@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0529f47d-81e6-434e-9c76-9a0cfea7377e">
+  <producedTypes>
+    <objectType typeId="b87564ef-519d-4087-a2a0-185ed82ff09a" valueTypeId="5ef6856c-06e6-4d02-badd-117f0e529e7e"/>
+    <refType typeId="62172bbb-ff27-4108-9dcd-ee6b281e1329" valueTypeId="0a074047-85b1-454f-a958-7bcebe4a46d6"/>
+    <selectionType typeId="47ddf323-efcb-4da9-b2ca-cd6b184ccf09" valueTypeId="f3c1bcf6-8d71-4689-8dd9-ccd6c82d5d47"/>
+    <listType typeId="87065452-1c66-4bdd-9fd2-e8f4f549dcef" valueTypeId="ecd3a1c2-4cbd-47f7-936d-f74356ba1613"/>
+    <managerType typeId="c398189c-7e26-41a9-8fc6-99e91ae4b269" valueTypeId="e3693b09-2272-4c9e-8461-107191f28c2d"/>
+  </producedTypes>
+  <name>КП_РолеваяАдресация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ролевая адресация</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Рольова адресація</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КП_РолеваяАдресация.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КП_РолеваяАдресация.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КП_РолеваяАдресация.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КП_РолеваяАдресация.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КП_РолеваяАдресация.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="8207b537-92b7-4519-a84a-1efda8ecce4b">
+    <name>РольИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль исполнителя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The role of the User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_РолиИсполнителей</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Роль исполнителя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The role of the User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25a9596f-53e5-4f3a-8477-ba6558b24a50">
+    <name>ОсновнойОбъектАдресации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной объект адресации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The main object of addressing</value>
+    </synonym>
+    <type>
+      <types>Characteristic.КП_ОбъектыАдресацииЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной объект адресации</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The main object of addressing</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f21452b5-ee56-4357-a2db-08784b3dfdaf">
+    <name>ДополнительныйОбъектАдресации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный объект адресации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>An additional object of addressing</value>
+    </synonym>
+    <type>
+      <types>Characteristic.КП_ОбъектыАдресацииЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительный объект адресации</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>An additional object of addressing</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e21a06b2-3b73-42be-b2a3-e8f79ded0ba8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6da245dd-08be-4e1d-ac9c-00223f67107a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Element shape</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

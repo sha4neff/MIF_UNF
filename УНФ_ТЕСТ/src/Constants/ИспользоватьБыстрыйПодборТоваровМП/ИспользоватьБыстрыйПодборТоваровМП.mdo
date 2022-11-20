@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26a23679-da05-4ba2-b2f5-422285004538">
+  <producedTypes>
+    <managerType typeId="fcca2e1d-23b0-44c0-804f-daf3981704ed" valueTypeId="b5495dee-cec8-4bab-94d3-4df3a0d3dba5"/>
+    <valueManagerType typeId="cf7df3e9-c6e2-46ec-8981-813c96f6dedc" valueTypeId="5db5f157-02bb-4321-baf8-9c07a379adf5"/>
+    <valueKeyType typeId="2175ddc5-8c35-5fce-b2b5-b63d2d8016f6" valueTypeId="ae35408b-cab3-5055-af01-20aa50d94a54"/>
+  </producedTypes>
+  <name>ИспользоватьБыстрыйПодборТоваровМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать быстрый подбор товаров МП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use the Quick Selection of Products</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

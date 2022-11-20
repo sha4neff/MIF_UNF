@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75ead26d-0ea3-45ba-97a9-4d38e4b6aeb5">
+  <name>КП_Отклонено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонено</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отклонено</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ab367bb-05f4-4786-ae45-1f53f12d6462">
+  <name>СерыйКрест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серый крест</value>
+  </synonym>
+</mdclass:CommonPicture>

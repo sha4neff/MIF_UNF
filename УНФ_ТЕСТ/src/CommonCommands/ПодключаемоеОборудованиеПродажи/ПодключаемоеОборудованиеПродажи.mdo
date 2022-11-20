@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aa686af-cde7-4ac3-a998-1c5e34ff0bb0">
+  <name>ПодключаемоеОборудованиеПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование</value>
+  </synonym>
+  <group>CommandGroup.Настройки</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

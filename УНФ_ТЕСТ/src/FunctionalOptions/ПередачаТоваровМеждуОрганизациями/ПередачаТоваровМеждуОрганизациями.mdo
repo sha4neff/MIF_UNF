@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ee49946-da91-4510-adc3-e26f60edd46b">
+  <name>ПередачаТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача товаров между организациями</value>
+  </synonym>
+  <location>Constant.ПередачаТоваровМеждуОрганизациями</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

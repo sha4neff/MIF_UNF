@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f7905f5-f6a6-41a6-ada0-e56aec2d5f5c">
+  <producedTypes>
+    <managerType typeId="7f4b47cb-30a3-4929-8495-c74fe52e0831" valueTypeId="54d5de4d-e79f-4382-8283-a697e2b25396"/>
+    <valueManagerType typeId="5a92af7c-65a5-4272-bc03-c6de88f3c2a6" valueTypeId="46968f11-fca9-4a0d-bfb4-02bebc7c59f0"/>
+    <valueKeyType typeId="9f8d93e6-04e4-5bfa-ade7-f4aeeb18ebaf" valueTypeId="bdd02814-5f74-5c87-80fd-25dcc8dce3f5"/>
+  </producedTypes>
+  <name>ДолгиГруппироватьПоКонтрагентуМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Долги группировать по контрагенту МП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

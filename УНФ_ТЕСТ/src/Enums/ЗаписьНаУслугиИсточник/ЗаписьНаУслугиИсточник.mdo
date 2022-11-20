@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d47fbb02-08d5-437a-84ba-4aaa4f48c820">
+  <producedTypes>
+    <refType typeId="ecfd72cc-8144-4da0-b3b9-c17b171fc5d5" valueTypeId="062c1be3-519f-496a-b93e-c23825fe26c9"/>
+    <listType typeId="5d2c67fb-c8b7-47d4-8c99-b074f5022e7f" valueTypeId="ee5ff4e2-3d75-44fb-9e27-9bd2a714918f"/>
+    <managerType typeId="6eec5a2c-be0a-4f43-9710-01dbb2607cc8" valueTypeId="584801fb-d115-4caf-83dc-1e07198a3185"/>
+  </producedTypes>
+  <name>ЗаписьНаУслугиИсточник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись на услуги источник</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="73f33966-017b-48bd-a710-2b595484711b">
+    <name>Сайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d1dc281-86c5-4e10-9417-ce289341c75b">
+    <name>Чатбот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чатбот</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff7c4202-80a4-4669-b6ea-b391e3c8f9ea">
+    <name>МобильноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное приложение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

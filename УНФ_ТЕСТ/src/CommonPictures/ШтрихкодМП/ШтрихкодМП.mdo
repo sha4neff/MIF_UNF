@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67342594-52a1-492f-b48e-39d4b0ef4ca7">
+  <name>ШтрихкодМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкод МП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Barcode</value>
+  </synonym>
+</mdclass:CommonPicture>

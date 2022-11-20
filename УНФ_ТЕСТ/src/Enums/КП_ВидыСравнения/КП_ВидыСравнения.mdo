@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99b88ca6-d432-44d4-ad53-3389309979ba">
+  <producedTypes>
+    <refType typeId="46f1953d-6df4-4e56-9466-444cb15fb7ed" valueTypeId="66e76f69-318f-4128-a2c8-64033cebfd7a"/>
+    <listType typeId="96f8d826-6082-4d65-9fd3-1fc7c3085d43" valueTypeId="8eefa061-f224-45f3-9c4b-cad32b0c6a35"/>
+    <managerType typeId="bb1c0b44-b455-4f0b-aca5-cd30650a4643" valueTypeId="37ea9caa-3443-444b-abff-e5f4b01492f1"/>
+  </producedTypes>
+  <name>КП_ВидыСравнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сравнения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of comparison</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d0edf561-df26-49e2-a536-05c6ea1f2ccd">
+    <name>Равно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Равно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Equally</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f667c100-b78c-4463-9a1c-15da39a0367b">
+    <name>НеРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не равно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not equal to</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a46cc95-790f-4edf-9f1f-1c01329cb760">
+    <name>Больше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больше</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>More</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="000b3b64-a902-45b6-b2a5-964cbd205b18">
+    <name>БольшеИлиРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больше или равно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Greater or equal</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa176781-f75b-45bc-86dc-4e53db216db9">
+    <name>Меньше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меньше</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Less</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee05221e-a9bc-44ec-8ee9-48dac0483f22">
+    <name>МеньшеИлиРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меньше или равно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Less or equal</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24708fc4-72ad-4762-8e2d-73ad6ad6d399">
+    <name>Заполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Completed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d2803a9-21f3-4046-a52e-e62448ff05b2">
+    <name>НеЗаполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не заполнено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not filled</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

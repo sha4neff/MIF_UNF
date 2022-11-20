@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96b15fff-11b0-43cf-a040-e16bc985da45">
+  <name>КП_ТаймерМалая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймер (малая)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Таймер (малая)</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="455b41af-bc8c-49e6-bd9a-c4f94cefe5da">
+  <producedTypes>
+    <managerType typeId="34c76d4c-82c3-4835-9043-fa772c9de517" valueTypeId="f965aa65-845b-4e87-8178-71b4135cc118"/>
+    <valueManagerType typeId="a7d150ab-c151-4301-aa39-03392b430463" valueTypeId="80729d52-5e71-448d-b485-64a4bf907823"/>
+    <valueKeyType typeId="db5a89f7-955c-5cdf-bb4e-480b715c348a" valueTypeId="612b399a-63ef-5e75-9db1-78bbd029ae35"/>
+  </producedTypes>
+  <name>КассирФИОМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассир ФИОМП</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

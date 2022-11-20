@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba20b7d5-a0b7-4a9b-ab99-2c2887ebe17e">
+  <name>ФормаВводаАкцизнойМаркиШиныИПокрышки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма ввода акцизной марки шины и покрышки</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

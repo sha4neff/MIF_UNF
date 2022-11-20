@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19407fda-27fe-4b71-9978-607ce64ecc97">
+  <producedTypes>
+    <managerType typeId="26c81d3e-0666-4855-861f-d957341c98fe" valueTypeId="cba1dc00-f305-41de-93cb-9a3366c3bfeb"/>
+    <valueManagerType typeId="dbf6b915-8e2f-43a3-be0d-971315fd6185" valueTypeId="50a361bc-2dfe-496c-9c9d-ce8b1c1fddb0"/>
+    <valueKeyType typeId="d42d8f19-b2c5-58f3-9c41-3b6a3aaeeaf3" valueTypeId="8123c821-edb1-5823-850a-44acfcbf4df5"/>
+  </producedTypes>
+  <name>НеКотролироватьОстаткиМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не котролировать остатки МП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Not for controlled residue</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

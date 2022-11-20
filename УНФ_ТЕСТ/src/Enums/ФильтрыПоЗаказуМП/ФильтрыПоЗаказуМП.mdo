@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1459d86-63b3-4a90-b4c7-9992cb7f9c23">
+  <producedTypes>
+    <refType typeId="1d3655c2-4034-407f-8c2b-158f90460e01" valueTypeId="bf58cdfe-3ed5-42e7-99fb-b89331ee6e1b"/>
+    <listType typeId="27ed0e0e-4ed6-4e34-81ec-1f95e6574ca0" valueTypeId="43312629-00b9-40dc-9840-4b95aa247b72"/>
+    <managerType typeId="59f14652-5af3-45ed-bea0-540986a64ce4" valueTypeId="da2e8b5d-4ed3-491f-b8dd-99fbc8ef34e3"/>
+  </producedTypes>
+  <name>ФильтрыПоЗаказуМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильтры по заказу МП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="293f90a0-13a8-40b8-aaa0-2ff4cf0b2faa">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In Progress</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bef78612-6ba0-49b3-871e-aeeaf73be221">
+    <name>Неотгруженные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неотгруженные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not Shipped</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f69656f4-2dfd-48af-ada8-a3ef1113c92d">
+    <name>Отгруженные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгруженные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Shipped</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d6aba91-a720-46d1-a2e4-f00a0994466f">
+    <name>БезОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без оплаты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Without Payment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d18adfab-d8bf-48dd-935a-b9b91b26137b">
+    <name>Оплаченные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплаченные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Payment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2a2135a-61ca-425e-ab98-c53857bb6e23">
+    <name>Выполненные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполненные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Complete</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

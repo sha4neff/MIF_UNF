@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79cba15f-fdd6-484b-af84-2522e1d7d3cb">
+  <producedTypes>
+    <containerType typeId="e75603a2-ca28-486e-8ad9-7a8e487ef6b4" valueTypeId="ba6a5743-1caa-4b8c-b9b6-dcaed950a237"/>
+  </producedTypes>
+  <name>ИсточникВходящегоКонтактЦентр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник входящего контакт центр</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.Событие</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f812d146-de83-468a-82c0-07691d0f52ae">
+  <producedTypes>
+    <refType typeId="7922964f-c01a-4fe4-b212-b36a3c5cc97f" valueTypeId="4438fdf5-6293-4304-94b1-2e99f9fc1ed0"/>
+    <listType typeId="dd8596bd-271b-4413-9b54-9f2f151e28c5" valueTypeId="aa514c3a-c239-4d5f-99ac-93cfe8ed3bf6"/>
+    <managerType typeId="d12a826c-1cd3-4484-b860-9ee2fc41c112" valueTypeId="d1245c24-c341-4c3e-842e-53f7379a774b"/>
+  </producedTypes>
+  <name>КП_ВидыМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды метаданных</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of Metadata</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="788354e8-86ac-4593-a32b-aa9e83ebdd83">
+    <name>Справочники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочники</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reference</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f3a1286-74f2-43ac-b24f-8ae58b9b4758">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Documentation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1d23a8f-3170-4cda-a078-1df7f93b3160">
+    <name>Отчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reports</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14a98bb2-4a82-4b40-aca0-38dbb711a447">
+    <name>ПланыСчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы счетов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Charts of accounts</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85f88dd7-2a7b-4bae-963d-5767bac2cc02">
+    <name>ЖурналыДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журналы документов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Logs documents</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="625230a4-e5d7-43c8-b5f3-5136c7652d21">
+    <name>БизнесПроцессы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процессы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business Processes</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62b1e094-3a60-4016-ae5f-cf02d9addc0d">
+    <name>Задачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tasks</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fef8bccb-8750-4954-8632-9d1e31ebc590">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Other</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

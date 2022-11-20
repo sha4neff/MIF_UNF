@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e205edbf-7b0c-49e2-8655-7467d1b50725">
+  <producedTypes>
+    <objectType typeId="19b160d5-07ee-486b-a627-84842436a2bf" valueTypeId="b98b68b2-202d-455d-99db-6a8ceae8c045"/>
+    <managerType typeId="7df98b17-37d8-49b3-b92b-04b9948dfb11" valueTypeId="b7cb8d06-90fa-4fec-b8f1-dd43124ea8ee"/>
+  </producedTypes>
+  <name>КонтактЦентр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакт центр</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонтактЦентр.Form.Форма</defaultForm>
+  <forms uuid="3a3c4ac6-e1f5-48b9-8acc-62c75087b950">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="86757cdc-aa45-4cc5-931c-437bc8f1ffe3">
+    <name>СозданиеИзКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание из календаря</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="418f5c93-13f2-4204-bc30-9b727e961277">
+    <name>НастройкаВходящего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка входящего</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e2894d97-2a9d-48de-9be8-34f41ac8b444">
+    <name>ОткрытьКонтактЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт-центр</value>
+    </synonym>
+    <group>CommandGroup.CRM</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

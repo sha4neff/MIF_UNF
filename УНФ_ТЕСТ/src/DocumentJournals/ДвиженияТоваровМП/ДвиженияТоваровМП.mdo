@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dc2bc30-66a6-46f4-864b-60870abbc168">
+  <producedTypes>
+    <selectionType typeId="ff13c26f-f490-4f02-89ac-3401bdf55c42" valueTypeId="06084c7f-404c-4dd3-9c40-9757ce94d466"/>
+    <listType typeId="899ca931-787e-4d31-9599-b6684d06e510" valueTypeId="252f8e22-6104-4273-95c4-5f3b67909b5a"/>
+    <managerType typeId="749d491b-6cfa-4a3e-b325-ae274cee5024" valueTypeId="61dc4d19-819a-4d23-8017-7b115362be14"/>
+  </producedTypes>
+  <name>ДвиженияТоваровМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи и закупки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Invoices</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДвиженияТоваровМП.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ПриходТовараМП</registeredDocuments>
+  <registeredDocuments>Document.РасходТовараМП</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="c8fc811d-217a-45aa-929b-c1fd59cfa01d">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer / Supplier</value>
+    </synonym>
+    <references>Document.ПриходТовараМП.Attribute.Поставщик</references>
+    <references>Document.РасходТовараМП.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="3a5d1461-c0a1-4181-8dad-66e6e7477b39">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Amount </value>
+    </synonym>
+    <references>Document.ПриходТовараМП.Attribute.СуммаДокумента</references>
+    <references>Document.РасходТовараМП.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="9ab549ce-e1b1-41d6-b08f-d19cbafe543a">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <references>Document.РасходТовараМП.Attribute.Основание</references>
+  </columns>
+  <columns uuid="62000aa5-61b9-435b-aa39-524740b60791">
+    <name>НомерПодтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер подтвержден</value>
+    </synonym>
+    <references>Document.ПриходТовараМП.Attribute.НомерПодтвержден</references>
+    <references>Document.РасходТовараМП.Attribute.НомерПодтвержден</references>
+  </columns>
+  <forms uuid="6a31164f-9301-41b5-a6fa-2e77ec219955">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

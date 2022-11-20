@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="217f31ac-38f2-48e3-a2ef-a2996a1ee5cc">
+  <producedTypes>
+    <selectionType typeId="c16ace64-197b-4bc7-a8d9-3f9d2f7e2ce8" valueTypeId="1e078310-f070-472e-a8d0-e3d09260d549"/>
+    <listType typeId="d87b418c-b9de-42a9-9fbc-3c7c745c370c" valueTypeId="64fbde99-dea3-4ea7-9fa7-151cba14523b"/>
+    <managerType typeId="986d9a1d-2c40-427c-806c-2f11325f7225" valueTypeId="4eb79134-64f9-4992-9d8a-bce757980c2e"/>
+    <recordSetType typeId="bc9fbc1a-22d8-4374-a085-c750ca7e367f" valueTypeId="84e89da8-c927-4d6c-9fbe-da4655eb6af5"/>
+    <recordKeyType typeId="abd8f30c-a0f0-474f-a87d-6af032a68d9f" valueTypeId="f1f4a53c-089a-4e0f-a054-3b885d50fa7c"/>
+    <recordType typeId="31f8fe31-202b-4b4f-af14-0387dfde6ed5" valueTypeId="09f4cd7e-7d5d-422e-b975-e719741a14e6"/>
+    <recordManagerType typeId="37835fd7-09f5-4e44-9e63-0a890211d03d" valueTypeId="063ce7da-7a3a-4719-b167-f30da7867008"/>
+  </producedTypes>
+  <name>КП_ПроцессыАвтозапуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы автозапуска</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Links corporate processes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_ПроцессыАвтозапуска.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="c94a90fb-85e4-4e82-8e39-41b5365feb77">
+    <name>Автозапуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автозапуск</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_АвтозапускПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект-владелец</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Owning object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0984d3f5-8da1-438a-b124-b658850cdf8a">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпоративный бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Corporate business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dc815536-7a3f-4b0d-a208-ab6730165dca">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4fd9ccd5-9d30-40bd-a8c2-e3ac2aa0b4df">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

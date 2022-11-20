@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edf0d0c7-48e3-422d-b186-3cff8da12d29">
+  <producedTypes>
+    <managerType typeId="b83a52e1-ef0a-4869-b572-169f65b5d1b5" valueTypeId="3d60a114-defd-4fc8-929a-bc8ac38c3409"/>
+    <valueManagerType typeId="c6b29e1d-5f83-42f8-8196-c2a493f132d4" valueTypeId="4680deae-7c61-4232-8918-d3413a7caf6c"/>
+    <valueKeyType typeId="3103e00d-cb85-4296-8a00-3f12e9f9a338" valueTypeId="95c72c64-99c4-47f9-b566-1f2616bea009"/>
+  </producedTypes>
+  <name>НастройкиОпросаПоМЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки опроса по МЛК</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

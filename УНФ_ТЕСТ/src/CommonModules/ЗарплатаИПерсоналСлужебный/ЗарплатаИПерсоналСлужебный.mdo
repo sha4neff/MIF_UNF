@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b854689-356a-4ac2-9654-1c9bede297fa">
+  <name>ЗарплатаИПерсоналСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата и персонал служебный</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

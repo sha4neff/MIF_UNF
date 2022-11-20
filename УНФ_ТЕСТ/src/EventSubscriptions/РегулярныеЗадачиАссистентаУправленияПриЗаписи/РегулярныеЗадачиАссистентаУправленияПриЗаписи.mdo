@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eab7c8bd-72bd-4c3f-af98-9b4c42b51db3">
+  <name>РегулярныеЗадачиАссистентаУправленияПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регулярные задачи ассистента управления при записи</value>
+  </synonym>
+  <source>
+    <types>DefinedType.РегулярныеЗадачиАссистентаУправленияОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.АссистентУправления.РегулярныеЗадачиАссистентаУправленияПриЗаписи</handler>
+</mdclass:EventSubscription>

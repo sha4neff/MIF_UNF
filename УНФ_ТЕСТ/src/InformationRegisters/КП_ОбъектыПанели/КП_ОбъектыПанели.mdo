@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e859b40c-5d25-4fc5-98b6-b733c915f298">
+  <producedTypes>
+    <selectionType typeId="afb8777f-7c42-46ad-9593-dbdd9b015239" valueTypeId="71b2e023-06bc-4c08-b073-42bc7f15c545"/>
+    <listType typeId="b7ec85ac-6ed8-4236-9154-6a889da0a749" valueTypeId="5bdeca04-9ebf-486c-a7f6-bb54b6df0115"/>
+    <managerType typeId="0ddfd595-7802-491c-ae43-3e20fe974cbd" valueTypeId="0a9b5e0e-9072-47d3-ae6f-9e76be716f34"/>
+    <recordSetType typeId="8799bd57-55ff-4f2d-b3a8-5b3f00fb3f79" valueTypeId="45adc25e-a910-427c-ad4d-f9a1119cebc1"/>
+    <recordKeyType typeId="bac5b780-da1c-46e9-b8ea-3ebd3cc3bac7" valueTypeId="610265ce-151e-4052-9fe7-34916013168a"/>
+    <recordType typeId="d03d1f38-d420-440b-a3ce-7d9420b163e6" valueTypeId="86a90f8c-951a-43f7-bfcc-9d31a79f9bda"/>
+    <recordManagerType typeId="5b0dbc99-a438-4145-8ac0-d0a9b080a9f0" valueTypeId="fe5a2546-08d1-4b66-8bac-2f3ad9bc6679"/>
+  </producedTypes>
+  <name>КП_ОбъектыПанели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты панели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a2ebc6de-0d82-4068-ada3-f6a38d15ed2a">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="23cf320f-ddcb-4c9a-a5c6-e0c6fdf2db50">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f8b9da15-80ea-4a31-a777-7a61d18d0046">
+    <name>ОбъектПанели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект панели</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5919a80c-895f-4bcb-916e-7909102da817">
+    <name>ИмяПанели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя панели</value>
+    </synonym>
+    <comment>Календарь, ПанельЗадач, ЗадачиПроцессов</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="24886fdf-20d5-4a8c-8490-3ef64648c39f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

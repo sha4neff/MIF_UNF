@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91a6ba25-47e8-468a-9586-4058803b2b6f">
+  <producedTypes>
+    <objectType typeId="2c24401a-419e-4143-99dd-c021590c609e" valueTypeId="54adeb06-b8e2-4e24-9d6e-82f7f9fa0d7f"/>
+    <managerType typeId="05b7fcee-db90-48cd-a2b0-a95f7f7eea92" valueTypeId="a11947dd-c1ee-470f-b241-90c211d0db3b"/>
+  </producedTypes>
+  <name>АнализБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ бизнеса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализБизнеса.Form.Форма</defaultForm>
+  <mainDataCompositionSchema>Report.АнализБизнеса.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="fc8a4eff-8e07-44ca-863d-95760b5c0fee">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f2a6240f-5048-45e8-954f-cb5f9fc1de15">
+    <name>ПланФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>План факт</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПланФакт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a00c9e89-2b0e-40ff-9313-122b5750d8c5">
+    <name>СценарийПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий планирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СценарииПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ecda744-efc6-4e37-9853-5891b37a8d46">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4e929c11-4253-40fa-a870-d4db63d5ba76">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3b72a4a3-f189-436f-a791-ddd40b619818">
+    <name>Группировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппировкаАнализаБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7cec319c-ec4b-49a9-84c5-a81984f2ab11">
+    <name>ПоказыватьПустыеСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать пустые строки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="de775ddf-2ed3-4603-9118-908d8b4d9943">
+    <name>ФормаРасшифровкиЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расшифровки значения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9dc6ff2-0bbe-4541-953b-169218772548">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="92327bc0-9a4b-44e9-b8c7-5f7ff1ab4c66">
+    <name>ОбразецОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец основной</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f9c9987c-5605-4004-83ca-c4f92183d9c5">
+    <name>МакетПечатнаяФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет печатная форма отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="d20e4237-3bbb-4de5-a92d-96ad6272c544">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="de303ce0-89c6-405d-964d-c09c84534d73">
+    <name>АнализБизнеса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ бизнеса</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

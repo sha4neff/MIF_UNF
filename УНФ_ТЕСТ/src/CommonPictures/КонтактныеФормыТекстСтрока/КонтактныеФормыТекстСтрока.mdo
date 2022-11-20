@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8744395e-b6fa-4951-a97b-a1e7286b8faa">
+  <name>КонтактныеФормыТекстСтрока</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные формы текст строка</value>
+  </synonym>
+</mdclass:CommonPicture>

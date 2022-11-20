@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e5945f3-2ff9-4fcd-8b76-ef77ab182c41">
+  <name>КП_ДополнительныеПараметры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные параметры</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+</mdclass:SessionParameter>

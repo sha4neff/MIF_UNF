@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e6e5b99-2aa5-4a52-a1b6-625512d4e0a6">
+  <producedTypes>
+    <objectType typeId="4a8536f9-a9d2-44a7-b113-da50ba4e2bfe" valueTypeId="3b127614-8af4-4478-9fef-e4aa92903618"/>
+    <managerType typeId="22ea8821-10cc-4e2d-9a8e-4139a4a6c919" valueTypeId="304c273a-aa08-4278-92ff-dacaa3f3cb92"/>
+  </producedTypes>
+  <name>КП_ЗаменаИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена исполнителей задач</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Заміна виконавців завдань</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ЗаменаИсполнителей.Form.Форма</defaultForm>
+  <attributes uuid="f738ae25-97e6-4dc3-8b41-c36ba215e10d">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="47c571c1-c44a-40e9-8571-1cf81981dbd8">
+    <name>ТолькоНеВыполненные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только не выполненные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Only not complited</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1736a9af-35e7-4ff5-94f9-7d4aed570432">
+    <name>ИсполнительНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель новый</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>New user</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="0081b08a-61e0-4eba-87b3-78603c70bb48">
+    <producedTypes>
+      <objectType typeId="dfe57bb4-c14d-421b-bf35-ec115d12d7d5" valueTypeId="2e76611a-10ef-4139-8541-b63090ebaee1"/>
+      <rowType typeId="cbb9950e-de63-4f8f-83f2-27303fb963e7" valueTypeId="a3cd8109-a5bb-4163-a27d-8ebbe14f34db"/>
+    </producedTypes>
+    <name>ЗадачиИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи исполнителя</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c9560855-1c19-4542-8bd7-050fa5671f7a">
+      <name>Включено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="13a6bec7-b356-4434-9443-48dc014c4a58">
+      <name>Задача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задача</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Task</value>
+      </synonym>
+      <type>
+        <types>TaskRef.КП_Задача</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="372c10cf-86ad-4535-b052-3b1cc2eef3a0">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Description</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a7a8e86c-dd51-44de-b805-52a22d689033">
+      <name>Автор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Author</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="508c14df-5cd7-4e6f-af0f-d3b9e73c7480">
+      <name>СрокВыполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок выполнения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ff177e56-a3c2-408e-973e-f60a24844051">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6c440b0f-d738-4c2d-9dcb-612bc471551b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0c01484f-bf2b-49f3-8631-c1d2732c0501">
+    <name>ЗаменаИсполнителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена исполнителей</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a09a0aed-c2af-478d-bfa3-d63d3fbc1d48">
+  <producedTypes>
+    <managerType typeId="19fae4dd-09f3-4e2c-a961-811ab5b16157" valueTypeId="1620fcdc-82ab-4ae9-8df8-8500eba5a56c"/>
+    <valueManagerType typeId="7257b363-4c41-4f70-8a0c-177169638ffa" valueTypeId="f0640dc8-deff-4f44-8fa7-81910489a810"/>
+    <valueKeyType typeId="2bc573ac-3bce-5930-9bdc-95de292ee5be" valueTypeId="4d3d1d60-1277-5879-86c9-1b5ba73d2c32"/>
+  </producedTypes>
+  <name>ДвиженияДенегГруппироватьПоДатеМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения денег группировать по дате МП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

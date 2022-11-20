@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8270f99e-276d-4af8-a315-ee6f764591b0">
+  <producedTypes>
+    <objectType typeId="a77044e0-6eed-42e3-9fe5-f511b0cd5bc9" valueTypeId="f05a6303-ea6b-4a53-9191-d3cd5d7ca561"/>
+    <managerType typeId="2476dba8-0d4f-498f-bc4e-2b02e815a964" valueTypeId="66709270-eb49-491e-b427-0de5ac97cb40"/>
+  </producedTypes>
+  <name>ОстаткиНоменклатурыПоставщиковДляОбменаССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки номенклатуры поставщиков для обмена с сайтом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.ОстаткиНоменклатурыПоставщиковДляОбменаССайтом.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2126be99-c5ed-491f-a78b-5e1d8ac76fd0">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="a2f43cb9-ebd6-4616-8e3c-9b53acfc9c2d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="8f66e131-9f54-46ec-87d4-16f2943f8911">
+    <name>ОбразецОстаткиНоменклатурыПоставщиковДляОбменаССайтомКонтекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец остатки номенклатуры поставщиков для обмена с сайтом контекст</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3b2c4c7-1eb2-4767-be7d-d6a5fb5d2312">
+  <name>СвернутьРазвернутьГруппу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свернуть развернуть группу</value>
+  </synonym>
+</mdclass:CommonPicture>

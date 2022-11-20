@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47403fe1-9297-4146-8589-748dec2f8fc1">
+  <name>УНФ_МК</name>
+  <synonym>
+    <key>ru</key>
+    <value>УНФ МобильныйКлиент</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a04140bb-3366-4b0e-917d-f77e2d065057">
+  <name>ПечатьЭтикетокИСМПУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать этикеток ИСМПУНФ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

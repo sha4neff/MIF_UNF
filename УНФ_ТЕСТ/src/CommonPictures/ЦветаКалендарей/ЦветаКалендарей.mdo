@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a4b1db0-e576-4159-bc4d-ea83b549e555">
+  <name>ЦветаКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета календарей</value>
+  </synonym>
+</mdclass:CommonPicture>

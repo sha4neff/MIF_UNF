@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40698989-efe1-4525-a187-208465d40004">
+  <name>РаботаСФормойДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с формой документа</value>
+  </synonym>
+  <content>CommonModule.РаботаСФормойДокумента</content>
+  <content>CommonModule.РаботаСФормойДокументаВызовСервера</content>
+  <content>CommonModule.РаботаСФормойДокументаКлиент</content>
+  <content>CommonModule.РаботаСФормойДокументаКлиентПовтИсп</content>
+  <content>CommonModule.РаботаСФормойДокументаКлиентСервер</content>
+  <content>CommonPicture.НаписатьSMS</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97fb3ca7-bc61-40d3-a561-a4d53fe60e82">
+  <name>Обсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбсужденияУНФВызовСервера</content>
+  <content>CommonModule.ОбсужденияУНФГлобальный</content>
+  <content>CommonModule.ОбсужденияКлиент</content>
+  <content>CommonModule.ОбсужденияУНФКлиентПовтИсп</content>
+  <content>CommonModule.ОбсужденияУНФ</content>
+  <content>EventSubscription.ОбсужденияПередЗаписьюДокумента</content>
+  <content>EventSubscription.ОбсужденияПередЗаписьюСправочника</content>
+  <content>EventSubscription.ОбсужденияПриЗаписи</content>
+  <content>DefinedType.ОбсужденияОбъект</content>
+  <content>DefinedType.ОбсужденияПредмет</content>
+  <content>CommonPicture.ОбсужденияСообщениеБезОповещения</content>
+  <content>CommonPicture.ОбсужденияСообщениеСОповещением</content>
+  <content>CommonPicture.ОбсужденияУНФ</content>
+  <content>Constant.ИспользоватьЧатВОбсуждениях</content>
+  <content>InformationRegister.Обсуждения</content>
+  <content>DataProcessor.ОчисткаИсторииОбсуждений</content>
+  <content>ScheduledJob.ЗаписьСообщенийВСистемуВзаимодействия</content>
+  <content>DataProcessor.РегистрацияВСистемеВзаимодействияУНФ</content>
+  <content>InformationRegister.ОчередьСообщенийСистемыВзаимодействия</content>
+  <content>CommonModule.ОбсужденияУНФКлиент</content>
+  <content>CommonModule.ОбсужденияУНФИнтеграцияСМессенджерами</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

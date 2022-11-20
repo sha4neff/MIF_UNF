@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffdf7d50-52ce-4a87-8d66-57cae37d57e6">
+  <name>ЗакрытьОтборДинамическогоСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрыть отбор динамического списка</value>
+  </synonym>
+</mdclass:CommonPicture>

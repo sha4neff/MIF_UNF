@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f48bc9a-d376-437f-8a82-c3eb7a7b9853">
+  <name>ПодключаемыеКомандыВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые команды внедрение</value>
+  </synonym>
+  <content>CommonModule.ПодключаемыеКомандыУНФ</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

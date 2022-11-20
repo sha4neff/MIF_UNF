@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="485eb023-c0d5-4d62-bf13-bab7fa3c2223">
+  <producedTypes>
+    <refType typeId="67c2491b-e9b8-4f80-ae11-ac0bcb7c6fb1" valueTypeId="a1f65d1f-f759-4e44-a98e-e6a668cd3d08"/>
+    <listType typeId="34b52b65-4601-4e06-a07e-59c9672da08a" valueTypeId="0642b3f8-669e-44d7-8f65-6499e88f84f5"/>
+    <managerType typeId="a0a2bae0-0095-4564-8597-75a9e880513a" valueTypeId="df5bd3bd-dccd-4172-97eb-8b1c1a53ca2e"/>
+  </producedTypes>
+  <name>СервисыМассовыхРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисы массовых рассылок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2fba4e4f-20b3-4ca0-8d5c-a9b6c0ce8f93">
+    <name>SendPulse</name>
+    <synonym>
+      <key>ru</key>
+      <value>SendPulse</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e3f6ac7-1f60-412b-97a8-cd353338b919">
+    <name>UniSender</name>
+    <synonym>
+      <key>ru</key>
+      <value>UniSender</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

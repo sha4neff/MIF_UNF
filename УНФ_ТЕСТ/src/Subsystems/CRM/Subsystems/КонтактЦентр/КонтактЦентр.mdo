@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cdf0746-90ff-4129-b96f-a43e00f334c2">
+  <name>КонтактЦентр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакт-центр</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КонтактЦентр</content>
+  <content>CommonModule.КонтактЦентрВызовСервера</content>
+  <content>CommonModule.КонтактЦентрКлиент</content>
+  <content>EventSubscription.КонтактЦентрПроверкаИсточникаВходящегоПередЗаписью</content>
+  <content>EventSubscription.КонтактЦентрПроверкаИсточникаВходящегоПриЗаписи</content>
+  <content>DefinedType.ИсточникВходящегоКонтактЦентр</content>
+  <content>DefinedType.ИсточникВходящегоКонтактЦентрОбъект</content>
+  <content>CommonPicture.КоллекцияВходящие</content>
+  <content>CommonPicture.КоллекцияЗадачиКонтактЦентра</content>
+  <content>Constant.ПоследняяДатаПроверкиВходящихСообщенийИнтеграции</content>
+  <content>InformationRegister.КонтактЦентрВходящее</content>
+  <content>Role.ИспользованиеКонтактЦентра</content>
+  <content>DataProcessor.КонтактЦентр</content>
+  <content>CommonPicture.КонтактЦентрТелеграм</content>
+  <content>CommonPicture.КонтактЦентрВконтакте</content>
+  <content>CommonPicture.КонтактЦентрСайт</content>
+  <content>CommonPicture.КонтактЦентрПочта</content>
+  <content>CommonPicture.КонтактЦентрТелефония</content>
+  <content>CommonPicture.КонтактЦентрНетПодключенныхКаналов</content>
+  <content>CommonPicture.КонтактЦентрНетВходящего</content>
+  <content>EventSubscription.КонтактЦентрПроверкаОснованияЗадачиПослеЗаписи</content>
+  <parentSubsystem>Subsystem.CRM</parentSubsystem>
+</mdclass:Subsystem>

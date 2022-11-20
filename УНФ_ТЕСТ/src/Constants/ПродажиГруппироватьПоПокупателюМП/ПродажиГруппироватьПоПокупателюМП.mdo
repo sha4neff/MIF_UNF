@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba24bbdb-a59e-4cb1-94c2-4c7a0a6cdec0">
+  <producedTypes>
+    <managerType typeId="2257b471-a5c9-4c41-8338-5b199e3c1f2b" valueTypeId="42eaddc7-734b-4a21-a3f6-cbc288f2c969"/>
+    <valueManagerType typeId="37f15929-1cf4-4516-b7eb-44746458b4f9" valueTypeId="2f888b90-3ac2-4a1b-9bb2-283ada92e81e"/>
+    <valueKeyType typeId="4d3a04e6-66ee-52f2-afd1-95811151d09d" valueTypeId="1dd610d7-28c2-54e3-a289-543079959c45"/>
+  </producedTypes>
+  <name>ПродажиГруппироватьПоПокупателюМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи группировать по покупателю МП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

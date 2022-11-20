@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a738191-7619-4500-acc3-7a31dcd86f6b">
+  <producedTypes>
+    <managerType typeId="93c46374-effd-4f6c-89c2-493fa5f46d07" valueTypeId="f88a9ce2-8a7c-4f2a-8353-0894b003d092"/>
+    <valueManagerType typeId="99d20244-4967-475c-987f-37c3c32e74fd" valueTypeId="04c18497-e22e-4ff7-913a-6dcb9cd1ec74"/>
+    <valueKeyType typeId="0bc542bf-40e8-4379-9991-fd23438f863c" valueTypeId="aca925a0-0fb1-435a-8121-885336be717c"/>
+  </producedTypes>
+  <name>ВестиУчетСредствИндивидуальнойЗащиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет средств индивидуальной защиты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

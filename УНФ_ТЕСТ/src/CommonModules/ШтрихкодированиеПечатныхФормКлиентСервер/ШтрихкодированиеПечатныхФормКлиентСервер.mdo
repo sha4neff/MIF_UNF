@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d320925f-6d27-4d7a-a535-e1e201d3683b">
+  <name>ШтрихкодированиеПечатныхФормКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкодирование печатных форм (клиент, сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

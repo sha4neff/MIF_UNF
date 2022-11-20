@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32977cc7-fd52-4388-b000-433bfbb5cdbd">
+  <name>АнализБизнесаОценкаХорошо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ бизнеса оценка хорошо</value>
+  </synonym>
+</mdclass:CommonPicture>

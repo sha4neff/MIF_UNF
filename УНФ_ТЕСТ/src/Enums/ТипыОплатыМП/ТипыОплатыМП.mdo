@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d8d6056-835b-469f-8434-416f67470aaf">
+  <producedTypes>
+    <refType typeId="95c782a7-f492-4192-8230-5756d9fbe255" valueTypeId="fdc7893d-10f2-4050-8c25-50b7153de12a"/>
+    <listType typeId="bc7ca585-8f4e-44a3-a285-cd90aeda82d6" valueTypeId="383bcc5f-0a81-4ff7-ab3c-de9436291a79"/>
+    <managerType typeId="fe32e75f-3fad-4c19-b8c7-fc0faf32e527" valueTypeId="b2edda94-28dd-40e6-bbec-b46c7816074c"/>
+  </producedTypes>
+  <name>ТипыОплатыМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы оплаты МП</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9bd843b2-429f-44d1-bb8a-872e4603539d">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2650fd5f-2f02-498a-a464-0bd12369c245">
+    <name>ПлатежнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежная карта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

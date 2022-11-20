@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de9f092b-a5ac-4056-8d29-1c4514bde4cd">
+  <name>КонтактЦентрПроверкаИсточникаВходящегоПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакт центр проверка источника входящего перед записью</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ИсточникВходящегоКонтактЦентрОбъект</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.КонтактЦентр.КонтактЦентрПроверкаИсточникаВходящегоПередЗаписьюОбработчик</handler>
+</mdclass:EventSubscription>

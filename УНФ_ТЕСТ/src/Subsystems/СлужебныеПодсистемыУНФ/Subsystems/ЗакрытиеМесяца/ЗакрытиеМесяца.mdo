@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eec4561c-8b6a-4cb8-8323-04b9c8726564">
+  <name>ЗакрытиеМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие месяца</value>
+  </synonym>
+  <content>InformationRegister.ИзмененияЗакрытогоМесяца</content>
+  <content>InformationRegister.ОшибкиЗакрытияМесяца</content>
+  <content>DataProcessor.ЗакрытиеМесяца</content>
+  <content>Document.ЗакрытиеМесяца</content>
+  <content>Report.ЗакрытиеМесяцаАнализОтрицательныхОстатков</content>
+  <content>Report.ЗакрытиеМесяца</content>
+  <content>Report.РасшифровкаАнализаЗакрытияМесяца</content>
+  <content>EventSubscription.ИзмененияЗакрытогоМесяцаЗапасыПередЗаписью</content>
+  <content>EventSubscription.ИзмененияЗакрытогоМесяцаЗапасыПриЗаписи</content>
+  <content>CommonModule.ЗакрытиеМесяца</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

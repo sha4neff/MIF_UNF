@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db7a17ee-4184-48ba-b280-b94b7df0c956">
+  <name>ИнтеграцияСервисФреш</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция сервис фреш</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

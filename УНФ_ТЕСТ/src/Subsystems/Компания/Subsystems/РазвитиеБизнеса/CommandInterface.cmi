@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.ПоказателиБизнеса.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.КарточкиАнализаБизнеса.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.АнализБизнеса.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Report.АнализБизнеса.Command.АнализБизнеса</commands>
+      <commands>Document.Бюджет.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПоказателиБизнеса.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПоказателиБизнеса.Command.ПоказателиБизнеса</commands>
+      <commands>Catalog.КарточкиАнализаБизнеса.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

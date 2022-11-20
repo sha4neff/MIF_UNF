@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b398429e-5eab-4e46-805b-898be7a11372">
+  <producedTypes>
+    <managerType typeId="7b219a35-8829-48ee-b255-a28dd6cd16bb" valueTypeId="6dcb6b80-42c1-4b27-96ef-9e37439f2174"/>
+    <valueManagerType typeId="142933bc-af1b-456a-ab69-b9e64462cc28" valueTypeId="8b6ac4ae-6302-4e69-a656-0c31a4abd895"/>
+    <valueKeyType typeId="ef21f3f2-82a8-59df-bb8d-e11cfa917f55" valueTypeId="061d1ce6-60f1-58d9-81ae-62438ea073b6"/>
+  </producedTypes>
+  <name>ОстаткиТоваровСкрыватьСуммуПродажиМП</name>
+  <synonym>
+    <key>en</key>
+    <value>Остатки товаров скрывать сумму продажи МП</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров скрывать сумму продажи МП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

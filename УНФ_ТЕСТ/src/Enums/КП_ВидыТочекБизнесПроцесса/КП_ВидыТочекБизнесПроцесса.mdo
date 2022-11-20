@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2146a83a-e981-456b-bfb2-86b01ce4f628">
+  <producedTypes>
+    <refType typeId="0348ca09-f862-4e99-b094-4a31d00e54c5" valueTypeId="53d997de-fb5f-44e2-ba19-2d5a51b7a062"/>
+    <listType typeId="258eb040-e66b-449a-b8f2-aaa3c7ed4480" valueTypeId="9a952f37-6eaa-4a7d-9973-9293d5fd63c0"/>
+    <managerType typeId="34fcb654-7692-4010-8fc7-950458ec3f01" valueTypeId="ccf91b84-d7a9-4e38-b0fd-511c5922d173"/>
+  </producedTypes>
+  <name>КП_ВидыТочекБизнесПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды точек бизнес-процесса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Kinds of points of the business process</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e90ff59-bff2-4afc-9123-78d593f7fc76">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1995c76d-dc9e-4ad8-92c1-127a671cbe02">
+    <name>Завершение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Completion</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0210d0f-5d47-4038-9f14-d2e6548420a6">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Action</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48c28a77-57bb-4d29-94d2-e519a194c227">
+    <name>Условие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Condition</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a482936-2fa4-469c-af29-8af00535950f">
+    <name>Подпроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпроцесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Subprocess</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66b4090c-af17-4726-86cb-b660ba77404d">
+    <name>Разделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Division</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2bba0be4-ba95-4320-b0eb-19da1ccea1d6">
+    <name>Слияние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слияние</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Merger</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bcf7325-20c2-4f53-abe2-7630c8e5c430">
+    <name>Декорация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декорация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Decoration</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71798de1-808a-4cb8-a4fb-26b31c0a08b7">
+    <name>Обработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Processing</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="264069d0-40e9-4227-b950-2c7fd5d0cf19">
+    <name>ВыборВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор варианта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selecting</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

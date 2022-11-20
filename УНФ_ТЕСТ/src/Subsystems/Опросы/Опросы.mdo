@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="550380e5-220f-46f1-bf5c-f9cc5186e0ab">
+  <name>Опросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опросы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonPicture.ОтХаосаКПорядку</content>
+  <content>CommonForm.ФормаОпросаПользователейМК</content>
+</mdclass:Subsystem>

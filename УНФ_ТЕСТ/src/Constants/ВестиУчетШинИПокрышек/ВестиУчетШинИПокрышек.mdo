@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56113b77-5e25-46fc-b5b8-7703a6470aab">
+  <producedTypes>
+    <managerType typeId="56f04b5c-658e-4a30-ac99-3aa2626d9e05" valueTypeId="b896dfd2-9074-4458-9f9f-1659a85b1fab"/>
+    <valueManagerType typeId="1fde2753-0bed-4764-8e70-d7057009975b" valueTypeId="bf56dd32-b0ac-470e-9c15-3e0966b84f42"/>
+    <valueKeyType typeId="ccc5aa2f-2927-4102-aa24-7da682e4902b" valueTypeId="98428f65-62fc-4abd-935d-133a93c537a0"/>
+  </producedTypes>
+  <name>ВестиУчетШинИПокрышек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет шин и покрышек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

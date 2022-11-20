@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="930ee70a-91f5-4316-b74a-417ee7da8d00">
+  <name>МобильныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильный клиент</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonForm.МобильныйКлиент</content>
+  <content>CommonForm.ОценитьМобильныйКлиент</content>
+  <content>InformationRegister.СчетчикДляОткрытияФормыОценкиМобильногоКлиента</content>
+  <content>CommonPicture.ЖелтаяЗвезда</content>
+  <content>CommonPicture.СераяЗвезда</content>
+  <content>InformationRegister.СчетчикЗапусковКлиента</content>
+  <content>CommonForm.ФормаПереходаВМобильныйКлиент</content>
+  <content>CommonPicture.ИконкаМобильныйКлиент</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

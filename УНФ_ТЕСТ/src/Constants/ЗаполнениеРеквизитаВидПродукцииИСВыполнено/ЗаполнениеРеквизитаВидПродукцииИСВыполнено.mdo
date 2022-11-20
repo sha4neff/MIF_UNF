@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fbde536-f050-4897-bc78-738fa13a942c">
+  <producedTypes>
+    <managerType typeId="93dfd8b2-c1f3-4f60-b231-770277c0bca5" valueTypeId="a6f0b889-d1eb-412c-bff9-9b6c01d197e1"/>
+    <valueManagerType typeId="5889b0e4-6f66-4b15-b34c-0aef97b8f211" valueTypeId="80d7d28e-467c-485e-ae11-ccc8fc0a8212"/>
+    <valueKeyType typeId="059f7ced-6057-4839-b444-167b746dd3b0" valueTypeId="b9832955-f134-4722-8b45-a8a71a6b7497"/>
+  </producedTypes>
+  <name>ЗаполнениеРеквизитаВидПродукцииИСВыполнено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение реквизита вид продукции ИС выполнено</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be4474c3-bf89-41c3-b285-82a7e2a62619">
+  <name>ЦветовоеОформление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цветовое оформление</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.КП_ЦветаОбъектов</content>
+  <content>Constant.КП_ИспользоватьЦветовоеОформление</content>
+  <content>CommonModule.КП_ОформлениеСтрокСервер</content>
+  <content>CommonModule.КП_ОформлениеСтрокСерверПС</content>
+  <content>CommonModule.КП_ОформлениеСтрокКлиент</content>
+  <content>FunctionalOption.КП_ИспользоватьЦветовоеОформление</content>
+  <content>CommonForm.КП_НастройкаОформления</content>
+  <content>CommonCommand.КП_НастройкаОформленияИзСписка</content>
+  <content>CommonCommand.КП_НастройкаОформленияИзФормы</content>
+  <content>CommonPicture.КП_НастройкиЭлементовЦветная</content>
+  <content>Catalog.КП_ЦветаЭлементов</content>
+  <parentSubsystem>Subsystem.КП_Процессы</parentSubsystem>
+</mdclass:Subsystem>

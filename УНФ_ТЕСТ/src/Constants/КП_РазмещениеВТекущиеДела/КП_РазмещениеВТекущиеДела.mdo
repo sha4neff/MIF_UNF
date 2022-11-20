@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f944b01b-b99a-4542-babc-121d588937e9">
+  <producedTypes>
+    <managerType typeId="4c0472e9-61ec-4685-96b5-8360cdf57fb2" valueTypeId="eaabc183-f779-47fc-8934-c955b87e5bfc"/>
+    <valueManagerType typeId="deef853c-96c8-40e7-a444-44c00823015b" valueTypeId="11e8c710-6409-445e-93ea-7f08a02609a9"/>
+    <valueKeyType typeId="f75338d4-b592-5626-a43b-56976a81d195" valueTypeId="c8fced13-e888-5b19-916b-931087ccff3a"/>
+  </producedTypes>
+  <name>КП_РазмещениеВТекущиеДела</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение в разделе &quot;Текущие дела&quot;</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дата початку ведення обліку</value>
+  </synonym>
+  <comment>0 - сверху, 1 - снизу, 2 - нет</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

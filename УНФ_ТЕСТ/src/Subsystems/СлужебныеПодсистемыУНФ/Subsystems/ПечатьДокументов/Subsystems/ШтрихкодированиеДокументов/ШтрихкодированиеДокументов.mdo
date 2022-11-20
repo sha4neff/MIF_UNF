@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7e4257d-4704-45e8-bdac-3e266411fe6e">
+  <name>ШтрихкодированиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкодирование документов</value>
+  </synonym>
+  <content>FunctionalOption.ИспользоватьШтрихкодированиеПечатныхФормОбъектов</content>
+  <content>CommonModule.ШтрихкодированиеПечатныхФорм</content>
+  <content>CommonModule.ШтрихкодированиеПечатныхФормВызовСервера</content>
+  <content>CommonModule.ШтрихкодированиеПечатныхФормКлиент</content>
+  <content>CommonModule.ШтрихкодированиеПечатныхФормКлиентСервер</content>
+  <content>Constant.ИспользоватьШтрихкодированиеПечатныхФормОбъектов</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ.Subsystem.ПечатьДокументов</parentSubsystem>
+</mdclass:Subsystem>

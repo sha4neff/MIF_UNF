@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27a81fda-6d41-4614-bb23-e6ba3c573bd0">
+  <name>ОбменССайтами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сайтами</value>
+  </synonym>
+  <content>Enum.СпособыИдентификацииКонтрагентов</content>
+  <content>SessionParameter.ИспользуемыеУзлыОбменаССайтом</content>
+  <content>CommonModule.ОбменССайтом</content>
+  <content>CommonModule.ОбменССайтомПовтИсп</content>
+  <content>SessionParameter.ОбменДаннымиССайтомВключен</content>
+  <content>ExchangePlan.ОбменУправлениеНебольшойФирмойСайт</content>
+  <content>EventSubscription.ОбменССайтомПередЗаписьюРегистра</content>
+  <content>EventSubscription.ОбменССайтомПриЗаписиОбъекта</content>
+  <content>ScheduledJob.ОбменССайтом</content>
+  <content>FunctionalOption.ИспользоватьОбменССайтами</content>
+  <content>Constant.ФункциональнаяОпцияИспользоватьОбменССайтами</content>
+  <content>InformationRegister.ЗаказыПокупателейССайта</content>
+  <content>DataProcessor.ПомощникСозданияОбменаДаннымиССайтом</content>
+  <content>Role.ВыполнениеОбменовДаннымиССайтами</content>
+  <content>WebService.SiteExchange</content>
+  <content>Constant.ПрефиксДляОбменаССайтом</content>
+  <content>CommonModule.ОбменССайтомРегламентныеЗадания</content>
+  <content>Constant.ИспользоватьОнлайнОплаты</content>
+  <content>FunctionalOption.ИспользоватьОнлайнОплаты</content>
+  <content>Enum.СпособыУстановкиДатыОтгрузкиЗаказа</content>
+  <content>InformationRegister.ОплатыПокупателейССайта</content>
+  <content>WebService.SiteExchange2</content>
+  <content>CommonModule.ОбменССайтомВебСервер</content>
+  <content>InformationRegister.ЧатыМессенджеров</content>
+  <content>Catalog.НастройкиВыгрузкиОстатковПоставщиковНаСайт</content>
+  <content>Report.ОстаткиНоменклатурыПоставщиковДляОбменаССайтом</content>
+  <content>CommonModule.ОбменССайтомСлужебныйВызовСервера</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

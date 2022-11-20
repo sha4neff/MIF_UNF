@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="726645ca-d91c-40ca-8581-e60cb898e7b2">
+  <name>КП_ОформлениеСтрокСерверПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление строк (сервер, повторно)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>К п оформление строк сервер ПС</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f19d6d2-aa24-4333-8e55-b62d64c68ba0">
+  <producedTypes>
+    <managerType typeId="12996f52-1bc6-4c23-90df-f8172da7722e" valueTypeId="f6fb91ad-8446-4516-a139-0501fa4970d2"/>
+    <valueManagerType typeId="200bc738-edcb-4e8c-929a-20cb964959d0" valueTypeId="9fccd31f-10eb-4c29-99f7-cd567c7c1e9d"/>
+    <valueKeyType typeId="7e40a250-c2f0-534e-bdb9-0a2b780d5b59" valueTypeId="f89ad9a5-f345-5aa9-8951-fda0b3202eb5"/>
+  </producedTypes>
+  <name>КП_ФункциональнаяОпцияИспользоватьРолевуюАдресацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ролевую адресацию</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Використовувати підсистему процесів</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

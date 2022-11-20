@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d599c13-064d-4ff9-a6d8-782259b7d1e7">
+  <name>TelegramBotFather</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram bot father</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce53fc17-ff61-4b0c-bbac-144969c14cb4">
+  <producedTypes>
+    <refType typeId="6d9ff18d-1611-48a6-b7b5-b9a9ca1bb7b9" valueTypeId="447fa5a0-5f81-4513-b1a4-bb7398ac86a8"/>
+    <listType typeId="df506b13-4ef4-47fc-9aeb-1ce9bbb791d1" valueTypeId="8b7d9da8-b616-423b-9256-d61ed98fa623"/>
+    <managerType typeId="ba13d058-c2c2-48bd-8476-61f31120dadc" valueTypeId="971be89f-bfd0-4c08-a80f-73eaa21999b2"/>
+  </producedTypes>
+  <name>ВидыОперацийОтчетКомиссионера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций отчет комиссионера</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7e6931d-daea-4832-a995-176845f72c98">
+    <name>ОтчетКомиссионера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba716099-1891-4763-978a-7f1293b2cdde">
+    <name>ОтчетКомиссионераОВозвратах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от покупателя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

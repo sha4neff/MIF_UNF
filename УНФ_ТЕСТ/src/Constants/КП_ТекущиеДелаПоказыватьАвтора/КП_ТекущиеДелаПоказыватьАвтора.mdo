@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b11304fd-1b29-40ed-aeb1-fe3fdc2ff11f">
+  <producedTypes>
+    <managerType typeId="f19656fd-adf6-4288-93c0-6603d7c3e330" valueTypeId="a4f9dc0b-aff2-42f1-a302-144b48fee404"/>
+    <valueManagerType typeId="18e82570-94ad-4a7a-a4eb-064f12960a6c" valueTypeId="ab791747-6cd0-47a2-81fa-a0a29565a7b8"/>
+    <valueKeyType typeId="eae329f6-aaaf-5b0e-a669-9f5d877f02ff" valueTypeId="45a067b5-6fd1-5a83-919e-c70c10d7eb93"/>
+  </producedTypes>
+  <name>КП_ТекущиеДелаПоказыватьАвтора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать автора в текущих делах</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дата початку ведення обліку</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

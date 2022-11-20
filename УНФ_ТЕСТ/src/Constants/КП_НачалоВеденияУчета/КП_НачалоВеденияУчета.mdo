@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d21abb4c-3b3f-43f2-86bf-0648fe591340">
+  <producedTypes>
+    <managerType typeId="300cb67b-7dbf-4a3a-9917-5bf38eeabf59" valueTypeId="14d6513e-d8bb-47f2-af28-09b07e8a9731"/>
+    <valueManagerType typeId="52ecd223-c3ca-4787-acce-5c61883b8407" valueTypeId="3e339d0a-c87a-41c2-adbe-6c4d1af810ed"/>
+    <valueKeyType typeId="99e1c1d5-23e4-5245-b520-f709eadf70dd" valueTypeId="c508175d-fa0a-51f8-a9f6-fbff41d11694"/>
+  </producedTypes>
+  <name>КП_НачалоВеденияУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала ведения учета</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дата початку ведення обліку</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

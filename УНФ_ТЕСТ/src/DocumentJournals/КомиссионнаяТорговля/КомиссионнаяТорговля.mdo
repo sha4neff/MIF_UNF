@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="423d7d30-b9c0-459e-a4d1-5e2ad1f77ee6">
+  <producedTypes>
+    <selectionType typeId="1cd5d1ec-1569-4bf9-ae4a-f3df716a7c41" valueTypeId="721f1644-ed61-4684-9fd3-fe2669e81d02"/>
+    <listType typeId="e022939c-9a3f-4c32-800e-e053e12802c5" valueTypeId="8964bc3a-873f-4029-99f0-46ba8ceb7d3c"/>
+    <managerType typeId="0cb1f9d1-1654-474c-ab01-da2276ba16b0" valueTypeId="f9890afd-1346-4d2c-877f-30641f5d9959"/>
+  </producedTypes>
+  <name>КомиссионнаяТорговля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссионные продажи</value>
+  </synonym>
+  <defaultForm>DocumentJournal.КомиссионнаяТорговля.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РасходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.ОтчетКомиссионера</registeredDocuments>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.ПереоценкаТоваровНаКомиссии</registeredDocuments>
+  <registeredDocuments>Document.ОтчетКомиссионераОСписании</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="ad038d96-82c0-4373-bb26-e5125c3485a3">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.Организация</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Организация</references>
+    <references>Document.РасходнаяНакладная.Attribute.Организация</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.Организация</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.Организация</references>
+  </columns>
+  <columns uuid="a04051d9-8887-4ba4-91c6-e0538e644edf">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.Контрагент</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Контрагент</references>
+    <references>Document.РасходнаяНакладная.Attribute.Контрагент</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.Контрагент</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="98dfb2d9-e16d-4d6b-af7d-fe220175bc8b">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.Договор</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Договор</references>
+    <references>Document.РасходнаяНакладная.Attribute.Договор</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.Договор</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.Договор</references>
+  </columns>
+  <columns uuid="bc9c4648-0040-466b-809c-97a90c2dbb5f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.СуммаДокумента</references>
+    <references>Document.ПриходнаяНакладная.Attribute.СуммаДокумента</references>
+    <references>Document.РасходнаяНакладная.Attribute.СуммаДокумента</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.СуммаДокумента</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="1a083b01-ab46-48d8-9965-4462a24f016b">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.ВалютаДокумента</references>
+    <references>Document.ПриходнаяНакладная.Attribute.ВалютаДокумента</references>
+    <references>Document.РасходнаяНакладная.Attribute.ВалютаДокумента</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.ВалютаДокумента</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="55c3f42f-6db2-4cec-98ac-612dace7c89d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.Ответственный</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Ответственный</references>
+    <references>Document.РасходнаяНакладная.Attribute.Ответственный</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.Ответственный</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="2d5793b4-a127-49a8-bd86-a02614c2d502">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.Комментарий</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Комментарий</references>
+    <references>Document.РасходнаяНакладная.Attribute.Комментарий</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.Комментарий</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="e7e5e68b-2285-4d41-a037-6028d4c47ea0">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.Автор</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Автор</references>
+    <references>Document.РасходнаяНакладная.Attribute.Автор</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.Автор</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.Автор</references>
+  </columns>
+  <columns uuid="139925b2-1fb8-4b3f-8971-6ba0734527bc">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <references>Document.ОтчетКомиссионера.Attribute.Подразделение</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Подразделение</references>
+    <references>Document.РасходнаяНакладная.Attribute.Подразделение</references>
+    <references>Document.ПереоценкаТоваровНаКомиссии.Attribute.Подразделение</references>
+    <references>Document.ОтчетКомиссионераОСписании.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="bbd11808-0f6c-4b36-adeb-89ec5a621a68">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.СтруктурнаяЕдиница</references>
+    <references>Document.РасходнаяНакладная.Attribute.СтруктурнаяЕдиница</references>
+  </columns>
+  <columns uuid="13eb54c3-0df7-492e-aed9-de21fdafe8ef">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.ВидОперации</references>
+    <references>Document.РасходнаяНакладная.Attribute.ВидОперации</references>
+  </columns>
+  <forms uuid="f2035bc8-72fb-4598-b690-5b4b16f169a7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

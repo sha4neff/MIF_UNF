@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1709b81b-ecb4-452d-a443-1fcf36946c63">
+  <producedTypes>
+    <selectionType typeId="5d378c52-6d66-406f-a17b-d8795e2a991a" valueTypeId="a194518e-e74a-4b6a-8267-a26d318007bb"/>
+    <listType typeId="d1c58f69-5902-4ce4-9b53-f86a0658d064" valueTypeId="1820526a-82d1-4a7a-a633-1c0a9407ee2d"/>
+    <managerType typeId="233d63c7-9587-4d45-9198-718df7208037" valueTypeId="ece9fd1e-9907-483a-a176-74c80ea768b0"/>
+    <recordSetType typeId="9492d090-be2e-437d-9fca-125267eff563" valueTypeId="30ff1b79-49d0-46bb-bce7-4a442edd5ca0"/>
+    <recordKeyType typeId="50138a14-0701-4385-a614-c6d2a1e75744" valueTypeId="754b9f8a-eaf8-4259-aef5-480b206728a9"/>
+    <recordType typeId="4b21e11a-dc21-418f-9ef6-03b2bd8b12b9" valueTypeId="47bfd12b-2792-48b9-a117-0e447ed1d947"/>
+    <recordManagerType typeId="50e7406b-6d75-4c65-a799-5fa011031ac9" valueTypeId="f8aee9e4-568b-4598-918d-d5ab0f6440a8"/>
+  </producedTypes>
+  <name>КП_ЖурналВыполненияПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал выполнения процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Corporate process execution log</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_ЖурналВыполненияПроцесса.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_ЖурналВыполненияПроцесса.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал выполнения процессов</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Corporate processes execution log</value>
+  </listPresentation>
+  <resources uuid="c3e7e619-f1fd-4f1d-90a0-76d4a7b7e047">
+    <name>НомерЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The record number</value>
+    </synonym>
+    <comment>Используется для правильной сортировки внутри секунды</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер записи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The record number</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="3ac39a1e-0c83-4f5f-84d4-8418478d6673">
+    <name>ВидСобытияЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид события</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Event Type</value>
+    </synonym>
+    <comment>0 - нет пиктограммы, 1 - информация, 2 - предупреждение, 3 - ошибка</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид события</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Event Type</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="922d4ccb-779e-4089-a1e4-7ebed7f190a6">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Posting date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Posting date</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3a1e2de2-574d-4948-a5ed-cb5b0ee1baba">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c6878d09-9919-4e15-922b-d96dc886c689">
+    <name>ТочкаКБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Route point</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ТочкиПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Route point</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6978bb60-a36b-4a40-b1e8-92d8b6d9d595">
+    <name>ТекстЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entry</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст записи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Entry</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="d06a9b1c-fdb6-46cc-a6c5-f7dbae79a274">
+    <name>УникальныйИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The unique identifier of the record</value>
+    </synonym>
+    <comment>Используется для того что бы можно было создавать разные записи на одной и то же время и точку</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор записи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The unique identifier of the record</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a12a1ab7-7fc5-49d3-b954-223af96dca79">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70abecac-89d0-4e81-a789-7a3c91afb164">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3d5fe27b-5243-4e67-b167-4210b15837b6">
+    <name>ЖурналВыполненияПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал выполнения процессов</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

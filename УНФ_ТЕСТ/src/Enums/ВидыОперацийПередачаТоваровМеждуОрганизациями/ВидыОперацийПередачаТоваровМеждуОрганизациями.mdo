@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6213e32-21c9-44db-b21c-63c29ed2f408">
+  <producedTypes>
+    <refType typeId="a7ddcfd8-84ff-4bdb-bac8-bed97fa517b6" valueTypeId="4139081c-3f3f-41af-9b8e-db360c1fccb1"/>
+    <listType typeId="0fdf30df-ec95-40c8-bbee-91995893d8f3" valueTypeId="739b3242-c6df-4f8a-bdf5-0578ce47717e"/>
+    <managerType typeId="138220c3-f93f-4fc3-9a73-18a210c28727" valueTypeId="33754e7f-dc3a-44ec-8b23-c7c341946a1a"/>
+  </producedTypes>
+  <name>ВидыОперацийПередачаТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций передача товаров между организациями</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="40ce1813-b65f-4943-8262-2f7159a1a1f6">
+    <name>АвтоТребуетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто: требует заполнения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d0e1aae-a10f-4f95-9996-64cd42839115">
+    <name>АвтоЗаполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто: заполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71b1bc8a-44e4-4861-ba1d-e35ed170174e">
+    <name>РучноеЗаполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручное заполнение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

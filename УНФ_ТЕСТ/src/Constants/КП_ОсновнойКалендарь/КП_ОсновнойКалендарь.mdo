@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec13a1b9-dad5-4d2b-9214-7470aa7ac041">
+  <producedTypes>
+    <managerType typeId="6e437340-9866-4ee3-8765-317514736616" valueTypeId="19a2a2b0-75ed-4e64-8007-d3866635302e"/>
+    <valueManagerType typeId="c2e6fb9e-d83d-4d96-8392-5eee9e3241fe" valueTypeId="2f79f99b-641e-4c9f-8f45-40997ead6455"/>
+    <valueKeyType typeId="ef1059a4-0dd3-5a63-97fe-1eb2630e7bbd" valueTypeId="819f5b73-216e-5ee3-a531-fa13e2843b62"/>
+  </producedTypes>
+  <name>КП_ОсновнойКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной календарь</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Календар</value>
+  </synonym>
+  <comment>В УНФ это справочник &quot;График работы&quot;, а не &quot;Календарь&quot;</comment>
+  <type>
+    <types>CatalogRef.Календари</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Основной график работы сотрудников</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>The main graph of staff</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

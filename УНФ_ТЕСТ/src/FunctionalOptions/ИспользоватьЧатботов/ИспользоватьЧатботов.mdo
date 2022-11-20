@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c290a002-ef8b-4980-8637-fde5bc23d24c">
+  <name>ИспользоватьЧатботов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать чатботов</value>
+  </synonym>
+  <location>Constant.ИспользоватьЧатботов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.НастройкаПрограммы.Command.БольшеВозможностейЧатбот</content>
+  <content>Enum.ЧатБоты</content>
+</mdclass:FunctionalOption>

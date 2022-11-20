@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48e69f0e-57e0-4370-b083-ca63ddf9bc3f">
+  <name>НоменклатураВДокументах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура в документах</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.НоменклатураВДокументахВызовСервера</content>
+  <content>CommonModule.НоменклатураВДокументахКлиент</content>
+  <content>CommonModule.НоменклатураВДокументахКлиентСервер</content>
+  <content>CommonModule.НоменклатураВДокументахСервер</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

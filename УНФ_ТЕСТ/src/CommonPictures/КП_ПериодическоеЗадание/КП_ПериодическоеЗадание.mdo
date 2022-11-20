@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c71cfe42-b9e4-427b-a642-3c5851796581">
+  <name>КП_ПериодическоеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодическое задание</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Периодическое задание</value>
+  </synonym>
+  <transparentPixel>
+    <x>122</x>
+    <y>13</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

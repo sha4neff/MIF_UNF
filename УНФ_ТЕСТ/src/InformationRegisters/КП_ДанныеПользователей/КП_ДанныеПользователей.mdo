@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b936c5c-5e79-4b37-9a04-b3658370d12a">
+  <producedTypes>
+    <selectionType typeId="e2c2ec0a-15a9-4388-b24c-b4213e6ed91b" valueTypeId="b78254c3-6be6-49d1-b0d2-fb219948fb46"/>
+    <listType typeId="b5b24042-5b98-4a2c-befd-f28fdd889e76" valueTypeId="5fc91ac6-96fa-47b4-b74a-1893a9b7df90"/>
+    <managerType typeId="3ca751f7-8bb3-490e-87dd-3b8beafe37b7" valueTypeId="25040560-4159-423d-9c41-cb955eb6ead1"/>
+    <recordSetType typeId="625db86f-99e5-40da-b142-81cbff02e9cc" valueTypeId="f81b7c14-baf1-4b06-b9d2-5427e91fa58b"/>
+    <recordKeyType typeId="feb090ae-4d17-4806-91e9-0ce1b0f7ae8e" valueTypeId="f1f02ae6-ffbf-4c68-a02d-f0682dda2814"/>
+    <recordType typeId="876f7c15-6899-4e95-8260-a330072f02f6" valueTypeId="e0ed061e-4001-466e-b0c2-423fd1e00ae5"/>
+    <recordManagerType typeId="b1fd522b-6903-4c7f-8755-4ae9c23877af" valueTypeId="86a58b16-a007-488e-bfee-626fa1153b4a"/>
+  </producedTypes>
+  <name>КП_ДанныеПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные пользователей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>User data</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_ДанныеПользователей.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Данные пользователя</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Данные пользователей</value>
+  </listPresentation>
+  <resources uuid="3a89c858-87c5-4daa-aedd-c7ea7733bf32">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Photo</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фотография пользователя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Picture</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="01b7bb5c-c8e1-4470-8ac6-a6dd689c5970">
+    <name>ОбразецПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец подписи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specimen signature</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Образец подписи пользователя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Specimen signature of the user</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="181320c9-616e-4151-9b8e-39c0e69afd21">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d105802c-73a4-45fb-9703-bf92adfee49f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="7f84e187-76f5-46c3-bb21-7bee69fe9778">
+    <name>ОткрытьДанныеПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные пользователей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

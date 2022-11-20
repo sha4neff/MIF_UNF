@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c72647a0-8e72-4813-8c44-f4006792c395">
+  <name>КоллекцияСтатьиДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция статьи движения денежных средств</value>
+  </synonym>
+</mdclass:CommonPicture>

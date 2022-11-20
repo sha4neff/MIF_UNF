@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50664e6b-1520-4f4f-9eec-07b2434f4a6d">
+  <name>КонтактЦентрПроверкаОснованияЗадачиПослеЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакт центр проверка основания задачи после записи</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗадачаСотрудника</types>
+    <types>DocumentObject.Событие</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КонтактЦентр.КонтактЦентрПроверкаОснованияЗадачиПослеЗаписиПриЗаписи</handler>
+</mdclass:EventSubscription>

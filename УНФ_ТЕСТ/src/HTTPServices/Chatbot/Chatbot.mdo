@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49427691-a2dc-42ec-b0b3-58f3e12dd6c5">
+  <name>Chatbot</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сhatbot webhook</value>
+  </synonym>
+  <rootURL>chatbot</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="8a2d5879-225f-4fed-8330-976da3f97779">
+    <name>telegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+    <template>/telegram</template>
+    <methods uuid="46634a69-529e-42cb-9730-584b6cebb3da">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>TelegramPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b44288d4-a849-4583-ba1d-88fe6038bf29">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="13af9b54-48e7-4b7e-9f27-965c9e7d4654">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>pingGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

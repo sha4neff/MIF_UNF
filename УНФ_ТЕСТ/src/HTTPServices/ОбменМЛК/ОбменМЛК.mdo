@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76af5d2e-a50a-4bd8-98d1-a16e7f9afa55">
+  <name>ОбменМЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен МЛК</value>
+  </synonym>
+  <rootURL>exchange</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ff2f284d-b5f0-4e2b-a6a0-d1f7a1630a5d">
+    <name>GetData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data</value>
+    </synonym>
+    <template>/GetData/*</template>
+    <methods uuid="2e96ba53-852d-480c-89f7-aa0adcc3fac9">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetDataPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="910dffed-5c95-4b4b-a895-b65396b0b894">
+    <name>GetAppName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get app name</value>
+    </synonym>
+    <template>/GetAppName/*</template>
+    <methods uuid="2a201fa5-7645-4d78-9290-344279144dfe">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>GetAppNameGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1a34c64d-6a54-4ad0-9771-60b3ada880c7">
+    <name>GetCalendar</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get calendar</value>
+    </synonym>
+    <template>/GetCalendar/*</template>
+    <methods uuid="c4c183d0-0d66-4fae-8c05-896bb6888cc2">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetCalendarPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e5654088-c966-48a8-b777-a43b74dd305c">
+    <name>GetTime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get time</value>
+    </synonym>
+    <template>/GetTime/*</template>
+    <methods uuid="ce33c9e8-eeb8-4ca0-87c1-93b3d9ce2237">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetTimePost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="6d530b8b-e4f7-4b5c-81d9-e0ed819ae0a3">
+    <name>SendServiceRegistration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send service registration</value>
+    </synonym>
+    <template>/SendServiceRegistration/*</template>
+    <methods uuid="8be30667-c058-477e-a6e8-577792f50b48">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>SendServiceRegistrationPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0c8c37f6-c4db-41cc-82d1-6fd6af276905">
+    <name>CancelService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cancel service</value>
+    </synonym>
+    <template>/CancelService/*</template>
+    <methods uuid="a52706e6-db0b-4898-b2e8-c633e0dabd5e">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>CancelServicePost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="dece7e16-c69b-42ed-9b02-153a7df635be">
+    <name>VerifyPhoneNumber</name>
+    <synonym>
+      <key>ru</key>
+      <value>Verify phone number</value>
+    </synonym>
+    <template>/VerifyPhoneNumber/*</template>
+    <methods uuid="85b2d637-ae9d-46f6-980f-ffdc9e617d3a">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>VerifyPhoneNumberPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="4c6305bc-8e08-4476-8b7d-1e2814e8654d">
+    <name>GetAboutUs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get about us</value>
+    </synonym>
+    <template>/GetAboutUs/*</template>
+    <methods uuid="ba5bd44e-b557-4d11-81a7-24f963999121">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <handler>GetAboutUsPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3951edc6-4e28-4712-b1e5-5c58478d99cd">
+    <name>GetResourcesAndEndTime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get resources and end time</value>
+    </synonym>
+    <template>/GetResourcesAndEndTime/*</template>
+    <methods uuid="d54833b4-c361-4da8-a8f8-a29967d6177d">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetResourcesAndEndTimePost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f794b305-be86-49a0-8c89-ebac1c4f5d8b">
+    <name>GetComingDaysOfResources</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get coming days of resources</value>
+    </synonym>
+    <template>/GetComingDaysOfResources/*</template>
+    <methods uuid="f3143471-2081-40e2-956a-65c88d7dc0a1">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetComingDaysOfResourcesPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3f7fad00-bab5-40bd-9f24-fc2397f15b29">
+    <name>GetHistoryOfServices</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get history of services</value>
+    </synonym>
+    <template>/GetHistoryOfServices/*</template>
+    <methods uuid="fea20bdb-3b64-4c66-bec8-d6f2292a8c75">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetHistoryOfServicesPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f9307739-691f-4151-bae4-d96a31a9438a">
+    <name>VerifyEmail</name>
+    <synonym>
+      <key>ru</key>
+      <value>Verify email</value>
+    </synonym>
+    <template>/VerifyEmail/*</template>
+    <methods uuid="8a828566-0289-45f5-9116-4d3bad2179c5">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>VerifyEmailPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a099d74b-499b-4392-a92a-a14ae4a25ca9">
+    <name>SendOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send order</value>
+    </synonym>
+    <template>/SendOrder/*</template>
+    <methods uuid="21e81f97-7bdb-4013-ad7b-eaf7b561ce68">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>SendOrderPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="276591da-41d9-44ed-a814-fb3ef633cb5e">
+    <name>CheckUpcomingOrders</name>
+    <synonym>
+      <key>ru</key>
+      <value>Check upcoming orders</value>
+    </synonym>
+    <template>/CheckUpcomingOrders/*</template>
+    <methods uuid="fb21cef4-bd2d-42c1-a366-b0427472821c">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>CheckUpcomingOrdersPost</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

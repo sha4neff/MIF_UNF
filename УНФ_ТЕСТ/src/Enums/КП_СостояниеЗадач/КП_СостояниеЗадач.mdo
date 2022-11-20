@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43870058-405c-496f-bde0-c9aab2b26eaf">
+  <producedTypes>
+    <refType typeId="8d9fedca-1296-4987-9236-261ec15632fc" valueTypeId="5ab42b21-d0cf-4693-963d-e12552b771c4"/>
+    <listType typeId="cf845f54-12e4-4f55-adf1-9695c031331f" valueTypeId="c5f1c0d2-bd56-4e9f-aeb4-e03f676dbd14"/>
+    <managerType typeId="21d16a05-c639-43e6-93cb-8a24e38955ad" valueTypeId="b2de0288-3a42-46df-ae80-0ff35f1274c4"/>
+  </producedTypes>
+  <name>КП_СостояниеЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние задач исполнителей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>State task users</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="acac79a2-4105-47ec-a5dd-965d55fadc97">
+    <name>ОжидаетВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает выполнения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c83922dd-bfce-4499-89a4-c1d37fc2dd3b">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In processing</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b086382-3553-4387-92c2-5c8e548edf7a">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Completed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="786314aa-a51c-4e92-a71f-47fb285572ab">
+    <name>Одобрена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одобрена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Approved</value>
+    </synonym>
+    <comment>Устанавливается после контроля</comment>
+  </enumValues>
+  <enumValues uuid="7f876be5-eca8-499c-bb20-d7eb903c9152">
+    <name>Отклонена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Declined</value>
+    </synonym>
+    <comment>Устанавливается после контроля</comment>
+  </enumValues>
+</mdclass:Enum>

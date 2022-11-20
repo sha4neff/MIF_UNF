@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f4cd97a-02ed-4ea8-9681-6c9fa01c1a2e">
+  <producedTypes>
+    <managerType typeId="8313bcec-29f0-4e8a-9f78-f48ec8b3d2b4" valueTypeId="40086ff0-46f5-464a-b255-f457f979a86d"/>
+    <valueManagerType typeId="12111997-5e82-4862-8d29-099b54ba578f" valueTypeId="290c07e2-c264-4a4a-819e-c91c3fa0fb1d"/>
+    <valueKeyType typeId="cdd88ed1-66d7-44d9-9f39-ddf780630f3b" valueTypeId="85e40696-de74-478f-b1a7-47ea494f4e5d"/>
+  </producedTypes>
+  <name>ВариантПечатиДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант печати доставки</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВариантыПечатиДоставки</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

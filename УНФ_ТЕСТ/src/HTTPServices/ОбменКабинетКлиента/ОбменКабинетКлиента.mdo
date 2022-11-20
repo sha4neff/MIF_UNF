@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26b703b4-0bb3-4c96-8d1b-617d376ca606">
+  <name>ОбменКабинетКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен кабинет клиента</value>
+  </synonym>
+  <rootURL>clients</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="4424d954-ad5c-4852-8e63-e78cfb14fc68">
+    <name>Notification</name>
+    <synonym>
+      <key>ru</key>
+      <value>Notification</value>
+    </synonym>
+    <template>/notification</template>
+    <methods uuid="f94a2400-e14a-4799-8457-65b59df5bf42">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>NotificationPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

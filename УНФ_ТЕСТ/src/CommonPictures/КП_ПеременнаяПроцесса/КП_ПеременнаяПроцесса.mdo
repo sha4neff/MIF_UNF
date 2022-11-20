@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfb37da4-f14f-42d7-85b5-90f069d0c2cb">
+  <name>КП_ПеременнаяПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переменная процесса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Переменная процесса</value>
+  </synonym>
+</mdclass:CommonPicture>

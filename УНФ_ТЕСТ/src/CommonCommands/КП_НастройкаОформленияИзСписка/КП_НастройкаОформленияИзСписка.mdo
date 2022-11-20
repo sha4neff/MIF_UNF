@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f16db38c-fedd-4d8d-822d-b48ff16e8593">
+  <name>КП_НастройкаОформленияИзСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка оформления</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>TaskRef.КП_Задача</types>
+    <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КП_НастройкиЭлементовЦветная</picture>
+  </picture>
+</mdclass:CommonCommand>

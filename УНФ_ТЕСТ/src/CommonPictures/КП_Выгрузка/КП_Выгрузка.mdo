@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b927d53e-3b7a-43ac-b0ff-ea865d9de791">
+  <name>КП_Выгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Выгрузка</value>
+  </synonym>
+</mdclass:CommonPicture>

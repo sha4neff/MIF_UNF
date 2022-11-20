@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11b757d7-e8d4-458a-ae3d-3c8169c4f9ce">
+  <name>ИспользоватьМассовыеРассылкиИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать массовые рассылки интеграция</value>
+  </synonym>
+  <location>Constant.ИспользоватьМассовыеРассылкиИнтеграция</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.СервисМассовыхРассылок</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисМассовойРассылки</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиИмяОтправителя</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиАдресОтправителя</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиИдентификаторШаблона</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиИдентификаторАдреснойКниги</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиИмяКампании</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиИдентификатор</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиИдентификаторПисьмаОснования</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиПланируемаяДатаОтправки</content>
+  <content>Document.МассоваяРассылка.Attribute.СервисРассылкиИмяНовойАдреснойКниги</content>
+  <content>Enum.СервисыМассовыхРассылок</content>
+  <content>InformationRegister.НастройкиИнтеграцииМассовыхРассылок</content>
+  <content>InformationRegister.ТокеныДоступаAPIСервисаМассовыхРассылок</content>
+</mdclass:FunctionalOption>

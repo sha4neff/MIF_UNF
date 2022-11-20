@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df16171c-6abf-47e7-9140-cfd65e8b4505">
+  <producedTypes>
+    <managerType typeId="f79ce18a-0d66-4565-9a67-275432b8e8f9" valueTypeId="c80ecbe9-6453-49b6-94e5-afdd3e79de05"/>
+    <valueManagerType typeId="5f39c737-1503-43de-a55f-1f18199bda68" valueTypeId="a3b9340c-e90f-458e-ad76-7373b29be6f5"/>
+    <valueKeyType typeId="e4da5446-8413-4f0e-8393-8e0e78d6885d" valueTypeId="a989134c-b461-4455-8b1e-c7d9701ac088"/>
+  </producedTypes>
+  <name>ПередачаТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача товаров между организациями</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

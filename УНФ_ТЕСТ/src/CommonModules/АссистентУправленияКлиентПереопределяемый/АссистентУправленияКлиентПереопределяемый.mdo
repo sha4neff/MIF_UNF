@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63bce75d-0c97-4472-a2dc-07adc382e889">
+  <name>АссистентУправленияКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассистент управления клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

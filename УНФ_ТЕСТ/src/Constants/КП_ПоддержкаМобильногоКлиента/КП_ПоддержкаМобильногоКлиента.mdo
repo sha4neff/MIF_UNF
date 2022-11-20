@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01848057-1787-4131-8393-09abf3cad290">
+  <producedTypes>
+    <managerType typeId="02cb96e0-7748-4c79-8e28-833129864c6f" valueTypeId="1da8b7a8-32af-4b10-b016-49eeb02e0143"/>
+    <valueManagerType typeId="05fc2f70-0730-4263-b22d-a66d47a1ba0f" valueTypeId="0d8ab95d-447f-4f35-be66-a7c9098f7cdd"/>
+    <valueKeyType typeId="8ab45847-7a83-4360-9bd7-509855711a92" valueTypeId="695ed084-eaf4-44dc-bfa3-75974259fc4e"/>
+  </producedTypes>
+  <name>КП_ПоддержкаМобильногоКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка мобильного клиента (бета)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Календар</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Основной график работы сотрудников</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>The main graph of staff</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

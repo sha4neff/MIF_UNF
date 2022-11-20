@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1c2f7e5-9ee4-4ccb-afc7-b08a17fe2699">
+  <name>КП_АвтозапускПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автозапуск (повтроный на сеанс)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>General procedures and functions (server) with reuse</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

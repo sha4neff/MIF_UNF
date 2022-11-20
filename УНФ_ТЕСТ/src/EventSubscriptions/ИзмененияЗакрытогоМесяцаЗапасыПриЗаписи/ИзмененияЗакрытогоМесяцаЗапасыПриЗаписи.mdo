@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9fc9ea7-bd69-42d3-8593-74a63f6ff1dd">
+  <name>ИзмененияЗакрытогоМесяцаЗапасыПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения закрытого месяца запасы при записи</value>
+  </synonym>
+  <source>
+    <types>AccumulationRegisterRecordSet.Запасы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЗакрытиеМесяца.ИзмененияЗакрытогоМесяцаЗапасыПриЗаписи</handler>
+</mdclass:EventSubscription>

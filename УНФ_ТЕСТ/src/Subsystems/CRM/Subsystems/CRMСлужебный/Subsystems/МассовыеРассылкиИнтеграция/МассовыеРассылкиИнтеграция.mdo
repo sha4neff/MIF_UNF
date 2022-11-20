@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8008164-b049-4d97-942b-2cb70bab23a8">
+  <name>МассовыеРассылкиИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовые рассылки интеграция</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.НастройкиИнтеграцииМассовыхРассылок</content>
+  <content>Enum.СервисыМассовыхРассылок</content>
+  <content>InformationRegister.ТокеныДоступаAPIСервисаМассовыхРассылок</content>
+  <content>CommonModule.МассовыеРассылкиИнтеграция</content>
+  <content>CommonModule.МассовыеРассылкиИнтеграцияПереопределяемый</content>
+  <content>Constant.СервисМассовыхРассылок</content>
+  <content>CommonModule.МассовыеРассылкиИнтеграцияSendPulse</content>
+  <content>CommonModule.МассовыеРассылкиИнтеграцияUniSender</content>
+  <content>Document.МассоваяРассылка</content>
+  <content>CommonModule.МассовыеРассылкиКлиент</content>
+  <content>Constant.ИспользоватьМассовыеРассылкиИнтеграция</content>
+  <content>FunctionalOption.ИспользоватьМассовыеРассылкиИнтеграция</content>
+  <content>CommonPicture.СервисРассылокSendPulse</content>
+  <content>CommonPicture.СервисРассылокUnisender</content>
+  <content>CommonForm.ДобавлениеПолучателейВРассылки</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.CRMСлужебный</parentSubsystem>
+</mdclass:Subsystem>

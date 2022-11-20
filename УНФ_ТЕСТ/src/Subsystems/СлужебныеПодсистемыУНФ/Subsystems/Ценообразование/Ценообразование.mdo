@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b1b4971-02ba-40f0-912f-afb20be5212c">
+  <name>Ценообразование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценообразование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ФормированиеЦенНоменклатуры</content>
+  <content>Catalog.ВидыЦен</content>
+  <content>Catalog.ВидыЦенКонтрагентов</content>
+  <content>EventSubscription.ЦенообразованиеДобавитьЗаписиОчередиЦен</content>
+  <content>Constant.ВакантныйНомерОчередиРасчетаЦен</content>
+  <content>CommonPicture.УдалениеУстаревшихЦенMin</content>
+  <content>CommonPicture.УдалениеУстаревшихЦенMedium</content>
+  <content>CommonPicture.УдалениеУстаревшихЦенMax</content>
+  <content>CommonModule.ЦенообразованиеСервер</content>
+  <content>CommonModule.ЦенообразованиеФормулыСервер</content>
+  <content>ScheduledJob.ОчередьРасчетаЦен</content>
+  <content>ScheduledJob.СнятиеПризнакаНовинка</content>
+  <content>ScheduledJob.УдалитьОбработкаОчередиЦен</content>
+  <content>CommonForm.ФормаКоличествоИЦена</content>
+  <content>CommonForm.ФормаЦеныИВалюта</content>
+  <content>DataProcessor.УдалениеУстаревшихЦен</content>
+  <content>CommonModule.ЦенообразованиеКлиент</content>
+  <subsystems>ПрайсЛисты</subsystems>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

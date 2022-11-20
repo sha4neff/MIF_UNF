@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f60fc5e4-2d79-4936-a397-0a2a384d85cf">
+  <producedTypes>
+    <managerType typeId="a0b39df7-75d4-4251-b6dc-207f820fefd5" valueTypeId="9b7b68bc-36c2-4e4e-a42a-bc1b05435c3f"/>
+    <valueManagerType typeId="6d8007d8-2a49-4cc4-addf-1cfa27c8f5ff" valueTypeId="37f93e2c-d5a3-4d62-b659-df6402a970e9"/>
+    <valueKeyType typeId="42afee11-1b7a-5a47-a36f-a400b9d18cad" valueTypeId="a5932d1e-1f33-5756-972a-ead0a4f21c4f"/>
+  </producedTypes>
+  <name>ФильтрПоКассеККММП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильтр по кассе ККММП</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.КассыККММП</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

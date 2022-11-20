@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44d8ca88-7f67-42de-8371-2b2c56c283e2">
+  <producedTypes>
+    <selectionType typeId="bb7717de-49b0-4b54-8ac9-9eb6ea429f15" valueTypeId="8a4d6f22-58d6-4b68-9130-8bf174439a17"/>
+    <listType typeId="55eac69a-180e-4528-bc14-c76e3f504c7b" valueTypeId="5bbd33aa-d113-4951-a80d-67c0d6458680"/>
+    <managerType typeId="c8a10a8f-4fdf-45b8-bc21-35206f30cc3c" valueTypeId="0b9f262f-09f1-4cee-8df3-0b223b711f3a"/>
+  </producedTypes>
+  <name>ДвиженияДенегМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплаты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Payments</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДвиженияДенегМП.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ПриходДенегМП</registeredDocuments>
+  <registeredDocuments>Document.РасходДенегМП</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="8638f6e4-1d5e-4a94-b3d3-ca9fc1b08f4a">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer / Supplier</value>
+    </synonym>
+    <references>Document.ПриходДенегМП.Attribute.Контрагент</references>
+    <references>Document.РасходДенегМП.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="f9d7a7df-bded-4048-9b26-f7c2e05d401e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Amount</value>
+    </synonym>
+    <references>Document.ПриходДенегМП.Attribute.Сумма</references>
+    <references>Document.РасходДенегМП.Attribute.Сумма</references>
+  </columns>
+  <columns uuid="ea2eed00-09b7-49d1-9dcc-2a60b4452fad">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <references>Document.ПриходДенегМП.Attribute.Основание</references>
+    <references>Document.РасходДенегМП.Attribute.Основание</references>
+  </columns>
+  <columns uuid="2a288d40-a61f-4b86-a3a0-d76a0f9bf1cd">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cash Flow Item</value>
+    </synonym>
+    <references>Document.ПриходДенегМП.Attribute.Статья</references>
+    <references>Document.РасходДенегМП.Attribute.Статья</references>
+  </columns>
+  <columns uuid="db6ab2fc-2f0b-41e7-9f85-4e5abb7fd498">
+    <name>НомерПодтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер подтвержден</value>
+    </synonym>
+    <references>Document.ПриходДенегМП.Attribute.НомерПодтвержден</references>
+    <references>Document.РасходДенегМП.Attribute.НомерПодтвержден</references>
+  </columns>
+  <forms uuid="168624a5-8dfd-4faa-9311-9d4f44673504">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

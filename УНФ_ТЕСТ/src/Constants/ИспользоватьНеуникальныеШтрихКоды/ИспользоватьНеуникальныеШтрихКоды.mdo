@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de17c9d0-3671-4e08-96b3-800794525358">
+  <producedTypes>
+    <managerType typeId="5fd88ac5-2b20-400d-865c-4ed6d66b8075" valueTypeId="afee0184-c1c6-4df4-a0d3-f04615ca2976"/>
+    <valueManagerType typeId="2adf82ae-9976-4468-a34d-a519fd52e782" valueTypeId="e98e4797-801a-4d74-8957-ae35df448053"/>
+    <valueKeyType typeId="9eb57c93-2000-404f-ae3a-6fa8d261b511" valueTypeId="f1382f4e-3cbb-4ed7-a627-e4c5a18fdcb8"/>
+  </producedTypes>
+  <name>ИспользоватьНеуникальныеШтрихКоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать неуникальные штрихкоды</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

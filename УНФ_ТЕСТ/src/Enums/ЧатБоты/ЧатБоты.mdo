@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e25343b2-14e4-456f-a5d6-86dbfd091af7">
+  <producedTypes>
+    <refType typeId="e21dff95-2e54-40bd-8653-3c032d151cbb" valueTypeId="e287edd4-ed10-4fdc-822c-4cd4b1677e3a"/>
+    <listType typeId="4985d599-bc03-417e-ae5a-9cea1a705584" valueTypeId="92d2e0ab-c33e-4697-a02b-ddc4578b2273"/>
+    <managerType typeId="9374c44b-75ea-4654-ba44-c59bcfc860d1" valueTypeId="2f14e7a2-9309-4151-bf56-0fb371ab2380"/>
+  </producedTypes>
+  <name>ЧатБоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат боты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7a6b25bc-9d3b-4344-b899-898f3c1732ca">
+    <name>Telegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b18ff6f4-d0d8-4174-b086-504cbccf4ac7">
+    <name>Другой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

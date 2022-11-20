@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormField">
+    <name>Период</name>
+    <id>61</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Период</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПериодПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ПериодРасширеннаяПодсказка</name>
+      <id>63</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПериодКонтекстноеМеню</name>
+      <id>62</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <listChoiceMode>true</listChoiceMode>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Задается вручную</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>Set Manually</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <startDate>0001-01-01T00:00:00</startDate>
+            <endDate>0001-01-01T00:00:00</endDate>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Сегодня</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>Today</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>Today</variant>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Вчера</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>Yesterday</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>Yesterday</variant>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Эта неделя</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>This Week</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>ThisWeek</variant>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Прошлая неделя</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>Past Week</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>LastWeek</variant>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Этот месяц</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>This Month</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>ThisMonth</variant>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Прошлый месяц</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>Last Month</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>LastMonth</variant>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Этот год</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>This Year</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>ThisYear</variant>
+          </value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Прошлый год</value>
+        </presentation>
+        <presentation>
+          <key>en</key>
+          <value>Last Year</value>
+        </presentation>
+        <value xsi:type="core:StandardPeriodValue">
+          <value>
+            <variant>LastYear</variant>
+          </value>
+        </value>
+      </choiceList>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>НачалоПериода</name>
+    <id>14</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>НачалоПериода</segments>
+    </dataPath>
+    <titleLocation>Top</titleLocation>
+    <toolTip>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Begin</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>НачалоПериодаРасширеннаяПодсказка</name>
+      <id>16</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>НачалоПериодаКонтекстноеМеню</name>
+      <id>15</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <wrap>true</wrap>
+      <quickChoice>true</quickChoice>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>КонецПериода</name>
+    <id>8</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>КонецПериода</segments>
+    </dataPath>
+    <titleLocation>Top</titleLocation>
+    <toolTip>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>End</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>КонецПериодаРасширеннаяПодсказка</name>
+      <id>10</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>КонецПериодаКонтекстноеМеню</name>
+      <id>9</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаОК</name>
+      <id>64</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаОКРасширеннаяПодсказка</name>
+        <id>65</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОК</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>НачалоПериода</name>
+    <title>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Beginning of the Period</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КонецПериода</name>
+    <title>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>End of the Period</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Период</name>
+    <title>
+      <key>ru</key>
+      <value>Период</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Period</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>StandardPeriod</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ОК</name>
+    <title>
+      <key>ru</key>
+      <value>Установить</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Ok</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>ОК</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ok</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОК</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

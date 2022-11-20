@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f82b777f-3776-41e0-bcbf-639059774a4e">
+  <producedTypes>
+    <selectionType typeId="afad5308-65b9-407e-80cf-b77dc18eeeaa" valueTypeId="7b8d8c01-d099-4710-b56e-03d9a2911f12"/>
+    <listType typeId="b72f230a-f4d8-4e5b-8cd4-66a0bdbad659" valueTypeId="e1092694-1958-4372-aa43-50311e150658"/>
+    <managerType typeId="e578ffc0-2400-4ddb-97fa-21d5284af79f" valueTypeId="f421780d-fad6-47a0-a384-ca63a3264eaa"/>
+  </producedTypes>
+  <name>РозничныеПродажиМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чеки ККТ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Sales Receipts</value>
+  </synonym>
+  <defaultForm>DocumentJournal.РозничныеПродажиМП.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ЧекККММП</registeredDocuments>
+  <registeredDocuments>Document.ЧекККМВозвратМП</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="27668a68-fb74-4534-a4cd-5445ba189c6f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Amount </value>
+    </synonym>
+    <references>Document.ЧекККММП.Attribute.СуммаДокумента</references>
+    <references>Document.ЧекККМВозвратМП.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="83ebb17f-7edb-4182-841d-4d31f6c17705">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <references>Document.ЧекККМВозвратМП.Attribute.Статус</references>
+    <references>Document.ЧекККММП.Attribute.Статус</references>
+  </columns>
+  <columns uuid="6c04df85-9fe0-4bef-839e-3b63f8c89df1">
+    <name>КассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса ККМ</value>
+    </synonym>
+    <references>Document.ЧекККММП.Attribute.КассаККМ</references>
+    <references>Document.ЧекККМВозвратМП.Attribute.КассаККМ</references>
+  </columns>
+  <columns uuid="cfdd8de6-240c-429a-9e06-35e16789f5c0">
+    <name>НомерЧекаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер чека ККМ</value>
+    </synonym>
+    <references>Document.ЧекККММП.Attribute.НомерЧекаККМ</references>
+    <references>Document.ЧекККМВозвратМП.Attribute.НомерЧекаККМ</references>
+  </columns>
+  <columns uuid="4d1a574e-5d68-4b44-aef3-5003914373fd">
+    <name>НомерПодтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер подтвержден</value>
+    </synonym>
+    <references>Document.ЧекККММП.Attribute.НомерПодтвержден</references>
+    <references>Document.ЧекККМВозвратМП.Attribute.НомерПодтвержден</references>
+  </columns>
+  <forms uuid="9dfe1fa2-ff76-406e-a635-96be3dad5030">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="098557a8-c74a-41f2-9a46-8b70c9a2edef">
+  <producedTypes>
+    <managerType typeId="05208770-cd29-402e-8c21-c455ee063cc1" valueTypeId="ac45aba5-5959-41fd-9994-d7c922615a25"/>
+    <valueManagerType typeId="553c4e0d-0631-4f6b-bbbf-8f317d1b3b9c" valueTypeId="a65fa25f-3bf5-46cf-a21e-95c3d4876c1c"/>
+    <valueKeyType typeId="77403aae-a27a-5c2b-b1ad-bfe546d578be" valueTypeId="d619830b-bcc7-5950-9fb5-22ee50ef3661"/>
+  </producedTypes>
+  <name>КП_ХранилищеРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище расписания работы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дата початку ведення обліку</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

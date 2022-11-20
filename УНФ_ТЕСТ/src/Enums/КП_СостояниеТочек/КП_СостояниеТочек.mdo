@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a918c39-2093-4dc6-acbf-b8130ae60c1a">
+  <producedTypes>
+    <refType typeId="d6c8a9b1-81d4-46e4-8c6a-f99efce2114e" valueTypeId="47ccdff0-c00d-467f-a9ba-49166fc2ff43"/>
+    <listType typeId="32135a35-6f9c-4d7b-80d5-4d3074a60012" valueTypeId="d30c2662-1418-46e2-99be-ec7513ac1688"/>
+    <managerType typeId="35ccada5-d73c-4c3e-8a4e-8f9a1515c2e0" valueTypeId="70a07712-a497-4ad5-bee8-bbf2bb7573b0"/>
+  </producedTypes>
+  <name>КП_СостояниеТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние точек бизнес-процессов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>State points of business processes</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="75c827f5-12e2-46a1-811c-f6c7aaba22bc">
+    <name>НеВыполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выполняется</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not active</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="837dd787-6882-4754-9e8a-e20d40fe591c">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In processing</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="751ca0b6-2f91-466c-9756-79e6362a300e">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Processed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de600927-34a9-4f0a-a49e-771aeedc8951">
+    <name>Реинициализирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реинициализирована</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reinitialized</value>
+    </synonym>
+    <comment>Используется при повторной инициализации ветви процесса для повторного прохода</comment>
+  </enumValues>
+</mdclass:Enum>

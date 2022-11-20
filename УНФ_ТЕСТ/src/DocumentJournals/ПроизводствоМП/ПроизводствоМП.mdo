@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a964b29f-626e-4361-b27a-025f4c3542ce">
+  <producedTypes>
+    <selectionType typeId="83a7d886-b011-426b-8c37-5e1aebf44ba4" valueTypeId="67c7eb82-def1-4834-8ced-977540bf2469"/>
+    <listType typeId="1da558c0-ee2a-48d9-b5fe-990890f48e67" valueTypeId="2afbd6de-c026-44cd-ba6a-1f3124a5e2ab"/>
+    <managerType typeId="146a248f-65e4-4657-835c-d15cb9a02171" valueTypeId="a7c355dd-e107-400a-9768-e2839efab351"/>
+  </producedTypes>
+  <name>ПроизводствоМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assemblies</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ПроизводствоМП.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ПроизводствоМП</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="06f79743-cda6-47e0-a2b7-439e16ebf9fb">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Amount </value>
+    </synonym>
+    <references>Document.ПроизводствоМП.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="5542c51a-72ca-44c3-807a-50762599574a">
+    <name>НомерПодтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер подтвержден</value>
+    </synonym>
+    <references>Document.ПроизводствоМП.Attribute.НомерПодтвержден</references>
+  </columns>
+  <forms uuid="5cc99f87-70ff-4c7c-9fad-1f634edd1a09">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

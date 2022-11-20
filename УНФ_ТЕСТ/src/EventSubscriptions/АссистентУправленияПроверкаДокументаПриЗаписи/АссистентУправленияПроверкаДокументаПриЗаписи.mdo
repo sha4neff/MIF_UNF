@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23bc4195-876b-4430-b4d1-d0d24d053ef1">
+  <name>АссистентУправленияПроверкаДокументаПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассистент управления проверка документа при записи</value>
+  </synonym>
+  <source>
+    <types>DefinedType.АссистентУправленияДокументДляПроверки</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.АссистентУправления.АссистентУправленияПроверкаДокументаПриЗаписиОбработчик</handler>
+</mdclass:EventSubscription>

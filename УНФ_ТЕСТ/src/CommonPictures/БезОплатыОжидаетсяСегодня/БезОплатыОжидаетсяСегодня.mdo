@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7609c2d5-16e0-4260-a5b4-b689c67a92c2">
+  <name>БезОплатыОжидаетсяСегодня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Без оплаты ожидается сегодня</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45b3be83-85b5-4b7e-bf97-a06ec852f091">
+  <name>УчетНоменклатурыПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура поставщиков</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУчетНоменклатурыПоставщиков</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыЦенКонтрагентов</content>
+  <content>DataProcessor.ПрайсЛистыКонтрагентов</content>
+  <content>Catalog.ДоговорыКонтрагентов.Attribute.ВидЦенКонтрагента</content>
+  <content>InformationRegister.ЦеныНоменклатурыКонтрагентов</content>
+  <content>InformationRegister.ЦеныНоменклатурыКонтрагентов.Command.ОткрытьЦеныНоменклатурыКонтрагентов</content>
+  <content>Catalog.НоменклатураПоставщиков.Command.ОткрытьНоменклатуруПоставщиков</content>
+  <content>Catalog.НоменклатураПоставщиков</content>
+</mdclass:FunctionalOption>

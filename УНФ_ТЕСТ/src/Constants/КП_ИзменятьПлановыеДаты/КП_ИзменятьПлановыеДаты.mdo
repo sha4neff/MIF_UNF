@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b78a1cdf-2a38-4916-94d7-7972e4cc80ce">
+  <producedTypes>
+    <managerType typeId="64de5935-3e7e-4437-94cf-0463e2d9cfe2" valueTypeId="5a7df1af-a52f-40a4-bf6d-4c90caf5968e"/>
+    <valueManagerType typeId="37f934f5-9b85-4078-998d-5b876174a7d8" valueTypeId="b575eccd-3b6f-4ed5-bf9b-c8a0a7bc31cd"/>
+    <valueKeyType typeId="9ad933d1-75b2-4761-86d9-9e59ddf37312" valueTypeId="a3b41804-e62b-4ec3-bee5-fb633008ea80"/>
+  </producedTypes>
+  <name>КП_ИзменятьПлановыеДаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменять плановые данные инициатором процесса и администраторами</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Додаткові параметри</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

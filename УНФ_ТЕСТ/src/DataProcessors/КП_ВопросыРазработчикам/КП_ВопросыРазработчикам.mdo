@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73f75123-56b6-40b9-aa3f-2c6095aeb45e">
+  <producedTypes>
+    <objectType typeId="83aaeb6a-cdcd-4bc2-8742-59505bf05241" valueTypeId="6950965e-4a3d-4633-977e-c55f878fc761"/>
+    <managerType typeId="491b93a4-26b8-4ee3-b397-49507dd97ccc" valueTypeId="cf41c648-2c22-463a-bd46-261a29496cc1"/>
+  </producedTypes>
+  <name>КП_ВопросыРазработчикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы разработчикам системы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Питання розробникам системи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ВопросыРазработчикам.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="aeb4f0aa-e668-4f7f-b5e7-e6c51b26a874">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f5e8625c-59fc-4074-a8bb-375a98822d63">
+    <name>ВопросРазработчикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос разработчикам</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

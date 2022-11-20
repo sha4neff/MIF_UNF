@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="096a597f-8ab7-4aba-828f-b49b5ed9300e">
+  <producedTypes>
+    <selectionType typeId="0fefa329-164d-4024-9ead-3a3f57640bc9" valueTypeId="f69e5a63-7814-4dd5-bdbd-72e8fdb21b9f"/>
+    <listType typeId="4495e6b1-2281-4ee7-a0b7-d0a3ac317d56" valueTypeId="414d1fe4-888a-4b37-b073-0358c09bb91e"/>
+    <managerType typeId="ac919066-62a5-4c04-8aa8-b577c485fec6" valueTypeId="4596187d-c1ec-4c1b-b322-70e88a088f1e"/>
+    <recordSetType typeId="991e2f15-56e5-42e4-be41-4c05289a1abd" valueTypeId="4f40f4c7-7870-47bd-be33-626ab7ea14dc"/>
+    <recordKeyType typeId="736d64db-f5d3-42a6-a147-7ec2b7b46c3d" valueTypeId="d4bbb0f8-943f-456a-b6fb-f4be8c58cb86"/>
+    <recordType typeId="58804893-821b-4f54-96e5-1b8211749ce0" valueTypeId="826a12ea-de81-4291-b246-8045a46656f8"/>
+    <recordManagerType typeId="238f8ef2-da13-4e55-9f6d-a768ca3f2bed" valueTypeId="d5e8a08f-db31-408d-b100-afa6fbfd0950"/>
+  </producedTypes>
+  <name>КП_СвязиОбъектов_Удалить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи объектов документооборота</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Document's links</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_СвязиОбъектов_Удалить.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_СвязиОбъектов_Удалить.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="76162cbe-d01f-4217-8f4a-b355ea7424ce">
+    <name>Объект2ВышеОбъекта1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект 2 выше Объекта 1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object 1 is above Object 2</value>
+    </synonym>
+    <comment>Объект 2 вышестоящий, иначе Объект 1 вышестоящий</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект 2 вышестоящий, иначе Объект 1 вышестоящий</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Object 2 parent, or one parent object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0ce96c1d-821e-435d-a000-8fa0ea66dae9">
+    <name>Объект1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект №1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object N 1</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект №1</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Object № 1</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="28dd6d02-f287-4080-9125-2df6a926798e">
+    <name>Объект2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект №2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object N 2</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект №2</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Object number 2</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3e1c8f0b-0735-4052-9526-6a186c19fa6c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb7fcdba-2108-4dce-8ef3-edd0a4bb44cf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe01a47-e517-4819-8bcd-74a50e30a8c6">
+  <name>СервисРассылокUnisender</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис рассылок unisender</value>
+  </synonym>
+</mdclass:CommonPicture>

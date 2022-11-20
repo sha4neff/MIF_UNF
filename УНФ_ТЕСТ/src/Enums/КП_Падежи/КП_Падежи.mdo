@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44bba606-9b86-4164-ba3c-b57e06042be2">
+  <producedTypes>
+    <refType typeId="66284bdf-1885-498e-87b9-2c19115bbb9e" valueTypeId="167bf73c-42e8-441f-a3bc-a3725482696b"/>
+    <listType typeId="d1dc07fa-a764-4c97-8d1f-d663fb3e140c" valueTypeId="d20997a1-6740-4d5d-851c-cd247827653c"/>
+    <managerType typeId="16175e87-828f-447b-b655-78b3f9ec7f8a" valueTypeId="cdf4a912-e6de-494e-943f-55e028beed15"/>
+  </producedTypes>
+  <name>КП_Падежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Падежи</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Cases</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5760d015-b5c9-4e99-b6ff-4cf06a935fdf">
+    <name>Именительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Именительный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Nominative</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="178fd5e3-70b4-4292-b287-59a3ad3bc4e7">
+    <name>Родительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительный (нет кого?)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Genitive (none whom?)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e7c5ff3-1a88-4a88-8034-d46a4ce4fd2e">
+    <name>Дательный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дательный (кому?)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dative (to whom?)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6419573c-9ce6-4692-b34a-bb984eb7c352">
+    <name>Винительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Винительный (вижу кого?)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accusative (see whom?)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a8d27b7-1578-4c8b-96d1-7d19074a4017">
+    <name>Творительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Творительный (кем?)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instrumental (by whom?)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d88ffdd-cbe9-4f6f-b8fe-3578af1590f9">
+    <name>Предложный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложный (о ком?)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Prepositional (Who?)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

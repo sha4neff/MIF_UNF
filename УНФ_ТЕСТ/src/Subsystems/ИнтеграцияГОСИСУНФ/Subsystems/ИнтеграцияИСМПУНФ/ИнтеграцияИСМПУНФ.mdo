@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae0ba537-b6b3-4f0e-8c0c-4eea543d0193">
+  <name>ИнтеграцияИСМПУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ИСМП УНФ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияИСМПУНФ</content>
+  <content>CommonModule.ИнтеграцияИСМПУНФКлиент</content>
+  <subsystems>ИнтеграцияТабак</subsystems>
+  <subsystems>ИнтеграцияОбувь</subsystems>
+  <parentSubsystem>Subsystem.ИнтеграцияГОСИСУНФ</parentSubsystem>
+</mdclass:Subsystem>

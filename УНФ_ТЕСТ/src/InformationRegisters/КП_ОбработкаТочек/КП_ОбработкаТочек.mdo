@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cbf4cee-b01e-4b64-8be9-af2af76564b7">
+  <producedTypes>
+    <selectionType typeId="57afea04-5461-4b64-ae25-cde478d8666c" valueTypeId="d3c4f256-d940-4547-bf3b-e34b23426ead"/>
+    <listType typeId="9c2b09f1-17ad-46d3-93d1-8c3300c34e35" valueTypeId="4a7f5eab-9381-4c90-900d-c0f979380594"/>
+    <managerType typeId="c232b45f-c8c9-4a38-894d-0e7d4f1541c3" valueTypeId="22056281-b931-4807-88b4-46af0fadea59"/>
+    <recordSetType typeId="c4df4257-09c7-4a82-a259-c7483b1e9226" valueTypeId="d7627f3d-aca2-4f34-ac81-1035b1515c92"/>
+    <recordKeyType typeId="1dd6ac1e-e0f1-4567-b7fb-deb4f97dc87d" valueTypeId="78ef0d0c-593d-4a1b-84b0-67ba439229f1"/>
+    <recordType typeId="752e2589-8f55-41d0-9892-6650d923b185" valueTypeId="31cd377a-4e3a-400b-a107-0d4d7a5e85c9"/>
+    <recordManagerType typeId="eea3fa9c-4dff-4173-bf8b-7660be612a43" valueTypeId="32464a07-b02c-4cce-8d86-1becec9a786a"/>
+  </producedTypes>
+  <name>КП_ОбработкаТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка точек бизнес-процесса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Processing points of the business process</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КП_ОбработкаТочек.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="af4950e5-859e-41a6-9533-369b6f04dc30">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>State</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КП_СостояниеТочек</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>State</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="85f39f5e-5e14-4878-97cb-e21954dc1173">
+    <name>ПерешлиКТочке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перешли к точке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Moved to a point</value>
+    </synonym>
+    <comment>Заполняется только для Условий и Выбора</comment>
+    <type>
+      <types>CatalogRef.КП_ТочкиПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Перешли к точке</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Moved to a point</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="8e20117c-f90d-4dd5-9872-406cc35d31b8">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Note</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Примечание</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Note</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="b9d32309-5524-4204-ba59-a36265e213cb">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпоративный бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Corporate business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bf913d87-33ab-47e2-85bd-3e65f5faf0a7">
+    <name>ТочкаКБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Route point</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ТочкиПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Route point</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="12df7281-790c-4238-9b37-027dbc0ff137">
+    <name>НомерПрохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер прохода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pass number</value>
+    </synonym>
+    <comment>Номер прохода в цикле схемы бизнес-процесса</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер прохода в цикле схемы бизнес-процесса</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pass number in the cycle business process diagram</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cec700eb-6f4e-47b0-9ec1-1e83b4377cc4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

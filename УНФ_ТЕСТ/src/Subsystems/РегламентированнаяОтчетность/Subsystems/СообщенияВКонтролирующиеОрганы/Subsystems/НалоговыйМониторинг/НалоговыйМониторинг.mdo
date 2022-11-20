@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db020b39-53fa-4e00-b476-6c75ae40653b">
+  <name>НалоговыйМониторинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоговый мониторинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.РегламентированнаяОтчетность.Subsystem.СообщенияВКонтролирующиеОрганы</parentSubsystem>
+</mdclass:Subsystem>

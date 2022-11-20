@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="960105de-5331-4933-ac81-27e49f287203">
+  <name>ОплатаСервисаУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата сервиса УНФ</value>
+  </synonym>
+  <content>CommonModule.ОплатаСервисаУНФ</content>
+  <content>CommonModule.ОплатаСервисаУНФВызовСервера</content>
+  <content>CommonModule.ОплатаСервисаУНФКлиент</content>
+  <content>CommonCommand.ОплатаСервиса</content>
+  <content>CommonForm.ФормаОплатыСервиса</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

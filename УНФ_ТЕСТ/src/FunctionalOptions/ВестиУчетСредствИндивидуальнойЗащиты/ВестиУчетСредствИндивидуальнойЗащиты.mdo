@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa671ce3-68d4-4b22-bfea-4d2709f071b7">
+  <name>ВестиУчетСредствИндивидуальнойЗащиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет средств индивидуальной защиты</value>
+  </synonym>
+  <location>Constant.ВестиУчетСредствИндивидуальнойЗащиты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.СредствоИндивидуальнойЗащиты</content>
+  <content>Catalog.Номенклатура.Attribute.КодМедицинскогоИзделия</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2d4dfa8-339a-4ef6-92ee-d5f67caa7890">
+  <name>ПереключениеМеждуРежимами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переключение между режимами</value>
+  </synonym>
+</mdclass:CommonPicture>

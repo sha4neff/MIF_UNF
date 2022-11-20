@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8463aca3-0695-4cf4-a45c-900fcaab6f06">
+  <producedTypes>
+    <selectionType typeId="78f63271-91b8-4bd6-b4ba-25fd8e9d8122" valueTypeId="b351df4c-0db3-48b3-b247-d908c6c90289"/>
+    <listType typeId="c41f4f24-ef53-41a3-89ba-9151c78355dc" valueTypeId="6984ddcb-1e7a-4b89-b206-5e6171074f1e"/>
+    <managerType typeId="721ba2b4-a275-4ec2-98cf-705f5049319c" valueTypeId="95350aa3-072f-4397-8a39-c55eb4e59b40"/>
+    <recordSetType typeId="4af0b101-e131-4f43-afaf-9c72af61ffea" valueTypeId="0217343f-0406-4982-b166-05ef11a5d456"/>
+    <recordKeyType typeId="eed51d1e-6505-4f2d-818b-990d930754cd" valueTypeId="95312f86-0d20-4f0b-9e78-4dfc4e68c337"/>
+    <recordType typeId="e7d51b93-4b4b-4e38-b065-9354caec9a97" valueTypeId="698bd75d-85b9-49b0-807b-d99b41fff645"/>
+    <recordManagerType typeId="fffc824a-31e2-47aa-9371-3aa52a41a90a" valueTypeId="8ee0e99a-301e-4aeb-9c0f-11c2762082eb"/>
+  </producedTypes>
+  <name>КП_СостоянияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние задач документооборота</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Workflow task status</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b7b7abfb-e113-460b-a20d-83dc836e1819">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Responsible</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0dddac6e-0f5f-46bd-a651-901a153ed7ee">
+    <name>СостояниеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние задачи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Task Status</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КП_СостояниеТочек</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние задачи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Task Status</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="c96892cd-6aca-47f5-b0ed-27679cdbfc6f">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Note</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Примечание</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Note</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="4ee6220a-8879-44e8-9445-f13ab6c051df">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Task</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задача</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Task</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

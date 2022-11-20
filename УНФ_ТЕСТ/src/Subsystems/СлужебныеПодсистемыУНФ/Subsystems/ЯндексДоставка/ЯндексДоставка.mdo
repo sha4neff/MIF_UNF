@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f317d7f-0a66-4050-ac27-c331d7c27d06">
+  <name>ЯндексДоставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс.Доставка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ЯндексДоставка</content>
+  <content>Catalog.СлужбыДоставки</content>
+  <content>Catalog.ЗоныТарифыДоставки</content>
+  <content>Catalog.ПунктыВыдачиЗаказа</content>
+  <content>Catalog.НастройкиЯндексДоставки</content>
+  <content>Catalog.ИнтервалыДоставки</content>
+  <content>Catalog.СкладыСлужбДоставки</content>
+  <content>Enum.СпособыДоставки</content>
+  <content>Enum.СпособыОтгрузки</content>
+  <content>CommonPicture.ЯндексЛоготип16х16</content>
+  <content>Enum.СтатусыЯндексДоставки</content>
+  <content>CommonModule.ЯндексДоставка</content>
+  <content>CommonModule.ЯндексДоставкаКлиентСервер</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

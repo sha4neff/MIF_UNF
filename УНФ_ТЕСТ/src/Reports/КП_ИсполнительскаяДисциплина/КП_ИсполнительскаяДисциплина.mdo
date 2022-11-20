@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd37f933-1c9e-493d-b7d0-883c07ac1a40">
+  <producedTypes>
+    <objectType typeId="1892612c-c413-4758-8e0f-0bd815d1ee99" valueTypeId="3a779f31-9d1c-4bc1-9779-c2cd566d5df0"/>
+    <managerType typeId="bec6b419-a462-467e-9655-19aee04ffc6f" valueTypeId="a91ee5c5-6592-41ac-9344-888163bf2221"/>
+  </producedTypes>
+  <name>КП_ИсполнительскаяДисциплина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка об исполнительской дисциплине</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Довідка про виконавську дисципліну</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КП_ИсполнительскаяДисциплина.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КП_ИсполнительскаяДисциплина.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ad8f2fe2-947a-4787-9039-1c5cdd0ddba5">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of an account</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4093c12f-7bfb-4c9c-8fe7-9fcb55b5d42c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The basic Flowchart of the data composition</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="725a74e8-cf82-4702-b5fa-9810a69a7fca">
+    <name>ИсполнительскаяДисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнительская дисциплина</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Executive discipline</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

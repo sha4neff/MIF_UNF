@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d9d3fa9-07e8-4dba-8cb0-0afb128b458d">
+  <name>КП_БиблиотекаИмпорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека импорт</value>
+  </synonym>
+</mdclass:CommonPicture>

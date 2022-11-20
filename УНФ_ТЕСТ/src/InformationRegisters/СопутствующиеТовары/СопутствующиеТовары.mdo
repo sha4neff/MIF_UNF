@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="093f6512-e4c7-41c9-861f-45bc204edad2">
+  <producedTypes>
+    <selectionType typeId="1d15c75e-18e0-469d-ba66-fd0c537651ce" valueTypeId="5112a701-30c9-4bdc-868a-ebb8db8cdd01"/>
+    <listType typeId="899e3881-1bf6-4e40-a4a9-15dc43101d07" valueTypeId="4249bd5e-9129-42e6-9bfe-6ea1abd8ac0c"/>
+    <managerType typeId="6ceec453-27b1-4cbe-a829-5656fbbd4ec3" valueTypeId="4ec13b87-daf3-4d90-bc0e-6bde4196bad1"/>
+    <recordSetType typeId="c7736364-1d37-4ca5-9f40-fd3009dff308" valueTypeId="101cced5-47ab-4e19-9db3-2c054d5dde9b"/>
+    <recordKeyType typeId="f2427f84-760f-4c75-ad5c-0605a871c16d" valueTypeId="993e9b60-0611-4d78-8a5a-d8d307ec9f6f"/>
+    <recordType typeId="e66e7174-2f56-4f02-9dbc-ae68ffeb7c58" valueTypeId="e20eb7d0-9f4a-4d4c-b76e-0be254c3794d"/>
+    <recordManagerType typeId="e9157819-3b7a-4fc2-8f4b-1350955c2ee4" valueTypeId="c1c5fbf7-5087-4469-8dcc-f0a2861838fa"/>
+  </producedTypes>
+  <name>СопутствующиеТовары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопутствующие товары</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.СопутствующиеТовары.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СопутствующиеТовары.Form.ФормаДляНоменклатуры</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сопутствующий товар</value>
+  </recordPresentation>
+  <resources uuid="fac3016c-6c82-444d-81d8-96846c92f079">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Приоритет аналога номенклатуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <resources uuid="8b256e81-2ec2-4c8f-8254-92ad54aa691e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="37a0a535-7a31-4496-9bec-13cff0f00c72">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Номенклатура.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bcdcbd1a-eb58-440e-8309-ec92e392838d">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.СопутствующиеТовары.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a87c5dde-527e-48ac-8a90-91a31cc1e713">
+    <name>СопутствующийТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопутствующий товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Номенклатура.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="beadc2ea-1b9d-4e1d-b71d-b1e533e43761">
+    <name>ХарактеристикаCопутствующегоТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика cопутствующего товара</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.СопутствующиеТовары.Dimension.СопутствующийТовар</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cdae4cd9-13b3-46fa-b11f-37bf772b4482">
+    <name>ФормаДляНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналоги</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="588d6b8d-a252-4a16-802f-44e50d34e09a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6f1eb72d-7891-41a9-8ba8-e9a54785d2de">
+    <name>ОткрытьСопутствующиеТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопутствующие товары</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

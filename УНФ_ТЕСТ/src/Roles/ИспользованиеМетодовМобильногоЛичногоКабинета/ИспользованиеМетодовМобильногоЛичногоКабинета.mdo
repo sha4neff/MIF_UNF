@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e85f9260-4ed5-475b-aad0-f49dd2fda04c">
+  <name>ИспользованиеМетодовМобильногоЛичногоКабинета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование методов мобильного личного кабинета</value>
+  </synonym>
+</mdclass:Role>

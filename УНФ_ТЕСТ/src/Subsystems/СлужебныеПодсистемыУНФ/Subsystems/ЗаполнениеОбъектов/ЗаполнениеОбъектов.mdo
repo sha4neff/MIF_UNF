@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e163453-1c64-42f5-9bb9-84be9c92cdbd">
+  <name>ЗаполнениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЗаполнениеОбъектовУНФ</content>
+  <content>CommonModule.ЗаполнениеОбъектовУНФКлиент</content>
+  <content>CommonModule.ЗаполнениеОбъектовУНФПереопределяемый</content>
+  <content>CommonModule.ЗаполнениеОбъектовУНФКлиентСервер</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ</parentSubsystem>
+</mdclass:Subsystem>

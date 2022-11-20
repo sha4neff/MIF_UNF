@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62a32566-8ea5-4f5b-8743-95b3e8d1de48">
+  <name>ЗаписатьИдентификаторНовостиМЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать идентификатор новости МЛК</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.НовостиМЛК</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.КонструкторМобильногоПриложения.ЗаписатьИдентификаторНовостиМЛКПередУдалением</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4888dee-4e41-4ea0-83dd-373077cfa22a">
+  <producedTypes>
+    <objectType typeId="758f42a3-85fa-4e18-aacd-a4e46a6c3e55" valueTypeId="7ba43ec2-3529-4dc4-98cc-0f62486fff52"/>
+    <managerType typeId="74146278-f56b-4f2d-b57d-3b275192096e" valueTypeId="c0057d63-391b-45c2-bf9d-9d30cf0bcbf2"/>
+  </producedTypes>
+  <name>КП_ПереходКТочкеПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход к точке процесса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ПереходКТочкеПроцесса.Form.Форма</defaultForm>
+  <attributes uuid="01f0142b-1f07-440f-88e8-3f7137d82cb8">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d07ac4b1-f9ae-4f76-ab9a-a6c9f898f5ed">
+    <name>ТочкаПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ТочкиПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="804662e8-a7d4-4780-ae44-d2c0c48b3865">
+    <name>ТипТочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип точки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КП_ВидыТочекБизнесПроцесса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="797dd658-1242-45aa-b2b8-b450276e749a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

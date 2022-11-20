@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb2c5811-9e7a-48da-b92e-3378185baf47">
+  <name>КорзинаПомеченныеНаУдалениеМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мусорная корзина</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Trash</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

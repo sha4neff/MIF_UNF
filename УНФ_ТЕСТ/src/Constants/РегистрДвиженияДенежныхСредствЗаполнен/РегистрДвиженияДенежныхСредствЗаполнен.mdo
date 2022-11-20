@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="583ddecb-4c5c-4bcf-9722-2f8a2a275029">
+  <producedTypes>
+    <managerType typeId="3fe815a9-3a2d-4c7e-bc93-381793efea94" valueTypeId="9dd757b5-3c3b-4ce2-8659-f8e58dd44f4e"/>
+    <valueManagerType typeId="c62de053-67d5-46f7-a2fb-b57cbbcbd2a6" valueTypeId="ae51fd8d-4e39-4875-99b7-57af70d04393"/>
+    <valueKeyType typeId="72fb1986-f7a8-48e3-a8e4-bb1cfffd7e24" valueTypeId="3db62d87-a143-46fe-89be-c09441942314"/>
+  </producedTypes>
+  <name>РегистрДвиженияДенежныхСредствЗаполнен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр движения денежных средств заполнен</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

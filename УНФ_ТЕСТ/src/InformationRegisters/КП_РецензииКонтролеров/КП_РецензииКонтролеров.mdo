@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="901f6c73-1339-46a5-a59a-1ce320387c4a">
+  <producedTypes>
+    <selectionType typeId="0ec9fc8d-0e30-4777-9ccc-ec0b728396b8" valueTypeId="5f17a642-388b-4fa8-8c67-0fad0fd43271"/>
+    <listType typeId="908a1740-450e-443d-98ff-e74d896eaadd" valueTypeId="f7721ca4-739c-4a73-8c59-cd17aa8897d0"/>
+    <managerType typeId="0b95fb2b-332b-4512-b70a-c766f2666943" valueTypeId="f9513110-2db2-4423-b1b1-ccc2cb634253"/>
+    <recordSetType typeId="d6e9e971-5481-4ffd-986b-3cba0cb2e258" valueTypeId="75135a0b-2afa-4005-95ee-0e1c92868b3d"/>
+    <recordKeyType typeId="cbb8245d-7ac9-4584-8109-1ddb1a799e09" valueTypeId="1970c20e-9611-452b-b547-026164d186b2"/>
+    <recordType typeId="a389b80a-3338-4d3e-ac1e-44ffbf9e9982" valueTypeId="9b5ba152-b1d3-4a05-aca7-307186eef0a1"/>
+    <recordManagerType typeId="9f02a2b0-e6bb-41d2-8aa1-9098d4b46b74" valueTypeId="4a9ba83e-26fe-4654-8333-efbc2c465d87"/>
+  </producedTypes>
+  <name>КП_РецензииКонтролеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рецензии контролеров документооборота</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Supervisors review documents</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_РецензииКонтролеров.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_РецензииКонтролеров.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="63490604-9c73-429d-b9ec-14d1b75935af">
+    <name>ТекстРецензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст рецензии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recense</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст рецензии</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Recense</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="026a9b01-286d-44cd-9be8-7d9735cd4b5c">
+    <name>РезультатОдобрен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат одобрен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Result approved</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат одобрен</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Result approved</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fcc2544a-6593-48c8-bb3b-6e8fe16687a9">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business process</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.КП_БизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпоративный бизнес-процесс</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Corporate business process</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f330026-9b88-4821-93b4-63429fb39113">
+    <name>ТочкаКБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Route point</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КП_ТочкиПроцессов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Route point</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="52ceb0dd-e04c-4121-9618-adabb7ca5d08">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <comment>Если исполнитель не указан, то это итоговая рецензия на всю точку</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d8bd512e-2172-43d4-8e4b-ff385f59e7ee">
+    <name>Контролер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Controller</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контролер</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Controller</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5ae92bdc-5dc9-4126-b4ab-eb7a13190fbf">
+    <name>ЗадачаИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача исполнителя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Task user</value>
+    </synonym>
+    <type>
+      <types>TaskRef.КП_Задача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задача исполнителя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Task user</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="434d93a6-e979-41ad-843e-82530daad8d2">
+    <name>ИднИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор исполнителя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Identifier User</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор исполнителя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Identifier User</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                                  </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5d570089-7dee-4349-b3c3-28aa1d3f33d3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of writing</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="666a1454-c4f7-4a91-8b41-c293588a4a89">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

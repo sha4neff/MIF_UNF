@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe8b5a20-c164-47c1-bde9-9bd09324c9b8">
+  <producedTypes>
+    <refType typeId="79cc1b88-911a-4275-a53a-281511a3e9f2" valueTypeId="f22f3f1b-9c0d-44d3-bb07-c741cb9d9b2e"/>
+    <listType typeId="4fd5e16c-ebcc-46bf-b505-0f6b4207845e" valueTypeId="9c930ef7-7eeb-435e-8093-dcd175b620b9"/>
+    <managerType typeId="ff8b51e0-1f4b-43a6-bf4a-dcd17f3d7fa1" valueTypeId="5b36348f-1a91-482a-9204-ae5a699c219b"/>
+  </producedTypes>
+  <name>ВидыКарточекАнализаБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды карточек анализа бизнеса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="71117f12-7846-40ca-8b35-f052acd88e20">
+    <name>Цель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d72b666a-e3de-4690-9d7f-140ff34c81ea">
+    <name>КонтрольПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль показателей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="422532b1-c96c-4ff3-95c4-1159b732bd28">
+  <producedTypes>
+    <managerType typeId="1d3a8e61-9b30-4978-90fc-2552471b076c" valueTypeId="397c689f-ebe5-4229-917c-41e3c9111036"/>
+    <valueManagerType typeId="fd8921ee-a3aa-4826-9880-fb3e1ba0b0d7" valueTypeId="3a85d036-6796-429b-8a3f-8833c18209d0"/>
+    <valueKeyType typeId="f477582b-d297-4f8d-aa19-0f0e04f66782" valueTypeId="3fd38a53-6a94-4a27-a669-0e95380629fe"/>
+  </producedTypes>
+  <name>ПричинаАвтоматическойОтменыЗаказаИзПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причина автоматической отмены заказа из письма</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПричиныОтменыЗаказа</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

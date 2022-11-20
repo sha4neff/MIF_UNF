@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78a3262b-cb9a-4321-b577-2d3a7835be71">
+  <name>КонтактныеФормыВремя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные формы время</value>
+  </synonym>
+</mdclass:CommonPicture>

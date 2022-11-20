@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f2376fe-961b-4597-be6b-6e0ec78f675b">
+  <producedTypes>
+    <objectType typeId="1d4c1cfd-2215-46aa-98d0-9e050b22f3ae" valueTypeId="a17f4d8a-2dc8-4e2d-bbbc-8f02d1c1a474"/>
+    <managerType typeId="4e9183c5-b0f4-48b8-b0ed-3445a178c77a" valueTypeId="4e80b1c5-67cc-4654-b322-f1a794088807"/>
+  </producedTypes>
+  <name>КП_Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка учета</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Налаштування обліку</value>
+  </synonym>
+  <defaultForm>DataProcessor.КП_Администрирование.Form.РазделКП</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="525b2615-99e8-416c-a156-939437e0f3cf">
+    <name>РазделКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел КП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e500343-4b3d-4417-a1f9-b8383ede89aa">
+    <name>РасписаниеРаботы_Удалить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание работы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="41fdc325-442d-4e97-abb0-f8e989dce5c5">
+    <name>НастройкаРаздела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки и версия</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

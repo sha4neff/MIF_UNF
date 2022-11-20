@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2357b25-d3c1-40a0-a561-b781f2d84e6f">
+  <name>КалендариСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календари сотрудников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>EventSubscription.АктуализироватьЗаписиКалендаряПоИсточнику</content>
+  <content>CommonModule.КалендариСотрудников</content>
+  <content>DefinedType.ИсточникЗаписейКалендаря</content>
+  <content>DefinedType.ИсточникЗаписейКалендаряОбъект</content>
+  <content>Role.ИспользованиеКалендаряСотрудника</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника</content>
+  <content>Catalog.КалендариСотрудников</content>
+  <content>CommonCommand.ОткрытьРабочееМестоКалендаря</content>
+  <content>CommonModule.ЗадачиСотрудника</content>
+  <content>CommonCommand.СоздатьЗадачуСотрудника</content>
+  <content>CommonPicture.ЗадачаСотрудника</content>
+  <content>CommonPicture.ЦветаКалендарей</content>
+  <content>Document.ЗадачаСотрудника</content>
+  <content>InformationRegister.ОбновленныеЗаписиКалендаряСотрудника</content>
+  <content>Catalog.ТегиЗадач</content>
+  <content>DefinedType.ОснованиеЗадачи</content>
+  <content>CommonModule.ЗадачиСотрудникаКлиент</content>
+  <content>CommandGroup.Задания</content>
+  <content>CommonModule.ЗадачиСотрудникаКлиентСервер</content>
+  <content>EventSubscription.ПолучениеПолейПредставленияЗадачиСотрудника</content>
+  <content>EventSubscription.ПолучениеПредставленияЗадачиСотрудника</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.CRMСлужебный</parentSubsystem>
+</mdclass:Subsystem>

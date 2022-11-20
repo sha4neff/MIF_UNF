@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca78cdf9-090c-410d-ae36-44ec6f5af31c">
+  <producedTypes>
+    <managerType typeId="3cd78e99-daee-469e-b7e3-74cdf4497de0" valueTypeId="4dec0bc1-a537-4a8d-b4f1-47db5bdc7e2a"/>
+    <valueManagerType typeId="416e4876-def7-42a4-a614-82dab3b87422" valueTypeId="fb33298c-0b59-4215-a988-bb42b236f71d"/>
+    <valueKeyType typeId="2d7ae33e-863d-43be-bd49-d4b15b0722ee" valueTypeId="491da6f3-a107-4543-9f72-bbca04a878b1"/>
+  </producedTypes>
+  <name>КП_ИспользоватьЦветовоеОформление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать цветовое оформление</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

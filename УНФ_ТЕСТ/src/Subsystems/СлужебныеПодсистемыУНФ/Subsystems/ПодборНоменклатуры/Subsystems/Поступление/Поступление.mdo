@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b338c9a-1b9f-4fbc-b153-bd6b2e5e9c01">
+  <name>Поступление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ПодборПоступление</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемыУНФ.Subsystem.ПодборНоменклатуры</parentSubsystem>
+</mdclass:Subsystem>

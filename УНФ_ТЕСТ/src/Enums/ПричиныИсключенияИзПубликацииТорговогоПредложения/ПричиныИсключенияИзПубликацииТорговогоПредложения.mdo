@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e05a7b0-aede-4257-a600-65c4dda66be9">
+  <producedTypes>
+    <refType typeId="879282b9-fb53-4bcd-8056-50acb88e4e92" valueTypeId="d10cdf4a-ae07-4ee5-aa42-740062f4a845"/>
+    <listType typeId="afc29d4f-62ce-441a-8001-481b0b9a40dc" valueTypeId="c684d9ff-d861-4070-99bf-db6088b5af82"/>
+    <managerType typeId="63cb0d29-283f-4560-8b05-15271091f2ce" valueTypeId="7a59345d-d7c2-494c-a2b3-9f779ae8662f"/>
+  </producedTypes>
+  <name>ПричиныИсключенияИзПубликацииТорговогоПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины исключения из публикации торгового предложения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Причины исключения из публикации торгового предложения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f50db04c-3eb7-4c8f-a18f-c4ffc8d78453">
+    <name>НеУказанаЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не указана цена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Не указана цена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

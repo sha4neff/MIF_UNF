@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d883b29e-f20d-4c4c-86fc-955c3a44d82c">
+  <producedTypes>
+    <selectionType typeId="9bd86923-6bac-4631-8ac4-5b85da7192c0" valueTypeId="ea398201-c655-4513-b00e-d58bc2bb5fde"/>
+    <listType typeId="aa484f7d-3365-4a5b-b500-41a6ddf03ba5" valueTypeId="ba19479e-1205-4ce7-8909-6ed93ed398c3"/>
+    <managerType typeId="d051f566-762a-4ed5-bf72-9378a4b247f3" valueTypeId="b1444bc6-5ac5-45dd-8cd3-3597c19d4fb4"/>
+    <recordSetType typeId="39ce6e6d-83d0-4a8f-969f-8683060c60dd" valueTypeId="f11a58e2-19e9-4124-86bc-52a792b61033"/>
+    <recordKeyType typeId="0b449c2d-9a07-4b7f-a928-34fba834bb90" valueTypeId="07a61fec-d43e-4a36-9683-269c0521c393"/>
+    <recordType typeId="eea61515-8213-456d-b5f4-83e91f0cc435" valueTypeId="414f2090-e55d-4767-b40f-2b4ddbc1ded6"/>
+    <recordManagerType typeId="d0b0e1ec-fda4-49ef-bb28-0b845c408192" valueTypeId="3520920d-cec6-4f16-b796-9b0e91a5a853"/>
+  </producedTypes>
+  <name>ИзмененияЗакрытогоМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения закрытого месяца</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="736d3ba8-1dec-4198-821e-bd8ab8e398bb">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1ca8c6c7-3b70-4d2b-a699-d7c36dd70d2e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="29e75e3f-0b38-4c00-a5a7-f292ce6becd0">
+    <name>ИзмененныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененный документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

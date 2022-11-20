@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a985f40-d8a1-4642-a166-237a19394ea4">
+  <producedTypes>
+    <managerType typeId="a6d26114-6d21-4f6f-ae7b-2d3de7f88c61" valueTypeId="19d09d7e-be86-4145-a6ed-dc4ca3c4e0f7"/>
+    <valueManagerType typeId="f38cb621-2354-41a9-b369-8c57880c13d0" valueTypeId="8c70662f-068f-4f99-ab46-64d09ff29265"/>
+    <valueKeyType typeId="2a2d615f-75d0-54a6-9c42-88e3a27db1c4" valueTypeId="807087ce-f107-5712-8c93-81316ae0f645"/>
+  </producedTypes>
+  <name>НомерКассыМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер кассы МП</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

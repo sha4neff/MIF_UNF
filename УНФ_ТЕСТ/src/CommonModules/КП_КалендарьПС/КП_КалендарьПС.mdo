@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56982694-4985-44d8-a283-4c1c4c49f18d">
+  <name>КП_КалендарьПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь (повторно на время сеанса)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Corporate processes</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

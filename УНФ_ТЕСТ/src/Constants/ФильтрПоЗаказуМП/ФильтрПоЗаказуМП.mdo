@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce2c2a78-a158-43b5-98e7-2433a3f94dfd">
+  <producedTypes>
+    <managerType typeId="2b556480-a718-414d-83e9-a936a5153785" valueTypeId="ef660c77-59fa-4013-85ca-69e9f9a19d35"/>
+    <valueManagerType typeId="46d3556d-71de-4653-9a40-fd14a78c9267" valueTypeId="de822b17-59a9-40c9-8d3a-bc1bff899da0"/>
+    <valueKeyType typeId="424ac15f-1928-56ea-8daa-268b553fc0e3" valueTypeId="7dcee0c9-6ae6-5a24-89a8-3f81b113a205"/>
+  </producedTypes>
+  <name>ФильтрПоЗаказуМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильтр по заказу МП</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ФильтрыПоЗаказуМП</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

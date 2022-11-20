@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef1a619c-fe3b-4cd0-bfaf-edd83e1082ed">
+  <name>СМСМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>СМСМП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>SMS</value>
+  </synonym>
+</mdclass:CommonPicture>

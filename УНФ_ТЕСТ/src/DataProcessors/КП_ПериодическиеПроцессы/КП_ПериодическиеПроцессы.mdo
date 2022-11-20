@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fccdb24-922b-40a3-8da3-65e6595cdaf0">
+  <producedTypes>
+    <objectType typeId="30fb21b4-07d6-4e50-9b11-d7534e98339e" valueTypeId="561db36b-ef7e-469a-afc4-bf5431e63f0a"/>
+    <managerType typeId="b2edfd3f-672b-4584-9c7c-b657dfcaf32d" valueTypeId="7b0020fc-18c3-4990-b3ac-a2192aad9285"/>
+  </producedTypes>
+  <name>КП_ПериодическиеПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодические процессы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КП_ПериодическиеПроцессы.Form.РегламентныеИФоновыеЗадания</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="96aa74b4-8041-4674-b533-27888ebf1c07">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e904822d-60f6-4de8-ad4d-33339029a801">
+    <name>РегламентныеИФоновыеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные и фоновые задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e919824e-f68d-4ab7-8433-aef5cf11d0b4">
+    <name>ПериодическиеПроцессы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодические процессы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0c9c929-8efd-4c26-aa42-1a3a052b2b45">
+  <producedTypes>
+    <selectionType typeId="b727b882-3b7e-40d8-a559-9663d6fbaa4d" valueTypeId="800070b6-7da3-4f13-846d-31bc97b434b1"/>
+    <listType typeId="2e8cd53d-0577-4645-8f0f-138c44478088" valueTypeId="239243e5-7943-40cf-9641-9ac2ce88b8b1"/>
+    <managerType typeId="7ed00f65-5796-4d35-b913-389aa558e7e3" valueTypeId="047c9202-f7c2-4748-85d2-6d4f1c7f0ada"/>
+    <recordSetType typeId="3ee69907-e23f-4392-9b34-9c720927486a" valueTypeId="cc302abf-c1cc-4a05-a44b-46a04587f486"/>
+    <recordKeyType typeId="04d4451e-65c6-4bdb-acd1-33e5c9413477" valueTypeId="f30ed2d8-9e77-4dfe-b465-79aab63c0f82"/>
+    <recordType typeId="a8daa115-cc2f-4f72-930f-7fc6024612fd" valueTypeId="cf6d039e-324b-4418-85b9-d943ea10b954"/>
+    <recordManagerType typeId="c2e0c06c-56a4-44d2-aa40-3f42933e05ce" valueTypeId="c2aaefd3-7d29-4dd9-a6c4-33bf3f201d21"/>
+  </producedTypes>
+  <name>СчетчикДляОткрытияФормыОценкиМобильногоКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчик для открытия формы оценки мобильного клиента</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e9dd5db-a707-4aec-b15e-d2f57ddef4a3">
+    <name>КоличествоЗапусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество запусков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1e529da2-5bab-42da-8e40-7eef8731117d">
+    <name>ИдентификаторПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор приложения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

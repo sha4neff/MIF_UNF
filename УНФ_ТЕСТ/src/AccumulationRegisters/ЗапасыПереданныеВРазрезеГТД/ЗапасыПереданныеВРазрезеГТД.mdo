@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08337eed-fc5b-4bfb-a7f3-0fde230f0736">
+  <producedTypes>
+    <selectionType typeId="4581a571-8133-4c2f-af31-db9944d8e37c" valueTypeId="396504b6-1ab5-4bcb-abb1-c83c14b54dc6"/>
+    <listType typeId="2e8a3c1a-ab86-4204-b26e-2bf2d2cc66f6" valueTypeId="52d6ab4e-f69c-4f98-83f8-56ad7c312e6e"/>
+    <managerType typeId="a2bd1d8b-7f6d-4953-88cc-a7ea1ed55809" valueTypeId="80e23403-07e7-44ea-bd0b-e740d4b670ed"/>
+    <recordSetType typeId="64365d07-2f07-4342-a63c-5b3148b6bcae" valueTypeId="8df5b96d-915c-482f-9103-962e915455ba"/>
+    <recordKeyType typeId="70d6cd8a-8909-4927-9f32-32295f40b901" valueTypeId="f1a36ab3-4eee-4ff6-91e0-1cc3b4b36d9a"/>
+    <recordType typeId="0ee8110d-61f0-4a3c-a283-74e748a0f42b" valueTypeId="8738343d-1c95-48ae-bc87-ec45a7c767ee"/>
+  </producedTypes>
+  <name>ЗапасыПереданныеВРазрезеГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запасы переданные в разрезе ГТД (комиссия)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ЗапасыПереданныеВРазрезеГТД.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="17888c65-290e-490c-9381-8fa3385009da">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="1ffb88b5-8155-47ea-afa4-ae47f55ea29a">
+    <name>ДокументПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ передачи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РасходнаяНакладная</types>
+      <types>DocumentRef.ОтчетКомиссионера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="02c35530-b8d9-486f-a3c2-62cb8afae7f5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7a0b5e7a-5a67-42a5-93c8-1a9ca0a08cbf">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="294b3614-2470-4a71-bfd4-8bcb803ddf6e">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="abbf2117-778e-4d4d-b010-e1dcda07b635">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПартииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7c010059-f5de-4327-9f5b-0432629b4db5">
+    <name>НомерГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ГТД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомераГТД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="de5f6a4c-7f97-4a3d-a63b-04c632d13641">
+    <name>СтранаПроисхождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна происхождения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="96533672-39d0-4ec8-b0bb-2fc147aeeeaf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

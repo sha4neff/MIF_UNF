@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="197f9e29-8174-41e2-99b0-b933b43820b1">
+  <name>КП_ИспользоватьЦветовоеОформление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать цветовое оформление</value>
+  </synonym>
+  <location>Constant.КП_ИспользоватьЦветовоеОформление</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.КП_Процессы.Subsystem.ЦветовоеОформление</content>
+  <content>InformationRegister.КП_ЦветаОбъектов</content>
+  <content>Catalog.КП_ЦветаЭлементов</content>
+  <content>CommonCommand.КП_НастройкаОформленияИзСписка</content>
+  <content>CommonCommand.КП_НастройкаОформленияИзФормы</content>
+  <content>CommonForm.КП_НастройкаОформления</content>
+</mdclass:FunctionalOption>

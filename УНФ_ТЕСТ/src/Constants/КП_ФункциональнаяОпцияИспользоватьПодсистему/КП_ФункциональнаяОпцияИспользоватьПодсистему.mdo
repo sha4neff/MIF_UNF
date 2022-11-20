@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44ecbb29-4b46-45cc-a030-c420bf6fe960">
+  <producedTypes>
+    <managerType typeId="7a99699c-4f0d-4a79-a052-e3868cb46850" valueTypeId="4e12c344-4237-4caa-ad0a-6d2f10a88c94"/>
+    <valueManagerType typeId="ee5ac4bf-ff8b-4a8f-9f32-0cc97cfc7847" valueTypeId="50227b4a-a247-423c-9d75-18b22292d30d"/>
+    <valueKeyType typeId="a8a0c2dd-d96a-5b85-8a15-124a7e50096a" valueTypeId="97ce6164-cf5f-5d24-999f-9daf0679208e"/>
+  </producedTypes>
+  <name>КП_ФункциональнаяОпцияИспользоватьПодсистему</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать бизнес-процессы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Використовувати корпоративні процеси</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать визуальные корпоративные процессы</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Use visual corporate processes</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

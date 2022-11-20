@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a9816eb-9d02-478e-9a57-07435d58e7c1">
+  <name>ЛупаСКоробкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лупа с коробкой</value>
+  </synonym>
+</mdclass:CommonPicture>

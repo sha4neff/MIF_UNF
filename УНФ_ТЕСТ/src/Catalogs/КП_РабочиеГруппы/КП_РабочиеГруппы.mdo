@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="915f2cf7-8f7c-4310-b886-7b4415588d09">
+  <producedTypes>
+    <objectType typeId="51e9188f-e35d-4908-9d9d-43ae53962edc" valueTypeId="c3f3d336-cdde-49b9-a2b0-48ea968930f8"/>
+    <refType typeId="ffae5719-a2eb-46a7-918f-1929da02131b" valueTypeId="52593c0d-1d7d-4878-a402-0b48d8d67ba7"/>
+    <selectionType typeId="1585fdc1-300f-4a0d-863b-73239c01d6ed" valueTypeId="ca4fbf13-b366-4b98-ae01-fe7ea252759d"/>
+    <listType typeId="fc19de25-4d19-49ad-9066-4e5410339f49" valueTypeId="6274e3d9-56f1-4ad1-bdae-ae5c1afc8a5e"/>
+    <managerType typeId="17164a4c-9897-4f74-a515-0925a861d9f4" valueTypeId="3d60099d-9184-4351-a823-b7223a268dc0"/>
+  </producedTypes>
+  <name>КП_РабочиеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие группы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Робочі групи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КП_РабочиеГруппы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КП_РабочиеГруппы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вышестоящая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.КП_РабочиеГруппы.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КП_РабочиеГруппы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.КП_РабочиеГруппы.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.КП_РабочиеГруппы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КП_РабочиеГруппы.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="83bfb4d1-209f-447e-a9a5-b38ab8897905">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Comment</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="863dcced-d487-4c05-b07b-6253b394a414">
+    <producedTypes>
+      <objectType typeId="3964ac17-b737-4f52-9d92-b2fe12c2ae7c" valueTypeId="3ddf545c-8561-4a9e-8c02-b1e0b84de7cb"/>
+      <rowType typeId="aaabff2d-02e2-4af6-85b4-8bd04c26b83d" valueTypeId="d868ee57-78a0-429e-9e03-e46fb62026b2"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Staff</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Список сотрудников</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The list of employees</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e06c548d-acbd-431a-939b-9076f5e4494d">
+      <name>ТочкаАдресации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Employee</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КП_РолеваяАдресация</types>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>User</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="31f21ef6-7574-4254-9569-e5c40cf5ab1e">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Subdivision</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подразделение сотрудника</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Division officer</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="88a66bb5-a07d-45e2-88bd-ed77e88510b8">
+    <producedTypes>
+      <objectType typeId="f099c097-4f97-48d8-a4e8-6fe1b7a209a9" valueTypeId="c2568f6c-52c7-4d3f-862d-0bd5c7e81950"/>
+      <rowType typeId="b2ca117c-6eaa-4c19-9810-4e39f8f4e4c8" valueTypeId="134a8ed3-9886-4d63-9239-3180250bbbd1"/>
+    </producedTypes>
+    <name>Проекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Projects</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Список проектов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>List of projects</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="770c6f15-dfaf-425b-9dfb-07f008519132">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Project</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Проект</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Project</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19b6d3af-1e9e-42b7-b22e-73ff0b5be774">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Comment</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Comment</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6457bfae-21e6-4be0-9e42-59e8128c8cd0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1cb89ad-0912-443c-a70c-342ff07b82e9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Element shape</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64aad873-b720-4ede-bc24-de8c5fe9922c">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9bcad26b-b9fd-43ea-be70-baa61a2a5e26">
+    <name>РабочиеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочие группы</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

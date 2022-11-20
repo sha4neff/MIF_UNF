@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48cb387b-6b43-4f70-b7e9-1240e59eec75">
+  <name>КП_ПривилегированныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Привилегированные операции</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Privileged operations</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

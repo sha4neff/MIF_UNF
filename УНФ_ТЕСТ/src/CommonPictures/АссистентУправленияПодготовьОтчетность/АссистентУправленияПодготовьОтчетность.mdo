@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a731a2e8-9999-45b6-9232-8be5cd279937">
+  <name>АссистентУправленияПодготовьОтчетность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассистент управления подготовь отчетность</value>
+  </synonym>
+</mdclass:CommonPicture>

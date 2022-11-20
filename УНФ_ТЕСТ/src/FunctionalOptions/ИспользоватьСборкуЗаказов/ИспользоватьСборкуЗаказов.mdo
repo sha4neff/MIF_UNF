@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae8a22b-34d8-4c59-b3d5-dfa9d63728b9">
+  <name>ИспользоватьСборкуЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сборку заказов</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияИспользоватьСборкуЗаказов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.КоличествоСобрано</content>
+</mdclass:FunctionalOption>

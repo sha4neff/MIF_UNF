@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d45077fb-8e43-4183-8b48-2b5e261b471c">
+  <producedTypes>
+    <refType typeId="30c085bb-56b3-4621-b88f-9c06b9051f5d" valueTypeId="48e76774-b5dd-4d6b-ac07-049304bac8da"/>
+    <listType typeId="73e5cba5-f5de-4cc3-9b91-3579ceff94fd" valueTypeId="8deb81bd-28b2-4855-b4b7-7b2f5872ab3d"/>
+    <managerType typeId="2a8fb474-39fb-4522-9cae-d8eb40157d0a" valueTypeId="6d377ad7-7fb8-4030-b059-3b98e0b9f03a"/>
+  </producedTypes>
+  <name>ПринятьПоКолонке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принять по колонке</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="044edb90-9917-4977-82cd-eb9b2ebb64d7">
+    <name>КоличествоПоФакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество по факту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="142df335-e548-4a9e-85ec-591213bedeea">
+    <name>КоличествоПоВходящемуДокументу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество по входящему документу</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
