@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7fb6b998-9c35-4173-a3f5-b451a898576d">
+  <producedTypes>
+    <refType typeId="d811fbac-c369-4446-9201-a6585dabb1c1" valueTypeId="03ce2bfc-2c3c-488f-92a9-6887daee92ca"/>
+    <listType typeId="f4fc5b43-3555-4174-8dac-72b1b1378e42" valueTypeId="7c045e8a-7d06-42e5-8b7d-1b4eef7fa752"/>
+    <managerType typeId="ca6233a4-55ef-4ee1-89ea-060510df5a1f" valueTypeId="5612cbf2-5d83-4e81-bdd6-de5d8dc9fee4"/>
+  </producedTypes>
+  <name>СпособыРасчетаЦеныНабора</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3f2c828e-acb2-47e2-ab76-8a191944198b">
+    <name>СкладыватьИзЦенКомплектующих</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9f722ee0-0fc7-42ca-a8de-703b3fbf50ad">
+    <name>НазначаетсяИРаспределяетсяПоЦене</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="366de9f0-1664-4e39-a744-1259dbce6214">
+    <name>НазначаетсяИРаспределяетсяПоДолеСтоимости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8322dd56-0497-424e-87f4-2b5cec85ee54">
+  <producedTypes>
+    <objectType typeId="12b56cc7-9859-4a9c-863a-c739e4812b2e" valueTypeId="3e4c9493-29c4-4a7d-80b3-61c41829363a"/>
+    <refType typeId="d8829c8d-5861-4728-a78f-79c524b20b30" valueTypeId="c75a8ecb-f39e-4dc9-b2b7-f6d24b68583a"/>
+    <selectionType typeId="f375e75e-404a-4fda-a261-b9b52aa73af1" valueTypeId="11cacbb3-3b03-4aef-88b1-0be6d2ef2f04"/>
+    <listType typeId="a9b61538-a413-4efd-ac07-a0b315c057e7" valueTypeId="a43f7ec1-f138-40cb-b723-117eff93ded5"/>
+    <managerType typeId="c406c979-8fbf-4762-b6b3-d2bf7c848975" valueTypeId="8b71b49c-85ba-473f-aced-2514df6ffb8f"/>
+  </producedTypes>
+  <name>ОприходованиеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="953e9e30-ad9f-48f1-9162-5609decc142a">
+    <name>БЗ_WMS_GUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>БЗ. WMS GUID</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fcc6ea1a-2288-42d8-9d26-40e31f279474">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b6df644-e230-40f8-8604-7cf1168e23c2">
+  <producedTypes>
+    <objectType typeId="6c8d0b05-da4b-406e-9bf3-c8903cfcf5b4" valueTypeId="0679e1be-c7d4-461b-a3b5-905bd51f5ff5"/>
+    <refType typeId="90f583e2-aa60-439b-8074-85742bb6b858" valueTypeId="b7bc7205-54e3-407f-8715-4c9af08a8ce2"/>
+    <selectionType typeId="6b2c9149-33db-463a-a8b9-6a90f45774ef" valueTypeId="1317b4bb-0a3d-4128-96b8-d9c9245481d5"/>
+    <listType typeId="819448d3-4aa5-40e3-8291-8722929cc514" valueTypeId="eb51af56-7656-4bf9-8d06-2b6a9f7c5e85"/>
+    <managerType typeId="0dab92a2-a3e3-4772-bcfa-bbc4735b774b" valueTypeId="a3eb72b5-8de5-4021-a3e0-60dd9b4c9ac3"/>
+  </producedTypes>
+  <name>ДоговорКредитаИЗайма</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

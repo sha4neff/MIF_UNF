@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="707786a9-11ae-4da9-b8a3-7a99c9affa53">
+  <producedTypes>
+    <objectType typeId="a268431b-20e8-44e7-af71-4782ed68de77" valueTypeId="f1cf7d30-b622-4313-ab59-bdb7a1fedade"/>
+    <refType typeId="f384bd0a-e243-40d2-8902-44166e50c0fb" valueTypeId="85322b21-e148-4330-8622-26aa88f51188"/>
+    <selectionType typeId="a884ae43-db1b-48b8-8052-bcc1f9f353d6" valueTypeId="af8ca384-afc9-4c6c-b910-5b2903a00daa"/>
+    <listType typeId="9d980be9-386c-4ee6-8f54-97459a16bfdf" valueTypeId="7bc09a25-507e-4324-b156-4af0039bf01d"/>
+    <managerType typeId="8b394290-8752-429a-98e8-6d62c57798a9" valueTypeId="c947f880-6582-4e8c-8647-725988ef7970"/>
+  </producedTypes>
+  <name>КлючевыеРесурсы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

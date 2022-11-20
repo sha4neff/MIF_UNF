@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ef6fdeac-8ce9-4f03-8fc5-238500f0b290">
+  <producedTypes>
+    <objectType typeId="e18645c3-c9a5-4a53-806e-dfdc439244f5" valueTypeId="d96e38bd-cbbe-459a-8861-997cbff561c4"/>
+    <refType typeId="5f0b1f84-da75-4dc2-8379-2011576eadb1" valueTypeId="b19015fa-01b1-48e0-a3c9-4920df4d737b"/>
+    <selectionType typeId="1d176c5e-87ea-4f9f-8d0b-0653621de34e" valueTypeId="45eff9b5-c80b-4f1b-a604-b16642d9a986"/>
+    <listType typeId="db5e5b74-56bf-4b61-b9fc-f78122b5b572" valueTypeId="cba838b5-2351-4639-952d-759edb8e5c17"/>
+    <managerType typeId="aab3090b-1368-40d2-98b4-bbd270eaaf60" valueTypeId="13ae8201-aba6-4c58-b4b3-ab9cce6d4d33"/>
+  </producedTypes>
+  <name>ПересортицаЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="1e027235-a101-4cc3-b91a-f1d83fa7afd3">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

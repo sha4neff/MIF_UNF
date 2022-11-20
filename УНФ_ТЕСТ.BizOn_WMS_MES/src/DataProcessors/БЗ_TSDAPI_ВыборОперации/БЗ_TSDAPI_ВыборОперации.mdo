@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffeb9428-4e6e-42ef-b179-8dd09272ccb5">
+  <producedTypes>
+    <objectType typeId="a630904d-64e7-4cef-8223-5cce3cac5d1e" valueTypeId="5b26a762-009f-4469-be2b-a36ef00878b9"/>
+    <managerType typeId="44fbd480-4de9-4bf6-a197-0c41d89cde37" valueTypeId="740c6fd2-5a6d-4700-b64f-77eae324cfec"/>
+  </producedTypes>
+  <name>БЗ_TSDAPI_ВыборОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Б з TSDAPI выбор операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

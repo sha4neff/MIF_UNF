@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14e872d8-ecbe-40fe-8b81-f721bd6ea905">
+  <producedTypes>
+    <objectType typeId="317a3193-11af-4b4e-9a4a-c9b13918a862" valueTypeId="20c43317-1724-458d-bd06-6399ad607400"/>
+    <refType typeId="7708eeaa-54c7-4908-ba9a-053cfaae4346" valueTypeId="cfecfa3f-8c71-444d-92d6-c717032cd617"/>
+    <selectionType typeId="7449e718-bfe1-4c67-ac4d-5dd28a5ff903" valueTypeId="d720e249-f35e-4db8-bee8-e83bfad1ef9c"/>
+    <listType typeId="d2897369-eb2a-4d0a-92af-978e2a51c239" valueTypeId="38fed4cc-aef3-4d9f-8799-4ee6fc6a01d8"/>
+    <managerType typeId="f201fdb2-82c9-4fb9-8862-3247e570d825" valueTypeId="82ed4119-8e64-4db7-a0bd-f3997f2adb7c"/>
+  </producedTypes>
+  <name>БЗ_РабочиеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. ТСД Рабочие места</value>
+  </synonym>
+  <inputByString>Catalog.БЗ_РабочиеМеста.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БЗ_РабочиеМеста.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.БЗ_Участки</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.БЗ_РабочиеМеста.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.БЗ_РабочиеМеста.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.БЗ_РабочиеМеста.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="2fa95875-a75c-4667-8aec-8cd4e43a5938">
+    <name>НаименованиеТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование ТСД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e9831458-5b39-4954-86c4-38ef1171404e">
+    <name>ОсновнаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_ТехнологическиеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="daf97d3e-a249-4a21-8186-dad80bc91168">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c830fbee-0c3b-40af-8040-52847bdf3b18">
+    <producedTypes>
+      <objectType typeId="2a6ad24e-b64d-415c-90c3-de0f62addb68" valueTypeId="ed8ec874-34c4-4645-85a5-f9e240b4f980"/>
+      <rowType typeId="a5c2779a-e505-4ed8-bb6e-4ed114152509" valueTypeId="eba17d27-a25e-4eb7-a77e-5b7548539ac4"/>
+    </producedTypes>
+    <name>Операции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4072a37c-f4c6-4d59-826b-82f815c2dc2f">
+      <name>Операция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Операция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БЗ_ТехнологическиеОперации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="bfb1604f-d1d1-459c-a066-4275a6ae105b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97a6de89-6215-4712-8db2-abb6ec3c0949">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64631227-044e-49e1-b24e-dbd1dae56aec">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="88026c60-3102-49f5-9c53-660c9e8e6fb1">
+    <name>Маркировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркировка</value>
+    </synonym>
+  </templates>
+  <commands uuid="a589d1c3-a722-42bc-9bf0-9633c378ea20">
+    <name>БЗ_РабочиеМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>БЗ. ТСД Рабочие места</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8f7da25-c271-482d-bf18-bde93a1d285a">
+  <name>БЗ_MES_ПроизводствоОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство операции</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

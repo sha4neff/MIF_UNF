@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d308847-ca88-4516-b6e6-aecc2397e57b">
+  <producedTypes>
+    <objectType typeId="585d5a97-93c8-4d13-a98b-cd979cdf25c5" valueTypeId="923af52a-2d58-4a2b-9d72-4e6a34510441"/>
+    <managerType typeId="09bcb380-ee11-43ad-935b-2e1a138f20a0" valueTypeId="f3ae5db7-67e0-4199-959b-204c6697a50f"/>
+  </producedTypes>
+  <name>Зака_ОПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зака ОПС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Зака_ОПС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="7aef8ee0-7b1b-495e-b57e-0e6b3d9f29ad">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="29527569-236c-4f4f-9751-a786619f575a">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="768f0abe-7d6f-46bb-a982-a82d3c203a15">
+    <name>ДетализацияПоДокументам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация по документам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="be7d4329-dff9-4bc6-b46d-7e51db9b0581">
+    <name>ТолькоРасхожденияОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только расхождения остатков</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a550fba2-29b4-4319-a557-13e463c2ff49">
+    <name>ИгнорироватьНеЗавершеннуюОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать не завершенную отгрузку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="48f0852c-2036-4aa8-a539-61576473eaef">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="a5ef1d76-631f-400f-8521-90f4434e3ee2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

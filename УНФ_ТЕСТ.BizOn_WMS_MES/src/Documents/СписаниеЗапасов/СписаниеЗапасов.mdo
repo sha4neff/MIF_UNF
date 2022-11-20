@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="179b5ab8-4891-415c-bff3-474baa4425b9">
+  <producedTypes>
+    <objectType typeId="142bda27-6198-47f8-8acd-ccadcef90b79" valueTypeId="21b1b5f7-638f-46d1-baa7-ca2d2fb110b2"/>
+    <refType typeId="9f5e15ce-098b-4c2e-881d-bcfa59b8f2ac" valueTypeId="370b855c-415c-4675-a672-86ecf7b17552"/>
+    <selectionType typeId="36b4de95-f7ae-4041-bafd-3f16288d174d" valueTypeId="15ea4cca-de40-4eaa-8cd7-16e0bb5228ce"/>
+    <listType typeId="994d0020-6ba6-4552-a989-405c6e329a22" valueTypeId="a609e341-3691-4a0e-9495-09f89122f23f"/>
+    <managerType typeId="4d0e622c-8344-43e7-ad8e-e49535206c32" valueTypeId="38266573-3adf-47a3-a674-6b88f0ada925"/>
+  </producedTypes>
+  <name>СписаниеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="777533bc-257f-4f39-a044-13c19474354a">
+    <name>БЗ_WMS_GUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>БЗ. WMS GUID</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5995372b-8d56-436f-8c2d-e5a84150c410">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ИнвентаризацияЗапасов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

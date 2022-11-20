@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bf05d77-af43-48d0-9c3c-c405b21748fa">
+  <producedTypes>
+    <refType typeId="369c271b-24bc-4af3-bc42-cab3d2020bfd" valueTypeId="f94953bf-2aca-442b-a3c3-65c9bc72c500"/>
+    <listType typeId="7f86cbfb-4a80-4db4-b3cc-e9ea2f2d3375" valueTypeId="97590e2d-bf52-4467-a3bc-7aa8a3a54e44"/>
+    <managerType typeId="0a4f780d-6a4c-47ad-b949-1e35d8a758d0" valueTypeId="f9c1b239-971a-47a3-819d-ee069848ffb3"/>
+  </producedTypes>
+  <name>БЗ_ВидТехнологическойОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Вид технологической операции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="502a1eb0-a11a-4e12-8d47-eb31d6395672">
+    <name>ОПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОПС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

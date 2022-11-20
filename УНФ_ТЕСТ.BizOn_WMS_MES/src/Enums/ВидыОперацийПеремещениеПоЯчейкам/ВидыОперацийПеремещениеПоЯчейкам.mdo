@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ef43324-4bd6-4c70-9040-b78d5075c52f">
+  <producedTypes>
+    <refType typeId="15009630-af6e-48d2-ae1c-c927fe77fbd2" valueTypeId="013b5425-22a1-4154-9698-f83726189d15"/>
+    <listType typeId="59485bca-2d2f-43d5-a633-ce024c7b9f28" valueTypeId="b8eb7eff-9b5e-467d-b794-abd9f9bc1a0a"/>
+    <managerType typeId="ce520e86-beec-49de-821e-c0e861666ee0" valueTypeId="9bbf1fb9-d30d-4567-99c9-b4e356cce90c"/>
+  </producedTypes>
+  <name>ВидыОперацийПеремещениеПоЯчейкам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="273e8aed-8cb4-4af1-87d8-ea02a816abfd">
+    <name>ИзНесколькихВОдну</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5456c08f-1d21-4c8f-99e6-ff00852f340f">
+    <name>ИзОднойВНесколько</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

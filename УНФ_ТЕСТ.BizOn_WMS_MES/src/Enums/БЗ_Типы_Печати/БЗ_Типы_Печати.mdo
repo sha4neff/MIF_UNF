@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f68c62fc-1e41-495b-a5a9-344542abf2ac">
+  <producedTypes>
+    <refType typeId="68e5d8f5-080e-4bfd-a5d0-b06e1d2502fa" valueTypeId="b6a7e5e5-ae42-43a0-afb4-8fdda9920cbc"/>
+    <listType typeId="e6379232-ce0b-47c0-baf5-9e9d9c760349" valueTypeId="7feb78d3-6ae9-4ada-9e62-df0494a7c54c"/>
+    <managerType typeId="43ef9736-2692-4d30-8b50-a096637d1c54" valueTypeId="fd4a22d2-1345-49d0-9c72-ae95b41fb318"/>
+  </producedTypes>
+  <name>БЗ_Типы_Печати</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Типы печати</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b6266dc-c2da-4ea9-9bb2-318a94846eee">
+    <name>Этикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2d74db6-b8ff-429c-9560-7a92e1ba5126">
+    <name>ТермоБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Термобумага</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98b8ab58-9ee4-403e-ac1d-4c4d32f89c8b">
+    <name>Бумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бумага</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="831fdac0-69e5-4181-8a3d-14225251d33a">
+  <producedTypes>
+    <objectType typeId="6999bcf6-17a1-4073-8b21-ce37223c4608" valueTypeId="feb8b0b8-aa18-4635-8d7e-a552ce4fde00"/>
+    <refType typeId="72879531-86bc-485e-b86c-54102505741a" valueTypeId="105a2226-5385-4b78-97d5-449c7e82534f"/>
+    <selectionType typeId="c42d5e2f-8ea0-4304-9218-7f318c6ccfb5" valueTypeId="b626cd27-4abe-494b-9557-802d256f9825"/>
+    <listType typeId="9e92563c-7315-4fe3-9e2b-a2709667cc8c" valueTypeId="818487ab-c9ff-487a-abee-1e32684e97ef"/>
+    <managerType typeId="7fb98683-3054-4f50-86ed-60381547b9b0" valueTypeId="d272ec34-282e-4a6d-98d7-9a2347790450"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

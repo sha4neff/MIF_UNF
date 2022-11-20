@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c4bd6607-7763-4075-97b3-de280b0fcf97">
+  <producedTypes>
+    <objectType typeId="a934ef6c-0268-4ba4-82f5-93d5e3d4b69c" valueTypeId="e6a3c0ed-fcd2-42cf-bebb-886b9ee2d1e7"/>
+    <refType typeId="f7a19bbb-9b47-4604-b9fa-017b2d899262" valueTypeId="781f28e0-ecb5-4c77-a670-d60b23a933ed"/>
+    <selectionType typeId="c2c14f7e-8077-46e3-974b-c6871def483c" valueTypeId="37e57b1d-ed7a-446e-9bee-046c0d557106"/>
+    <listType typeId="cb20f0b2-1e10-4466-97d0-896e4169bf23" valueTypeId="0ff89db9-2d2b-449e-af3a-71968bc5bff2"/>
+    <managerType typeId="a536a988-6b01-4d19-812e-3896deff040e" valueTypeId="0a73c5cb-2554-41f0-abfc-b186f1bc8974"/>
+  </producedTypes>
+  <name>ПриходныйОрдер</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="898b62b9-aadb-497b-8e39-f4c8fbc7fc43">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

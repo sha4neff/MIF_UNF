@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7ad5814d-2974-4927-844f-95b7fcfcd1e7">
+  <producedTypes>
+    <objectType typeId="d096ea76-7a35-4630-ad3f-fa6fdde8d8ef" valueTypeId="212f4424-299a-4d88-8361-bb10615e7558"/>
+    <refType typeId="dd258dab-b724-4924-adc5-6c6a97157918" valueTypeId="6956a07d-8faf-4af2-afdc-8bd0e45409ad"/>
+    <selectionType typeId="58224b7f-f2e7-4b16-beea-7123ae4ba6c3" valueTypeId="b34aa8f0-93a2-4cbf-a9f3-ad0a1b2bf5a3"/>
+    <listType typeId="4433087c-8224-4c5b-9f59-1e4299761078" valueTypeId="18f64326-7abb-4bf2-b9d1-3b252336a0b0"/>
+    <managerType typeId="1c20ef35-afb6-456b-a070-d11a633abc88" valueTypeId="615edeba-ae53-49e9-b8b3-76164d95af20"/>
+  </producedTypes>
+  <name>ПеремещениеПоЯчейкам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <attributes uuid="88908f24-e49d-46ab-a9c1-c4efbcf26e55">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПриходнаяНакладная</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="a90e3bbf-ad59-4ab6-b666-ac76cc93542b">
+    <name>Ячейка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Ячейки</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7bbdfd3d-93b8-4f81-84c4-46f5a702f1d3">
+    <name>ВидОперации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыОперацийПеремещениеПоЯчейкам</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6bf6373a-c9b9-4c6c-a9ce-85c02e4e7a64">
+    <name>ОткрытНаТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыт на ТСД</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb25ff38-b0ad-425e-b133-71c25622d492">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc2e181c-a834-4410-9fc2-d0a60a27fce4">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.БЗ_Сотрудники_ТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="460d5c7c-e761-4723-9c1f-15fe1ce7cc3e">
+    <name>СтруктурнаяЕдиница</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктурныеЕдиницы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ff7afae7-88cd-4d59-ae95-8d7fc4453f80">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5ab8951a-7165-412a-9e27-f567245b149f">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="492237fc-8881-43ba-bef5-bc0a9e47cadf">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="4b04d000-d7dd-4e42-a9ef-61c409325191">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="1dbe1105-22c3-4ee2-88c1-f439add1cce1">
+    <producedTypes>
+      <objectType typeId="73a4f2a4-684c-4b5b-ac0b-920b9e67747c" valueTypeId="1a028a21-4e36-45db-af73-5d67e0cfdb1f"/>
+      <rowType typeId="16fa6bfb-8c2c-4bf6-a9a9-1fbcb74a7f05" valueTypeId="ecf590aa-1875-4e59-9d85-673728d81902"/>
+    </producedTypes>
+    <name>Запасы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="c7701429-23cf-406a-ab36-2554abe58bc6">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="89e2e861-7158-416b-b298-96dc38b46994">
+      <name>Характеристика</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="5524560d-da98-4717-a41c-bc66c24eae7f">
+      <name>Количество</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b2a2ae28-e1c8-4316-9bf8-36503e5f9db8">
+    <producedTypes>
+      <objectType typeId="32495faf-5e32-4675-976b-65cb2823aa54" valueTypeId="98519fb5-1fda-4144-9b18-63f6c1bda1d3"/>
+      <rowType typeId="7ebdeed0-c0eb-42c1-b43d-8538cac45c15" valueTypeId="07656021-d2dc-413b-8c52-8b35fa3ea083"/>
+    </producedTypes>
+    <name>ТСД_ВводДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД ввод данных</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0600ade4-7efc-4bf0-b1aa-03af8f338495">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b3522463-3b5c-4a9f-a876-ab11be74f06a">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2401508-c0b0-4e68-b41d-e58297496f4d">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7dc3a725-f7a5-487e-aeaf-867b3f3c43f6">
+      <name>Ячейка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ячейка</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.Ячейки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab95eb78-0f0d-4328-8ab5-63556ed4745a">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.БЗ_Сотрудники_ТСД</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4eb627f-9441-4298-af09-f9dced31b7a0">
+      <name>ШК</name>
+      <synonym>
+        <key>ru</key>
+        <value>ШК</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="705fe8bc-130e-4eb0-aa5e-aa61f0a5787b">
+      <name>Добавлено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавлено</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c22332e6-2267-4806-ad5b-e7e1a4f9ea8f">
+  <producedTypes>
+    <objectType typeId="52f90e5f-5fc3-4ad1-b945-9baf5b94c82d" valueTypeId="36992731-a446-4784-94d8-2db1482cc59e"/>
+    <refType typeId="06b3de7f-e4e2-473c-b40a-b90042066053" valueTypeId="8f6a74a9-320b-434f-8fd5-55d8465a6770"/>
+    <selectionType typeId="f54e8039-a441-46e0-b6ad-e06f910b437b" valueTypeId="0e366b50-6ed1-4858-89e5-962c917ac9a5"/>
+    <listType typeId="482ec295-6cf1-4570-95bd-fdd78561fe66" valueTypeId="4d699152-f596-4c23-8b8a-82ab0a217bf3"/>
+    <managerType typeId="68ffc112-eb23-43ae-8b72-89d03aee18cc" valueTypeId="69f512ae-d44f-4468-b292-4d68ec992997"/>
+  </producedTypes>
+  <name>Доверенность</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="ca16f68b-3678-4ea8-805f-8ec725c92e48">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

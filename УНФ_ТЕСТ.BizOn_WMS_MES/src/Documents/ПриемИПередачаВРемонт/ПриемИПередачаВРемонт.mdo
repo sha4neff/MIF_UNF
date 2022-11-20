@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5964cd01-cdbf-4bb7-b236-a7cba782803e">
+  <producedTypes>
+    <objectType typeId="b7cc9b9b-1663-4929-bd9f-0151836fe312" valueTypeId="75f3d81c-698e-400c-901e-c585d332c5c1"/>
+    <refType typeId="ceecc518-3ead-4245-a947-ae66531cc228" valueTypeId="59d32613-0a0c-4230-8bfa-728615e22fa8"/>
+    <selectionType typeId="3d076d29-7382-4871-ab94-764372d52039" valueTypeId="6426eed4-81cf-4d5a-8dbf-46b2ba650a5f"/>
+    <listType typeId="371808d2-e771-4690-986c-ccd40cd3914d" valueTypeId="8e6e918d-dc5b-4fba-b27d-4bc150fcb0e2"/>
+    <managerType typeId="18eae155-96dc-4cdd-84a3-6719cc2b7c88" valueTypeId="997d403c-eeb1-4182-bfb3-8c3a3167630f"/>
+  </producedTypes>
+  <name>ПриемИПередачаВРемонт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="088e9a6b-d8cf-4bb7-b48a-134badfbdd44">
+    <name>СуммаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1599a808-d1c7-42da-9ca5-4134258991bf">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9a5ed217-36bd-475e-9de3-86c25014002d">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3ae29ee7-6fa2-4d51-a085-1eb926f03e8f">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

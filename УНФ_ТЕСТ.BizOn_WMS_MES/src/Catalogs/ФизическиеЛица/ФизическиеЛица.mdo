@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1cf7044d-af4b-41a6-b215-a645e56aa708">
+  <producedTypes>
+    <objectType typeId="fa387b4a-8c89-445e-a0d6-1eab9bbb2a20" valueTypeId="0443b3e8-c536-462b-85c5-fad780137545"/>
+    <refType typeId="46e0cd0b-522a-45a2-b9a7-1ba3c41eb491" valueTypeId="2d7a80cd-4767-412f-a78b-7b95e9e07539"/>
+    <selectionType typeId="40e5e64b-8172-408d-9c07-0d31995b8681" valueTypeId="b081c9f2-7681-4b5e-b2c7-efbe13c75072"/>
+    <listType typeId="b64e308d-3db0-4a57-bc16-23b2cb994695" valueTypeId="d8c6ad22-a39e-4848-b714-df84e6efe181"/>
+    <managerType typeId="aa1b990f-8d40-42da-834f-2d90fa6b4f6b" valueTypeId="158abd6d-0118-42eb-a415-52bfa8788804"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

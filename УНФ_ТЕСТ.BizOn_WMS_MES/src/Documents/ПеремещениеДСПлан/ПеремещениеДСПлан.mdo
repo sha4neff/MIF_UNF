@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8212e58b-c765-4dee-94ec-74005919a37f">
+  <producedTypes>
+    <objectType typeId="c9591f37-78a6-4482-b091-808ea98748eb" valueTypeId="b1e455d2-779d-47a1-bdea-85b73f83ad5b"/>
+    <refType typeId="ac95de0b-6e74-4ef0-b5a0-da03c07eeab0" valueTypeId="b8117b4b-6103-4c63-9155-4ed59a93346b"/>
+    <selectionType typeId="3bb103a3-3ad2-4e0a-a537-a8f85e26f724" valueTypeId="05805eaa-b948-4877-9c1d-bc869b96ef1c"/>
+    <listType typeId="36779e3c-4f06-4dce-be8a-d531e1764bc7" valueTypeId="4a0d27e5-f479-4c4e-b900-a2ae65d15265"/>
+    <managerType typeId="aafe51fe-be20-42cd-b6d0-3be4dee1ab71" valueTypeId="06789249-6d37-4cb4-8113-2b95d3eaae1e"/>
+  </producedTypes>
+  <name>ПеремещениеДСПлан</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

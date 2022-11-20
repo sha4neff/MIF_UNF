@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c14dbd63-a1ea-427b-8402-9893aab8c7f9">
+  <producedTypes>
+    <objectType typeId="2154f26a-e8e1-45fb-8fd2-d7e9f53f8aa0" valueTypeId="3ae8e318-d123-4288-982f-2dee74a9c398"/>
+    <refType typeId="9d8830e4-4627-468a-9c5e-bd15a24b0c4d" valueTypeId="3ad628a7-54cf-4f9a-9ca6-383e6d82757c"/>
+    <selectionType typeId="3a2fdc77-bc58-4c11-9c40-dd612a394bc4" valueTypeId="3c21b66e-410d-4c73-ad04-e4206f915286"/>
+    <listType typeId="06d036af-01a9-499c-a7b5-47af5d7aec6b" valueTypeId="6b9eceec-bee4-4c00-922d-d64e1dbb197e"/>
+    <managerType typeId="01c934b8-b5c3-416f-a32b-a9cbe2369d14" valueTypeId="931136d3-6a77-48b9-935d-1629a0205cc6"/>
+  </producedTypes>
+  <name>ОтчетОРозничныхПродажах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="ae7d25ab-1a33-420d-bc4d-69aff4d69062">
+    <name>ИнвентаризацияЗапасов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ИнвентаризацияЗапасов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="46e07790-0237-4b0c-82df-732687b30ab4">
+  <producedTypes>
+    <selectionType typeId="19a602a1-08e5-447f-8563-959ac77acf5e" valueTypeId="5d96c6d7-86a5-4e5b-873b-a802bc1dcd07"/>
+    <listType typeId="3eaf02af-417b-40de-a84b-8a2086449de2" valueTypeId="c4dd7c6d-ba8e-46d4-9b56-7da1c8f738a2"/>
+    <managerType typeId="80460d2e-9438-49bb-8e86-03d792fd4ffe" valueTypeId="eba14292-657d-4e2f-a3c9-35e92d789fe8"/>
+    <recordSetType typeId="33151ba7-9088-4347-a5f9-e6586d315dc1" valueTypeId="056f7b59-175f-4c7a-9969-4e215680c231"/>
+    <recordKeyType typeId="8e3a9aa8-d7b8-498f-8776-67956a98f8b3" valueTypeId="6a6a6ed3-5932-4162-bfd7-eb970d8887cd"/>
+    <recordType typeId="96e6828c-4169-414f-a125-538d8b533031" valueTypeId="fc52c248-8b93-4a1e-8702-823254487353"/>
+  </producedTypes>
+  <name>Запасы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <dimensions uuid="76585c75-0ce6-4ef7-986d-ccde5e151fdf">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

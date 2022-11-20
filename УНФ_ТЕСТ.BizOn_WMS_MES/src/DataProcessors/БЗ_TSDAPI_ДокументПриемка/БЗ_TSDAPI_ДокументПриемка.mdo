@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4929992d-b478-437f-8d73-327e0fd55bcd">
+  <producedTypes>
+    <objectType typeId="b4bf90b5-2f8c-44c9-99b0-4dca34787f5c" valueTypeId="cbd50c43-893b-406c-b95d-1822fff22993"/>
+    <managerType typeId="05938244-5a6d-4952-877f-3b04ad981ede" valueTypeId="7e864ab6-65e4-4868-bc26-6b8e8d93d994"/>
+  </producedTypes>
+  <name>БЗ_TSDAPI_ДокументПриемка</name>
+  <synonym>
+    <key>ru</key>
+    <value>TSDAPI документ приемка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="41af78a0-99da-4984-a07a-c3d45cb81f23">
+    <name>doc_svg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Doc svg</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="22e11c08-586e-4a5b-88ac-cd98a16d7eb4">
+    <name>delete_svg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Delete svg</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

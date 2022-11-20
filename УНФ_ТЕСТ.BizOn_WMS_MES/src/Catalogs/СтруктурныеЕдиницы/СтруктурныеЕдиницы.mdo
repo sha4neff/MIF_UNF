@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8601aefd-136c-4abd-b996-cc2afac86816">
+  <producedTypes>
+    <objectType typeId="192d9687-c3bc-4aa8-8893-bb1e5a59ad7a" valueTypeId="984bc19a-9463-463c-900e-11ab3f8cea3f"/>
+    <refType typeId="1c1f782f-7ce5-477b-9d54-22b83c9bed80" valueTypeId="e3e7352e-0c35-40b1-91f2-0c33d1ab4e72"/>
+    <selectionType typeId="8b29f091-d41e-4c40-8074-d725d13bf067" valueTypeId="1c65ad72-2b8a-4300-88a9-00feb30fe5a3"/>
+    <listType typeId="bf196073-dce5-4505-af95-a433d6b54c56" valueTypeId="c0141ebd-df25-4af1-9572-26d5baa4d84e"/>
+    <managerType typeId="3fe06ba2-82de-4ad7-924f-dacbb2834f33" valueTypeId="1e7946a2-183d-4769-bb73-52008b89a9c0"/>
+  </producedTypes>
+  <name>СтруктурныеЕдиницы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="8c18a5c0-5275-4f17-9bbc-e42985d9001c">
+    <name>ПолучательПеремещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктурныеЕдиницы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

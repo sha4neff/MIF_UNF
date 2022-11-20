@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b74a815-f8b5-406b-a43a-ba6c618399d6">
+  <producedTypes>
+    <objectType typeId="f2435064-ce0a-4cf8-b4e8-a978a9ca1b25" valueTypeId="8e26410d-1e71-4334-bec3-d2c4f55a321e"/>
+    <refType typeId="9a82d0c7-67ec-4ca1-a2a4-b9445dc4e068" valueTypeId="505e446a-0791-4b93-bfb2-fd23896bfde5"/>
+    <selectionType typeId="b3a1c8f3-8bc8-48a7-9ff5-a73129f10a86" valueTypeId="e1b11779-f969-4674-9f91-ad0cfc83f64e"/>
+    <listType typeId="20acbcb0-9ebc-487a-b1aa-489f12dedc4e" valueTypeId="13e6db8c-8e7c-4590-9715-b6f14ce09c3b"/>
+    <managerType typeId="00780ae3-a672-49ab-b5f7-878b8f812923" valueTypeId="e13a0e0f-18e9-4c1e-b88b-b32e40a8dc4b"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

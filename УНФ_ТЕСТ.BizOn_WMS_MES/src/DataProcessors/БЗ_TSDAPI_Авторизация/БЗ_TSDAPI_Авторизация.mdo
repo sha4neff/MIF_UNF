@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9c797bf-69e4-4248-adfb-3282fb73f578">
+  <producedTypes>
+    <objectType typeId="35355249-1b12-4153-a47c-fc4f37afd8a6" valueTypeId="bb12b512-d069-4b7c-9e12-1e14fb205b33"/>
+    <managerType typeId="c091259a-9fbf-4968-8a58-d3e5d9f910f8" valueTypeId="e301be84-f29c-4ffa-b126-7c3de2511b2a"/>
+  </producedTypes>
+  <name>БЗ_TSDAPI_Авторизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>TSDAPI авторизация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="d6462776-f77a-4455-bc7a-ac61203b7104">
+    <name>logo_svg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Logo svg</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

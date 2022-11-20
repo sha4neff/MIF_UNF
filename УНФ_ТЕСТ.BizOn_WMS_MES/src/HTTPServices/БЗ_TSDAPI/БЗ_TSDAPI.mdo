@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b901b4c1-290c-4bf6-bb98-16ef83b4941b">
+  <name>БЗ_TSDAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>TSDAPI</value>
+  </synonym>
+  <rootURL>tsd_api</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>2000</sessionMaxAge>
+  <urlTemplates uuid="f9b99d60-25bc-47f7-811b-fe9ec81114c1">
+    <name>TSD_API</name>
+    <synonym>
+      <key>ru</key>
+      <value>TSD API</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="6e5c2787-4950-450d-a11d-5ea73aaed35e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>tsd_api_post</handler>
+    </methods>
+    <methods uuid="6c4c0a06-311a-4078-8dbd-4011d5cd0f93">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>tsd_api_get</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

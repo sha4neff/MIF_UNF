@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Decoration">
+    <name>ДекорацияОтборОрганизация</name>
+    <id>36</id>
+    <title>
+      <key>ru</key>
+      <value>Декорация отбор организация</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДекорацияОтборОрганизацияРасширеннаяПодсказка</name>
+      <id>38</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДекорацияОтборОрганизацияКонтекстноеМеню</name>
+      <id>37</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.BorderColor</color>
+    </textColor>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>ДекорацияОтборКонтрагентДоговор</name>
+    <id>39</id>
+    <title>
+      <key>ru</key>
+      <value>Декорация отбор контрагент и договор</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДекорацияОтборКонтрагентДоговорРасширеннаяПодсказка</name>
+      <id>41</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДекорацияОтборКонтрагентДоговорКонтекстноеМеню</name>
+      <id>40</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.BorderColor</color>
+    </textColor>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Table">
+    <name>ОснованияНаРеализацию</name>
+    <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Основания на реализацию</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormField">
+      <name>ОснованияНаРеализациюДата</name>
+      <id>42</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОснованияНаРеализацию.Дата</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОснованияНаРеализациюДатаРасширеннаяПодсказка</name>
+        <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОснованияНаРеализациюДатаКонтекстноеМеню</name>
+        <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <maxWidth>7</maxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаДокумент</name>
+      <id>34</id>
+      <items xsi:type="form:FormField">
+        <name>ОснованияНаРеализациюСтандартнаяКартинка</name>
+        <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОснованияНаРеализацию.DefaultPicture</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>ОснованияНаРеализациюСтандартнаяКартинкаРасширеннаяПодсказка</name>
+          <id>31</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОснованияНаРеализациюСтандартнаяКартинкаКонтекстноеМеню</name>
+          <id>30</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ОснованияНаРеализациюПредставлениеДокумента</name>
+        <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Документ</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОснованияНаРеализацию.ПредставлениеДокумента</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ОснованияНаРеализациюПредставлениеДокументаРасширеннаяПодсказка</name>
+          <id>25</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОснованияНаРеализациюПредставлениеДокументаКонтекстноеМеню</name>
+          <id>24</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Документ</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаДокументРасширеннаяПодсказка</name>
+        <id>35</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <group>InCell</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ОснованияНаРеализациюСуммаДокумента</name>
+      <id>26</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОснованияНаРеализацию.СуммаДокумента</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОснованияНаРеализациюСуммаДокументаРасширеннаяПодсказка</name>
+        <id>28</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОснованияНаРеализациюСуммаДокументаКонтекстноеМеню</name>
+        <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <autoCommandBar>
+      <name>ОснованияНаРеализациюКоманднаяПанель</name>
+      <id>3</id>
+      <items xsi:type="form:Button">
+        <name>ОснованияНаРеализациюВыбратьДокументОснование</name>
+        <id>32</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОснованияНаРеализациюВыбратьДокументОснованиеРасширеннаяПодсказка</name>
+          <id>33</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>0</commandName>
+        <representation>Auto</representation>
+        <defaultButton>true</defaultButton>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
+    </autoCommandBar>
+    <searchStringAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ОснованияНаРеализациюСтрокаПоиска</name>
+      <id>5</id>
+      <extendedTooltip>
+        <name>ОснованияНаРеализациюСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>7</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОснованияНаРеализациюСтрокаПоискаКонтекстноеМеню</name>
+        <id>6</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>ОснованияНаРеализациюСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ОснованияНаРеализациюСостояниеПросмотра</name>
+      <id>8</id>
+      <extendedTooltip>
+        <name>ОснованияНаРеализациюСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОснованияНаРеализациюСостояниеПросмотраКонтекстноеМеню</name>
+        <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>ОснованияНаРеализациюСостояниеПросмотра</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ОснованияНаРеализациюУправлениеПоиском</name>
+      <id>11</id>
+      <extendedTooltip>
+        <name>ОснованияНаРеализациюУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>13</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОснованияНаРеализациюУправлениеПоискомКонтекстноеМеню</name>
+        <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>ОснованияНаРеализациюУправлениеПоиском</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>ОснованияНаРеализациюРасширеннаяПодсказка</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ОснованияНаРеализациюКонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <representation>HierarchicalList</representation>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>ОснованияНаРеализацию</name>
+    <title>
+      <key>ru</key>
+      <value>Основания на реализацию</value>
+    </title>
+    <id>1000001</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.ДокументСсылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.Договор</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.Контрагент</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.Недоступен</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.Организация</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.ПредставлениеДокумента</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОснованияНаРеализацию.ЭтоВозврат</segments>
+    </notDefaultUseAlwaysAttributes>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	Акты.Ссылка КАК ПредставлениеДокумента,
+	Акты.Дата КАК Дата,
+	Акты.Организация КАК Организация,
+	Акты.Контрагент КАК Контрагент,
+	Акты.Договор КАК Договор,
+	Акты.СуммаДокумента КАК СуммаДокумента,
+	ЛОЖЬ КАК Недоступен,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет) КАК ЭтоВозврат
+ИЗ
+	Документ.АктВыполненныхРабот КАК Акты
+ГДЕ
+	&amp;РеализацииДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ЗаказНаряды.Ссылка,
+	ЗаказНаряды.Дата,
+	ЗаказНаряды.Организация,
+	ЗаказНаряды.Контрагент,
+	ЗаказНаряды.Договор,
+	ЗаказНаряды.СуммаДокумента,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.ЗаказПокупателя КАК ЗаказНаряды
+ГДЕ
+	ЗаказНаряды.ВидОперации = ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаряд)
+	И &amp;РеализацииДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	Переработка.Ссылка,
+	Переработка.Дата,
+	Переработка.Организация,
+	Переработка.Контрагент,
+	Переработка.Договор,
+	Переработка.СуммаДокумента,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.ОтчетОПереработке КАК Переработка
+ГДЕ
+	&amp;РеализацииДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	Ремонт.Ссылка,
+	Ремонт.Дата,
+	Ремонт.Организация,
+	Ремонт.Контрагент,
+	Ремонт.Договор,
+	Ремонт.СуммаДокумента,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.ПриемИПередачаВРемонт КАК Ремонт
+ГДЕ
+	&amp;РеализацииДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	Накладная.Ссылка,
+	Накладная.Дата,
+	Накладная.Организация,
+	Накладная.Контрагент,
+	Накладная.Договор,
+	Накладная.СуммаДокумента,
+	ЛОЖЬ,
+	ВЫБОР
+		КОГДА Накладная.ВидОперации В (ЗНАЧЕНИЕ(Перечисление.ВидыОперацийРасходнаяНакладная.ВозвратПоставщику), ЗНАЧЕНИЕ(Перечисление.ВидыОперацийРасходнаяНакладная.ВозвратКомитенту), ЗНАЧЕНИЕ(Перечисление.ВидыОперацийРасходнаяНакладная.ВозвратИзПереработки), ЗНАЧЕНИЕ(Перечисление.ВидыОперацийРасходнаяНакладная.ВозвратСОтветхранения))
+			ТОГДА ЗНАЧЕНИЕ(Перечисление.ДаНет.Да)
+		ИНАЧЕ ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+	КОНЕЦ
+ИЗ
+	Документ.РасходнаяНакладная КАК Накладная
+ГДЕ
+	&amp;РеализацииДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ОтчетКомитенту.Ссылка,
+	ОтчетКомитенту.Дата,
+	ОтчетКомитенту.Организация,
+	ОтчетКомитенту.Контрагент,
+	ОтчетКомитенту.Договор,
+	0,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.ОтчетКомитенту КАК ОтчетКомитенту
+ГДЕ
+	&amp;ОтчетКомитентуДоступен = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ОперацияПоПлатежнымКартам.Ссылка,
+	ОперацияПоПлатежнымКартам.Дата,
+	ОперацияПоПлатежнымКартам.Организация,
+	ОперацияПоПлатежнымКартам.Контрагент,
+	НЕОПРЕДЕЛЕНО,
+	ОперацияПоПлатежнымКартам.СуммаДокумента,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.ОперацияПоПлатежнымКартам КАК ОперацияПоПлатежнымКартам
+ГДЕ
+	&amp;АвансыДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ПоступлениеНаСчет.Ссылка,
+	ПоступлениеНаСчет.Дата,
+	ПоступлениеНаСчет.Организация,
+	ПоступлениеНаСчет.Контрагент,
+	НЕОПРЕДЕЛЕНО,
+	ПоступлениеНаСчет.СуммаДокумента,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.ПоступлениеНаСчет КАК ПоступлениеНаСчет
+ГДЕ
+	&amp;АвансыДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ПоступлениеВКассу.Ссылка,
+	ПоступлениеВКассу.Дата,
+	ПоступлениеВКассу.Организация,
+	ПоступлениеВКассу.Контрагент,
+	НЕОПРЕДЕЛЕНО,
+	ПоступлениеВКассу.СуммаДокумента,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.ПоступлениеВКассу КАК ПоступлениеВКассу
+ГДЕ
+	&amp;АвансыДоступны = ИСТИНА
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	Корректировка.Ссылка,
+	Корректировка.ДатаВходящегоДокумента,
+	Корректировка.Организация,
+	Корректировка.Контрагент,
+	Корректировка.Договор,
+	Корректировка.СуммаДокумента,
+	ЛОЖЬ,
+	ЗНАЧЕНИЕ(Перечисление.ДаНет.Нет)
+ИЗ
+	Документ.КорректировкаРеализации КАК Корректировка</queryText>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

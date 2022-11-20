@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1327e351-2a31-4795-9d25-b05ea746f8e4">
+  <producedTypes>
+    <objectType typeId="914db97c-ddc3-48ac-bdf1-22d612712f99" valueTypeId="ea07adfb-4f47-4a43-8167-ce79add99d54"/>
+    <managerType typeId="03b6521e-3509-4938-9979-d2472daa00a4" valueTypeId="20c3e07a-9b7f-4b22-a2ed-ded72c1ef8e8"/>
+  </producedTypes>
+  <name>БЗ_РегистрацияИзмененийДляОбменаДаннымиMES</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Регистрация изменений (MES)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БЗ_РегистрацияИзмененийДляОбменаДаннымиMES.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a34a49cd-523d-4b36-ab50-a3d439e9b574">
+    <name>НастройкаАвторегистрацияПоследовательностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторегистрация последовательностей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Авторегистрация последовательностей документов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="31cc5ca6-331e-4abc-a9dc-2b2e9f8df058">
+    <name>НастройкаАвторегистрацияДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторегистрация движений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Авторегистрация движений документов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="45185bfd-b276-412b-ab37-a0a8393b9691">
+    <name>НастройкаАдресВнешнейОбработкиЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес внешней обработки запросов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя файла внешней обработки - консоли запросов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e50787e2-98b7-451b-8bbb-76449c76a554">
+    <name>НастройкаВариантНомераСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка вариант номера сообщения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант установки номера сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="489617bb-58a7-4d4b-9840-a002cc1d65e6">
+    <name>НастройкаКонтрольВыгрузкиОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация может контролировать выгрузку объектов</value>
+    </synonym>
+    <comment>При использовании в составе БСП 2.1.2 и старше</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При использовании в составе БСП 2.1.2 и старше, конфигурация может контролировать выгрузку объектов, </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d1a165db-be32-466d-bcde-9abf13e6b3c8">
+    <name>КонфигурацияПоддерживаетБСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация поддерживает БСП</value>
+    </synonym>
+    <comment>Вычисляется при чтении настроек, ограничивает варианты настроек</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конфигурация поддерживает возможности БСП</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3472fdea-b5cc-454b-b19f-e49502976915">
+    <name>ДоступнаРегистрацияСредствамиБСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступна регистрация средствами БСП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Регистрация средствами БСП доступна</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6f3e3df5-73d1-4243-8c0b-fc2bda9d7e4c">
+    <name>ДоступнаРаботаРИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступна работа РИБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работа РИБ доступна</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a0217da3-d1bd-4b39-8443-f02522beba5e">
+    <name>ДоступнаРегистрацияАсинхронно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступна регистрация асинхронно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Регистрация в асинхронном режиме доступна.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="77156a0c-5500-47f0-9477-f4a38501b367">
+    <name>ВыборУзлаПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор узла плана обмена</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45eff267-299f-4dcf-a9c1-0ef95009bae6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация изменений для обмена данными</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0767b652-d676-4221-8af5-e360c52b7230">
+    <name>НомераСообщенийУзлаПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номера сообщений узла плана обмена</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0cf34586-61c7-44a8-975a-4e554174e367">
+    <name>ВыборКонстанты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор константы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="caa544d0-d18e-461d-9d92-27de9ae315b0">
+    <name>ВыборОбъектовОтбором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объектов отбором</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad89a7fb-bc3b-41ca-94f1-34c36c8cc748">
+    <name>УзлыРегистрацииОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узлы регистрации объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad65aee3-c944-42fa-ac10-db65459c31c6">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a9f2763e-51d3-4b69-8e29-4ecd9da1a999">
+    <name>РегистрацияИзмененийДляОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация изменений для отправки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

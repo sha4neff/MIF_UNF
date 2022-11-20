@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="506d5a6b-d718-4f08-8e8e-72fce8323d7e">
+  <producedTypes>
+    <objectType typeId="3e9be4ab-b7fc-4534-9f7a-12c4cbc3aa7a" valueTypeId="5005cc90-5bd7-4240-92d6-70d6ac4f4819"/>
+    <refType typeId="1ab66551-ade8-476e-a9e9-bcc55861a58e" valueTypeId="86f068f8-58b9-4918-acd6-2e3e15fb9095"/>
+    <selectionType typeId="d724b6e6-d5dc-4398-a23f-85e96f3fcf91" valueTypeId="799e280f-6de3-4e3d-8b48-321c4f5f10a6"/>
+    <listType typeId="95efcee1-f7c3-4da1-b0d8-431e952f3eba" valueTypeId="fadc6b64-3969-4092-a6ad-19d1ae3c301c"/>
+    <managerType typeId="dea8368d-24fe-45ba-a0e7-7f5b5f42590c" valueTypeId="74ba19ab-f1e8-47f8-8d22-51d8b33e46a5"/>
+  </producedTypes>
+  <name>ВнесениеНаличных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="aa1bacd0-42be-4328-a856-535fe463b57a">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="331456d5-98dc-4080-9d06-7cc32e211cb7">
+    <name>ОтчетОРозничныхПродажах</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ОтчетОРозничныхПродажах</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

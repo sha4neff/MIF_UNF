@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f2062219-85ce-4488-9acf-fa691de92486">
+  <producedTypes>
+    <selectionType typeId="b66a470d-b658-43d8-9602-07cf8bb7efa6" valueTypeId="359d30dc-bafd-4db8-b519-0b0f6eaf707f"/>
+    <listType typeId="3940fcc5-bac9-44c8-ac45-f75dd738fb66" valueTypeId="eb413c93-ca05-40e5-a38c-c846dd4049d2"/>
+    <managerType typeId="1b4d8dbb-2f8e-4442-87b7-8ef4a509a1e7" valueTypeId="e68d0a2a-b179-4edb-9ba1-2e4a219119e5"/>
+    <recordSetType typeId="977b4578-9a76-4128-a2b0-d318d89ac28e" valueTypeId="510bff73-7fdc-4c9d-b67a-db4ea3ee05a9"/>
+    <recordKeyType typeId="5465aa63-0fc2-47e2-8b80-1dc7b42ad358" valueTypeId="6935b0d4-6e87-43f2-808b-0c8b5b4dcaaa"/>
+    <recordType typeId="104fbeae-35c0-48ed-8734-a794dac94248" valueTypeId="cce353e7-9bb1-437f-85dd-78ef891b06de"/>
+  </producedTypes>
+  <name>ЗаказыНаПроизводство</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <dimensions uuid="9b6290f2-1a55-4c2f-9e2f-667cb2dcd517">
+    <name>ЗаказНаПроизводство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказНаПроизводство</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

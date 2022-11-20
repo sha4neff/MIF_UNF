@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c47fa2c6-5200-4d3f-ba25-755e5a09fc28">
+  <producedTypes>
+    <objectType typeId="d72fe34b-1b30-4342-af2f-63c05dbf90fa" valueTypeId="72e6bd81-1f16-4670-913e-a1a7569a96e2"/>
+    <refType typeId="1ad76656-86dd-43bb-8a71-f6deca337705" valueTypeId="efb34d0a-c45c-45f0-aaa2-0068689ff868"/>
+    <selectionType typeId="bb361b5d-bd38-40c9-ad26-388f70948bad" valueTypeId="81101dc7-fdb4-4295-b654-91a45ac7aabe"/>
+    <listType typeId="434e3a7f-aacc-4cab-910e-749633299c5b" valueTypeId="0909af47-2ed9-44f5-a837-efd31492d321"/>
+    <managerType typeId="0d7355ff-e3ac-4867-8f76-9cf5c6f57e14" valueTypeId="907028b5-d17f-4794-9c7e-ba8d93d35e09"/>
+  </producedTypes>
+  <name>РасходДСПлан</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="1c2dd346-364d-4fd2-a339-dea5e400484d">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13a65fd3-c317-452c-b69d-ed64de18b8f2">
+  <name>БЗ_MES_Обмен_Счетчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. MES обмен счетчик</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+</mdclass:SessionParameter>

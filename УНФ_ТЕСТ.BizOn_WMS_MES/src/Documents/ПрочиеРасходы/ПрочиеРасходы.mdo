@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="737b156d-b121-4de5-9da8-4b0b0ccb4d3f">
+  <producedTypes>
+    <objectType typeId="57dfe203-74ee-427f-a6f9-87f9a75153b8" valueTypeId="da8d124f-54b9-4188-afe9-f604cb900a5c"/>
+    <refType typeId="8b13773e-62b9-4e78-bd4b-d1fa34fb02a7" valueTypeId="bc12034a-3bdc-418f-87d2-2296513dacfe"/>
+    <selectionType typeId="d400e73a-9c79-443f-82c2-1e76d4283908" valueTypeId="05f19651-928d-4670-91e6-76d6ce39e280"/>
+    <listType typeId="1b4abf9c-1c2a-4a84-ab11-e4fca714ed4d" valueTypeId="d2aa806b-b946-4504-b033-feeadef749f9"/>
+    <managerType typeId="02ef43ee-50ea-43a4-ac9c-3bb991282462" valueTypeId="21209052-e50b-45b7-8a84-e1d661d4120e"/>
+  </producedTypes>
+  <name>ПрочиеРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="7f1867e1-cb18-46aa-a0ca-821b46a6ee36">
+    <producedTypes>
+      <objectType typeId="fbca0cfc-8325-4bd1-9a1c-e3e58942daf8" valueTypeId="b813c72e-31fa-48a5-ade7-aa8775dbdd4e"/>
+      <rowType typeId="4dcb44b7-1068-4d71-9203-d1af68ad9382" valueTypeId="185f2045-3d3f-4a95-b89a-fca5d3ab1e80"/>
+    </producedTypes>
+    <name>Расходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="68dd8aaf-3016-4614-9cff-afcce636ed7f">
+      <name>ЗаказПокупателя</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.ЗаказПокупателя</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

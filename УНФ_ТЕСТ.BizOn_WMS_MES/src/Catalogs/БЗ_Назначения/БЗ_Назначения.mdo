@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c583e80f-ccbf-43cf-9d11-6596aeb82af8">
+  <producedTypes>
+    <objectType typeId="7740747b-c4a7-47c5-bf72-d880e2f2fcef" valueTypeId="fe030ba3-1ae1-4a1e-a808-3d393713b8f1"/>
+    <refType typeId="369e5be7-54a7-4d28-ac2a-68fca8df9f14" valueTypeId="ed0b4cff-cf41-46ee-9b02-d1d19f984079"/>
+    <selectionType typeId="87c9d24b-171b-44f6-b0c1-319aa725af14" valueTypeId="5f11e1f1-fca3-442a-95ae-25441d16a514"/>
+    <listType typeId="71ede4f2-685c-40de-a437-243c5465149a" valueTypeId="8d20f019-5873-4fb9-ae90-f121c60582ff"/>
+    <managerType typeId="0cbad587-f9ee-4370-a467-51b6791fec95" valueTypeId="cafaf6b4-2190-4856-a272-a26e7f61343e"/>
+  </producedTypes>
+  <name>БЗ_Назначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Назначения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БЗ_Назначения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БЗ_Назначения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>45</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

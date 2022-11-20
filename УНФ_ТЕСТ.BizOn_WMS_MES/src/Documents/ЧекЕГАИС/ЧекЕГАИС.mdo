@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b274d9d4-a920-4456-b1b5-516cf33b9d1f">
+  <producedTypes>
+    <objectType typeId="4f02f7d6-954a-41b5-90c6-1f9b1fbd5149" valueTypeId="7b0be5aa-8831-444c-b40e-7e2880691920"/>
+    <refType typeId="ed3f97e5-1c5d-4738-b256-a8367e15ee07" valueTypeId="891c42d5-9bd2-4055-8334-00641ce9cefa"/>
+    <selectionType typeId="0aa39844-cea9-4ab3-85e3-75fd23934021" valueTypeId="4c76157e-2019-477c-bcdc-664b1798d54c"/>
+    <listType typeId="20db0d04-71e5-4cd2-a35a-e7c89501c4d7" valueTypeId="93dfa662-67fe-459f-957d-e03776bb19f0"/>
+    <managerType typeId="02a20856-0743-49c4-bf58-f57d3234990b" valueTypeId="63467cdc-ce1b-42f2-9dcb-30eaf7e5a858"/>
+  </producedTypes>
+  <name>ЧекЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="2e21c12f-1954-4910-b090-f200cdc715bc">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеЧекаЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

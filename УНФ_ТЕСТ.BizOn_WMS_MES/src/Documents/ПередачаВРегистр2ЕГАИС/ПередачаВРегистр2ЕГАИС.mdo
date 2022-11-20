@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="36113cd6-61e7-4c0d-adb9-5731e756204c">
+  <producedTypes>
+    <objectType typeId="2af8b1cf-7b59-4fc5-9538-414a6d42bfd3" valueTypeId="39db1818-8697-43f6-bd9c-d00bd2884927"/>
+    <refType typeId="50e255b9-a1e8-4047-bd37-68e6be634275" valueTypeId="04cc7afe-2ecd-4883-9538-c593e529f3d3"/>
+    <selectionType typeId="f0fb8ed3-3928-4a08-b818-d6f38cb2370d" valueTypeId="2b72a5bb-f730-4e82-8783-d99f48b75f06"/>
+    <listType typeId="4a9e76fc-46d6-440f-b8f3-8295d0d070f4" valueTypeId="25a4b3b9-a123-4b39-83a1-f75f7b28626c"/>
+    <managerType typeId="6ebeb494-4983-43f3-843e-8204a297f828" valueTypeId="ecf9076e-e650-40f3-a926-5eb5a58c77cb"/>
+  </producedTypes>
+  <name>ПередачаВРегистр2ЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="a3394fbf-78f2-4b6a-bf19-649c87583bd1">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеПередачиВРегистр2ЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

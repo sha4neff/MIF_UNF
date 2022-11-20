@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c42acebb-0ce9-42df-961b-8b27e34f8778">
+  <producedTypes>
+    <refType typeId="2a6f9fde-40a7-47d3-9fa9-ea689e2304c3" valueTypeId="92d92d0b-4f69-4e99-a61f-1ec79349193b"/>
+    <listType typeId="fb66a016-324b-49be-b8d0-c088194a83be" valueTypeId="15c2d988-42d2-4190-b175-995c9061f908"/>
+    <managerType typeId="942cb128-44f7-45ec-bb66-9180dcc75e29" valueTypeId="281fcf69-a316-49b5-9f00-d69c76b1963e"/>
+  </producedTypes>
+  <name>СпособыЗачетаИРаспределенияПлатежей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f8464881-6ed5-4938-94bc-46ef79256d77">
+    <name>Авто</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e52f430b-f06f-49e3-99f7-80d4c823243b">
+    <name>Вручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

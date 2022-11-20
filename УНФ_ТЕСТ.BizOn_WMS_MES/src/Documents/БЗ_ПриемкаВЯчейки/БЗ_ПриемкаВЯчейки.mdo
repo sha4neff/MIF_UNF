@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65418a94-da33-416a-9768-0aa910dcc27a">
+  <producedTypes>
+    <objectType typeId="76aba796-f2c3-427c-9bd2-fb69acc50e14" valueTypeId="be12353a-5dd5-42b1-a549-e1bf5038a318"/>
+    <refType typeId="0ad66c0d-e5aa-4da8-a709-6a4c0be7230f" valueTypeId="07d4edc1-14ae-492d-9c9f-f11827008fc5"/>
+    <selectionType typeId="965455ae-724b-452a-b89b-4c3cef6ec9c7" valueTypeId="f02cfd87-75da-4fc9-882c-8b81feb86f82"/>
+    <listType typeId="45143db4-5be9-4306-95b6-2518a15ad40f" valueTypeId="4903ef01-1bce-44d3-b77f-a1f99199d55b"/>
+    <managerType typeId="e705e64f-f042-485c-9814-02736084e2b1" valueTypeId="1ce03847-fc3d-4bc6-ba81-65d80167de7d"/>
+  </producedTypes>
+  <name>БЗ_ПриемкаВЯчейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>печать этикеток ячеек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.БЗ_ПриемкаВЯчейки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПриходнаяНакладная</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.БЗ_ПриемкаВЯчейки.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="7687c742-80ca-464e-a93b-2282578fcdb0">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходнаяНакладная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ceed4328-cd9a-46db-b9d5-13b78f8fa112">
+    <name>ОткрытНаТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыт на ТСД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7fd2e23-635e-4ab4-b16e-502420d35956">
+    <name>Заавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заавершен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbeef9da-6083-443f-b4ab-2307bb7804cc">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_Сотрудники_ТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e5c6443-32af-47e4-ac3d-121a3626bcb6">
+    <name>ДокДвижение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Док движение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПеремещениеЗапасов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1d2e7352-3d84-43e2-8ee8-60e03e0b43d6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1760c8ac-c8fb-439f-b697-1adc476510ac">
+    <name>ШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШК</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="602796c9-df1b-4168-ae2d-e6e78cd241c7">
+    <producedTypes>
+      <objectType typeId="4d07a690-bafb-4169-a7bf-d74b62626d1d" valueTypeId="7a330da8-f16e-4955-844c-03a9c05346b0"/>
+      <rowType typeId="866fb023-8090-497d-97a4-a262e545d298" valueTypeId="236761e4-571a-4ccb-95f7-54b0f28a713a"/>
+    </producedTypes>
+    <name>Запасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запасы</value>
+    </synonym>
+    <attributes uuid="c3a2d082-5f33-4f20-bb30-d4fbd1ef840a">
+      <name>Ячейка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ячейка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Ячейки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9648b3ed-2dd3-4935-847a-afea72574593">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9652f1ca-9bf9-43f2-9d3f-87c635aa22aa">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>отбор.владелец</name>
+        <field>Document.БЗ_ПриемкаВЯчейки.TabularSection.Запасы.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49b036c8-e99e-427f-bd30-c95a1890913b">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0c5f1688-32fd-4e82-8f82-9e6ab47675ab">
+    <producedTypes>
+      <objectType typeId="b443f519-4e78-45b0-ad7c-4d78dc45c595" valueTypeId="eaa4e0d1-f75c-4b70-8183-3a2f8024ae8b"/>
+      <rowType typeId="02d23d71-c161-4e9b-a2bf-7e9eb88e98be" valueTypeId="d65d6616-c785-4353-9320-9d96857aa145"/>
+    </producedTypes>
+    <name>ТСД_ВводДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД ввод данных</value>
+    </synonym>
+    <attributes uuid="9ae40309-951b-495a-a3d1-ed65de0faaa3">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8a595ddf-a5d2-48e4-a7f9-3fe2fd61332d">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="67579064-14e5-47c9-b017-38c11f2ae51f">
+      <name>Ячейка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ячейка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Ячейки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="955ea68f-297a-4950-aa44-4982f9cd3a0d">
+      <name>План</name>
+      <synonym>
+        <key>ru</key>
+        <value>План</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c02e1c2-a35a-439b-987e-e08926ff9cef">
+      <name>Факт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Факт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d631e86-2e07-4800-97d4-e312ced11c60">
+      <name>Добавлено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавлено</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="542f6f60-fde1-4296-8d90-7c3523ab4992">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БЗ_WMS_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="873c21eb-cb97-48df-bb64-f3cae444d3f7">
+      <name>ШК</name>
+      <synonym>
+        <key>ru</key>
+        <value>ШК</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="d2215fc7-0d8c-4f5b-ab4a-f5ff42cf8331">
+    <name>Этикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетки</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

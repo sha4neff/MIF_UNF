@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="423ad10f-2b31-4ce2-96c1-09eb2ebcf984">
+  <producedTypes>
+    <selectionType typeId="4344fed7-f86d-47c2-985e-1f778d925b11" valueTypeId="81a597cf-79dc-4515-9474-17ebea047f40"/>
+    <listType typeId="28721a81-d69c-49c0-98d6-e39f643308d1" valueTypeId="0b07bfcf-63db-42bc-a962-af09aa917923"/>
+    <managerType typeId="f24f9f55-3465-4722-a7d6-971e37c77658" valueTypeId="77bb8ff8-c794-4f7d-9947-6ea84bea8330"/>
+    <recordSetType typeId="afe7aa9a-d00b-4671-aa78-21b08a513c52" valueTypeId="b5d65b7a-27a0-4e8d-8d0f-e6a4db2b8336"/>
+    <recordKeyType typeId="a0fb0e99-0b7f-48bb-87c3-d386e3462ca6" valueTypeId="2dc70aa2-b588-4ee9-bd5e-9c252aa061ab"/>
+    <recordType typeId="992bbe7b-b137-423b-820b-bba7e76cfde8" valueTypeId="2609006e-6a61-4ba7-ac49-751eebd39d2c"/>
+    <recordManagerType typeId="420aeba4-6579-4c0c-a366-c97845d21a57" valueTypeId="5a53eb4b-b65f-41ce-89f9-c481b8158ec4"/>
+  </producedTypes>
+  <name>БЗ_ОтправленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Отправленные объекты</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dimensions uuid="d1be929e-e042-40cc-ae02-8cab1417371b">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.БЗ_MES</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b3caf264-c0d0-425e-9d37-946253630836">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.БЗ_Принтеры</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+      <types>CatalogRef.БЗ_Участки</types>
+      <types>CatalogRef.БЗ_РабочиеМеста</types>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.БЗ_Сотрудники_ТСД</types>
+      <types>CatalogRef.БЗ_ТехнологическиеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

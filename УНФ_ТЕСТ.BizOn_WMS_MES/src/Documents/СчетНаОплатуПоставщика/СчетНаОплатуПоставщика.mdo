@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62a5d8da-45b4-4997-9560-b7a28344ecf3">
+  <producedTypes>
+    <objectType typeId="b22f679a-0561-436f-b28b-2b000fb43884" valueTypeId="0ef07592-c9dd-4882-a89e-38d267c74ed3"/>
+    <refType typeId="bf3fefc3-5852-4bce-9bc6-6f77019bd05c" valueTypeId="5ac9c89f-aded-4569-992b-af1b9116a05f"/>
+    <selectionType typeId="21532dec-081f-422a-ad11-f94236c3ea23" valueTypeId="8ff855fc-3acf-4c12-9813-54eebf82d63f"/>
+    <listType typeId="b4921cbb-e4d7-45b1-bda3-b015ab70c6aa" valueTypeId="128c74ce-5602-4e8b-926e-0f27519ba4eb"/>
+    <managerType typeId="d82c8262-a379-42fd-90e7-83261a4fce82" valueTypeId="1fb61bd7-a215-471a-a00f-74f6ab3ed796"/>
+  </producedTypes>
+  <name>СчетНаОплатуПоставщика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="af0ee3e2-3431-42b6-a370-61b4c7066e15">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПоставщику</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="81bcae3c-8bbc-4797-b44a-2cc10cbb1a67">
+    <name>Событие</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.Событие</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

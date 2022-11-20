@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="12cecc40-a8c6-4473-9229-eeea733647af">
+  <producedTypes>
+    <objectType typeId="44e9e285-53de-498c-8639-ee0ac0a6f56c" valueTypeId="117943d1-564b-48fe-b658-6edbc50af745"/>
+    <refType typeId="1003001e-b702-481d-94c0-94802229825b" valueTypeId="0aeecb52-dba6-419b-b0fe-098a18b8d183"/>
+    <selectionType typeId="90e6f77b-08a1-4959-a27c-dc0404059f12" valueTypeId="b6b38aac-5bee-4b09-a2e0-ce44c813894c"/>
+    <listType typeId="cb3249c1-03ed-4d2a-9a77-4aa2e615cfd9" valueTypeId="c6b74dc8-0279-4f72-84a9-00df329fcbee"/>
+    <managerType typeId="e62caa61-4cbd-4d2e-ba5c-36cbd9b2802d" valueTypeId="d0e62fee-bdd6-481b-bb28-a3db7ae64f90"/>
+  </producedTypes>
+  <name>КорректировкаПоступления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="9c6b5a83-b7df-4507-8a19-f726a390cd47">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

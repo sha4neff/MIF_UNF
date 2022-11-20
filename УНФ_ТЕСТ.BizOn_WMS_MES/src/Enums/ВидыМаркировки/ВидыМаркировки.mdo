@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e22843dd-1d1d-4ab0-9ffc-926966e30e05">
+  <producedTypes>
+    <refType typeId="748e8fcc-09c3-4f47-9040-9d2f59e0337e" valueTypeId="fe9ebb4e-941f-4e69-81a1-89e93f7f4c72"/>
+    <listType typeId="bfa8ab79-0eaa-4b0f-bf19-f4e289c21f04" valueTypeId="a06ce4fa-82d7-4720-a648-ec89dd9dc6c4"/>
+    <managerType typeId="149172db-eb78-4527-b480-ea21431b9edd" valueTypeId="09f4d99b-6ddc-4cc7-82d3-319ce7a455d0"/>
+  </producedTypes>
+  <name>ВидыМаркировки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="efdd60ff-576f-400c-9745-53a2dc1dfce8">
+    <name>КонтрольныйИдентификационныйЗнак</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c50bf859-7039-4c06-a448-bdcca12289ce">
+    <name>НеМаркируется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ce8332dd-bd89-402c-a12c-584c6860465c">
+    <name>МаркируемаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

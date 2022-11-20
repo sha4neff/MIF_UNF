@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="02b74379-28eb-432f-be87-355da9f76720">
+  <producedTypes>
+    <objectType typeId="4593cf8c-5e5b-4bd6-be1c-c0a66b47fea9" valueTypeId="20aeacb0-e821-4d51-a719-d36ea236160b"/>
+    <refType typeId="597d0ea0-caf0-4b7f-9841-549182a2e899" valueTypeId="1e9c7e2f-9d30-4a6d-a25a-f7755f89a103"/>
+    <selectionType typeId="87f9e474-8c06-4aaf-9a7d-1c8f8bbb6009" valueTypeId="ca9cc63f-9de7-4e09-ab72-4fa487c56170"/>
+    <listType typeId="9a5633b8-7840-4664-8521-a77d3fe677a3" valueTypeId="63119e50-7475-4d10-b5f4-ad96e64a856f"/>
+    <managerType typeId="d40571be-a73c-47d6-97b3-e8bede5215be" valueTypeId="42ea2b4d-f7ab-431f-bb2c-98bb6523e90f"/>
+  </producedTypes>
+  <name>РезервированиеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="eb2a85fc-6446-491d-9d01-4b61ae957e07">
+    <name>ЗаказПокупателя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="771796e5-a08b-40e4-a9e4-d7e183bccb72">
+    <producedTypes>
+      <objectType typeId="7fb8ecf7-aa36-4b91-a0af-904a4a74c962" valueTypeId="b1e04be3-0d40-48ea-9445-36ac8c1f82ea"/>
+      <rowType typeId="7f6593f0-c2bb-4ed7-bd38-936ca6af0a39" valueTypeId="9dbb5ac6-088e-41f2-9037-91f965658e85"/>
+    </producedTypes>
+    <name>Запасы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="999e05f1-f0eb-4326-b2bd-1c37a907007c">
+      <name>ИсходноеМестоРезерва</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="6c00ccb0-ad72-4940-9411-e92506dcbf33">
+      <name>НовоеМестоРезерва</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

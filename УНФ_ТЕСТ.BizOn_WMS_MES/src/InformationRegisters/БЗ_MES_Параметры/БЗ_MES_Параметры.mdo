@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65f82087-da11-43f4-95cb-23ec4a19b6ef">
+  <producedTypes>
+    <selectionType typeId="93191a1a-bfe7-446a-8c2d-3a0da98c5c6e" valueTypeId="dc60281a-fd3d-4e50-8e8e-9d9c4ea30b7e"/>
+    <listType typeId="4cad99d7-522e-4e27-b64f-6c9cc00d33b4" valueTypeId="17af030c-2c6e-4ee0-84e2-dc5c765fd0d2"/>
+    <managerType typeId="47ccd0e4-52cb-4ad6-adba-ea31dd112cc9" valueTypeId="ef2d230d-311b-4ca3-b89e-86be7c892e0d"/>
+    <recordSetType typeId="64f38e12-4542-41b4-8cd0-89ed9b49a750" valueTypeId="e8657aee-43d4-4ab4-84d6-80711ecc016d"/>
+    <recordKeyType typeId="4566d33b-7133-42e9-ab7c-3d33b54a7141" valueTypeId="2074debe-7d2d-43f5-a025-1b64ba9ed34b"/>
+    <recordType typeId="a45c2da2-d9b2-4cce-bfb3-b7e534d8700d" valueTypeId="49af8a73-44bf-49cf-8ab1-2f4ca7d614ec"/>
+    <recordManagerType typeId="9dc61a1a-cee9-496c-9132-491f7918d509" valueTypeId="2b35576f-384d-44a2-aff0-42d3343bd657"/>
+  </producedTypes>
+  <name>БЗ_MES_Параметры</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. MES параметры</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="18234492-eff4-46f9-b073-4fe0ed4a05e6">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="13bb8ddc-d129-4700-a359-aa5ef45cc016">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="17f0d006-d51b-41da-84b1-2520175ee323">
+  <producedTypes>
+    <objectType typeId="1c3edb7e-628a-411d-88b4-1cdd24bac823" valueTypeId="7816c87a-daab-49e5-a302-92f112143e8b"/>
+    <refType typeId="6986a7cb-1e8a-46e9-91ba-756131b1d240" valueTypeId="0b9fd1eb-3386-4954-b17d-2bdc952b0449"/>
+    <selectionType typeId="69831336-98d0-4122-910b-3ef64ea0e965" valueTypeId="43ed0ad4-3868-46e8-9091-1849f27da147"/>
+    <listType typeId="bf6a8f2e-f017-4d7c-9da4-aabf314d75d5" valueTypeId="34625c14-b242-4857-aaac-e858d8b4965d"/>
+    <managerType typeId="5778b2da-38bf-4906-908d-51f85c5313c8" valueTypeId="e1f66317-85fc-4637-9604-50054858817e"/>
+  </producedTypes>
+  <name>НачислениеЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="af00e1b6-5c6e-40cd-afb2-086711eddb1a">
+    <producedTypes>
+      <objectType typeId="71337a06-1a00-49e4-9a52-592f0bc49c86" valueTypeId="2957842a-52c5-4847-98af-3bb083bee6b5"/>
+      <rowType typeId="a3e4218f-cba6-48c0-98ff-67368e607dd6" valueTypeId="3397e0fd-435f-4463-977f-fb56d4122a7b"/>
+    </producedTypes>
+    <name>ПогашениеЗаймов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="f040e551-9196-4a17-8f67-ec0d91f7f6a3">
+      <name>ДоговорЗаймаСотруднику</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.ДоговорКредитаИЗайма</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d7b0e543-ef88-447f-8463-4c47f968ee80">
+    <producedTypes>
+      <objectType typeId="8c297a96-27b2-4795-94d8-19aee788122d" valueTypeId="189ccdbe-1bfc-4877-82c0-519e3efe5b02"/>
+      <rowType typeId="fb7dae9f-9a34-4270-838a-ca6d6f46bc87" valueTypeId="1651495d-3cfc-4f4f-a3ea-f663a2b2b86f"/>
+    </producedTypes>
+    <name>НачисленияУдержания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="9023002b-6be0-419c-a146-a9459aaea59e">
+      <name>ЗаказПокупателя</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.ЗаказПокупателя</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42905560-0cee-44e6-a5d0-d24f8079c7f6">
+  <producedTypes>
+    <refType typeId="41292161-7740-403b-824a-64b622c763e0" valueTypeId="bfb183d8-1b9b-484a-9554-87fa8c278e82"/>
+    <listType typeId="6e7a6eee-d85f-48e3-94ea-6c16cfcc3465" valueTypeId="88a0d1d2-13d6-44d7-b622-ee7db5fc534b"/>
+    <managerType typeId="dec8d3e8-6321-450d-b398-846b6626237a" valueTypeId="a1d5f070-dc2c-4fc6-b01b-3a05a09256fb"/>
+  </producedTypes>
+  <name>БЗ_ВидыПрограмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДП. Виды программ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e651e670-d8ed-454a-8bf5-34faf42ace8d">
+    <name>Xilog</name>
+    <synonym>
+      <key>ru</key>
+      <value>Xilog (PGM)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c62132a2-17ef-490c-83e8-34f90e7d32e1">
+    <name>Homag_WoodWOP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Homag woodWOP (MPR)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

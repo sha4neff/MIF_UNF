@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="754822f4-395e-46dc-b719-eadbe10352da">
+  <producedTypes>
+    <objectType typeId="ecc097fe-7576-4d2c-84d7-dbcd822166c5" valueTypeId="957c46ba-7cbc-46ee-943e-d18400cb530a"/>
+    <refType typeId="e568bc08-d716-429d-b5bd-3df8564ecbeb" valueTypeId="42d73a95-7b6a-417e-8e60-2cdf47f0d63a"/>
+    <selectionType typeId="b470f37d-c88e-494f-a699-0258b991c645" valueTypeId="3c4d2ff1-7ff7-42fc-9926-6b2922f45e4c"/>
+    <listType typeId="983c89a6-8584-44f4-bd70-08d6ddf8ea4e" valueTypeId="f676fc9b-c1b4-4238-a61d-7920f47c0cbb"/>
+    <managerType typeId="8ee1acb6-f914-465a-8c56-a239d9fe28c5" valueTypeId="4dc21ccb-c4ff-47c6-b361-577141d04aa7"/>
+  </producedTypes>
+  <name>Комиссии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

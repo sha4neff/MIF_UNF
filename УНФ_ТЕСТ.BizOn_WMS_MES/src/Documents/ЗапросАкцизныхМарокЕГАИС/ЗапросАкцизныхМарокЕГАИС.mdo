@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3de3b082-2353-4d92-99c6-f4990c1a49a5">
+  <producedTypes>
+    <objectType typeId="d3fd73a9-9cef-4755-a546-3893762cc7c2" valueTypeId="0388ac08-2b30-4904-b70e-eeda8e4a1d5c"/>
+    <refType typeId="55f09e25-2958-491e-ba59-c572d991e528" valueTypeId="8fbad91e-e703-4232-ba6e-5a5a31e486d1"/>
+    <selectionType typeId="d51055cf-c749-460c-9c7e-05f5e712f947" valueTypeId="c6c8022b-3409-4086-bc51-f4144761c12e"/>
+    <listType typeId="2cbd35a9-d21d-4f8f-ae4f-669549bdc033" valueTypeId="28a5084f-f23e-457e-b753-6651a178827d"/>
+    <managerType typeId="224a6730-253e-413e-b975-a185b7b10eba" valueTypeId="407ab908-afce-4ea8-afdd-7099c0d51b50"/>
+  </producedTypes>
+  <name>ЗапросАкцизныхМарокЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="9ab0aeea-29fc-49f5-b0cf-fbb06b28010f">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеЗапросаАкцизныхМарокЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

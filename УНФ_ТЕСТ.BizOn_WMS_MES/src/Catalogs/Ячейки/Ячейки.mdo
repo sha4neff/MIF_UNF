@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9590d6a1-95ff-4385-b8d9-d53c409ce27d">
+  <producedTypes>
+    <objectType typeId="f172033d-b093-4bb6-a2d3-89a463044b4e" valueTypeId="9b765923-005e-4107-ab32-019bd9b4d07f"/>
+    <refType typeId="edba5689-dbd1-4d67-a285-9fbb104e1b6e" valueTypeId="1926ac6c-25fd-413f-b31c-ed7880dd991e"/>
+    <selectionType typeId="bdc8e48b-62d4-4b13-8c4a-aab59f4dbd3a" valueTypeId="ef0ecb80-fca5-461b-b157-4743b660a8c3"/>
+    <listType typeId="832491bc-8aa2-49ba-a918-b9afc36b2cfe" valueTypeId="2eaabc31-b174-4e9b-a239-b1216157f1da"/>
+    <managerType typeId="272a2777-910b-4eb1-a8bb-70d81c389ead" valueTypeId="59ea09be-d456-4176-bf11-82a40e057b39"/>
+  </producedTypes>
+  <name>Ячейки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="439e0e2a-873b-4449-8341-47ce4be5b3ef">
+    <name>БЗ_ШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Б з ШК</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8369d63-418b-4fa1-aa8a-8dd012c1b4c1">
+    <name>БЗ_Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.ПриходнаяНакладная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

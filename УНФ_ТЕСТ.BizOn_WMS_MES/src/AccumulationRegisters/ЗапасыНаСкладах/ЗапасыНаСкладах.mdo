@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="798bc822-f6d5-43b9-b565-dd8ab4f45500">
+  <producedTypes>
+    <selectionType typeId="02d0843d-1462-4e53-b5b7-ee750a5bf9e3" valueTypeId="0aa4d84b-dfab-4576-b464-f0270844a085"/>
+    <listType typeId="ad89bb11-1f8c-4fe8-ab7b-3c6cb6d07589" valueTypeId="d3869d01-1024-40ff-989e-349b1864bab7"/>
+    <managerType typeId="a18acf81-1cc3-4e1f-833a-71eb3fa8dfe1" valueTypeId="6efff63c-4aaa-4f0f-9cdb-fa7439c234d5"/>
+    <recordSetType typeId="3c328865-79cd-44b8-b273-3563d6610e60" valueTypeId="dae2b787-cf29-4747-96c9-f6f7aff85718"/>
+    <recordKeyType typeId="edca5e02-c5f8-4711-b86c-d13a567462fe" valueTypeId="4ec08cc9-972d-497b-af84-3381ac56acc3"/>
+    <recordType typeId="7aebd6b8-ea99-409c-a8b0-f680b64d72b0" valueTypeId="7c76bccd-2013-4a0d-b374-639da4cbd53a"/>
+  </producedTypes>
+  <name>ЗапасыНаСкладах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="ad868bfd-741c-4a8e-aaf6-cd5aa5dfb8f7">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="de12f75f-ecf5-46f0-ac8a-e323bd6b3fc8">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="a8211c46-991b-4202-b957-601c31d95f22">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="5a87ddc4-8e17-4df4-bf49-5dadb798dbd9">
+    <name>Ячейка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Ячейки</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="86405187-1b9d-4be1-839a-ba35569c8462">
+    <name>СтруктурнаяЕдиница</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктурныеЕдиницы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

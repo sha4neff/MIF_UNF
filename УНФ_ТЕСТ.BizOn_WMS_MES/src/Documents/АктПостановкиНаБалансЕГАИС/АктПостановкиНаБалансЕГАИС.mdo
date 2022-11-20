@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e6a10f31-53f9-44d1-a959-525d8030fe09">
+  <producedTypes>
+    <objectType typeId="d39ca001-bf5f-40c2-aaf5-143a01e7d60a" valueTypeId="eec96aeb-5ffc-4cc5-9cb9-864704279391"/>
+    <refType typeId="4c7b299f-33ce-46b0-ae2b-ba744819e084" valueTypeId="f68ac70c-35fc-4a08-819e-d47ac39884bb"/>
+    <selectionType typeId="ee851c0d-ea74-4b0f-b3f9-73ce43d24272" valueTypeId="15c0c4d7-ae6b-45fd-9a05-2ee659de510a"/>
+    <listType typeId="13c55927-27fc-41db-aa28-195b94b5df6b" valueTypeId="25748b71-97ef-44e1-89d8-9bfd22abe882"/>
+    <managerType typeId="f1dd0c65-fc57-4fc4-a0d5-af88f1c1ddb4" valueTypeId="c2f4a17e-2f21-435b-a2b8-e541ae6b6a47"/>
+  </producedTypes>
+  <name>АктПостановкиНаБалансЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="3a79e57f-fd7b-46c8-aaf1-c0346d47be98">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеАктаПостановкиНаБалансЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

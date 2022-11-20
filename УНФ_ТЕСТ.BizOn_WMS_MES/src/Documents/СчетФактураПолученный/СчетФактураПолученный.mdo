@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1d6b4f78-83b7-4030-b4af-a0bce06f6b74">
+  <producedTypes>
+    <objectType typeId="4273bb68-4e46-4649-9357-f5b5318c31b0" valueTypeId="b61f719f-745d-432e-a58e-66d7689e9db2"/>
+    <refType typeId="1c277f2a-62a9-4adc-abe9-96d139733bcb" valueTypeId="3d2edadb-cf17-4d85-89eb-ed2e186c66b1"/>
+    <selectionType typeId="a02529e6-476f-4526-80d9-0b62da3ac5da" valueTypeId="67fd21b1-0bea-45af-a9ca-d95fd25e1caf"/>
+    <listType typeId="cc1aeddc-a725-45d9-b169-b3d109836a8c" valueTypeId="dae3c6d3-8df4-4742-a822-151d9217537b"/>
+    <managerType typeId="2dd23cff-c503-488b-9dec-c0b7018c5f0d" valueTypeId="6ed43553-1fe2-458f-a634-ae7b3bf8f110"/>
+  </producedTypes>
+  <name>СчетФактураПолученный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="2ee3033e-0822-4a64-b952-a9878240825d">
+    <name>УдалитьДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="0e056394-c08c-469c-863d-54f324fa08b5">
+    <producedTypes>
+      <objectType typeId="5870418a-3e02-4252-802f-e93c76d8c88a" valueTypeId="4a1755d7-50ec-4d03-a92e-5a55abe76bdd"/>
+      <rowType typeId="24aa1aee-bd1d-4f8e-b6b9-c22120bc4e13" valueTypeId="ab84f9cd-66b1-460f-9a77-912f0dc46a3d"/>
+    </producedTypes>
+    <name>ДокументыОснования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="756564f7-dc3a-440b-9e79-d2ea0f02ded6">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67a994c9-4ff3-42d4-bfc7-2bf80b6309c2">
+  <producedTypes>
+    <selectionType typeId="a2500ce8-c3b9-441c-8b1f-85ea064243b9" valueTypeId="3857d64c-37e7-48ec-8daa-62013ee0ea6f"/>
+    <listType typeId="7b771a4b-7882-480d-9c08-3a6d07d39ad7" valueTypeId="44a2461e-b5e1-41b7-9e13-195f2635d47d"/>
+    <managerType typeId="5128ed45-e409-4f5c-9454-b93841453c08" valueTypeId="ff3fd0b6-06c7-49d9-bc00-9908a6d9fe2b"/>
+    <recordSetType typeId="29818370-32f4-4203-9168-a5e2f8f3c2a4" valueTypeId="b2d1f8f5-0f3e-4b90-aa73-e7820e877906"/>
+    <recordKeyType typeId="614292f5-862e-4d5f-8d6d-5f7c32e279f7" valueTypeId="6a43540f-e710-418a-9353-8ca1958f235b"/>
+    <recordType typeId="53b1f9fa-c9e9-4ad2-99a3-f066d17a5a9c" valueTypeId="b79282e3-dfbf-4549-ad66-029f7b6ca075"/>
+    <recordManagerType typeId="2479cd63-9f33-4721-8e50-28b92b9f1460" valueTypeId="76cfd2dd-e405-4d07-9c72-f594a33271d9"/>
+  </producedTypes>
+  <name>БЗ_TSDAPI_Сессии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Б з TSDAPI сессии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b082fbac-efc1-4427-8e24-b8853ce77b70">
+    <name>ПараметрыСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры сессии</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6f30a3a7-3ee7-4cbe-8b31-67c9d5f3da5f">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_Сотрудники_ТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e5d5f7c7-11d3-4e75-8ad1-ce6f36ad5364">
+    <name>ТСДНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСДНомер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="fa5bd35b-10a5-49dc-80f5-ebff3e60c25e">
+    <name>ТСДМодель</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСДМодель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="9faf12fa-ed57-4479-b4f5-f84249d14c16">
+    <name>ЗапросВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="82b374fa-1910-4aeb-a631-7a8ed0c0282b">
+    <name>Сессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

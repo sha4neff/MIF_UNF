@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02655a8c-ebb0-4ace-9f08-65384deabb17">
+  <name>БЗ_ШтрихКодирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрих кодирование</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

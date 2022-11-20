@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4efe1850-4844-4b06-99a7-f3714bb463e7">
+  <producedTypes>
+    <objectType typeId="ba0e2302-4424-43ca-8d02-a9c6e07a4f6b" valueTypeId="55b45076-7fef-48ec-85ef-479e7471ddb5"/>
+    <refType typeId="b83307b6-6441-4542-bb6e-a4b77b051812" valueTypeId="baba90f2-a24c-46d7-8d42-4e68510ef0c3"/>
+    <selectionType typeId="e5cb1afa-5178-4df5-a7f0-78cafbee169a" valueTypeId="6a7170e0-1d46-4d10-95f4-e2cec9b1cf80"/>
+    <listType typeId="4a6a62cc-3431-4af2-b933-767750f4af80" valueTypeId="02cc0ffb-4099-47e7-8c64-dff7804ea0ee"/>
+    <managerType typeId="f5e2df09-0c6a-4ec8-8094-2fff68faffc4" valueTypeId="50d203df-21ba-4d5a-956a-8100c631c89b"/>
+  </producedTypes>
+  <name>МаршрутныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="49275beb-b9e3-412f-a48d-abae8f295e48">
+    <producedTypes>
+      <objectType typeId="97779ebb-3a64-4b4d-a0bf-92f38e35ed3a" valueTypeId="2ea71958-0683-4a8a-ab38-fd5ad71d8173"/>
+      <rowType typeId="58ec301c-e58d-4bb9-8dae-9067839ffb3b" valueTypeId="27fe26b9-8646-424d-9060-9f46c129bdff"/>
+    </producedTypes>
+    <name>Заказы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="804b83ed-da3a-489f-85a4-28e94d3ce669">
+      <name>Заказ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.ЗаказПокупателя</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

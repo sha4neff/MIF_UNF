@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3b567159-e5b6-44f0-962f-cd6dc5d9ce78">
+  <producedTypes>
+    <objectType typeId="9ac4cc6f-3fcb-45fd-a2ca-8def85eef1f9" valueTypeId="28d3b5ce-e405-4713-916a-c7affeca5427"/>
+    <refType typeId="40b37f47-4824-4547-9612-b706e97f9b7b" valueTypeId="2dbbdedf-cb9e-4488-b71c-c399f4f4ca40"/>
+    <selectionType typeId="3ac8a494-4dd5-49e4-a2e4-db427051530d" valueTypeId="e9731296-1ca5-4538-9002-13ad4e9e7f4b"/>
+    <listType typeId="62d8c171-ca1a-478f-99a9-7a99a338ba47" valueTypeId="33e4879b-6e93-40ba-938c-9785d1444ec5"/>
+    <managerType typeId="88bf62c8-11f3-4e99-9220-ec827fe0770f" valueTypeId="886c7b82-bcc2-4dd5-a25d-0472478a18cf"/>
+  </producedTypes>
+  <name>Событие</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="6be37106-44ad-44af-b89f-1a7f946a4f41">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="a9220308-8ae0-443d-ae9b-02126eaf94f4">
+    <name>ТипСобытия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыСобытий</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="115011bd-d4f9-40a6-8f67-cb22ffc34856">
+    <producedTypes>
+      <objectType typeId="604e24c5-8ebe-4917-9fa9-1cdd1ebc864e" valueTypeId="1cecb120-0a1a-492c-8e4f-e592fcdd548e"/>
+      <rowType typeId="52dc27d9-35a9-4833-b419-f2130ad3d138" valueTypeId="7453e166-7bdf-464b-babf-79a1c653ba52"/>
+    </producedTypes>
+    <name>ДокументыОснования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="88d433fd-edc8-43df-afcd-7b95250fdf07">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

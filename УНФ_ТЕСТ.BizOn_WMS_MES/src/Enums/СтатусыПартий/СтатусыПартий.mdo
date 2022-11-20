@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0141c8a7-3bcf-45e3-806f-2e999e3b6e75">
+  <producedTypes>
+    <refType typeId="eb1cb4a0-7820-4aa3-a469-b99f88cb5ce3" valueTypeId="92bdf7c1-6edc-4ee5-ae8d-71595f75780c"/>
+    <listType typeId="398c2da9-49c9-443d-86c1-af3063c5f8f1" valueTypeId="3a63c4c1-71b9-4cec-b001-945b5d9622f1"/>
+    <managerType typeId="a0a98114-13ca-4af4-a7d4-d9e899891578" valueTypeId="28dc3eea-2b3a-4e2b-8c3b-39e871323396"/>
+  </producedTypes>
+  <name>СтатусыПартий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="11e297ab-e423-45d5-97f1-b2c3cc18b6d5">
+    <name>ДавальческоеСырье</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a029064e-31a2-43bb-b730-32335eb2d331">
+    <name>СобственныеЗапасы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

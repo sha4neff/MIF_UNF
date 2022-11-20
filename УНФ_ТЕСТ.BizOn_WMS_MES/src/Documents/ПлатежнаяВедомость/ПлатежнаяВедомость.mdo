@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09d5cf17-aee4-4f9f-ad8c-3c34be2fa768">
+  <producedTypes>
+    <objectType typeId="a4f9f3a8-7d51-43d6-b1f6-e0e8879c970a" valueTypeId="b39ec1c5-9acc-4e11-bb3b-6bfd93316c16"/>
+    <refType typeId="3a002ed8-14b4-45b6-af2f-d269df9dca87" valueTypeId="d4680937-c963-4405-aad3-d40aaf591d0c"/>
+    <selectionType typeId="70a6f2d8-39dc-4d97-b51c-a223c39cea3e" valueTypeId="87ecabf6-131f-4c8b-85cc-94ae9942b7a7"/>
+    <listType typeId="08a218f1-1617-43ba-88bb-101746b0b1fa" valueTypeId="5de3ef32-849b-4774-b686-166354738fe2"/>
+    <managerType typeId="df113edd-69d7-4741-a799-505d78e7b98b" valueTypeId="5d1ceaaf-0301-43cc-ae36-94105420a7c5"/>
+  </producedTypes>
+  <name>ПлатежнаяВедомость</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

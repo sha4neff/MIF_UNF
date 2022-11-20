@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49183ff0-853a-41db-9a60-e1d9f08716ab">
+  <producedTypes>
+    <objectType typeId="e614d4d8-9d75-41e5-b9f4-9757409308b5" valueTypeId="3ae5a1f0-7c33-4ac7-b304-323b6b8680b7"/>
+    <refType typeId="34bf269e-f7c8-4933-8c34-2231f69ebdd9" valueTypeId="23f6f2c9-3896-4561-97fa-6c6977774b7a"/>
+    <selectionType typeId="833ba238-9f2e-40ec-a707-1e3b3d1d21bd" valueTypeId="f8f28103-e4bf-4d0e-805d-7d23c8ca5b4d"/>
+    <listType typeId="34f90ec2-20ba-4c6f-83fb-f84e4314c76e" valueTypeId="0c569d24-26d1-4c71-bc4e-10ea3e40783e"/>
+    <managerType typeId="9bd10bec-a451-488d-ab4a-7ca9860ecb6e" valueTypeId="0a5effcb-a8d3-4ea6-aaf9-555bf406ea9a"/>
+  </producedTypes>
+  <name>СверкаВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

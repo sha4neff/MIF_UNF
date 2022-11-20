@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b84b56a9-2158-4f78-9f22-1f7448e8be18">
+  <producedTypes>
+    <objectType typeId="c024cca2-ac10-4c7f-9971-9bdf81dc7011" valueTypeId="50ec8744-e1c6-4723-9cf8-d9d9b3cd5db7"/>
+    <managerType typeId="5875f7f0-526a-4520-999a-569d15fdc681" valueTypeId="d3ff82c9-0829-450f-be23-995b24ede23f"/>
+  </producedTypes>
+  <name>СверкаОстатков_WMS_УНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. Сверка остатков WMS - УНФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СверкаОстатков_WMS_УНФ.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="2153e994-a037-4519-bbad-29f285d43805">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1d59cbe8-83ab-4159-8c0d-a48ca6bce676">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="09d11440-445d-4ef2-a7ed-d34a28c7f895">
+    <name>ДетализацияПоДокументам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация по документам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f819c14a-8e35-4a05-835a-9477104be150">
+    <name>ТолькоРасхожденияОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только расхождения остатков</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="db20d846-e8e2-44d2-a8b6-d3bea0420a68">
+    <name>ИгнорироватьНеЗавершеннуюОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать не завершенную отгрузку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8af0c9f7-ad53-4f4a-91b6-c9933346d3ee">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c38b7733-d97d-4211-97bc-21fa4b45a4af">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4ec8335c-d738-45ef-9466-ee8c506ca614">
+    <name>Движение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

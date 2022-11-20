@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ccc645f2-6c59-4f5b-bc51-c5ed1b658b47">
+  <producedTypes>
+    <refType typeId="34d20d0b-cb5f-4b89-938a-aabbb25da14d" valueTypeId="4205131c-efd0-4a69-9e2b-7d6ff4fd459d"/>
+    <listType typeId="7a9caa48-7ff1-4c60-868c-32184845b276" valueTypeId="b6f6c4b6-02ce-407c-af04-1fc2be84e6b1"/>
+    <managerType typeId="b3b288e6-2b06-4685-aa8a-f5840bf566d7" valueTypeId="0d85826f-064e-472f-8031-e14991538e1d"/>
+  </producedTypes>
+  <name>ВидыОперацийРасходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="36abbe69-38ec-49a4-91d9-4b6f3f4ab6a9">
+    <name>ВозвратСОтветХранения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0f14aad1-0e05-49fd-ab1f-ed8b075c0b4e">
+    <name>ВозвратКомитенту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="782626e9-e3ba-40bc-9b03-660c51be943c">
+    <name>ВозвратПоставщику</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8c94f671-29dc-4b67-a2a2-5f8c210d1a66">
+    <name>ВозвратИзПереработки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

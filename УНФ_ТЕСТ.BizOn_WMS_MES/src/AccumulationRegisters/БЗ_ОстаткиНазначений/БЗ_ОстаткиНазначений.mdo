@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5deae4a-f675-4ab2-a66e-24c4b3d8a8ed">
+  <producedTypes>
+    <selectionType typeId="11a95c3d-0ea3-4ee5-9292-ee88601dd76a" valueTypeId="95681cd1-372e-41c0-84b2-f293c7e1e4c4"/>
+    <listType typeId="94ce2097-2fc6-4205-bf99-9d0f6872ce02" valueTypeId="0c8eb07a-7fb6-434c-9315-a49d93790de5"/>
+    <managerType typeId="89d74ad5-ce66-46b6-a49b-ead2d2064e4d" valueTypeId="6acab6f4-b0e0-4c42-982c-8dc4909808dd"/>
+    <recordSetType typeId="86cb32f9-733d-41e4-94d4-c23d227d591c" valueTypeId="e0a21afc-7227-4618-96c1-eff56f9dc7db"/>
+    <recordKeyType typeId="258988f3-3459-45ea-b49a-ea925b480d6f" valueTypeId="5f46fa4e-a1fb-4c71-894d-c6536457b33a"/>
+    <recordType typeId="bdbd6036-999a-43a9-b54a-d7eddce33677" valueTypeId="a85dc180-283b-4b1a-a945-24e9d36b5081"/>
+  </producedTypes>
+  <name>БЗ_ОстаткиНазначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>остатки назначений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="71931fe5-11b8-4c0e-bd9e-7b7511452024">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2dc0a9fc-2205-4796-bd7d-6c178e8f84fa">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6f25b326-c316-4b4b-90ca-70982265eaad">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cc9f0fc9-3510-4038-ac63-4efa1a7f4e6f">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1c0304ed-e4a9-4b46-b3ee-d2522c0d21db">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_Назначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="92a8d75b-0cb3-447e-9251-9cac9b0d2ddb">
+    <name>ЗаказНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на производство</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

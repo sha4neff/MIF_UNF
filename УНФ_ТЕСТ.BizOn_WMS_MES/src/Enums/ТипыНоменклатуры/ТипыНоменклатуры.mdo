@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31f9d8b9-3a49-4356-b3d6-702cbe98bc65">
+  <producedTypes>
+    <refType typeId="7e22a72e-0548-456a-a3a8-f7f9de10acc9" valueTypeId="3bf3c82c-64ea-41d0-bdee-fd31dbf98f32"/>
+    <listType typeId="05fdedd3-bc02-4b6f-904c-90aa59224a1b" valueTypeId="0fe1686d-cdfd-44e1-876b-6045af159b43"/>
+    <managerType typeId="22840547-e270-45a9-a957-c9ceb088e3df" valueTypeId="9b1cad71-911f-4a08-aee0-251633fd8e2c"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6aa9bf59-6ebc-44b8-acdd-1aa12af87c1b">
+    <name>Запас</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3cd20874-ee16-42f8-b463-2381e4676490">
+    <name>Услуга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="55d56773-e6fa-4507-8bc4-27ad983b887e">
+    <name>Операция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="aea9cc75-4a90-42c1-b636-dfae3afdc328">
+    <name>ПодарочныйСертификат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="06e96c5b-209b-45ac-b4cf-182e78c1bb0e">
+    <name>Работа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bf2e1678-6a79-4f2c-aae0-ab6cff19beec">
+    <name>ВидРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

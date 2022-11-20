@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d0b492f-4915-43db-a111-3c7c674fd155">
+  <producedTypes>
+    <objectType typeId="d2e18ecc-e5d2-424f-8aed-24c4b33f469f" valueTypeId="acacd98f-35e0-4e2f-b1be-a8c94d8d8344"/>
+    <refType typeId="2433d694-c91e-43e4-8a6b-768b1945271d" valueTypeId="3af2b034-5d44-418a-b025-d0592828778b"/>
+    <selectionType typeId="df0aa028-58a7-4f28-ac17-ed02b854e13c" valueTypeId="5a65345f-6ffa-4038-91e3-41aac4da241d"/>
+    <listType typeId="6cbf0943-033d-43f9-bb8d-f280674a3395" valueTypeId="37614308-bcf6-4855-8a79-fafd901bebd2"/>
+    <managerType typeId="6c5062d2-683e-4c95-95a4-2812646c8ca9" valueTypeId="b862a5ed-90cf-4abe-b8a1-2d6c7e7833ed"/>
+  </producedTypes>
+  <name>ЧекККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="f2b5a355-d09c-4577-a782-af61bdf0162c">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f9173f3d-5e37-401e-b751-78bcf0966e35">
+    <name>КассоваяСмена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ОтчетОРозничныхПродажах</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="a3cf818e-9169-426d-af21-08a184f5a1fd">
+    <producedTypes>
+      <objectType typeId="470cea8a-d041-4ebf-b65d-8fafa33bf9fd" valueTypeId="4eb1bf00-5c3e-4b7d-8ea8-237da3a6a3e9"/>
+      <rowType typeId="4319c41b-2833-4484-a04c-4eecadc42a1e" valueTypeId="3476a523-153d-4600-8ba5-e99b0d5ca538"/>
+    </producedTypes>
+    <name>Запасы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="a1c2b735-5efc-4344-ad40-71e45a027ddc">
+      <name>Заказ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.ЗаказПокупателя</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

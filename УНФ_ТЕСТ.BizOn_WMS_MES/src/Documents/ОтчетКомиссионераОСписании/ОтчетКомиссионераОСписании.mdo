@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="021fa26d-88ad-4b6c-bf0f-3b80f0c10099">
+  <producedTypes>
+    <objectType typeId="ba1fb4e8-f3a8-43a4-8a44-7b00bdba76e8" valueTypeId="af8c2c3e-6ece-4b9a-87d4-fd64bd3a8ff7"/>
+    <refType typeId="a6ca00ca-56a4-42a9-918a-f178f09b7062" valueTypeId="1264ba11-5448-4a47-bb9b-4cc254069b14"/>
+    <selectionType typeId="5dc4db50-7dfa-4190-9114-23cc6dc9c400" valueTypeId="0d555558-0f4f-4405-8f70-dd26bf8cf9d1"/>
+    <listType typeId="fbc2e877-260c-4bb6-b106-16e57a33ecb8" valueTypeId="3c534eb7-a466-41b5-ac46-879375cfa494"/>
+    <managerType typeId="d47d24d7-356d-46ef-8569-960cd677f584" valueTypeId="aeb05231-8084-4a98-9166-64b665dc0333"/>
+  </producedTypes>
+  <name>ОтчетКомиссионераОСписании</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="6f67fb51-c991-4929-81f6-d95b3c45069e">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9331e3cd-dd6e-4485-8e60-34b2497a26e5">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

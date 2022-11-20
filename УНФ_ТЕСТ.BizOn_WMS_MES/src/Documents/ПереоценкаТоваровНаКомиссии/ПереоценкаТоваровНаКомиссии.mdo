@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cfc4021c-7ab4-433c-a897-0aaf6c45bcc2">
+  <producedTypes>
+    <objectType typeId="49fe82d6-7b60-4b4f-a104-6859d1e5869b" valueTypeId="5e61abc8-9215-48a0-ba06-5f229314da70"/>
+    <refType typeId="62b177b5-5f7a-4cec-a50b-0205d19db34e" valueTypeId="e243ff9e-e2b3-4056-a4fa-bbf47f26e433"/>
+    <selectionType typeId="20bb8d0e-f49b-44a8-94f6-ffe5cdcb62ed" valueTypeId="0aa5b93d-3205-4913-88db-6ecb9fb67bd9"/>
+    <listType typeId="6b868bb7-ae1c-4aa8-82c4-d23564cf7358" valueTypeId="14a02e41-1eb9-4931-8144-c5675ca1bc15"/>
+    <managerType typeId="cfc46530-fe5c-4cb4-b019-a532e3ee4381" valueTypeId="c21343bb-bf22-4081-88e1-ecbd391f5b9e"/>
+  </producedTypes>
+  <name>ПереоценкаТоваровНаКомиссии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="2005dd4c-3b9c-4ea6-9ce1-dd16a904ff78">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="740ad0ad-6099-45e4-a005-65766839eafd">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

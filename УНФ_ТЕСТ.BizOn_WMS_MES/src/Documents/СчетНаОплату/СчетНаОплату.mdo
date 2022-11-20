@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a5beae1-75be-4c85-8fa6-52f74a480161">
+  <producedTypes>
+    <objectType typeId="49f477e1-5ba4-4c7f-b7a7-f099959c2d86" valueTypeId="b235b328-1bf2-474f-aa5c-03e67d243451"/>
+    <refType typeId="eed96669-9c65-4bb1-9e99-6e8b0fc7808d" valueTypeId="0049ac9b-b490-4dfc-bddd-1d6329050a7a"/>
+    <selectionType typeId="ef4b1758-9d2b-4637-b399-8a8764a48e74" valueTypeId="319eb886-6f6d-4ae5-86bc-451a45864b96"/>
+    <listType typeId="06eb046e-7100-4378-99fe-d3bfc6a905ae" valueTypeId="d2dfaada-fd8b-4a6d-a200-d9f25074c35b"/>
+    <managerType typeId="bf99e13e-0e5e-4e4c-9aab-19688b519766" valueTypeId="2d844a55-e0a5-4df5-b83e-59c30a9f81fa"/>
+  </producedTypes>
+  <name>СчетНаОплату</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="4a21270e-0b75-4285-88cd-d4e71f0a4fbb">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="aeaa13a6-ed24-45ba-b9e6-866ce494bf47">
+    <name>Событие</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.Событие</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <commands uuid="1d8ee5ce-3464-4316-a960-3e9308cf95bb">
+    <name>СоздатьИзНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+    </extension>
+    <group>FormNavigationPanelSeeAlso</group>
+  </commands>
+</mdclass:Document>

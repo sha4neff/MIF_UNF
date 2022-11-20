@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d529b58-f873-43d1-b43c-f7c7fb430a98">
+  <name>БЗ_ПроводитьБезКонтроляОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проводить без контроля остатков</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

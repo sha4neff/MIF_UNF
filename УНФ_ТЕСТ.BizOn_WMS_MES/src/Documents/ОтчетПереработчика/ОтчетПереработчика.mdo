@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ee9dbd2c-2eb4-4395-9819-145250d435cf">
+  <producedTypes>
+    <objectType typeId="6aee13b4-4c8c-4a87-b651-c35e73eaf7a2" valueTypeId="6c0ea846-bc79-48be-b68f-18c0e53f494b"/>
+    <refType typeId="b4c00356-d4d7-42be-a483-93ad91e3d7ee" valueTypeId="ba6976af-a03e-4b48-a5e0-aa7b50b82f41"/>
+    <selectionType typeId="e72ba9da-45db-4149-83fe-b028f7cf765e" valueTypeId="5930ec49-cad4-4a4b-b53b-03ac91777e43"/>
+    <listType typeId="90e06e46-ba7e-45fc-ad76-883feb6a65cc" valueTypeId="ee52e20d-a57c-4630-859d-c4ae50c1a45d"/>
+    <managerType typeId="2f5fb59e-d825-456b-b8f8-1c812474b047" valueTypeId="5b588d8c-3882-4a1c-a8a3-a95afb77c6a9"/>
+  </producedTypes>
+  <name>ОтчетПереработчика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="0f624a28-ba50-499b-a307-3fc5334dd6ab">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПоставщику</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b39a6ca9-1798-4dae-8f0c-9b14e96c36d0">
+    <name>ЗаказПокупателя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="ccbe0135-c1c2-4385-b46b-f7893fe50a39">
+    <producedTypes>
+      <objectType typeId="eeaafb9c-c07e-4a43-ad17-46b3959f9d52" valueTypeId="a72631c4-b244-4304-8d34-57cb692d95ce"/>
+      <rowType typeId="44435bed-402b-4ae4-ae89-9a4f0004133f" valueTypeId="9e446708-7eaa-4ac0-9e51-c189011cb446"/>
+    </producedTypes>
+    <name>Предоплата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="dc8fcfa1-80f0-4369-877b-88e5b7506d99">
+      <name>Документ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

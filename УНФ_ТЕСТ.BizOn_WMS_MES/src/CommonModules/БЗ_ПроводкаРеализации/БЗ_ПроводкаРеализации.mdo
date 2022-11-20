@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eab36ad4-78e4-46f9-bfb2-624fd5d86b7f">
+  <name>БЗ_ПроводкаРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Б з проводка реализации</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

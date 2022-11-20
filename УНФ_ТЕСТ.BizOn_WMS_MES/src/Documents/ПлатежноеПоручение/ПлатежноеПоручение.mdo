@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b5954f77-0fca-44a1-b229-877ea034d6f2">
+  <producedTypes>
+    <objectType typeId="ab94784e-147c-4dcc-a555-dd0292f8d205" valueTypeId="5696f3cc-b1a9-4abd-8fda-c04a40ee80a8"/>
+    <refType typeId="f76b4e55-1240-4a95-b0d9-58134e79b332" valueTypeId="ae1f444a-3b61-436d-b5a0-d57a9b6887f9"/>
+    <selectionType typeId="dba600ab-8a94-4bc6-ba10-efeebde3ac8d" valueTypeId="96124023-bb45-4dec-804a-39cbd7521835"/>
+    <listType typeId="5f0cc004-a7f2-4774-beaa-8bddadd62018" valueTypeId="8790592b-7ce9-4e6f-a719-2085dd9a38ef"/>
+    <managerType typeId="f1262f13-529e-45e3-a4f1-d57323ba8a39" valueTypeId="d306fa39-1843-4972-87f5-9799f1ff34ea"/>
+  </producedTypes>
+  <name>ПлатежноеПоручение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="a6d71f74-fae1-4b23-9879-6b20305db3dd">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

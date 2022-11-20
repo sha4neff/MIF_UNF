@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8245a6f-646d-46f4-bf74-719363ef65bf">
+  <producedTypes>
+    <refType typeId="7c787b2f-1177-4ea0-9652-3a8a69c6a073" valueTypeId="bc9b42d9-00a7-4a04-8f16-02aee958b703"/>
+    <listType typeId="72792a39-9645-449a-9181-d187ebd49933" valueTypeId="5c6c3b72-26c0-4133-934a-338d57936626"/>
+    <managerType typeId="1d0828fa-6572-4857-95fe-407d14792bcb" valueTypeId="c96d1a4b-20b9-4edb-b825-4be7070ae498"/>
+  </producedTypes>
+  <name>БЗ_ТСД_Операции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Б з ТСД операции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aeef931b-cd72-4c8f-82a6-ea16455246c8">
+    <name>ДокументПриемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ приемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca3d9e72-2d3a-48ec-a214-7965cf1121b4">
+    <name>ДокументПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ede69d40-c00c-461e-a523-4ee5c7c42aa4">
+    <name>Инвентаризация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5aaca40e-21ab-4549-a7d5-e2f3edf95b5d">
+    <name>ОстаткиПартии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки партии</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

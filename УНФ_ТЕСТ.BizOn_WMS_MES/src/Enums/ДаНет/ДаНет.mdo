@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="daf9adbb-3691-4236-b116-7acd377e16a9">
+  <producedTypes>
+    <refType typeId="1dbacd96-4445-4577-bdaf-fa0f614f108d" valueTypeId="e7917d3a-04b5-4ecf-b3eb-c474df911f54"/>
+    <listType typeId="b3d0eaab-b33d-41d3-bac7-606fb510adbf" valueTypeId="70cf44e6-01c1-404d-bc22-fbf3ceebfaef"/>
+    <managerType typeId="387b0cf7-48b1-4b96-b2ad-ebd451fa52e2" valueTypeId="61bf3732-27f1-40e9-ac0e-fcaab280d3b3"/>
+  </producedTypes>
+  <name>ДаНет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="95dabcf1-e8ed-49b7-98a0-73a038ab5204">
+    <name>Нет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a604076e-fc85-4ae3-bba7-8827f5dcc929">
+    <name>Да</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

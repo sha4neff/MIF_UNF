@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="807f9c98-a031-4857-b6e0-c709d7671d21">
+  <producedTypes>
+    <objectType typeId="05340cf0-64ca-4f52-a85c-cc1de6a023b3" valueTypeId="60d24f8e-ff8d-473c-83da-45664d2a018a"/>
+    <refType typeId="621e1768-6af6-4630-825e-c58d4812d4ef" valueTypeId="0e485778-244b-4317-beef-07610e2db15e"/>
+    <selectionType typeId="0bfcfb4b-1048-47be-bf1f-091abe4099e9" valueTypeId="c4772275-499b-4d64-a04c-758272d8c2c0"/>
+    <listType typeId="4ed819a7-a259-4879-b710-1e2cac073ea7" valueTypeId="2233d16a-b4ed-41ed-ad0c-0692c3966c3e"/>
+    <managerType typeId="6b9d0550-cfcf-41e7-ae53-bb5e67c00710" valueTypeId="4825f4b6-2e77-45ac-943a-65b44cbc17b2"/>
+  </producedTypes>
+  <name>ЗадачаСотрудника</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="c10e7553-bad2-44a9-8134-df1fd25491b4">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеЗадачи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

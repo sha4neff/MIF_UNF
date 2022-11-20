@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b61cfc0d-c4d8-4011-a0b5-3fb94cc507fd">
+  <producedTypes>
+    <refType typeId="5421aca0-9e86-46ad-bbfb-1e1dcf99960d" valueTypeId="f470d33a-c582-4989-82ee-4faecea3276f"/>
+    <listType typeId="9b359078-2483-4922-bc44-6e23ae9cc0cd" valueTypeId="eda034b0-8e1a-492f-b903-bf41d8ae1de5"/>
+    <managerType typeId="a40384fc-43db-43af-ad78-7dfdda2e0889" valueTypeId="9cca5138-e991-4d50-a840-de8a8479c29c"/>
+  </producedTypes>
+  <name>ВидыЗавершенияПовторовРасписания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

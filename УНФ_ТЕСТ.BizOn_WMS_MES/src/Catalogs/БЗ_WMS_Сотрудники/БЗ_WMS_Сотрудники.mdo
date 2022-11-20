@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcf9ce94-43cd-4bd9-847d-c842d0c8fd74">
+  <producedTypes>
+    <objectType typeId="fd49bc3e-8692-461c-9023-17ed8cf2ce18" valueTypeId="b5af81d0-ee0f-43a1-b1b8-1043b0d06629"/>
+    <refType typeId="ccb2a817-01a0-4770-83c7-42dd2ca957ce" valueTypeId="f3e5cbfe-73fd-418d-8787-05eee62e33a8"/>
+    <selectionType typeId="b0d7f84c-7834-4fba-abb1-efee5d37ad7d" valueTypeId="3d21eb14-ddc2-4edf-a1bd-779b6e9adc2b"/>
+    <listType typeId="01ad2216-e850-4bd7-9bba-ac9aa7531b58" valueTypeId="1a0d36f3-6473-46e8-85af-002bd474aea9"/>
+    <managerType typeId="ec7c182d-a411-4f6d-8b0e-480f4acb5bb3" valueTypeId="60571204-dc7b-49f9-9cb4-5d38a698c184"/>
+  </producedTypes>
+  <name>БЗ_WMS_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>БЗ. WMS сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БЗ_WMS_Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БЗ_WMS_Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="75a04090-7ee7-4fca-9f68-c1e5967399fb">
+    <name>GUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>GUID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

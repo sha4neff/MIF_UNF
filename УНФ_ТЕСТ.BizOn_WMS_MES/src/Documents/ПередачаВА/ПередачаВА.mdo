@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c07b4564-7b8a-4f8a-ba45-61e6afeca3e6">
+  <producedTypes>
+    <objectType typeId="818ffaf4-a2e1-46d0-922d-4d071bc7fd67" valueTypeId="3fca2e5f-cd72-48bf-91dd-a9ef83ac4aed"/>
+    <refType typeId="b79ec8b8-6396-4f50-b0fb-feceb1bcf996" valueTypeId="0f0186f8-0ef4-4234-9a56-ce3b5b763db3"/>
+    <selectionType typeId="16afd640-935c-4c92-b3cd-5cbc23fab451" valueTypeId="74f67b7d-5689-49d9-8ed1-f3e7441e6a89"/>
+    <listType typeId="07cb938a-7ecf-4dc3-88de-9aad1fd4bdf5" valueTypeId="394d4e36-d871-4097-9db8-4ac27311f55c"/>
+    <managerType typeId="ca7a1080-1fed-4ba2-82b3-e67ed74ecbc7" valueTypeId="471bdd00-1c45-40d0-8213-bcaa30b1dd65"/>
+  </producedTypes>
+  <name>ПередачаВА</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="8db387c8-1e77-4cbc-ab01-08dbaacfd9fe">
+    <producedTypes>
+      <objectType typeId="369cda93-de48-47ce-b9f3-872e085aa384" valueTypeId="49814a68-df3f-4bd2-a60a-a794955ec540"/>
+      <rowType typeId="49dca281-5bba-49d5-a008-076b443094a1" valueTypeId="651fc9d7-5b8d-4fa2-8ee7-7015b33a5391"/>
+    </producedTypes>
+    <name>Предоплата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="1fe5cfc4-3596-427c-b50b-8f75be48dc65">
+      <name>Документ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
