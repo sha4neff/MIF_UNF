@@ -2321,6 +2321,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>РучноеРаспределение</segments>
+          </dataPath>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <extendedTooltip>
             <name>РучноеРаспределениеРасширеннаяПодсказка</name>
@@ -5190,6 +5193,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>РаспределениеЗапасов</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <items xsi:type="form:FormField">
               <name>РаспределениеЗапасовНомерСтроки</name>
@@ -5199,6 +5205,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.НомерСтроки</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовНомерСтрокиРасширеннаяПодсказка</name>
                 <id>661</id>
@@ -5252,6 +5261,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>РаспределениеЗапасов.НоменклатураПродукция</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>РаспределениеЗапасовНоменклатураПродукцияРасширеннаяПодсказка</name>
                   <id>664</id>
@@ -5302,6 +5314,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>РаспределениеЗапасов.ХарактеристикаПродукция</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>РаспределениеЗапасовХарактеристикаПродукцияРасширеннаяПодсказка</name>
                   <id>693</id>
@@ -5348,6 +5363,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>РаспределениеЗапасов.СпецификацияПродукция</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>РаспределениеЗапасовСпецификацияПродукцияРасширеннаяПодсказка</name>
                   <id>696</id>
@@ -5426,6 +5444,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.Этап</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовЭтапРасширеннаяПодсказка</name>
                 <id>1000</id>
@@ -5479,6 +5500,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.Номенклатура</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовНоменклатураРасширеннаяПодсказка</name>
                 <id>699</id>
@@ -5557,6 +5581,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.Характеристика</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовХарактеристикаРасширеннаяПодсказка</name>
                 <id>667</id>
@@ -5611,6 +5638,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.Партия</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовПартияРасширеннаяПодсказка</name>
                 <id>682</id>
@@ -5702,6 +5732,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>РаспределениеЗапасов.ОшибкаКоличество</segments>
+                </dataPath>
                 <titleLocation>None</titleLocation>
                 <toolTip>
                   <key>ru</key>
@@ -5756,6 +5789,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>РаспределениеЗапасов.Количество</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>РаспределениеЗапасовКоличествоРасширеннаяПодсказка</name>
                   <id>670</id>
@@ -5836,6 +5872,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.ЕдиницаИзмерения</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовЕдиницаИзмеренияРасширеннаяПодсказка</name>
                 <id>676</id>
@@ -5890,6 +5929,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.Спецификация</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовСпецификацияРасширеннаяПодсказка</name>
                 <id>679</id>
@@ -5950,6 +5992,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.ЗаказПокупателя</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовЗаказПокупателяРасширеннаяПодсказка</name>
                 <id>685</id>
@@ -6000,6 +6045,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>РаспределениеЗапасов.СтруктурнаяЕдиница</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>РаспределениеЗапасовСтруктурнаяЕдиницаРасширеннаяПодсказка</name>
                 <id>688</id>
@@ -6350,6 +6398,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ПоясняющийТекстОшибкиРаспределение</segments>
+              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ПоясняющийТекстОшибкиРаспределениеРасширеннаяПодсказка</name>
@@ -6535,6 +6586,9 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокПродукции</segments>
+                  </dataPath>
                   <titleLocation>None</titleLocation>
                   <items xsi:type="form:FormField">
                     <name>СписокПродукцииПредставление</name>
@@ -6544,6 +6598,9 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <dataPath xsi:type="form:DataPath">
+                      <segments>СписокПродукции.Presentation</segments>
+                    </dataPath>
                     <extendedTooltip>
                       <name>СписокПродукцииПредставлениеРасширеннаяПодсказка</name>
                       <id>658</id>

@@ -788,6 +788,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПредставлениеПериода</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <toolTip>
               <key>ru</key>
@@ -847,6 +850,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОтборСклад</segments>
+              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ОтборСкладРасширеннаяПодсказка</name>
@@ -959,6 +965,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОтборЯчейка</segments>
+              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ОтборЯчейкаРасширеннаяПодсказка</name>
@@ -1050,6 +1059,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОтборОперация</segments>
+              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ОтборОперацияРасширеннаяПодсказка</name>
@@ -1144,6 +1156,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОтборОрганизация</segments>
+              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ОтборОрганизацияРасширеннаяПодсказка</name>
